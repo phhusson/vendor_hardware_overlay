@@ -12,6 +12,11 @@ import android.util.Log;
 public class Starter extends BroadcastReceiver {
 	private final static String TAG = "OverlayPicker";
 	private IOverlayManager om;
+
+	private String platform = SystemProperties.get("ro.board.platform");
+	private String vendorFp = SystemProperties.get("ro.vendor.build.fingerprint");
+	private String productBoard = SystemProperties.get("ro.product.board");
+
 	private void setOverlayEnabled(String o, boolean enabled) {
 		try {
 			om.setEnabled(o, true, 0);
@@ -21,23 +26,28 @@ public class Starter extends BroadcastReceiver {
 	}
 	private void handleHtc(Context ctxt) {
 		//HTC U11+
-		String fp = SystemProperties.get("ro.vendor.build.fingerprint");
-		if(fp == null) return;
+		if(vendorFp == null) return;
 
-		if(fp.contains("htc_ocm"))
+		if(vendorFp.contains("htc_ocm"))
 			setOverlayEnabled("me.phh.treble.overlay.navbar", true);
 	}
 
 	private void handleNightmode(Context ctxt) {
-		if("msm8998".equals(SystemProperties.get("ro.board.platform"))) {
+		if("msm8998".equals(platform)) {
 			Log.d("OverlayPicker", "Enabling nightmode");
 			setOverlayEnabled("me.phh.treble.overlay.nightmode", true);
 		}
 	}
 
 	private void handleEssentialPh1(Context ctxt) {
-		if("Mata".equals(SystemProperties.get("ro.product.board")))
+		if("Mata".equals(productBoard))
 			setOverlayEnabled("me.phh.treble.overlay.essential_ph1", true);
+	}
+
+	private void enableLte(Context ctxt) {
+		//TODO: List here all non-LTE platforms
+		if(!"mt6580".equals(platform))
+			setOverlayEnabled("me.phh.treble.overlay.telephony.lte", true);
 	}
 
 	@Override
@@ -48,5 +58,6 @@ public class Starter extends BroadcastReceiver {
 		handleHtc(ctxt);
 		handleNightmode(ctxt);
 		handleEssentialPh1(ctxt);
+		enableLte(ctxt);
 	}
 }
