@@ -28,12 +28,16 @@ public class Starter extends BroadcastReceiver {
 			setOverlayEnabled("me.phh.treble.overlay.navbar", true);
 	}
 
-	private void handleMsm8937(Context ctxt) {
-		Log.d("OverlayPicker", "Testing msm8937");
-		if("msm8937".equals(SystemProperties.get("ro.board.platform"))) {
+	private void handleNightmode(Context ctxt) {
+		if("msm8998".equals(SystemProperties.get("ro.board.platform"))) {
 			Log.d("OverlayPicker", "Enabling nightmode");
 			setOverlayEnabled("me.phh.treble.overlay.nightmode", true);
 		}
+	}
+
+	private void handleEssentialPh1(Context ctxt) {
+		if("Mata".equals(SystemProperties.get("ro.product.board")))
+			setOverlayEnabled("me.phh.treble.overlay.essential_ph1", true);
 	}
 
 	@Override
@@ -42,6 +46,7 @@ public class Starter extends BroadcastReceiver {
 				ServiceManager.getService(Context.OVERLAY_SERVICE));
 
 		handleHtc(ctxt);
-		handleMsm8937(ctxt);
+		handleNightmode(ctxt);
+		handleEssentialPh1(ctxt);
 	}
 }
