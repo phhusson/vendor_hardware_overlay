@@ -12,9 +12,9 @@ import android.util.Log;
 public class Starter extends BroadcastReceiver {
 	private final static String TAG = "OverlayPicker";
 	private IOverlayManager om;
-	private void setOverlayEnabled(String s, boolean enabled) {
+	private void setOverlayEnabled(String o, boolean enabled) {
 		try {
-			om.setEnabled("me.phh.treble.overlay.navbar", true, 0);
+			om.setEnabled(o, true, 0);
 		} catch(RemoteException e) {
 			Log.d(TAG, "Failed to set overlay", e);
 		}
