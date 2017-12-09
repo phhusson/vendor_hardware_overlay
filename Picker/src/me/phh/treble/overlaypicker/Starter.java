@@ -24,7 +24,7 @@ public class Starter extends BroadcastReceiver {
 		String fp = SystemProperties.get("ro.vendor.build.fingerprint");
 		if(fp == null) return;
 
-		if(fp.contains("ocmdugl"))
+		if(fp.contains("htc_ocm"))
 			setOverlayEnabled("me.phh.treble.overlay.navbar", true);
 	}
 
