@@ -6,5 +6,6 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PACKAGE_NAME := HardwareOverlayPicker
+LOCAL_PROGUARD_ENABLED := disabled
 
 include $(BUILD_PACKAGE)
