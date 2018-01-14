@@ -62,22 +62,22 @@ int main() {
 
 		switch(ev.code) {
 			case FINGERPRINT_CLICK:
-				system("input keyevent KEYCODE_HOME");
+				system("input keyevent KEYCODE_HOME &");
 				break;
 			case FINGERPRINT_LEFT:
-				system("input keyevent KEYCODE_BACK");
+				system("input keyevent KEYCODE_BACK &");
 				break;
 			case FINGERPRINT_RIGHT:
-				system("input keyevent KEYCODE_VOICE_ASSIST");
+				system("input keyevent KEYCODE_VOICE_ASSIST &");
 				break;
 			case FINGERPRINT_UP:
-				system("cmd statusbar expand-settings");
+				system("cmd statusbar expand-settings &");
 				break;
 			case FINGERPRINT_DOWN:
-				system("cmd statusbar expand-notifications");
+				system("cmd statusbar expand-notifications &");
 				break;
 			case FINGERPRINT_LONGPRESS:
-				system("input keyevent APP_APP_SWITCH");
+				system("input keyevent APP_APP_SWITCH &");
 				break;
 		};
 	}
