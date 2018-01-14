@@ -1,0 +1,15 @@
+#!/system/bin/sh
+
+set -x
+
+#Do this only on devices with huawei fingerprint HAL
+lshal |grep -qF vendor.huawei.hardware.biometrics.fingerprint || ( while true;do sleep 3600;done; exit 0)
+
+#Ask fingerprint hardware service to enable navigation
+CLASSPATH=/system/phh/hw-fpnav.dex \
+	/system/bin/app_process \
+		/data/local/tmp/ \
+		Test
+
+#Start input redirector
+/system/bin/hw-fpnav-daemon
