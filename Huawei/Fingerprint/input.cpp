@@ -77,7 +77,7 @@ int main() {
 				system("cmd statusbar expand-notifications &");
 				break;
 			case FINGERPRINT_LONGPRESS:
-				system("input keyevent APP_APP_SWITCH &");
+				system("input keyevent KEYCODE_APP_SWITCH &");
 				break;
 		};
 	}
