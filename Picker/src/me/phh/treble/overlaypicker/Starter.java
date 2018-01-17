@@ -39,11 +39,6 @@ public class Starter extends BroadcastReceiver {
 		}
 	}
 
-	private void handleEssentialPh1(Context ctxt) {
-		if("Mata".equals(productBoard))
-			setOverlayEnabled("me.phh.treble.overlay.essential_ph1", true);
-	}
-
 	private void enableLte(Context ctxt) {
 		//TODO: List here all non-LTE platforms
 		if(!"mt6580".equals(platform))
@@ -57,7 +52,6 @@ public class Starter extends BroadcastReceiver {
 
 		handleHtc(ctxt);
 		handleNightmode(ctxt);
-		handleEssentialPh1(ctxt);
 		enableLte(ctxt);
 	}
 }
