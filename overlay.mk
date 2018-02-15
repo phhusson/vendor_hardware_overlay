@@ -2,6 +2,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-NavBar \
 	treble-overlay-NightMode \
 	treble-overlay-Telephony-LTE \
+	treble-overlay-SystemUI-FalseLocks \
 	HardwareOverlayPicker
 
 
