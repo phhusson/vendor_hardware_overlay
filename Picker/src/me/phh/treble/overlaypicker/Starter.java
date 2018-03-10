@@ -53,5 +53,7 @@ public class Starter extends BroadcastReceiver {
 		handleHtc(ctxt);
 		handleNightmode(ctxt);
 		enableLte(ctxt);
+
+		setOverlayEnabled("me.phh.treble.overlay.systemui.falselocks", true);
 	}
 }
