@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="me.phh.treble.overlaypicker">
+	package="me.phh.treble.overlaypicker"
+	android:sharedUserId="android.uid.system">
 
 	<uses-permission android:name="android.permission.CHANGE_OVERLAY_PACKAGES" />
 	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
