@@ -1,5 +1,6 @@
 service hw-fpnav /system/bin/hw-fpnav
 	user root
+	oneshot
 	disabled
 
 on property:sys.boot_completed=1
