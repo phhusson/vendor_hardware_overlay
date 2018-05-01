@@ -3,7 +3,7 @@
 set -x
 
 #Do this only on devices with huawei fingerprint HAL
-lshal |grep -qF vendor.huawei.hardware.biometrics.fingerprint || exit 0
+grep -qF vendor.huawei.hardware.biometrics.fingerprint /vendor/manifest.xml || exit 0
 
 #Ask fingerprint hardware service to enable navigation
 CLASSPATH=/system/phh/hw-fpnav.dex \
