@@ -3,5 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:priority="3"/>
+                android:requiredSystemPropertyName="persist.sys.overlay.nightmode"
+                android:requiredSystemPropertyValue="true"
+		android:priority="3"
+		android:isStatic="true" />
 </manifest>
