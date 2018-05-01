@@ -16,18 +16,14 @@ public class Service extends android.app.Service {
 			@Override
 			public void run() {
 				android.util.Log.d("PHH", "Hello");
-				while(service == null) {
-					try {
-						Thread.sleep(1000);
-						service = IQcRilAudio.getService("slot1");
-						service.setCallback(cb);
+				try {
+					service = IQcRilAudio.getService("slot1");
+					service.setCallback(cb);
 
-						service = IQcRilAudio.getService("slot2");
-						service.setCallback(cb);
-						break;
-					} catch(Exception e) {
-						android.util.Log.d("PHH", "Failed setting callback", e);
-					}
+					service = IQcRilAudio.getService("slot2");
+					service.setCallback(cb);
+				} catch(Exception e) {
+					android.util.Log.d("PHH", "Failed setting callback", e);
 				}
 			}
 		}.start();
