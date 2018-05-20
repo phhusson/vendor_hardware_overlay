@@ -5,7 +5,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-SystemUI-FalseLocks \
 	HardwareOverlayPicker \
-	QtiAudio
+	QtiAudio \
+	Touchscreen
 
 
 PRODUCT_PACKAGES += \
