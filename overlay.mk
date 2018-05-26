@@ -4,6 +4,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-NightMode \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-SystemUI-FalseLocks \
+	treble-overlay-devinputjack \
 	HardwareOverlayPicker \
 	QtiAudio \
 	Touchscreen
