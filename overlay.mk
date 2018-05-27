@@ -1,5 +1,5 @@
 PRODUCT_PACKAGES += \
-	treble-overlay-huawei-backlight \
+	treble-overlay-huawei \
 	treble-overlay-NavBar \
 	treble-overlay-NightMode \
 	treble-overlay-Telephony-LTE \
