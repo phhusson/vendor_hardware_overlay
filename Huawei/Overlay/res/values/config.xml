@@ -26,4 +26,5 @@
     </integer-array>
 
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_supportSystemNavigationKeys">true</bool>
 </resources>
