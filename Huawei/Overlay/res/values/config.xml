@@ -24,4 +24,6 @@
         <item>1600</item>
         <item>2550</item>
     </integer-array>
+
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 </resources>
