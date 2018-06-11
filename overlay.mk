@@ -1,10 +1,12 @@
 PRODUCT_PACKAGES += \
 	treble-overlay-huawei \
+	treble-overlay-huawei-telephony \
 	treble-overlay-NavBar \
 	treble-overlay-NightMode \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-devinputjack \
+	treble-overlay-oneplus-op6 \
 	HardwareOverlayPicker \
 	QtiAudio \
 	Touchscreen
