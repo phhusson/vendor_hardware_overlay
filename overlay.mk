@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-devinputjack \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-xiaomi-mi8 \
+	treble-overlay-xiaomi-mimix2s \
 	HardwareOverlayPicker \
 	QtiAudio \
 	Touchscreen
