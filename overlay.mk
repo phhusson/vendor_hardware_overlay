@@ -1,4 +1,5 @@
 PRODUCT_PACKAGES += \
+	treble-overlay-asus-zenfone5 \
 	treble-overlay-huawei \
 	treble-overlay-huawei-telephony \
 	treble-overlay-NavBar \
