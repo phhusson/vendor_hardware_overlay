@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-		android:requiredSystemPropertyValue="+Xiaomi/polaris"
+		android:requiredSystemPropertyValue="+Xiaomi/polaris*"
 		android:priority="13"
 		android:isStatic="true" />
 </manifest>
