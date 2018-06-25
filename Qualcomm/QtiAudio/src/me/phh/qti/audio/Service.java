@@ -10,9 +10,6 @@ import android.os.IBinder;
 import android.os.UEventObserver;
 import android.os.SystemProperties;
 
-import vendor.qti.hardware.radio.am.V1_0.IQcRilAudioCallback;
-import vendor.qti.hardware.radio.am.V1_0.IQcRilAudio;
-
 public class Service extends android.app.Service {
 	AudioManager audioManager;
 	@Override public void onCreate() {
@@ -24,14 +21,25 @@ public class Service extends android.app.Service {
 			public void run() {
 				android.util.Log.d("PHH", "Hello");
 				try {
-					service = IQcRilAudio.getService("slot1");
+					vendor.qti.hardware.radio.am.V1_0.IQcRilAudio service;
+					service = vendor.qti.hardware.radio.am.V1_0.IQcRilAudio.getService("slot1");
 					service.setCallback(cb);
-
-					service = IQcRilAudio.getService("slot2");
+				} catch(Exception e) {}
+				try {
+					vendor.qti.hardware.radio.am.V1_0.IQcRilAudio service;
+					service = vendor.qti.hardware.radio.am.V1_0.IQcRilAudio.getService("slot2");
 					service.setCallback(cb);
-				} catch(Exception e) {
-					android.util.Log.d("PHH", "Failed setting callback", e);
-				}
+				} catch(Exception e) {}
+				try {
+					vendor.qti.qcril.am.V1_0.IQcRilAudio service;
+					service = vendor.qti.qcril.am.V1_0.IQcRilAudio.getService("slot1");
+					service.setCallback(cb2);
+				} catch(Exception e) {}
+				try {
+					vendor.qti.qcril.am.V1_0.IQcRilAudio service;
+					service = vendor.qti.qcril.am.V1_0.IQcRilAudio.getService("slot2");
+					service.setCallback(cb2);
+				} catch(Exception e) {}
                 if(fp.contains("OnePlus6")) {
                     try {
                         (new UEventObserver() {
@@ -66,8 +74,31 @@ public class Service extends android.app.Service {
         }.start();
     }
 
-    IQcRilAudio service;
-    IQcRilAudioCallback cb = new IQcRilAudioCallback.Stub() {
+    vendor.qti.hardware.radio.am.V1_0.IQcRilAudioCallback cb = new vendor.qti.hardware.radio.am.V1_0.IQcRilAudioCallback.Stub() {
+        @Override
+        public String getParameters(String parameter) {
+            android.util.Log.d("PHH", "Got getParameters " + parameter);
+            try {
+                return AudioSystem.getParameters(parameter);
+            } catch(Exception e) {
+                android.util.Log.d("PHH", "Failed getting parameters");
+            }
+            return "";
+        }
+
+        @Override
+        public int setParameters(String parameters) {
+            android.util.Log.d("PHH", "Got setParameters " + parameters);
+            try {
+                AudioSystem.setParameters(parameters);
+            } catch(Exception e) {
+                android.util.Log.d("PHH", "Failed setting parameters");
+            }
+            return 0;
+        }
+    };
+
+    vendor.qti.qcril.am.V1_0.IQcRilAudioCallback cb2 = new vendor.qti.qcril.am.V1_0.IQcRilAudioCallback.Stub() {
         @Override
         public String getParameters(String parameter) {
             android.util.Log.d("PHH", "Got getParameters " + parameter);
