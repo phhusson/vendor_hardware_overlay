@@ -2,6 +2,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-huawei \
 	treble-overlay-huawei-telephony \
+	treble-overlay-lg-g7 \
 	treble-overlay-NavBar \
 	treble-overlay-NightMode \
 	treble-overlay-Telephony-LTE \
@@ -9,6 +10,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-devinputjack \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-xiaomi-mi8 \
+	treble-overlay-xiaomi-mi8ee \
+	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mimix2s \
 	HardwareOverlayPicker \
 	QtiAudio \
