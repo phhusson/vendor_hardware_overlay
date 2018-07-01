@@ -9,6 +9,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-devinputjack \
 	treble-overlay-oneplus-op6 \
+	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi8 \
 	treble-overlay-xiaomi-mi8ee \
 	treble-overlay-xiaomi-mi8se \
