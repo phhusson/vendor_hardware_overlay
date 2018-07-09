@@ -77,7 +77,7 @@
         <item>0</item>
     </integer-array>
 
-    <-- big ram -->
+    <!-- big ram -->
     <bool name="config_pinnerCameraApp">true</bool>
     <integer name="config_multiuserMaximumUsers">4</integer>
 
