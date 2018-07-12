@@ -1,6 +1,7 @@
 PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-huawei \
+	treble-overlay-huawei-p20l \
 	treble-overlay-huawei-telephony \
 	treble-overlay-lg-g7 \
 	treble-overlay-NavBar \
