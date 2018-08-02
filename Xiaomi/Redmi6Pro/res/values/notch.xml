@@ -18,5 +18,5 @@
 -->
 <resources>
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height">110px</dimen>
+    <dimen name="status_bar_height">94px</dimen>
 </resources>
