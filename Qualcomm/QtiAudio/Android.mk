@@ -5,8 +5,8 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-	vendor.qti.hardware.radio.am-V1.0-java-static \
-	vendor.qti.qcril.am-V1.0-java-static
+	vendor.qti.hardware.radio.am-V1.0-java \
+	vendor.qti.qcril.am-V1.0-java
 
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
