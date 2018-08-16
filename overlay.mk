@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mimix2s \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-mia2lite \
+	treble-overlay-xiaomi-mipad4 \
 	HardwareOverlayPicker \
 	QtiAudio
 
