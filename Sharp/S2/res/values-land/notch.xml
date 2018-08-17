@@ -18,5 +18,5 @@
 -->
 <resources>
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height">24.0dip</dimen>
+    <dimen name="status_bar_height">@dimen/status_bar_height_landscape</dimen>
 </resources>
