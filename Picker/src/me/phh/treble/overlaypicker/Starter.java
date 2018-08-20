@@ -32,6 +32,18 @@ public class Starter extends BroadcastReceiver {
 			setOverlayEnabled("me.phh.treble.overlay.navbar", true);
 	}
 
+	private void handleSamsung(Context ctxt) {
+		if(vendorFp == null) return;
+
+		if(vendorFp.contains("starlte") ||
+		   vendorFp.contains("star2lte") ||
+		   vendorFp.contains("starqlte") ||
+		   vendorFp.contains("star2qlte")) {
+			setOverlayEnabled("me.phh.treble.overlay.samsung.s9.systemui", true);
+		}
+
+	}
+
 	private void enableLte(Context ctxt) {
 		//TODO: List here all non-LTE platforms
 		if(!"mt6580".equals(platform))
@@ -45,6 +57,7 @@ public class Starter extends BroadcastReceiver {
 
 		handleHtc(ctxt);
 		enableLte(ctxt);
+		handleSamsung(ctxt);
 
 		setOverlayEnabled("me.phh.treble.overlay.systemui.falselocks", true);
 	}
