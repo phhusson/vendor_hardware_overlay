@@ -1,5 +1,6 @@
 PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5 \
+	treble-overlay-asus-zenfone5z \
 	treble-overlay-huawei \
 	treble-overlay-huawei-p20l \
 	treble-overlay-huawei-telephony \
