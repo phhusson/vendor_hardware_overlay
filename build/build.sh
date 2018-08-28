@@ -15,7 +15,7 @@ find .. -name Android.mk |while read f;do
     echo "Generating $name"
 
     path="$(dirname "$f")"
-    aapt package -f -F ${name}-unsigned.apk -M $path/AndroidManifest.xml -S $path/res -I /build/apps/platforms/android-27/android.jar
+    aapt package -f -F ${name}-unsigned.apk -M $path/AndroidManifest.xml -S $path/res -I android.jar
     LD_LIBRARY_PATH=./signapk/ java -jar signapk/signapk.jar keys/platform.x509.pem keys/platform.pk8 ${name}-unsigned.apk ${name}.apk
     rm -f ${name}-unsigned.apk
 done
