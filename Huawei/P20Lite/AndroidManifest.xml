@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.board"
                 android:requiredSystemPropertyValue="ANE"
-		android:priority="20"
+		android:priority="30"
 		android:isStatic="true" />
 </manifest>

@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="persist.sys.overlay.huawei"
                 android:requiredSystemPropertyValue="true"
-		android:priority="4"
+		android:priority="31"
 		android:isStatic="true" />
 </manifest>

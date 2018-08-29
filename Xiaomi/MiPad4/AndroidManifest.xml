@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 		android:requiredSystemPropertyValue="+Xiaomi/clover*"
-		android:priority="19"
+		android:priority="27"
 		android:isStatic="true" />
 </manifest>
