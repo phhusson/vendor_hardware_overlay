@@ -2,7 +2,15 @@ PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5z \
 	treble-overlay-huawei \
-	treble-overlay-huawei-p20l \
+	treble-overlay-huawei-DUK \
+	treble-overlay-huawei-STF \
+	treble-overlay-huawei-VTR \
+	treble-overlay-huawei-ANE \
+	treble-overlay-huawei-BND \
+	treble-overlay-huawei-LLD \
+	treble-overlay-huawei-PRA \
+	treble-overlay-huawei-RNE \
+	treble-overlay-huawei-WAS \
 	treble-overlay-huawei-telephony \
 	treble-overlay-lg-g7 \
 	treble-overlay-NavBar \
