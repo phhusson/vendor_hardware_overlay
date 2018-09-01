@@ -23,4 +23,5 @@
     <dimen name="status_bar_height">80px</dimen>
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">24dp</dimen>
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -160,0 L -160,80 L 160,80 L 160,0 Z</string>
 </resources>
