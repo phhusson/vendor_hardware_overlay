@@ -1,6 +1,7 @@
 PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5z \
+	treble-overlay-caf-ims \
 	treble-overlay-huawei \
 	treble-overlay-huawei-DUK \
 	treble-overlay-huawei-STF \
