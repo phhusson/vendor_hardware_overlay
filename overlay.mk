@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-PRA \
 	treble-overlay-huawei-RNE \
 	treble-overlay-huawei-WAS \
+	treble-overlay-huawei-EML \
 	treble-overlay-huawei-telephony \
 	treble-overlay-lg-g7 \
 	treble-overlay-NavBar \
