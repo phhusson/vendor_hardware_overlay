@@ -3,8 +3,6 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="persist.sys.overlay.alwaysondisplay"
-                android:requiredSystemPropertyValue="true"
-		android:priority="6"
+		android:priority="7"
 		android:isStatic="true" />
 </manifest>
