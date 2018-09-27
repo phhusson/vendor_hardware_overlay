@@ -1,8 +1,0 @@
-service hw-fpnav /system/bin/hw-fpnav
-    seclabel u:r:phhsu_daemon:s0
-	user root
-	oneshot
-	disabled
-
-on property:sys.boot_completed=1
-	start hw-fpnav
