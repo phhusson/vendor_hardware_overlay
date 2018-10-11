@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+Xiaomi/jasmine*"
+                android:requiredSystemPropertyValue="+xiaomi/jasmine*"
 		android:priority="16"
 		android:isStatic="true" />
 </manifest>
