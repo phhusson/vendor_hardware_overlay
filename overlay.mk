@@ -38,6 +38,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-drg \
 	treble-overlay-lenovo-z5 \
+	treble-overlay-xiaomi-mi6x \
+	treble-overlay-xiaomi-mia2 \
 	HardwareOverlayPicker \
 	QtiAudio
 
