@@ -10,7 +10,6 @@
 	<integer name="config_brightness_ramp_rate_fast">200</integer>
 	<integer name="config_brightness_ramp_rate_slow">40</integer>
 	<bool name="config_setColorTransformAccelerated">true</bool>
-	<bool name="config_nightDisplayAvailable">true</bool>
 	<bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
 	<integer-array name="config_longPressVibePattern">
