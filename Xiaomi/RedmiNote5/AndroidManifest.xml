@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+xiaomi/whyred*"
-		android:priority="16"
+		android:priority="47"
 		android:isStatic="true" />
 </manifest>
