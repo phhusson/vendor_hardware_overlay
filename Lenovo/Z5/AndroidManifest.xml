@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.lenovo.z5"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.product.name"
+                android:requiredSystemPropertyValue="jd2018"
+		android:priority="14"
+		android:isStatic="true" />
+</manifest>

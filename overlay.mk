@@ -35,4 +35,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mia2lite \
 	treble-overlay-xiaomi-mipad4 \
 	treble-overlay-xiaomi-pocof1 \
+	treble-overlay-nokia-b2n \
+	treble-overlay-nokia-drg \
+	treble-overlay-lenovo-z5 \
 	TrebleApp
