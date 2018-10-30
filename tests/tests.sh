@@ -39,7 +39,7 @@ find -name AndroidManifest.xml |while read manifest;do
 		keys="$(xmlstarlet sel -t -m '//resources/*' -v @name -n $xml)"
 
 		for key in $keys;do
-			grep -q $key tests/knownKeys && continue
+			grep -qE '^'$key'$' tests/knownKeys && continue
 			#Run the ag only on phh's machine. Assume that knownKeys is full enough.
 			#If it's enough, ask phh to update it
 			if [ -d /build/AOSP-9.0 ] && ag '"'$key'"' /build/AOSP-9.0/frameworks/base/core/res/res > /dev/null;then
