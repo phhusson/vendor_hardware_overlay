@@ -85,3 +85,4 @@ config_wifi_fast_bss_transition_enabled
 skip_restoring_network_selection
 status_bar_height_landscape
 status_bar_height_portrait
+status_bar_height
