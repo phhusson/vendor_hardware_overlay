@@ -40,7 +40,9 @@ find -name AndroidManifest.xml |while read manifest;do
 
 		for key in $keys;do
 			grep -q $key tests/knownKeys && continue
-			if ag '"'$key'"' /build/AOSP-9.0/frameworks/base/core/res/res > /dev/null;then
+			#Run the ag only on phh's machine. Assume that knownKeys is full enough.
+			#If it's enough, ask phh to update it
+			if [ -d /build/AOSP-9.0 ] && ag '"'$key'"' /build/AOSP-9.0/frameworks/base/core/res/res > /dev/null;then
 				echo $key >> tests/knownKeys
 			else
 				echo $xml defines a non-existing attribute $key
