@@ -2,6 +2,8 @@
 
 set -e
 
+export LD_LIBRARY_PATH=.
+export PATH=$PATH:.
 if ! which aapt > /dev/null;then
     echo "Please install aapt (apt install aapt should do)"
     exit 1
