@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+*Onyx*"
+                android:requiredSystemPropertyValue="+Nokia/Onyx*"
 		android:priority="15"
 		android:isStatic="true" />
 </manifest>
