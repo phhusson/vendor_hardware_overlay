@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+Xiaomi/nitrogen*"
+                android:requiredSystemPropertyValue="+*iaomi/nitrogen*"
 		android:priority="46"
 		android:isStatic="true" />
 </manifest>
