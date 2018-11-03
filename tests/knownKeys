@@ -94,3 +94,5 @@ navigation_bar_width
 notification_header_padding_top
 notification_header_padding_bottom
 config_fillMainBuiltInDisplayCutout
+config_dozeAfterScreenOff
+config_autoBrightnessAmbientLightHorizon

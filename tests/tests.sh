@@ -3,6 +3,16 @@
 base="$(dirname "$(readlink -f -- $0)")/.."
 cd $base
 
+#Usage: fail <file> <message> [ignore string]
+fail() {
+	if [ -z "$3" ] || ! grep -qF "$3" "$1";then
+		echo "F: $1: $2"
+		touch fail
+	else
+		echo "W: $1: $2"
+	fi
+}
+
 #Keep knownKeys
 rm -f tests/priorities fail
 touch tests/priorities tests/knownKeys
@@ -11,8 +21,7 @@ find -name AndroidManifest.xml |while read manifest;do
 	#Ensure this overlay doesn't override blacklist-ed properties
 	for b in $(cat tests/blacklist);do
 		if grep -qRF "$b" $folder;then
-			echo "Overlay $folder is defining $b which is forbidden"
-			touch fail
+			fail $folder "Overlay $folder is defining $b which is forbidden"
 		fi
 	done
 
@@ -23,15 +32,14 @@ find -name AndroidManifest.xml |while read manifest;do
 	#Ensure priorities unique-ness
 	priority="$(xmlstarlet sel -t -m '//overlay' -v @android:priority -n $manifest)"
 	if grep -qE '^'$priority'$' tests/priorities;then
-		echo $manifest priority $priority conflicts with another manifest
-		touch fail
+		fail $manifest "priority $priority conflicts with another manifest"
 	fi
 	echo $priority >> tests/priorities
 
 	systemPropertyName="$(xmlstarlet sel -t -m '//overlay' -v @android:requiredSystemPropertyName -n $manifest)"
 	if [ "$systemPropertyName" == "ro.vendor.product.name" ];then
-		echo "$manifest: ro.vendor.product.name is deprecated. Please use ro.vendor.build.fingerprint"
-		touch fail
+		fail "$manifest" "ro.vendor.product.name is deprecated. Please use ro.vendor.build.fingerprint" \
+			'TESTS: Ignore ro.vendor.product.name'
 	fi
 
 	#Ensure the overloaded properties exist in AOSP
@@ -46,18 +54,15 @@ find -name AndroidManifest.xml |while read manifest;do
 				ag '"'$key'"' /build/AOSP-8.1/frameworks/base/core/res/res)> /dev/null ;then
 				echo $key >> tests/knownKeys
 			else
-				echo $xml defines a non-existing attribute $key
-				touch fail
+				fail "$xml" "defines a non-existing attribute $key"
 			fi
 		done
 	done
 done
 rm -f tests/priorities
 
-if find -name \*.xml |xargs dos2unix -ic |grep -qE .;then
-	echo "The following files have dos end of lines"
-	find -name \*.xml |xargs dos2unix -ic
-	touch fail
-fi
+find -name \*.xml |xargs dos2unix -ic |while read f;do
+	fail $f "File is DOS type"
+done
 
 if [ -f fail ];then exit 1; fi
