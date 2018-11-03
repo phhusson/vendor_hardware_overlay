@@ -4,16 +4,15 @@ base="$(dirname "$(readlink -f -- $0)")/.."
 cd $base
 
 #Keep knownKeys
-rm -f tests/priorities
+rm -f tests/priorities fail
 touch tests/priorities tests/knownKeys
-result=0
 find -name AndroidManifest.xml |while read manifest;do
 	folder="$(dirname "$manifest")"
 	#Ensure this overlay doesn't override blacklist-ed properties
 	for b in $(cat tests/blacklist);do
 		if grep -qRF "$b" $folder;then
 			echo "Overlay $folder is defining $b which is forbidden"
-			result=1
+			touch fail
 		fi
 	done
 
@@ -25,13 +24,14 @@ find -name AndroidManifest.xml |while read manifest;do
 	priority="$(xmlstarlet sel -t -m '//overlay' -v @android:priority -n $manifest)"
 	if grep -qE '^'$priority'$' tests/priorities;then
 		echo $manifest priority $priority conflicts with another manifest
-		result=1
+		touch fail
 	fi
 	echo $priority >> tests/priorities
 
 	systemPropertyName="$(xmlstarlet sel -t -m '//overlay' -v @android:requiredSystemPropertyName -n $manifest)"
 	if [ "$systemPropertyName" == "ro.vendor.product.name" ];then
 		echo "$manifest: ro.vendor.product.name is deprecated. Please use ro.vendor.build.fingerprint"
+		touch fail
 	fi
 
 	#Ensure the overloaded properties exist in AOSP
@@ -45,6 +45,7 @@ find -name AndroidManifest.xml |while read manifest;do
 				echo $key >> tests/knownKeys
 			else
 				echo $xml defines a non-existing attribute $key
+				touch fail
 			fi
 		done
 	done
@@ -54,7 +55,7 @@ rm -f tests/priorities
 if find -name \*.xml |xargs dos2unix -ic |grep -qE .;then
 	echo "The following files have dos end of lines"
 	find -name \*.xml |xargs dos2unix -ic
-	result=1
+	touch fail
 fi
 
-exit $result
+if [ -f fail ];then exit 1; fi
