@@ -37,7 +37,6 @@ find -name AndroidManifest.xml |while read manifest;do
 	#Ensure the overloaded properties exist in AOSP
 	find "$folder" -name \*.xml |while read xml;do
 		keys="$(xmlstarlet sel -t -m '//resources/*' -v @name -n $xml)"
-
 		for key in $keys;do
 			grep -qE '^'$key'$' tests/knownKeys && continue
 			#Run the ag only on phh's machine. Assume that knownKeys is full enough.
@@ -51,5 +50,11 @@ find -name AndroidManifest.xml |while read manifest;do
 	done
 done
 rm -f tests/priorities
+
+if find -name \*.xml |xargs dos2unix -ic |grep -qE .;then
+	echo "The following files have dos end of lines"
+	find -name \*.xml |xargs dos2unix -ic
+	result=1
+fi
 
 exit $result
