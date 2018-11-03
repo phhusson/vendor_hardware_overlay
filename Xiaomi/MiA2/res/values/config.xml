@@ -42,9 +42,7 @@
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_batched_scan_supported">true</bool>
-    <bool name="config_wifi_disconnect_only_on_initial_ipreachability">false</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
-    <bool name="config_wifi_dual_sap_mode_enabled">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
