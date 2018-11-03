@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-devinputjack \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-moto-g6plus \
+	treble-overlay-moto-g6 \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
 	treble-overlay-samsung-s9-systemui \
