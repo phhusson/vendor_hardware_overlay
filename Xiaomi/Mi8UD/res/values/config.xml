@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>3</item>
         <item>3</item>
         <item>3</item>
