@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+*iaomi/ursa*"
-		android:priority="17"
+                android:requiredSystemPropertyValue="+*iaomi/equuleus*"
+		android:priority="51"
 		android:isStatic="true" />
 </manifest>
