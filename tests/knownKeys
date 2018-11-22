@@ -96,3 +96,6 @@ notification_header_padding_bottom
 config_fillMainBuiltInDisplayCutout
 config_dozeAfterScreenOff
 config_autoBrightnessAmbientLightHorizon
+rounded_corner_radius
+rounded_corner_radius_top
+rounded_corner_radius_bottom
