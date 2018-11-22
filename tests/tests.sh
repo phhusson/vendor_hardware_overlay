@@ -37,9 +37,9 @@ find -name AndroidManifest.xml |while read manifest;do
 	echo $priority >> tests/priorities
 
 	systemPropertyName="$(xmlstarlet sel -t -m '//overlay' -v @android:requiredSystemPropertyName -n $manifest)"
-	if [ "$systemPropertyName" == "ro.vendor.product.name" ];then
-		fail "$manifest" "ro.vendor.product.name is deprecated. Please use ro.vendor.build.fingerprint" \
-			'TESTS: Ignore ro.vendor.product.name'
+	if [ "$systemPropertyName" == "ro.vendor.product.name" -o "$systemPropertyName" == "ro.vendor.product.device" ];then
+		fail "$manifest" "ro.vendor.product.* is deprecated. Please use ro.vendor.build.fingerprint" \
+			'TESTS: Ignore ro.vendor.product.'
 	fi
 
 	#Ensure the overloaded properties exist in AOSP
