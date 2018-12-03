@@ -32,6 +32,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi8ee \
 	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mimix2s \
+	treble-overlay-xiaomi-mimix3 \
+	treble-overlay-xiaomi-mimix3-systemui \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-mia2lite \
 	treble-overlay-xiaomi-mipad4 \
