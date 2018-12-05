@@ -2,5 +2,7 @@
 <resources>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_screenBrightnessDoze">10</integer>
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+    <fraction name="config_screenAutoBrightnessDozeScaleFactor">20%</fraction>
 </resources>
