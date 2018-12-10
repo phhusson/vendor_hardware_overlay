@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi8 \
 	treble-overlay-xiaomi-mi8ee \
 	treble-overlay-xiaomi-mi8lite \
+	treble-overlay-xiaomi-mi8pro \
 	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mia2 \
 	treble-overlay-xiaomi-mia2lite \
@@ -49,6 +50,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-pocof1 \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-redminote5 \
+	treble-overlay-xiaomi-redminote6pro \
 
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
