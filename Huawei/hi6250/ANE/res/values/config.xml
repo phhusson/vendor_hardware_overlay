@@ -26,7 +26,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
-    <bool name="config_allowAllRotations">true</bool>  
+    <bool name="config_allowAllRotations">false</bool>  
     
 	<!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N + 1 control points as follows:
@@ -96,7 +96,7 @@
             1 - Toggle theater mode setting
             2 - Brightness boost
     -->
-    <integer name="config_doublePressOnPowerBehavior">2</integer>
+    <integer name="config_doublePressOnPowerBehavior">0</integer>
 
 	<!-- Set this to true to enable the platform's auto-power-save modes like doze and
          app standby.  These are not enabled by default because they require a standard
