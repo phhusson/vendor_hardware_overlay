@@ -61,8 +61,8 @@ find -name AndroidManifest.xml |while read manifest;do
 done
 rm -f tests/priorities
 
-find -name \*.xml |xargs dos2unix -ic |while read f;do
-	fail $f "File is DOS type"
-done
+#find -name \*.xml |xargs dos2unix -ic |while read f;do
+#	fail $f "File is DOS type"
+#done
 
 if [ -f fail ];then exit 1; fi
