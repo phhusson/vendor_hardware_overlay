@@ -61,8 +61,23 @@ find -name AndroidManifest.xml |while read manifest;do
 done
 rm -f tests/priorities
 
-find -name \*.xml |xargs dos2unix -ic |while read f;do
-	fail $f "File is DOS type"
-done
+#find -name \*.xml |xargs dos2unix -ic |while read f;do
+#	fail $f "File is DOS type"
+#done
+
+#Check overlay.mk
+(
+	sorted="$(tail -n +2 overlay.mk |grep -E treble- | LC_ALL=C sort -s | md5sum)"
+	unsorted="$(tail -n +2 overlay.mk |grep -E treble- | md5sum)"
+	if [ "$sorted" != "$unsorted" ];then
+		fail overlay.mk "Keep entries sorted"
+	fi
+	if grep -E '.+' overlay.mk |grep -qvE '\\$';then
+		fail overlay.mk "Keep the \\ at the end of all non-empty lines"
+	fi
+	if [ "$(tail -n 1 overlay.mk)" != "" ];then
+		fail overlay.mk "Keep the empty line at the end"
+	fi
+)
 
 if [ -f fail ];then exit 1; fi
