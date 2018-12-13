@@ -38,7 +38,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi8 \
 	treble-overlay-xiaomi-mi8ee \
 	treble-overlay-xiaomi-mi8lite \
-  treble-overlay-xiaomi-mi8pro \
+	treble-overlay-xiaomi-mi8pro \
 	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mia2 \
 	treble-overlay-xiaomi-mia2lite \
@@ -48,11 +48,11 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mimix3-systemui \
 	treble-overlay-xiaomi-mipad4 \
 	treble-overlay-xiaomi-pocof1 \
-  treble-overlay-xiaomi-redmi6 \
-  treble-overlay-xiaomi-redmi6a \
+	treble-overlay-xiaomi-redmi6 \
+	treble-overlay-xiaomi-redmi6a \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-redminote5 \
-  treble-overlay-xiaomi-redmis2 \
+	treble-overlay-xiaomi-redmis2 \
 
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
@@ -62,3 +62,4 @@ PRODUCT_COPY_FILES += \
 	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav:system/bin/hw-fpnav \
 	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav.dex:system/phh/hw-fpnav.dex \
 	vendor/hardware_overlay/Huawei/Fingerprint/fingerprint.kl:system/phh/huawei/fingerprint.kl \
+
