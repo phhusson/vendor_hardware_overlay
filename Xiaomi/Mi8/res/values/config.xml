@@ -103,13 +103,13 @@
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">200.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">6000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
     <integer name="config_screenBrightnessDark">1</integer>
-    <integer name="config_screenBrightnessDim">1</integer>
+    <integer name="config_screenBrightnessDim">4</integer>
     <integer name="config_screenBrightnessDoze">17</integer>
     <integer name="config_screenBrightnessSettingDefault">67</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
-    <integer name="config_screenBrightnessSettingMinimum">0</integer>
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
     <integer name="config_bluetooth_idle_cur_ma">1</integer>
     <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
     <integer name="config_bluetooth_rx_cur_ma">2</integer>
