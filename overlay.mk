@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-telephony \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
+	treble-overlay-lg-v40 \
 	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6plus \
 	treble-overlay-nokia-b2n \
@@ -53,6 +54,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-redminote5 \
 	treble-overlay-xiaomi-redminote6pro \
+	treble-overlay-xiaomi-redminote6pro-systemui \
 	treble-overlay-xiaomi-redmis2 \
 
 PRODUCT_PACKAGES += \

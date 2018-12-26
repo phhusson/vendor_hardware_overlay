@@ -2,8 +2,17 @@
 
 set -e
 
-export LD_LIBRARY_PATH=.
-export PATH=$PATH:.
+if [ "$1" == "--local-aapt" ];then
+    export LD_LIBRARY_PATH=.
+    export PATH=.:$PATH
+    shift
+fi
+
+if ! which aapt > /dev/null;then
+    export LD_LIBRARY_PATH=.
+    export PATH=$PATH:.
+fi
+
 if ! which aapt > /dev/null;then
     echo "Please install aapt (apt install aapt should do)"
     exit 1
