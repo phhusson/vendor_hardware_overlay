@@ -49,10 +49,13 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mimix3-systemui \
 	treble-overlay-xiaomi-mipad4 \
 	treble-overlay-xiaomi-pocof1 \
+	treble-overlay-xiaomi-redmi6 \
+	treble-overlay-xiaomi-redmi6a \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-redminote5 \
 	treble-overlay-xiaomi-redminote6pro \
 	treble-overlay-xiaomi-redminote6pro-systemui \
+	treble-overlay-xiaomi-redmis2 \
 
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
