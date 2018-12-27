@@ -59,6 +59,19 @@ find -name AndroidManifest.xml |while read manifest;do
 		done
 	done
 done
+
+#Help handling with priorities
+lastpriority="$(sort -n tests/priorities |grep -E '^[0-9]{2,3}$' | tail -n 1)"
+echo 'First high continuous priority available is' $((lastpriority+1))
+while true;do
+    #We want numbers ranging from 10 to (lastpriority+20)
+    v=$((RANDOM%(lastpriority+10)))
+    v=$((v+10))
+    if ! grep -qE '\b'$v'\b' tests/priorities;then
+        echo -e '\tI recommend you use priority' $v
+        break
+    fi
+done
 rm -f tests/priorities
 
 #find -name \*.xml |xargs dos2unix -ic |while read f;do
