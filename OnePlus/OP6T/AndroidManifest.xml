@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 		android:requiredSystemPropertyValue="+OnePlus/OnePlus6T/OnePlus6T*"
-		android:priority="61"
+		android:priority="60"
 		android:isStatic="true" />
 </manifest>
