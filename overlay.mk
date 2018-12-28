@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-devinputjack \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
+	treble-overlay-huawei-ATU \
 	treble-overlay-huawei-BKL \
 	treble-overlay-huawei-BND \
 	treble-overlay-huawei-CLT \
