@@ -103,3 +103,4 @@ config_autoBrightnessDisplayValuesNits
 config_screenBrightnessBacklight
 config_screenBrightnessNits
 config_enableBurnInProtection
+config_lightSensorWarmupTime
