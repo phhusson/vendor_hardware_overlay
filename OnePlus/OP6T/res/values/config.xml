@@ -118,4 +118,7 @@
     <!-- Screen off delay
     <integer name="config_screen_off_delay">1800</integer> -->
 
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">48px</dimen>
+
 </resources>
