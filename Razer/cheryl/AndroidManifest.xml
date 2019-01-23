@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.razer.cheryl"
+        android:versionCode="1"
+        android:versionName="1.0">
+	<!--
+		TESTS: Ignore ro.vendor.product.name
+		Same as G6 and G6 Plus
+	-->
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.product.name"
+                android:requiredSystemPropertyValue="cheryl"
+		android:priority="91"
+		android:isStatic="true" />
+</manifest>
