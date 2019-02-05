@@ -18,10 +18,19 @@
 -->
 <resources>
     <!-- Height of the status bar in portrait -->
-    <dimen name="status_bar_height_portrait">90px</dimen>
+    <dimen name="status_bar_height_portrait">87px</dimen>
     <!-- Height of the status bar -->
     <dimen name="status_bar_height">90px</dimen>
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">24dp</dimen>
-	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -270,0 L -270,90 L 270,90 L 270,0 Z</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+        M 0,0
+        L -293.5,0
+        C -283,0 -274.5,8.5 -274.5,25.7
+        C -274.5,59 -247.5,87 -214.2,87
+        L 214.2,87
+        C 247.5,87 274.5,59 274.5,19
+        C 274.5,8.5 283,0 293.5,0
+        Z
+    </string>
 </resources>
