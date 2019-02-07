@@ -10,6 +10,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5z \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
+	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
 	treble-overlay-huawei-ATU \
@@ -65,7 +66,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote6pro-systemui \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redmis2 \
-	treble-overlay-htc-U12Plus \
+
 
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
