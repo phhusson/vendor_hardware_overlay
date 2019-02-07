@@ -82,8 +82,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMaximum">255</integer>
-    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+      <integer name="config_screenBrightnessSettingMinimum">10</integer>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
@@ -92,16 +91,12 @@
          hysteresis threshold. -->
     <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
-    <integer name="config_brightness_ramp_rate_fast">200</integer>
-    <integer name="config_brightness_ramp_rate_slow">40</integer>
-    <!-- The maximum range of gamma adjustment possible using the screen
+     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300%</fraction>
-    <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
-
+ 
     <!-- Period of time in which to consider light samples in milliseconds. -->
-    <integer name="config_autoBrightnessAmbientLightHorizon">10000</integer>
-
+	
     <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
@@ -121,11 +116,9 @@
          -->
 
        <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">24.0dip</dimen>
-        
+          
     <!-- Screen off delay
     <integer name="config_screen_off_delay">1800</integer> -->
-
     <!-- Radius of the software rounded corners. 
     <dimen name="rounded_corner_radius">48px</dimen>-->
 
