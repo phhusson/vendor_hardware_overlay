@@ -6,5 +6,5 @@
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 		android:requiredSystemPropertyValue="+htc/ime*"
 		android:priority="97"
-		android:isStatic="true" />
+		android:isStatic="false" />
 </manifest>
