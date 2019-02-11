@@ -3,7 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyValue="+*ASUS_X00RD*"
+				android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyValue="+*ASUS_X00R_2*"
 		android:priority="81"
 		android:isStatic="true" />
 </manifest>
