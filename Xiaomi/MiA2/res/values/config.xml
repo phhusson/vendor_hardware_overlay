@@ -46,6 +46,8 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_supportSystemNavigationKeys">true</bool>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
     <integer name="config_autoBrightnessBrighteningLightDebounce">1500</integer>
