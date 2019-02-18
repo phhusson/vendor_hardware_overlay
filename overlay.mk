@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5z \
+	treble-overlay-asus-zenfonelivel1za550kl \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
 	treble-overlay-huawei \
