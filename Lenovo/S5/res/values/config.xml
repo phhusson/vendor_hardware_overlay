@@ -53,7 +53,7 @@
 	<bool name="skip_restoring_network_selection">true</bool>
 	
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
-    <fraction name="config_dimBehindFadeDuration">100.0%</fraction>
+    <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
 	
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">5000</integer>
