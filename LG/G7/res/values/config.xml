@@ -32,6 +32,16 @@
         <item>1600</item>
         <item>3100</item>
     </integer-array>
+    <array name="config_autoBrightnessDisplayValuesNits">
+        <item>8.2</item>
+        <item>23.3</item>
+        <item>122.28</item>
+        <item>144.4</item>
+        <item>189.4</item>
+        <item>237.9</item>
+        <item>341.8</item>
+        <item>550.0</item>
+    </array>
 
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
