@@ -26,9 +26,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
-    <bool name="config_allowAllRotations">true</bool>  
+    <bool name="config_allowAllRotations">false</bool>  
     
-	<!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
+     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N + 1 control points as follows:
          (1-based arrays)
 
@@ -49,11 +49,15 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>8</item>
-        <item>55</item>
-        <item>350</item>
-        <item>1600</item>
-        <item>2550</item>
+        <item>1</item>
+        <item>40</item>
+        <item>100</item>
+        <item>325</item>
+        <item>600</item>
+        <item>1250</item>
+        <item>2200</item>
+        <item>4000</item>
+        <item>10000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -62,13 +66,20 @@
          The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>6</item>
-        <item>47</item>
-        <item>150</item>
-        <item>180</item>
-        <item>250</item>
-        <item>255</item>
+        <item>11</item>   <!-- 0-1 -->
+        <item>22</item>   <!-- 1-40 -->
+        <item>47</item>   <!-- 40-100 -->
+        <item>61</item>   <!-- 100-325 -->
+        <item>84</item>   <!-- 325-600 -->
+        <item>107</item>  <!-- 600-1250 -->
+        <item>154</item>  <!-- 1250-2200 -->
+        <item>212</item>  <!-- 2200-4000 -->
+        <item>245</item>  <!-- 4000-10000 -->
+        <item>255</item>  <!-- 10000+ -->
     </integer-array>
+	
+    <!-- Minimum screen brightness allowed by the power manager. -->
+    <integer name="config_screenBrightnessDim">6</integer>
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -96,7 +107,7 @@
             1 - Toggle theater mode setting
             2 - Brightness boost
     -->
-    <integer name="config_doublePressOnPowerBehavior">2</integer>
+    <integer name="config_doublePressOnPowerBehavior">0</integer>
 
 	<!-- Set this to true to enable the platform's auto-power-save modes like doze and
          app standby.  These are not enabled by default because they require a standard

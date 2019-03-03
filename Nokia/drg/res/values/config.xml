@@ -3,11 +3,6 @@
     <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
 
-	<dimen name="navigation_bar_height">126.0px</dimen>
-    <dimen name="navigation_bar_height_landscape">126.0px</dimen>
-    <dimen name="navigation_bar_width">126.0px</dimen>
-    <dimen name="notification_header_padding_top">10.0dip</dimen>
-    <dimen name="notification_header_padding_bottom">11.0dip</dimen>
     <dimen name="status_bar_height_portrait">89.0px</dimen>
     <dimen name="status_bar_height">89.0px</dimen>
     <dimen name="status_bar_height_landscape">89.0px</dimen>
