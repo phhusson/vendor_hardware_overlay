@@ -17,6 +17,4 @@
 */
 -->
 <resources>
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height">24dp</dimen>
 </resources>
