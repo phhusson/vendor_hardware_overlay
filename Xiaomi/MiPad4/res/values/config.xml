@@ -79,5 +79,4 @@
 	<bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 	<bool name="config_useDevInputEventForAudioJack">true</bool>
 	<bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
-	<bool name="config_cameraDoubleTapPowerGestureEnabled">false</bool>
 </resources>

@@ -16,7 +16,6 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
-    <bool name="config_cameraDoubleTapPowerGestureEnabled">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
     <bool name="config_device_volte_available">true</bool>
