@@ -2,6 +2,8 @@
 
 set -e
 
+cd "${0%/*}" # Change to script directory
+
 if [ "$1" == "--local-aapt" ];then
     export LD_LIBRARY_PATH=.
     export PATH=.:$PATH
@@ -9,7 +11,7 @@ if [ "$1" == "--local-aapt" ];then
 elif [ "$#" -eq 1 ]; then
     makes="$(realpath $1)"
 else
-    makes="$(find $(pwd) -name Android.mk)"
+    makes="$(find $(cd ..; pwd) -name Android.mk)"
 fi
 
 if ! which aapt > /dev/null;then
