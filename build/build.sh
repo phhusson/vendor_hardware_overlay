@@ -8,6 +8,18 @@ if [ "$1" == "--local-aapt" ];then
     shift
 fi
 
+script_dir="$(dirname "$(realpath "$0")")"
+if [ "$#" -eq 1 ]; then
+    if [ -d "$1" ];then
+	    makes="$(find "$1" -name Android.mk)"
+    else
+	    makes="$(realpath "$1")"
+    fi
+else
+    cd "$script_dir"
+    makes="$(find "$PWD/.." -name Android.mk)"
+fi
+
 if ! which aapt > /dev/null;then
     export LD_LIBRARY_PATH=.
     export PATH=$PATH:.
@@ -18,9 +30,9 @@ if ! which aapt > /dev/null;then
     exit 1
 fi
 
-cd "$(dirname "$(readlink -f -- $0)")"
+cd "$script_dir"
 
-find .. -name Android.mk |while read f;do
+echo "$makes" | while read -r f;do
     name="$(sed -nE 's/LOCAL_PACKAGE_NAME.*:\=\s*(.*)/\1/p' "$f")"
     grep -q treble-overlay <<<$name || continue
     echo "Generating $name"
