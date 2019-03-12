@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5z \
+	treble-overlay-asus-zenfonelivel1za550kl \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
 	treble-overlay-htc-u12plus \
@@ -26,6 +27,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
 	treble-overlay-huawei-telephony \
+	treble-overlay-lenovo-s5 \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
@@ -48,7 +50,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi8pro \
 	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mi9 \
-	treble-overlay-xiaomi-mi9lite \
+	treble-overlay-xiaomi-mi9se \
 	treble-overlay-xiaomi-mia2 \
 	treble-overlay-xiaomi-mia2lite \
 	treble-overlay-xiaomi-mimax3 \
