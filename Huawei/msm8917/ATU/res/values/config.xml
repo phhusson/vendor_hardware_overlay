@@ -123,13 +123,6 @@
 	turned off and the screen off animation has been performed. -->
 	<bool name="config_dozeAfterScreenOff">true</bool>
 
-	<!-- Control the behavior when the user double presses the power button.
-	0 - Nothing
-	1 - Toggle theater mode setting
-	2 - Brightness boost
-	-->
-	<integer name="config_doublePressOnPowerBehavior">0</integer>
-
 	<!-- Set this to true to enable the platform's auto-power-save modes like doze and
 	app standby.  These are not enabled by default because they require a standard
 	cloud-to-device messaging service for apps to interact correctly with the modes

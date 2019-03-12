@@ -8,10 +8,11 @@ PRODUCT_PACKAGES += \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5z \
+	treble-overlay-asus-zenfonelivel1za550kl \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
-	treble-overlay-htc-exodus1 \
-	treble-overlay-HTC-U12+ \
+  treble-overlay-htc-exodus1 \
+	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
 	treble-overlay-huawei-ATU \
@@ -27,6 +28,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
 	treble-overlay-huawei-telephony \
+	treble-overlay-lenovo-s5 \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
@@ -37,6 +39,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-oneplus-op6t \
 	treble-overlay-oneplus-op6t-systemui \
+	treble-overlay-razer-cheryl \
 	treble-overlay-samsung-s9-systemui \
 	treble-overlay-sharp-s2 \
 	treble-overlay-webview \
@@ -48,7 +51,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi8pro \
 	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mi9 \
-	treble-overlay-xiaomi-mi9lite \
+	treble-overlay-xiaomi-mi9se \
 	treble-overlay-xiaomi-mia2 \
 	treble-overlay-xiaomi-mia2lite \
 	treble-overlay-xiaomi-mimax3 \
@@ -66,6 +69,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote6pro-systemui \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redmis2 \
+
 
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
