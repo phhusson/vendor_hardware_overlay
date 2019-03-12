@@ -49,7 +49,6 @@
   <integer name="config_bluetooth_tx_cur_ma">39</integer>
   <integer name="config_brightness_ramp_rate_fast">180</integer>
   <integer name="config_brightness_ramp_rate_slow">60</integer>
-  <bool name="config_cameraDoubleTapPowerGestureEnabled">true</bool>
   <integer name="config_cameraLaunchGestureSensorType">-1</integer>
   <bool name="config_carrier_volte_available">true</bool>
   <bool name="config_carrier_wfc_ims_available">false</bool>
@@ -59,7 +58,6 @@
   <bool name="config_device_vt_available">true</bool>
   <bool name="config_device_wfc_ims_available">true</bool>
   <bool name="config_displayBlanksAfterDoze">false</bool>
-  <integer name="config_doublePressOnPowerBehavior">0</integer>
   <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
   <bool name="config_dynamic_bind_ims">true</bool>
   <bool name="config_enableAutoPowerModes">true</bool>
