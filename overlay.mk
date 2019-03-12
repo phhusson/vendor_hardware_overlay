@@ -10,6 +10,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5z \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
+	treble-overlay-htc-exodus1 \
 	treble-overlay-HTC-U12+ \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
