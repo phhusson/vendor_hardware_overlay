@@ -68,6 +68,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote6pro-systemui \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redmis2 \
+	treble-overlay-sony-XZ3 \
 
 
 PRODUCT_PACKAGES += \

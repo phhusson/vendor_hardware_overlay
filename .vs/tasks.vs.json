@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "tâche-vendor_hardware_overlay",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
