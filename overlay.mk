@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-razer-cheryl \
 	treble-overlay-samsung-s9-systemui \
 	treble-overlay-sharp-s2 \
+	treble-overlay-sony-XZ3 \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi6x \
