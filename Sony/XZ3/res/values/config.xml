@@ -166,7 +166,6 @@
   <bool name="config_intrusiveNotificationLed">true</bool>
   <bool name="config_lidControlsSleep">true</bool>
   <bool name="config_mainBuiltInDisplayIsRound">true</bool>
-  <bool name="config_setColorTransformAccelerated">true</bool>
   <bool name="config_pinnerCameraApp">false</bool>
   <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
   <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
