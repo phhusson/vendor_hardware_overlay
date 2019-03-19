@@ -41,16 +41,6 @@
     <item>30000</item>
     <item>50000</item>
   </integer-array>
-  <string-array name="config_defaultCpuOnOfflineInfoPaths">
-    <item>/sys/devices/system/cpu/cpu0/isolate</item>
-    <item>/sys/devices/system/cpu/cpu1/isolate</item>
-    <item>/sys/devices/system/cpu/cpu2/isolate</item>
-    <item>/sys/devices/system/cpu/cpu3/isolate</item>
-    <item>/sys/devices/system/cpu/cpu4/isolate</item>
-    <item>/sys/devices/system/cpu/cpu5/isolate</item>
-    <item>/sys/devices/system/cpu/cpu6/isolate</item>
-    <item>/sys/devices/system/cpu/cpu7/isolate</item>
-  </string-array>
   <integer-array name="config_screenBrightnessBacklight">
     <item>0</item>
     <item>1</item>
@@ -157,21 +147,6 @@
   <integer name="config_brightness_ramp_rate_fast">200</integer>
   <integer name="config_brightness_ramp_rate_slow">50</integer>
   <integer name="config_cameraLaunchGestureSensorType">-1</integer>
-  <integer name="config_drawLockTimeoutMillis">120</integer>
-  <integer name="config_dreamsBatteryLevelDrainCutoff">5</integer>
-  <integer name="config_dreamsBatteryLevelMinimumWhenNotPowered">15</integer>
-  <integer name="config_dreamsBatteryLevelMinimumWhenPowered">-1</integer>
-  <integer name="config_externalHardKeyboardBehavior">0</integer>
-  <integer name="config_extraFreeKbytesAbsolute">48600</integer>
-  <integer name="config_extraFreeKbytesAdjust">0</integer>
-  <integer name="config_globalActionsKeyTimeout">500</integer>
-  <integer name="config_immersive_mode_confirmation_panic">5000</integer>
-  <integer name="config_jobSchedulerIdleWindowSlop">300000</integer>
-  <integer name="config_jobSchedulerInactivityIdleThreshold">4260000</integer>
-  <integer name="config_keepPreloadsMinDays">7</integer>
-  <integer name="config_lidKeyboardAccessibility">0</integer>
-  <integer name="config_lidNavigationAccessibility">0</integer>
-  <integer name="config_lidOpenRotation">-1</integer>
   <integer name="config_lightSensorWarmupTime">0</integer>
   <integer name="config_mobile_mtu">1500</integer>
   <integer name="config_multiuserMaximumUsers">4</integer>
