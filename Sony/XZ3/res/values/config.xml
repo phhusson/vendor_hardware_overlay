@@ -21,17 +21,6 @@
     <item>807</item>
     <item>850</item>
   </integer-array>
-  <array name="config_autoBrightnessKeyboardBacklightValues" />
-  <integer-array name="config_autoBrightnessLcdBacklightValues">
-    <item>10</item>
-    <item>20</item>
-    <item>40</item>
-    <item>70</item>
-    <item>110</item>
-    <item>160</item>
-    <item>200</item>
-    <item>255</item>
-  </integer-array>
   <integer-array name="config_autoBrightnessLevels">
     <item>1</item>
     <item>2</item>
@@ -52,16 +41,6 @@
     <item>30000</item>
     <item>50000</item>
   </integer-array>
-  <integer-array name="config_autoRotationTiltTolerance">
-    <item>-25</item>
-    <item>70</item>
-    <item>-25</item>
-    <item>65</item>
-    <item>-25</item>
-    <item>60</item>
-    <item>-25</item>
-    <item>65</item>
-  </integer-array>
   <string-array name="config_defaultCpuOnOfflineInfoPaths">
     <item>/sys/devices/system/cpu/cpu0/isolate</item>
     <item>/sys/devices/system/cpu/cpu1/isolate</item>
@@ -71,28 +50,6 @@
     <item>/sys/devices/system/cpu/cpu5/isolate</item>
     <item>/sys/devices/system/cpu/cpu6/isolate</item>
     <item>/sys/devices/system/cpu/cpu7/isolate</item>
-  </string-array>
-  <string-array name="config_nightDisplayColorTemperatureCoefficients">
-    <item>0.0000000000</item>
-    <item>0.0000000000</item>
-    <item>1.0000000000</item>
-    <item>0.0000000000</item>
-    <item>0.0001244755</item>
-    <item>0.4768615385</item>
-    <item>0.0000000000</item>
-    <item>0.0002937063</item>
-    <item>-0.2224615385</item>
-  </string-array>
-  <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
-    <item>0.0000000000</item>
-    <item>0.0000000000</item>
-    <item>1.0000000000</item>
-    <item>0.0000000000</item>
-    <item>0.0001244755</item>
-    <item>0.4768615385</item>
-    <item>0.0000000000</item>
-    <item>0.0002937063</item>
-    <item>-0.2224615385</item>
   </string-array>
   <integer-array name="config_screenBrightnessBacklight">
     <item>0</item>
@@ -140,7 +97,6 @@
   <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
   <bool name="config_auto_attach_data_on_creation">true</bool>
   <bool name="config_automatic_brightness_available">true</bool>
-  <bool name="config_batterySdCardAccessibility">false</bool>
   <bool name="config_bluetooth_hfp_inband_ringing_support">false</bool>
   <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
   <bool name="config_carrier_volte_available">true</bool>
@@ -155,7 +111,6 @@
   <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
   <bool name="config_dozePulsePickup">true</bool>
   <bool name="config_dynamic_bind_ims">true</bool>
-  <bool name="config_enableAppWidgetService">false</bool>
   <bool name="config_enableAutoPowerModes">true</bool>
   <bool name="config_enableBurnInProtection">true</bool>
   <bool name="config_enableFusedLocationOverlay">true</bool>
@@ -178,7 +133,6 @@
   <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
   <bool name="config_sustainedPerformanceModeSupported">false</bool>
   <bool name="config_swipe_up_gesture_default">true</bool>
-  <bool name="config_swipe_up_gesture_setting_available">true</bool>
   <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
   <bool name="config_useDevInputEventForAudioJack">true</bool>
   <bool name="config_use_sim_language_file">true</bool>
@@ -203,17 +157,6 @@
   <integer name="config_brightness_ramp_rate_fast">200</integer>
   <integer name="config_brightness_ramp_rate_slow">50</integer>
   <integer name="config_cameraLaunchGestureSensorType">-1</integer>
-  <integer name="config_defaultNotificationVibrationIntensity">2</integer>
-  <integer name="config_defaultPictureInPictureGravity">0x00000055</integer>
-  <integer name="config_defaultUiModeType">1</integer>
-  <integer name="config_defaultVibrationAmplitude">255</integer>
-  <integer name="config_deskDockKeepsScreenOn">1</integer>
-  <integer name="config_deskDockRotation">-1</integer>
-  <integer name="config_dockedStackDividerSnapMode">0</integer>
-  <integer name="config_doublePressOnPowerBehavior">0</integer>
-  <integer name="config_doubleTapOnHomeBehavior">2</integer>
-  <integer name="config_downloadDataDirLowSpaceThreshold">10</integer>
-  <integer name="config_downloadDataDirSize">200</integer>
   <integer name="config_drawLockTimeoutMillis">120</integer>
   <integer name="config_dreamsBatteryLevelDrainCutoff">5</integer>
   <integer name="config_dreamsBatteryLevelMinimumWhenNotPowered">15</integer>
@@ -221,7 +164,6 @@
   <integer name="config_externalHardKeyboardBehavior">0</integer>
   <integer name="config_extraFreeKbytesAbsolute">48600</integer>
   <integer name="config_extraFreeKbytesAdjust">0</integer>
-  <integer name="config_fingerprintMaxTemplatesPerUser">5</integer>
   <integer name="config_globalActionsKeyTimeout">500</integer>
   <integer name="config_immersive_mode_confirmation_panic">5000</integer>
   <integer name="config_jobSchedulerIdleWindowSlop">300000</integer>
@@ -231,42 +173,8 @@
   <integer name="config_lidNavigationAccessibility">0</integer>
   <integer name="config_lidOpenRotation">-1</integer>
   <integer name="config_lightSensorWarmupTime">0</integer>
-  <integer name="config_lockSoundVolumeDb">-6</integer>
-  <integer name="config_longPressOnBackBehavior">0</integer>
-  <integer name="config_longPressOnHomeBehavior">0</integer>
-  <integer name="config_longPressOnPowerBehavior">1</integer>
-  <integer name="config_lowBatteryAutoTriggerDefaultLevel">15</integer>
-  <integer name="config_lowBatteryCloseWarningBump">5</integer>
-  <integer name="config_lowBatteryWarningLevel">15</integer>
-  <integer name="config_lowMemoryKillerCachedMinFreeKbytesAdjust">100000</integer>
-  <integer name="config_lowMemoryKillerMinFreeKbytesAbsolute">-1</integer>
-  <integer name="config_lowMemoryKillerMinFreeKbytesAdjust">0</integer>
-  <integer name="config_maxNumVisibleRecentTasks">-1</integer>
-  <integer name="config_maxNumVisibleRecentTasks_grid">9</integer>
-  <integer name="config_maxNumVisibleRecentTasks_lowRam">9</integer>
-  <integer name="config_maxResolverActivityColumns">3</integer>
-  <integer name="config_maxUiWidth">0</integer>
-  <integer name="config_max_pan_devices">5</integer>
-  <integer name="config_maximumScreenDimDuration">15000</integer>
-  <integer name="config_mdc_initial_max_retry">1</integer>
-  <integer name="config_minNumVisibleRecentTasks">5</integer>
-  <integer name="config_minNumVisibleRecentTasks_grid">-1</integer>
-  <integer name="config_minNumVisibleRecentTasks_lowRam">-1</integer>
-  <integer name="config_minimumScreenOffTimeout">10000</integer>
-  <integer name="config_mobile_hotspot_provision_check_period">24</integer>
   <integer name="config_mobile_mtu">1500</integer>
-  <integer name="config_multiuserMaxRunningUsers">3</integer>
   <integer name="config_multiuserMaximumUsers">4</integer>
-  <integer name="config_navBarOpacityMode">0</integer>
-  <integer name="config_networkAvoidBadWifi">1</integer>
-  <integer name="config_networkDefaultDailyMultipathQuotaBytes">2500000</integer>
-  <integer name="config_networkMeteredMultipathPreference">0</integer>
-  <integer name="config_networkNotifySwitchType">0</integer>
-  <integer name="config_networkPolicyDefaultWarning">2048</integer>
-  <integer name="config_networkTransitionTimeout">60000</integer>
-  <integer name="config_radioScanningTimeout">0</integer>
-  <integer name="config_safe_media_volume_index">16</integer>
-  <integer name="config_safe_media_volume_usb_mB">-3700</integer>
   <integer name="config_screenBrightnessDark">1</integer>
   <integer name="config_screenBrightnessDim">10</integer>
   <integer name="config_screenBrightnessDoze">17</integer>
@@ -276,7 +184,5 @@
   <integer name="config_screenBrightnessSettingDefault">102</integer>
   <integer name="config_screenBrightnessSettingMaximum">255</integer>
   <integer name="config_screenBrightnessSettingMinimum">1</integer>
-  <integer name="config_shortPressOnPowerBehavior">1</integer>
-  <integer name="config_shortPressOnSleepBehavior">0</integer>
   <integer name="config_shutdownBatteryTemperature">680</integer>
 </resources>
