@@ -10,7 +10,7 @@ if [ "$1" == "--local-aapt" ];then
 elif [ "$#" -eq 1 ]; then
     makes="$(realpath $1)"
 else
-    cd "${0%/*}" # Change to script directory
+    cd "${0%/*}" || true # Change to script directory
     makes="$(find $(cd ..; pwd) -name Android.mk)"
 fi
 
@@ -24,7 +24,7 @@ if ! which aapt > /dev/null;then
     exit 1
 fi
 
-cd "${0%/*}" # Change to script directory
+cd "${0%/*}" || true # Change to script directory
 
 
 echo "$makes" | while read -r f;do
