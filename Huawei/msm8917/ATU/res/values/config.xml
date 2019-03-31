@@ -43,10 +43,6 @@
 		<item>GPS_LOCK=0</item>
 	</string-array>
 
-	<!-- If true, the screen can be rotated via the accelerometer in all 4
-	rotations as the default behavior. -->
-	<bool name="config_allowAllRotations">false</bool>
-
 	<!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
 	The N entries of this array define N + 1 control points as follows:
 	(1-based arrays)
