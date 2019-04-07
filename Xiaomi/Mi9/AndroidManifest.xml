@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+*iaomi/cepheus*"
-		android:priority="90"
+		android:priority="101"
 		android:isStatic="true" />
 </manifest>
