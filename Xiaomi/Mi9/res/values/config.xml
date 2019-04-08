@@ -153,4 +153,8 @@
         <item>255</item>
         <item>255</item>
     </integer-array>
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+
+    <integer translatable="false" name="config_brightness_ramp_rate_fast">10000</integer>
+    <integer translatable="false" name="config_brightness_ramp_rate_slow">10000</integer>
 </resources>
