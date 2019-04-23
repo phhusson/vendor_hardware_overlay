@@ -29,9 +29,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
 	treble-overlay-huawei-telephony \
+	treble-overlay-lenovo-k5pro \
 	treble-overlay-lenovo-s5 \
 	treble-overlay-lenovo-z5 \
-	treble-overlay-lenovo-k5pro \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
 	treble-overlay-moto-g6 \
