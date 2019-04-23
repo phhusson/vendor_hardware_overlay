@@ -79,8 +79,7 @@
         <item>3998</item>
         <item>4472</item>
     </integer-array>
-	<bool name="config_enabled_lte">true</bool>
-	<bool name="config_showNavigationBar">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
