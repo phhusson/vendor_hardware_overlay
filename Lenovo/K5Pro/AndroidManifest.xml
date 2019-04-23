@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.product.model"
                 android:requiredSystemPropertyValue="Lenovo L38041"
-		android:priority="47"
+		android:priority="70"
 		android:isStatic="true" />
 </manifest>
