@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <integer name="config_autoPowerModeAnyMotionSensor">0</integer>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_fast_bss_transition_enabled">false</bool>
+    <bool name="config_wifi_background_scan_support">true</bool>
+    <bool name="config_wifi_enable_disconnection_debounce">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <integer name="config_brightness_ramp_rate_fast">180</integer>
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_nightDisplayAvailable">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>25</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>34</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>0</item>
+        <item>25</item>
+    </integer-array>
+    <bool name="config_hotswapCapable">true</bool>
+    <integer name="config_screenBrightnessSettingMinimum">3</integer>
+    <integer name="config_screenBrightnessSettingDefault">90</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_screenBrightnessDark">1</integer>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>7</item>
+        <item>10</item>
+        <item>13</item>
+        <item>16</item>
+        <item>22</item>
+        <item>28</item>
+        <item>34</item>
+        <item>43</item>
+        <item>52</item>
+        <item>61</item>
+        <item>72</item>
+        <item>83</item>
+        <item>94</item>
+        <item>105</item>
+        <item>117</item>
+        <item>129</item>
+        <item>141</item>
+        <item>153</item>
+        <item>166</item>
+        <item>179</item>
+        <item>192</item>
+        <item>205</item>
+        <item>218</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>6</item>
+        <item>12</item>
+        <item>25</item>
+        <item>50</item>
+        <item>80</item>
+        <item>120</item>
+        <item>175</item>
+        <item>250</item>
+        <item>350</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1400</item>
+        <item>2000</item>
+        <item>3500</item>
+        <item>6000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>65535</item>
+    </integer-array>
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+    <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
+    <integer name="config_mobile_mtu">1358</integer>
+    <bool name="config_speed_up_audio_on_mt_calls">false</bool>
+    <bool name="config_auto_attach_data_on_creation">true</bool>
+    <string-array name="config_gpsParameters">
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=1</item>
+        <item>LPP_PROFILE=0</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+    <bool name="config_switch_phone_on_voice_reg_state_change">true</bool>
+    <bool name="config_use_sim_language_file">false</bool>
+    <integer name="config_cameraLaunchGestureSensorType">-1</integer>
+    <string name="config_cameraLaunchGestureSensorStringType" />
+
+
+	<!-- big ram -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_pinnerCameraApp">true</bool>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm/boot-framework.oat</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+        <item>/system/framework/oat/arm/services.odex</item>
+        <item>/system/framework/oat/arm/services.vdex</item>
+        <item>/system/framework/arm/boot.oat</item>
+        <item>/system/framework/arm/boot.vdex</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-core-libart.vdex</item>
+    </string-array>
+</resources>
