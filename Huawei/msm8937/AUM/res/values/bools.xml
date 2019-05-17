@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <bool name="config_enableCpuBoostForOverScrollerFling">false</bool>
-    <bool name="config_enableCpuBoostForScroller">false</bool>
-    <bool name="config_enableCpuBoostForAppLaunch">false</bool>
-    <bool name="config_enableCpuBoostForActLaunch">false</bool>
     <bool name="config_disablePacking">false</bool>
     <bool name="config_enableCpuBoostForPanelViewFling">false</bool>
     <bool name="config_enablePerfBoostForAnimation">false</bool>
@@ -18,5 +14,4 @@
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_enableFusedLocationOverlay">false</bool>
-    <bool name="config_enableGeofenceOverlay">false</bool>
 </resources>
