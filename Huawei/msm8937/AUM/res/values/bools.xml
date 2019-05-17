@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <bool name="config_disablePacking">false</bool>
-    <bool name="config_enableCpuBoostForPanelViewFling">false</bool>
-    <bool name="config_enablePerfBoostForAnimation">false</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_wifi_enable_wifi_firmware_debugging">false</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_device_volte_available">true</bool>
-    <bool name="config_device_vt_available">true</bool>
-    <bool name="carrier_vt_available_bool">true</bool>
     <bool name="config_wifi_dual_band_support">false</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
