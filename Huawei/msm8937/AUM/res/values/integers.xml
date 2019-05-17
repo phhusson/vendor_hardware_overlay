@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="launchboost_timeout_param">2000</integer>
-    <integer name="actlaunchboost_timeout_param">1000</integer>
-    <integer name="disablepacking_timeout_param">5000</integer>
-    <integer name="animationboost_timeout_param">600</integer>
-    <integer name="config_wifi_supplicant_scan_interval">30000</integer>
-</resources>
