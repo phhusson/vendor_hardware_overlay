@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi6a \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-redmigo \
+	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redminote5 \
 	treble-overlay-xiaomi-redminote6pro \
 	treble-overlay-xiaomi-redminote6pro-systemui \
