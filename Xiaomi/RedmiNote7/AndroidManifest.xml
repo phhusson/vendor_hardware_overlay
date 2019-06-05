@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+*iaomi/lavender*"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint_real"
+                android:requiredSystemPropertyValue="+xiaomi/lavender*"
 		android:priority="75"
 		android:isStatic="true" />
 </manifest>
