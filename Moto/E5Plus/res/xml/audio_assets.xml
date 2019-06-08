@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audio_assets version="1.0">
+    <group name="touch_sounds">
+        <asset file="Effect_Tick.ogg" id="FX_KEY_CLICK" />
+        <asset file="Effect_Tick.ogg" id="FX_FOCUS_NAVIGATION_UP" />
+        <asset file="Effect_Tick.ogg" id="FX_FOCUS_NAVIGATION_DOWN" />
+        <asset file="Effect_Tick.ogg" id="FX_FOCUS_NAVIGATION_LEFT" />
+        <asset file="Effect_Tick.ogg" id="FX_FOCUS_NAVIGATION_RIGHT" />
+        <asset file="KeypressStandard.ogg" id="FX_KEYPRESS_STANDARD" />
+        <asset file="KeypressSpacebar.ogg" id="FX_KEYPRESS_SPACEBAR" />
+        <asset file="KeypressDelete.ogg" id="FX_KEYPRESS_DELETE" />
+        <asset file="KeypressReturn.ogg" id="FX_KEYPRESS_RETURN" />
+        <asset file="KeypressInvalid.ogg" id="FX_KEYPRESS_INVALID" />
+    </group>
+</audio_assets>

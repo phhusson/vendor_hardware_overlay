@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>25</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>34</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>0</item>
+        <item>25</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>7</item>
+        <item>10</item>
+        <item>13</item>
+        <item>16</item>
+        <item>22</item>
+        <item>28</item>
+        <item>34</item>
+        <item>43</item>
+        <item>52</item>
+        <item>61</item>
+        <item>72</item>
+        <item>83</item>
+        <item>94</item>
+        <item>105</item>
+        <item>117</item>
+        <item>129</item>
+        <item>141</item>
+        <item>153</item>
+        <item>166</item>
+        <item>179</item>
+        <item>192</item>
+        <item>205</item>
+        <item>218</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>6</item>
+        <item>12</item>
+        <item>25</item>
+        <item>50</item>
+        <item>80</item>
+        <item>120</item>
+        <item>175</item>
+        <item>250</item>
+        <item>350</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1400</item>
+        <item>2000</item>
+        <item>3500</item>
+        <item>6000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>65535</item>
+    </integer-array>
+    <string-array name="config_gpsParameters">
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=1</item>
+        <item>LPP_PROFILE=0</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm/boot-framework.oat</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+        <item>/system/framework/oat/arm/services.odex</item>
+        <item>/system/framework/oat/arm/services.vdex</item>
+        <item>/system/framework/arm/boot.oat</item>
+        <item>/system/framework/arm/boot.vdex</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-core-libart.vdex</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_autoPowerModeAnyMotionSensor">0</integer>
+    <integer name="config_brightness_ramp_rate_fast">180</integer>
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <integer name="config_screenBrightnessSettingMinimum">3</integer>
+    <integer name="config_screenBrightnessSettingDefault">90</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_screenBrightnessDark">1</integer>
+    <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
+    <integer name="config_mobile_mtu">1358</integer>
+    <integer name="config_cameraLaunchGestureSensorType">-1</integer>
+    <integer name="config_multiuserMaximumUsers">4</integer>
+</resources>
