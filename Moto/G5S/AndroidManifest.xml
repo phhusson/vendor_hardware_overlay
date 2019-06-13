@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.moto.g5s"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyValue="motorola/montana_retail/montana:8.1.0/OPPS28.65-37-7-2/d0526:user/release-keys"
+		android:priority="122"
+		android:isStatic="true" />
+</manifest>
