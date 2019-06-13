@@ -6,6 +6,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.product.device"
                 android:requiredSystemPropertyValue="ocean"
-		android:priority="62"
+		android:priority="121"
 		android:isStatic="true" />
 </manifest>
