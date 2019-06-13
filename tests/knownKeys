@@ -27,6 +27,8 @@ config_carrier_volte_available
 config_carrier_wfc_ims_available
 config_cellBroadcastAppLinks
 config_defaultPinnerServiceFiles
+config_deviceKeyHandlerClasses
+config_deviceKeyHandlerLibs
 config_device_volte_available
 config_device_vt_available
 config_device_wfc_ims_available
@@ -39,6 +41,7 @@ config_dynamic_bind_ims
 config_enableAutoPowerModes
 config_enableMultiUserUI
 config_gpsParameters
+config_hasTurboPowerCharger
 config_hotswapCapable
 config_ims_package
 config_intrusiveNotificationLed
@@ -50,6 +53,7 @@ config_maximumScreenDimRatio
 config_mobile_mtu
 config_multiuserMaximumUsers
 config_nightDisplayAvailable
+config_num_physical_slots
 config_overrideHasPermanentMenuKey
 config_pinnerCameraApp
 config_powerDecoupleAutoSuspendModeFromDisplay
