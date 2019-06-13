@@ -6,10 +6,10 @@ cd "$base" || exit
 #Usage: fail <file> <message> [ignore string]
 fail() {
 	if [ -z "$3" ] || ! grep -qF "$3" "$1";then
-		echo "F: $1: $2"
+		echo "Fatal: $1: $2"
 		touch fail
 	else
-		echo "W: $1: $2"
+		echo "Warning: $1: $2"
 	fi
 }
 
@@ -62,7 +62,7 @@ done
 
 #Help handling with priorities
 lastpriority="$(sort -n tests/priorities |grep -E '^[0-9]{2,3}$' | tail -n 1)"
-echo 'First high continuous priority available is' $((lastpriority+1))
+echo 'Note: First high continuous priority available is' $((lastpriority+1))
 while true;do
     #We want numbers ranging from 10 to (lastpriority+20)
     v=$((RANDOM%(lastpriority+10)))
