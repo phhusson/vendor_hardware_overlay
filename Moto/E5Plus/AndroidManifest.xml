@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="motorola/hannah_sprint/hannah:8.0.0/OCPS27.91-32-4/4:user/release-keys"
+                android:requiredSystemPropertyName="ro.vendor.product.name"
+                android:requiredSystemPropertyValue="rhannah_retail"
 		android:priority="88"
 		android:isStatic="true" />
 </manifest>
