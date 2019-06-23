@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Arrays -->
+    <string-array name="config_tether_usb_regexs">
+        <item>usb\\d</item>
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_dhcp_range">
+        <item>192.168.42.2</item>
+        <item>192.168.42.254</item>
+        <item>192.168.43.2</item>
+        <item>192.168.43.254</item>
+        <item>192.168.44.2</item>
+        <item>192.168.44.254</item>
+        <item>192.168.45.2</item>
+        <item>192.168.45.254</item>
+        <item>192.168.46.2</item>
+        <item>192.168.46.254</item>
+        <item>192.168.47.2</item>
+        <item>192.168.47.254</item>
+        <item>192.168.48.2</item>
+        <item>192.168.48.254</item>
+        <item>192.168.49.2</item>
+        <item>192.168.49.254</item>
+        <item>192.168.50.2</item>
+        <item>192.168.50.254</item>
+        <item>192.168.51.2</item>
+        <item>192.168.51.254</item>
+    </string-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,4,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,2,60000,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>bluetooth,7,7,2,-1,true</item>
+        <item>mobile_emergency,15,0,5,-1,true</item>
+        <item>ethernet,9,9,3,-1,true</item>
+    </string-array>
+    <string-array name="radioAttributes">
+        <item>1,1</item>
+        <item>0,1</item>
+        <item>7,1</item>
+        <item>9,1</item>
+    </string-array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bnep\\d</item>
+        <item>bt-pan</item>
+    </string-array>
+    <integer-array name="config_tether_upstream_types">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>20</item>
+        <item>33</item>
+        <item>55</item>
+        <item>90</item>
+        <item>148</item>
+        <item>245</item>
+        <item>403</item>
+        <item>665</item>
+        <item>1097</item>
+        <item>1808</item>
+        <item>2981</item>
+        <item>5000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>70</item>
+        <item>110</item>
+        <item>160</item>
+        <item>200</item>
+        <item>255</item>
+    </integer-array>
+    <string-array name="config_mobile_tcp_buffers">
+        <item>5gnr:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>lte:524288,1048576,8388608,262144,524288,4194304</item>
+        <item>lte_ca:524288,1048576,8388608,262144,524288,4194304</item>
+        <item>umts:131072,262144,1452032,4096,16384,399360</item>
+        <item>hspa:131072,262144,1452032,4096,16384,399360</item>
+        <item>hsupa:131072,262144,1452032,4096,16384,399360</item>
+        <item>hsdpa:131072,262144,1452032,4096,16384,399360</item>
+        <item>hspap:131072,262144,1452032,4096,16384,399360</item>
+        <item>edge:16384,32768,131072,4096,16384,65536</item>
+        <item>gprs:4096,8192,24576,4096,8192,24576</item>
+        <item>evdo:131072,262144,1048576,4096,16384,524288</item>
+        <item>ehrpd:4094,87380,1048576,4096,16384,262144</item>
+    </string-array>
+    <string-array name="config_locationProviderPackageNames">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </string-array>
+    <string-array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
+    </string-array>
+    <string-array name="config_nonBlockableNotificationPackages">
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.dialer:phone_incoming_call</item>
+        <item>com.google.android.deskclock:Firing</item>
+        <item>com.google.android.setupwizard</item>
+        <item>com.google.android.apps.pixelmigrate</item>
+    </string-array>
+    <string-array name="config_batteryPackageTypeService">
+        <item>com.google.android.gms</item>
+        <item>com.google.android.apps.gcs</item>
+    </string-array>
+    <string-array name="config_fontPackages">
+        <item>mx.xperience.fonts</item>
+    </string-array>
+    <array name="config_autoBrightnessDisplayValuesNits">
+        <item>14.22825</item>
+        <item>17.92821</item>
+        <item>21.0392</item>
+        <item>23.454172</item>
+        <item>25.448406</item>
+        <item>31.200361</item>
+        <item>35.231995</item>
+        <item>41.076897</item>
+        <item>47.72592</item>
+        <item>55.562805</item>
+        <item>64.97754</item>
+        <item>77.0652</item>
+        <item>94.4501</item>
+        <item>117.607216</item>
+        <item>149.78299</item>
+        <item>197.58708</item>
+        <item>254.74942</item>
+        <item>320.71716</item>
+        <item>395.74274</item>
+    </array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+        <item>105</item>
+        <item>120</item>
+        <item>135</item>
+        <item>150</item>
+        <item>165</item>
+        <item>180</item>
+        <item>195</item>
+        <item>210</item>
+        <item>225</item>
+        <item>240</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_screenBrightnessNits">
+        <item>0</item>
+        <item>26.11</item>
+        <item>50.5</item>
+        <item>74.17</item>
+        <item>96.89</item>
+        <item>118.3</item>
+        <item>139.8</item>
+        <item>162.9</item>
+        <item>189.8</item>
+        <item>217.4</item>
+        <item>240.4</item>
+        <item>265.3</item>
+        <item>288.7</item>
+        <item>316</item>
+        <item>340.8</item>
+        <item>357.9</item>
+        <item>376.2</item>
+        <item>392.9</item>
+    </array>
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>26</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>0</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="config_scrollBarrierVibePattern">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>15</item>
+    </integer-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>wlan0</item>
+    </string-array>
+    <string-array name="config_gpsParameters">
+        <item>XTRA_SERVER_1=https://xtrapath1.izatcloud.net/xtra2.bin</item>
+        <item>XTRA_SERVER_2=https://xtrapath2.izatcloud.net/xtra2.bin</item>
+        <item>XTRA_SERVER_3=https://xtrapath3.izatcloud.net/xtra2.bin</item>
+        <item>NTP_SERVER=north-america.pool.ntp.org</item>
+        <item>SUPL_MODE=0</item>
+        <item>SUPL_HOST=NONE</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>LPP_PROFILE=3</item>
+        <item>NMEA_PROVIDER=0</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>ERR_ESTIMATE=0</item>
+        <item>INTERMEDIATE_POS=0</item>
+        <item>SUPL_ES=0</item>
+        <item>GPS_LOCK=2</item>
+    </string-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/boot-framework.vdex</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/oat/arm64/services.vdex</item>
+        <item>/system/framework/arm64/boot.oat</item>
+        <item>/system/framework/boot.vdex</item>
+        <item>/system/framework/arm64/boot-core-libart.oat</item>
+        <item>/system/framework/boot-core-libart.vdex</item>
+    </string-array>
+
+    <!--Bools -->
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_background_scan_support">true</bool>
+    <bool name="config_wifi_softap_acs_supported">true</bool>
+    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_wifi_batched_scan_supported">true</bool>
+    <bool name="config_speed_up_audio_on_mt_calls">true</bool>
+    <bool name="config_camera_sound_forced">false</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_allowDisablingAssistDisclosure">true</bool>
+    <bool name="config_enableLockScreenRotation">true</bool>
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+    <bool name="config_smart_battery_available">true</bool>
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_tether_upstream_automatic">true</bool>
+    <bool name="config_intrusiveNotificationLed">true</bool>
+    <bool name="config_lidControlsSleep">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_enableNetworkLocationOverlay">false</bool>
+    <bool name="config_batterySdCardAccessibility">true</bool>
+    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_enableSmartPixels">true</bool>
+    <bool name="config_dynamic_bind_ims">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_hasTurboPowerCharger">true</bool>
+    <bool name="config_pinnerHomeApp">true</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+
+    <!-- Integers -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <integer name="config_backPanicBehavior">1</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+    <integer name="config_screenBrightnessSettingDefault">88</integer>
+    <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
+
+</resources>
