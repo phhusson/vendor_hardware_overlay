@@ -6,28 +6,6 @@
         <item>usb\\d</item>
         <item>rndis\\d</item>
     </string-array>
-    <string-array name="config_tether_dhcp_range">
-        <item>192.168.42.2</item>
-        <item>192.168.42.254</item>
-        <item>192.168.43.2</item>
-        <item>192.168.43.254</item>
-        <item>192.168.44.2</item>
-        <item>192.168.44.254</item>
-        <item>192.168.45.2</item>
-        <item>192.168.45.254</item>
-        <item>192.168.46.2</item>
-        <item>192.168.46.254</item>
-        <item>192.168.47.2</item>
-        <item>192.168.47.254</item>
-        <item>192.168.48.2</item>
-        <item>192.168.48.254</item>
-        <item>192.168.49.2</item>
-        <item>192.168.49.254</item>
-        <item>192.168.50.2</item>
-        <item>192.168.50.254</item>
-        <item>192.168.51.2</item>
-        <item>192.168.51.254</item>
-    </string-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
         <item>mobile,0,0,0,-1,true</item>
@@ -102,26 +80,8 @@
         <item>evdo:131072,262144,1048576,4096,16384,524288</item>
         <item>ehrpd:4094,87380,1048576,4096,16384,262144</item>
     </string-array>
-    <string-array name="config_locationProviderPackageNames">
-        <item>com.google.android.gms</item>
-        <item>com.android.location.fused</item>
-    </string-array>
     <string-array name="config_ephemeralResolverPackage">
         <item>com.google.android.gms</item>
-    </string-array>
-    <string-array name="config_nonBlockableNotificationPackages">
-        <item>com.google.android.dialer</item>
-        <item>com.google.android.dialer:phone_incoming_call</item>
-        <item>com.google.android.deskclock:Firing</item>
-        <item>com.google.android.setupwizard</item>
-        <item>com.google.android.apps.pixelmigrate</item>
-    </string-array>
-    <string-array name="config_batteryPackageTypeService">
-        <item>com.google.android.gms</item>
-        <item>com.google.android.apps.gcs</item>
-    </string-array>
-    <string-array name="config_fontPackages">
-        <item>mx.xperience.fonts</item>
     </string-array>
     <array name="config_autoBrightnessDisplayValuesNits">
         <item>14.22825</item>
@@ -196,12 +156,6 @@
         <item>0</item>
         <item>20</item>
     </integer-array>
-    <integer-array name="config_scrollBarrierVibePattern">
-        <item>0</item>
-        <item>15</item>
-        <item>30</item>
-        <item>15</item>
-    </integer-array>
     <string-array name="config_tether_wifi_regexs">
         <item>wlan0</item>
     </string-array>
@@ -238,16 +192,12 @@
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
-    <bool name="config_wifi_softap_acs_supported">true</bool>
-    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
-    <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_wifi_batched_scan_supported">true</bool>
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
-    <bool name="config_camera_sound_forced">false</bool>
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
@@ -256,37 +206,25 @@
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
     <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_allowDisablingAssistDisclosure">true</bool>
-    <bool name="config_enableLockScreenRotation">true</bool>
     <bool name="config_enableAutoPowerModes">true</bool>
-    <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
-    <bool name="config_smart_battery_available">true</bool>
-    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-    <bool name="config_tether_upstream_automatic">true</bool>
     <bool name="config_intrusiveNotificationLed">true</bool>
     <bool name="config_lidControlsSleep">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_enableNetworkLocationOverlay">false</bool>
-    <bool name="config_batterySdCardAccessibility">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_displayBlanksAfterDoze">true</bool>
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_enableBurnInProtection">true</bool>
-    <bool name="config_enableSmartPixels">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
-    <bool name="config_hasTurboPowerCharger">true</bool>
-    <bool name="config_pinnerHomeApp">true</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
 
     <!-- Integers -->
     <integer name="config_multiuserMaximumUsers">4</integer>
-    <integer name="config_backPanicBehavior">1</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
     <integer name="config_screenBrightnessSettingDefault">88</integer>
