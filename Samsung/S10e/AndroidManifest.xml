@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.phh.treble.overlay.samsung.s10e" android:versionCode="1"
+          android:versionName="1.0">
+    <overlay android:isStatic="true"
+             android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+             android:requiredSystemPropertyValue="+samsung/beyond0ltexx/beyond0*"
+             android:priority="23"
+             android:targetPackage="android"/>
+</manifest>
