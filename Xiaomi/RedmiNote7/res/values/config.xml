@@ -75,12 +75,6 @@
         <item>3500</item>
         <item>4000</item>
     </integer-array>
-    <!-- Default time when Night display is automatically activated.
-      Represented as milliseconds from midnight (e.g. 79200000 == 10pm). -->
-    <integer name="config_defaultNightDisplayCustomStartTime">79200000</integer>
-    <!-- Default time when Night display is automatically deactivated.
-      Represented as milliseconds from midnight (e.g. 21600000 == 6am). -->
-    <integer name="config_defaultNightDisplayCustomEndTime">21600000</integer>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_showNavigationBar">true</bool>
