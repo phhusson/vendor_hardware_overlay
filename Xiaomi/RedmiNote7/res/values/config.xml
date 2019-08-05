@@ -2,7 +2,6 @@
 <resources>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
-    <fraction name="config_dimBehindFadeDuration">100.0%</fraction>
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>3</item>
