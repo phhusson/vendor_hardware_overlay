@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g7power \
 	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-drg \
+	treble-overlay-nubia-z17s \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-oneplus-op6t \
 	treble-overlay-oneplus-op6t-systemui \
