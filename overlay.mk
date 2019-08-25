@@ -9,6 +9,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5z \
 	treble-overlay-asus-zenfonelivel1za550kl \
+	treble-overlay-asus-zenfonemaxm2 \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
