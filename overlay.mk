@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
 	treble-overlay-samsung-a60q \
+	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9-systemui \
 	treble-overlay-sec-ims \
