@@ -4,7 +4,12 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := phh-overrides
 PACKAGES.phh-overrides.OVERRIDES := \
 	webview \
-	WebViewGoogle
+	WebViewGoogle \
+	GoogleDialer \
+	Photos \
+	CalendarGooglePrebuilt \
+	HTMLViewer
+
 
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
