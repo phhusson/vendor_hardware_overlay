@@ -4,11 +4,16 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := phh-overrides
 PACKAGES.phh-overrides.OVERRIDES := \
 	webview \
-	WebViewGoogle \
 	GoogleDialer \
 	Photos \
 	CalendarGooglePrebuilt \
 	HTMLViewer
+
+ifeq ($(wildcard vendor/gapps),)
+PACKAGES.phh-overrides.OVERRIDES += \
+	WebViewGoogle \
+
+endif
 
 
 LOCAL_MODULE_TAGS := optional
