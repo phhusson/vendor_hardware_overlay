@@ -4,9 +4,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := phh-overrides
 PACKAGES.phh-overrides.OVERRIDES := \
 	webview \
-	GoogleDialer \
-	Photos \
-	CalendarGooglePrebuilt \
 	HTMLViewer
 
 ifeq ($(wildcard vendor/gapps),)
