@@ -15,29 +15,6 @@
         <item>132</item>
         <item>169.4</item>
         <item>249.5</item>
-        <item>400</item>
-        <item>400</item>
-        <item>450</item>
-        <item>450</item>
-        <item>475</item>
-        <item>475</item>
-        <item>500</item>
-        <item>500</item>
-        <item>525</item>
-        <item>525</item>
-        <item>550</item>
-        <item>550</item>
-        <item>575</item>
-        <item>575</item>
-        <item>600</item>
-        <item>600</item>
-        <item>625</item>
-        <item>625</item>
-        <item>650</item>
-        <item>650</item>
-        <item>675</item>
-        <item>675</item>
-        <item>700</item>
     </array>
 <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
@@ -296,17 +273,6 @@
         <item>253</item>
         <item>254</item>
         <item>255</item>
-        <item>287</item>
-        <item>303</item>
-        <item>319</item>
-        <item>335</item>
-        <item>351</item>
-        <item>367</item>
-        <item>383</item>
-        <item>399</item>
-        <item>415</item>
-        <item>431</item>
-        <item>447</item>
     </integer-array>
 <array name="config_screenBrightnessNits">
         <item>2</item>
@@ -485,97 +451,6 @@
         <item>251.3</item>
         <item>253</item>
         <item>254.8</item>
-        <item>256.6</item>
-        <item>258.4</item>
-        <item>260.2</item>
-        <item>261.9</item>
-        <item>263.7</item>
-        <item>265.5</item>
-        <item>267.3</item>
-        <item>269</item>
-        <item>270.7</item>
-        <item>272.4</item>
-        <item>274.1</item>
-        <item>275.8</item>
-        <item>277.5</item>
-        <item>279.2</item>
-        <item>280.9</item>
-        <item>282.6</item>
-        <item>284.3</item>
-        <item>286</item>
-        <item>287.9</item>
-        <item>289.8</item>
-        <item>291.7</item>
-        <item>293.5</item>
-        <item>295.4</item>
-        <item>297.3</item>
-        <item>299.2</item>
-        <item>301</item>
-        <item>302.8</item>
-        <item>304.6</item>
-        <item>306.4</item>
-        <item>308.2</item>
-        <item>309.9</item>
-        <item>311.7</item>
-        <item>313.5</item>
-        <item>315.3</item>
-        <item>317</item>
-        <item>318.8</item>
-        <item>320.6</item>
-        <item>322.4</item>
-        <item>324.2</item>
-        <item>325.9</item>
-        <item>327.7</item>
-        <item>329.5</item>
-        <item>331.3</item>
-        <item>333</item>
-        <item>334.8</item>
-        <item>336.5</item>
-        <item>338.3</item>
-        <item>340</item>
-        <item>341.8</item>
-        <item>343.5</item>
-        <item>345.3</item>
-        <item>347</item>
-        <item>349.4</item>
-        <item>351.7</item>
-        <item>354</item>
-        <item>356</item>
-        <item>358</item>
-        <item>360</item>
-        <item>362</item>
-        <item>363.8</item>
-        <item>365.5</item>
-        <item>367.3</item>
-        <item>369</item>
-        <item>370.8</item>
-        <item>372.5</item>
-        <item>374.3</item>
-        <item>376</item>
-        <item>378</item>
-        <item>380</item>
-        <item>382</item>
-        <item>384</item>
-        <item>386</item>
-        <item>388</item>
-        <item>390</item>
-        <item>392</item>
-        <item>394</item>
-        <item>396</item>
-        <item>398</item>
-        <item>399</item>
-        <item>400</item>
-        <item>450</item>
-        <item>475</item>
-        <item>500</item>
-        <item>525</item>
-        <item>550</item>
-        <item>575</item>
-        <item>600</item>
-        <item>625</item>
-        <item>650</item>
-        <item>675</item>
-        <item>700</item>
     </array>
 <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
@@ -583,13 +458,6 @@
         <item>6</item>
         <item>50</item>
         <item>100</item>
-        <item>500</item>
-        <item>1500</item>
-        <item>3000</item>
-        <item>4999</item>
-        <item>5000</item>
-        <item>19999</item>
-        <item>20000</item>
     </integer-array>
 <integer name="config_screenBrightnessSettingMinimum">10</integer>
 <integer name="config_screenBrightnessSettingMaximum">255</integer>
