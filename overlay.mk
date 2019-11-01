@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-ctl \
 	treble-overlay-nokia-drg \
+	treble-overlay-nubia-z18mini \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-oneplus-op6t \
 	treble-overlay-oneplus-op6t-systemui \
