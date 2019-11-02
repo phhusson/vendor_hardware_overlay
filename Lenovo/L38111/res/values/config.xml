@@ -14,20 +14,20 @@
     </string-array>
     <integer-array name="config_autoBrightnessLevels">
          <item>3</item>
-        <item>41</item>
-        <item>82</item>
-        <item>124</item>
-        <item>206</item>
-        <item>275</item>
-        <item>481</item>
-        <item>618</item>
-        <item>756</item>
-        <item>989</item>
-        <item>1305</item>
-        <item>1511</item>
-        <item>2061</item>
-        <item>2748</item>
-        <item>3100</item>
+        <item>20</item>
+        <item>38</item>
+        <item>72</item>
+        <item>83</item>
+        <item>95</item>
+        <item>110</item>
+        <item>127</item>
+        <item>145</item>
+        <item>163</item>
+        <item>181</item>
+        <item>199</item>
+        <item>217</item>
+        <item>231</item>
+        <item>255</item>
     </integer-array>
     <array name="config_autoBrightnessDisplayValuesNits">
         <item>2</item>
