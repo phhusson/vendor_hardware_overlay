@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="screen.on">79.01</item>
+    <item name="screen.full">379.19</item>
+    <item name="camera.flashlight">142.81</item>
+    <item name="camera.avg">401.73</item>
+    <item name="video">53.25</item>
+    <item name="audio">35.94</item>
+    <array name="cpu.clusters.cores">
+        <value>6</value>
+        <value>2</value>
+    </array>
+    <item name="cpu.suspend">5.43</item>
+    <item name="cpu.idle">3.61</item>
+    <item name="cpu.active">19.87</item>
+    <item name="cpu.cluster_power.cluster0">18.64</item>
+    <item name="cpu.cluster_power.cluster1">18.82</item>
+    <array name="cpu.core_speeds.cluster0">
+        <value>300000</value>
+        <value>576000</value>
+        <value>748800</value>
+        <value>998400</value>
+        <value>1209600</value>
+        <value>1324800</value>
+        <value>1516800</value>
+        <value>1612800</value>
+        <value>1708800</value>
+    </array>
+    <array name="cpu.core_power.cluster0">
+        <value>14</value>
+        <value>25</value>
+        <value>31</value>
+        <value>46</value>
+        <value>57</value>
+        <value>84</value>
+        <value>96</value>
+        <value>114</value>
+        <value>139</value>
+    </array>
+    <array name="cpu.core_speeds.cluster1">
+        <value>300000</value>
+        <value>652800</value>
+        <value>852600</value>
+        <value>979200</value>
+        <value>1132800</value>
+        <value>1363200</value>
+        <value>1536000</value>
+        <value>1747200</value>
+        <value>1843200</value>
+        <value>1996800</value>
+        <value>2054400</value>
+        <value>2169600</value>
+        <value>2208000</value>
+    </array>
+    <array name="cpu.core_power.cluster1">
+        <value>256</value>
+        <value>307</value>
+        <value>332</value>
+        <value>382</value>
+        <value>408</value>
+        <value>448</value>
+        <value>586</value>
+        <value>641</value>
+        <value>659</value>
+        <value>696</value>
+        <value>876</value>
+        <value>900</value>
+        <value>924</value>
+        <value>948</value>
+        <value>1170</value>
+        <value>1200</value>
+        <value>1300</value>
+        <value>1400</value>
+    </array>
+    <item name="cpu.awake">1.6</item>
+    <item name="battery.capacity">3300</item>
+</device>
