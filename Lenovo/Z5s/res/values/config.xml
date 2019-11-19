@@ -18,9 +18,6 @@
         <item>154.16931</item>
         <item>191.83717</item>
         <item>240.74442</item>
-        <item>294.84857</item>
-        <item>348.05453</item>
-        <item>399.81</item>
     </array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>1</item>
@@ -525,101 +522,6 @@
         <item>251.41</item>
         <item>252.95</item>
         <item>254.49</item>
-        <item>256.03</item>
-        <item>257.56</item>
-        <item>259.1</item>
-        <item>260.64</item>
-        <item>262.18</item>
-        <item>263.72</item>
-        <item>265.26</item>
-        <item>266.8</item>
-        <item>268.34</item>
-        <item>269.88</item>
-        <item>271.46</item>
-        <item>273.06</item>
-        <item>274.65</item>
-        <item>276.24</item>
-        <item>277.83</item>
-        <item>279.42</item>
-        <item>281.02</item>
-        <item>282.61</item>
-        <item>284.2</item>
-        <item>285.79</item>
-        <item>287.38</item>
-        <item>288.98</item>
-        <item>290.57</item>
-        <item>292.16</item>
-        <item>293.75</item>
-        <item>295.34</item>
-        <item>296.94</item>
-        <item>298.45</item>
-        <item>299.94</item>
-        <item>301.44</item>
-        <item>302.93</item>
-        <item>304.42</item>
-        <item>305.91</item>
-        <item>307.41</item>
-        <item>308.9</item>
-        <item>310.39</item>
-        <item>311.88</item>
-        <item>313.38</item>
-        <item>314.87</item>
-        <item>316.36</item>
-        <item>317.85</item>
-        <item>319.35</item>
-        <item>320.84</item>
-        <item>322.33</item>
-        <item>323.9</item>
-        <item>325.5</item>
-        <item>327.1</item>
-        <item>328.7</item>
-        <item>330.3</item>
-        <item>331.9</item>
-        <item>333.5</item>
-        <item>335.1</item>
-        <item>336.7</item>
-        <item>338.3</item>
-        <item>339.9</item>
-        <item>341.5</item>
-        <item>343.1</item>
-        <item>344.7</item>
-        <item>346.3</item>
-        <item>347.91</item>
-        <item>349.51</item>
-        <item>351.09</item>
-        <item>352.65</item>
-        <item>354.21</item>
-        <item>355.76</item>
-        <item>357.32</item>
-        <item>358.88</item>
-        <item>360.43</item>
-        <item>361.99</item>
-        <item>363.55</item>
-        <item>365.1</item>
-        <item>366.66</item>
-        <item>368.22</item>
-        <item>369.78</item>
-        <item>371.33</item>
-        <item>372.89</item>
-        <item>374.45</item>
-        <item>376.0</item>
-        <item>377.52</item>
-        <item>378.91</item>
-        <item>380.31</item>
-        <item>381.7</item>
-        <item>383.09</item>
-        <item>384.49</item>
-        <item>385.88</item>
-        <item>387.27</item>
-        <item>388.67</item>
-        <item>390.06</item>
-        <item>391.45</item>
-        <item>392.84</item>
-        <item>394.24</item>
-        <item>395.63</item>
-        <item>397.02</item>
-        <item>398.42</item>
-        <item>399.81</item>
     </array>
     <integer-array name="config_tether_upstream_types">
         <item>1</item>
