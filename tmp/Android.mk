@@ -4,7 +4,14 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := phh-overrides
 PACKAGES.phh-overrides.OVERRIDES := \
 	webview \
-	WebViewGoogle
+	HTMLViewer
+
+ifeq ($(wildcard vendor/gapps),)
+PACKAGES.phh-overrides.OVERRIDES += \
+	WebViewGoogle \
+
+endif
+
 
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
