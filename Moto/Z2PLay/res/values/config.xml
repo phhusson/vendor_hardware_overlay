@@ -12,79 +12,44 @@
 	<bool name="config_setColorTransformAccelerated">true</bool>
 	<bool name="config_nightDisplayAvailable">false</bool>
 	<bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-
-	<integer-array name="config_longPressVibePattern">
-		<item>0</item>
-		<item>25</item>
-	</integer-array>
-	<integer-array name="config_virtualKeyVibePattern">
-		<item>0</item>
-		<item>34</item>
-	</integer-array>
-	<integer-array name="config_keyboardTapVibePattern">
-		<item>0</item>
-		<item>25</item>
-	</integer-array>
 	<bool name="config_hotswapCapable">true</bool>
-	<integer name="config_screenBrightnessSettingMinimum">2</integer>
-	<integer name="config_screenBrightnessSettingDefault">77</integer>
+	<integer name="config_screenBrightnessSettingMinimum">1</integer>
 	<integer name="config_screenBrightnessDoze">17</integer>
 	<integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
 	<integer name="config_screenBrightnessDark">2</integer>
-	<integer-array name="config_autoBrightnessLcdBacklightValues">
-		<item>2</item>
-		<item>9</item>
-		<item>30</item>
-		<item>47</item>
-		<item>55</item>
-		<item>64</item>
-		<item>77</item>
-		<item>77</item>
-		<item>77</item>
-		<item>77</item>
-		<item>96</item>
-		<item>115</item>
-		<item>128</item>
-		<item>134</item>
-		<item>179</item>
-		<item>191</item>
-		<item>191</item>
-		<item>191</item>
-		<item>256</item>
-	</integer-array>
-	<integer-array name="config_autoBrightnessLevels">
-		<item>2</item>
-		<item>10</item>
-		<item>50</item>
-		<item>90</item>
-		<item>100</item>
-		<item>150</item>
-		<item>200</item>
-		<item>300</item>
-		<item>400</item>
-		<item>500</item>
-		<item>800</item>
-		<item>1000</item>
-		<item>1300</item>
-		<item>2000</item>
-		<item>3000</item>
-		<item>4000</item>
-		<item>8000</item>
-		<item>10000</item>
-	</integer-array>
 	<bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
 	<integer name="config_bluetooth_operating_voltage_mv">3300</integer>
 	<bool name="skip_restoring_network_selection">true</bool>
 	<bool name="config_showNavigationBar">true</bool>
-
 	<string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 	<bool name="config_dozeAfterScreenOff">true</bool>
 	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 	<bool name="config_cellBroadcastAppLinks">true</bool>
-
 	<integer name="config_mobile_mtu">1410</integer>
 	<bool name="config_speed_up_audio_on_mt_calls">true</bool>
 	<bool name="config_auto_attach_data_on_creation">false</bool>
+	   <string name="config_wifi_tcp_buffers">131072,262144,3145728,4096,221184,3145728</string>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_lidControlsSleep">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">false</bool>
+    <bool name="config_enableNetworkLocationOverlay" translatable="false">true</bool>
+    <string name="config_networkLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
+    <bool name="config_enableFusedLocationOverlay" translatable="false">true</bool>
+    <string name="config_fusedLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_batterySdCardAccessibility">false</bool>
+    <string translatable="false" name="config_radio_access_family">GSM | WCDMA | LTE | CDMA | EVDO</string>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+   <bool name="config_device_wfc_ims_available">true</bool>
+   <bool name="config_carrier_wfc_ims_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <string name="config_ims_package">org.codeaurora.ims</string>
+    <bool name="config_dynamic_bind_ims">true</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
+	<bool name="config_hasTurboPowerCharger">true</bool>
 	<string-array name="config_gpsParameters">
 		<item>XTRA_SERVER_1=https://xtrapath1.izatcloud.net/xtra2.bin</item>
 		<item>XTRA_SERVER_2=https://xtrapath2.izatcloud.net/xtra2.bin</item>
@@ -106,20 +71,116 @@
 	<bool name="config_use_sim_language_file">true</bool>
 	<integer name="config_cameraLaunchGestureSensorType">65540</integer>
 	<string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
-
-
-	<!-- big ram -->
-	<integer name="config_multiuserMaximumUsers">4</integer>
-	<bool name="config_enableMultiUserUI">true</bool>
 	<bool name="config_pinnerCameraApp">true</bool>
-	<string-array name="config_defaultPinnerServiceFiles">
-		<item>/system/framework/arm64/boot-framework.oat</item>
-		<item>/system/framework/arm64/boot-framework.vdex</item>
-		<item>/system/framework/oat/arm64/services.odex</item>
-		<item>/system/framework/oat/arm64/services.vdex</item>
-		<item>/system/framework/arm64/boot.oat</item>
-		<item>/system/framework/arm64/boot.vdex</item>
-		<item>/system/framework/arm64/boot-core-libart.oat</item>
-		<item>/system/framework/arm64/boot-core-libart.vdex</item>
-	</string-array>
+	    <integer name="config_screenBrightnessSettingDefault">64</integer>
+   <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>6</item>
+	<item>12</item>
+        <item>25</item>
+        <item>50</item>
+        <item>80</item>
+        <item>120</item>
+        <item>175</item>
+        <item>250</item>
+        <item>350</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1400</item>
+        <item>2000</item>
+        <item>3500</item>
+        <item>6000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>65535</item>
+    </integer-array>
+   <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>1</item>
+        <item>6</item>
+	<item>12</item>
+        <item>18</item>
+        <item>26</item>
+	<item>34</item>
+        <item>40</item>
+        <item>46</item>
+        <item>52</item>
+        <item>61</item>
+        <item>72</item>
+        <item>83</item>
+        <item>94</item>
+        <item>105</item>
+        <item>117</item>
+        <item>129</item>
+        <item>141</item>
+        <item>153</item>
+        <item>166</item>
+        <item>179</item>
+        <item>192</item>
+        <item>205</item>
+        <item>218</item>
+		<item>256</item>
+    </integer-array>
+    <bool translatable="false" name="config_wifi_revert_country_code_on_cellular_loss">true</bool>
+   <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>13</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>24</item>
+    </integer-array>
+   <integer-array name="config_keyboardTapVibePattern">
+        <item>0</item>
+        <item>8</item>
+    </integer-array>
+     <integer-array name="config_scrollBarrierVibePattern">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>15</item>
+    </integer-array>
+    <string-array translatable="false" name="config_tether_usb_regexs">
+        <item>"rndis\\d"</item>
+    </string-array>
+   <string-array translatable="false" name="config_tether_wifi_regexs">
+        <item>"wlan0"</item>
+        <item>"wigig0"</item>
+        <item>"softap0"</item>
+    </string-array>
+     <string-array translatable="false" name="config_tether_bluetooth_regexs">
+         <item>"bnep\\d"</item>
+         <item>"bt-pan"</item>
+    </string-array>
+   <integer-array translatable="false" name="config_tether_upstream_types">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+     <string-array name="config_mobile_tcp_buffers">
+        <item>lte:524288,1048576,8388608,262144,524288,4194304</item>
+        <item>lte_ca:524288,1048576,8388608,262144,524288,4194304</item>
+        <item>umts:131072,262144,1452032,4096,16384,399360</item>
+        <item>hspa:131072,262144,1452032,4096,16384,399360</item>
+        <item>hsupa:131072,262144,1452032,4096,16384,399360</item>
+        <item>hsdpa:131072,262144,1452032,4096,16384,399360</item>
+        <item>hspap:131072,262144,1452032,4096,16384,399360</item>
+        <item>edge:16384,32768,131072,4096,16384,65536</item>
+        <item>gprs:4096,8192,24576,4096,8192,24576</item>
+        <item>evdo:131072,262144,1048576,4096,16384,524288</item>
+        <item>ehrpd:4094,87380,1048576,4096,16384,262144</item>
+    </string-array>
+  <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+       <item>"/system/framework/arm64/boot-framework.oat"</item>
+       <item>"/system/framework/arm64/boot-framework.vdex"</item>
+       <item>"/system/framework/oat/arm64/services.odex"</item>
+       <item>"/system/framework/oat/arm64/services.vdex"</item>
+       <item>"/system/framework/arm64/boot.oat"</item>
+       <item>"/system/framework/arm64/boot.vdex"</item>
+       <item>"/system/framework/arm64/boot-core-libart.oat"</item>
+       <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
+   </string-array>
 </resources>

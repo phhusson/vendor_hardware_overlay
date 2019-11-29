@@ -34,6 +34,7 @@
         <value>1516800</value>
         <value>1670400</value>
         <value>1881600</value>
+        <value>1958400</value>
         <value>2016000</value>
         <value>2150400</value>
         <value>2208000</value>
@@ -57,7 +58,11 @@
         <value>1536000</value>
         <value>1728000</value>
         <value>1843200</value>
-    </array>
+        <value>1958400</value>
+        <value>2016000</value>
+        <value>2150400</value>
+        <value>2208000</value>
+		</array>
     <array name="cpu.active.cluster1">
         <value>144.060</value>
         <value>145.751</value>
