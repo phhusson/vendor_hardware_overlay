@@ -45,8 +45,6 @@
 	<bool name="config_hasTurboPowerCharger">true</bool>
 	<bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
 	<bool name="config_use_sim_language_file">true</bool>
-	<integer name="config_cameraLaunchGestureSensorType">65540</integer>
-	<string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
 	<bool name="config_pinnerCameraApp">true</bool>
 	<integer name="config_brightness_ramp_rate_fast">200</integer>
 	<integer name="config_brightness_ramp_rate_slow">40</integer>
