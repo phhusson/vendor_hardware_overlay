@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.moto.e5" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
-    <overlay android:isStatic="true" android:priority="100" android:requiredSystemPropertyName="ro.vendor.product.name" android:requiredSystemPropertyValue="nora_row" android:targetPackage="android"/>
+    <overlay android:isStatic="true" android:priority="145" android:requiredSystemPropertyName="ro.vendor.product.name" android:requiredSystemPropertyValue="nora_row" android:targetPackage="android"/>
 </manifest>
