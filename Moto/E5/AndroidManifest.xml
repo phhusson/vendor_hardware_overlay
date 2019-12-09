@@ -2,10 +2,13 @@
         package="me.phh.treble.overlay.moto.e5"
         android:versionCode="1"
         android:versionName="1.0">
-    
+	<!--
+		TESTS: Ignore ro.vendor.product.name
+                Avoid issues with modified vendors
+	-->
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.product.name"
                 android:requiredSystemPropertyValue="nora_row"
-		android:priority="88"
+		android:priority="100"
 		android:isStatic="true" />
 </manifest>
