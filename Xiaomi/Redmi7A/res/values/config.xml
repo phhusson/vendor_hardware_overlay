@@ -90,6 +90,4 @@
     <integer name="config_bluetooth_tx_cur_ma">0</integer>
     <integer name="config_shutdownBatteryTemperature">600</integer>
     <dimen name="rounded_corner_radius">0px</dimen>
-    <dimen name="rounded_corner_radius_top">106.0px</dimen>
-    <dimen name="rounded_corner_radius_bottom">108.0px</dimen>
 </resources>
