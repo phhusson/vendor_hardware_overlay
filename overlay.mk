@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-STF \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
+	treble-overlay-huawei-EVA \
 	treble-overlay-huawei-telephony \
 	treble-overlay-infinix-note5 \
 	treble-overlay-lenovo-k5pro \
