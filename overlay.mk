@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
+	treble-overlay-moto-e5 \
 	treble-overlay-moto-e5plus \
 	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6play \
@@ -96,4 +97,3 @@ PRODUCT_COPY_FILES += \
 	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav:system/bin/hw-fpnav \
 	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav.dex:system/phh/hw-fpnav.dex \
 	vendor/hardware_overlay/Huawei/Fingerprint/fingerprint.kl:system/phh/huawei/fingerprint.kl \
-
