@@ -9,6 +9,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.product.name"
                 android:requiredSystemPropertyValue="nora_row"
-		android:priority="129"
+		android:priority="150"
 		android:isStatic="true" />
 </manifest>
