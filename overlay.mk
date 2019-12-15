@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
+	treble-overlay-moto-e5 \
 	treble-overlay-moto-e5plus \
 	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6play \
