@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9-systemui \
 	treble-overlay-sharp-s2 \
+	treble-overlay-sony-kirin_dsds \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-tecno-camon-11 \
 	treble-overlay-webview \
