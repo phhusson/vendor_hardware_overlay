@@ -55,6 +55,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-s9-systemui \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-XZ3 \
+	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon-11 \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
