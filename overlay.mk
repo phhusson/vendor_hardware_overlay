@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
+	treble-overlay-duoqin-qin2pro \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-fairphone-fp3 \
 	treble-overlay-htc-exodus1 \
