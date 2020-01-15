@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="rounded_corner_content_padding">64px</dimen>
+	<dimen name="rounded_corner_radius">92px</dimen>
+	
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">
+	   M -50,0 L -50,55 L 50,55 L 50,0 Z
+	</string>
+</resources>
