@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+*amsung/{a60q,m40}*"
+                android:requiredSystemPropertyValue="+*amsung/a60q*"
 		android:priority="120"
 		android:isStatic="true" />
 </manifest>
