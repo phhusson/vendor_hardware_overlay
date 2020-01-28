@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mainBuiltInDisplayCutout">M36.95,0C26.35,0,24.15,3.8,23.15,9.8 l-0.1,0.7c-1.7,9.6-9.3,17.2-18.9,18.9c-12.7,2.2-24.8-6.2-27-18.9 c0,0-0.1-0.7-0.1-0.7C-24.15,3.8,-26.25,0,-36.95,0Z @dp</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
+    <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
+    <string name="config_defaultListenerAccessPackages">com.google.android.setupwizard:com.google.android.apps.restore</string>
+    <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
+    <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
+    <string name="harmful_app_warning_title">Play Protect warning</string>
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="config_radio_access_family">GSM|CDMA|EVDO|WCDMA|LTE</string>
+</resources>
