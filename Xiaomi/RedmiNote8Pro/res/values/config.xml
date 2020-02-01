@@ -148,11 +148,11 @@
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_intrusiveNotificationLed">false</bool>
     <bool name="config_lidControlsSleep">true</bool>
-    <item type="bool" name="config_nightDisplayAvailable">@bool/config_setColorTransformAccelerated</item>
+    <bool name="config_nightDisplayAvailable">true</bool>
+    <bool name="config_setColorTransformAccelerated">false</bool>
     <bool name="config_pinnerCameraApp">false</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
-    <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_speed_up_audio_on_mt_calls">false</bool>
     <bool name="config_supportAudioSourceUnprocessed">false</bool>

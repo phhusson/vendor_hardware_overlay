@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
                 android:requiredSystemPropertyValue="begonia"
-		android:priority="131"
+		android:priority="141"
 		android:isStatic="true" />
 </manifest>
