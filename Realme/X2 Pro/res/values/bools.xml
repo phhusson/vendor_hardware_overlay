@@ -23,4 +23,7 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 </resources>
