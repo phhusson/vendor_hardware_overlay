@@ -130,3 +130,4 @@ quick_qs_offset_height
 wifi_tether_configure_ssid_default
 wifi_localhotspot_configure_ssid_default
 config_bluetooth_max_connected_audio_devices
+config_defaultPeakRefreshRate
