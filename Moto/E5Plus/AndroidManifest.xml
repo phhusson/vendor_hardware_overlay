@@ -8,7 +8,7 @@
 	-->
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.product.name"
-                android:requiredSystemPropertyValue="+*hannah_retail"
+                android:requiredSystemPropertyValue="hannah_retail"
 		android:priority="88"
 		android:isStatic="true" />
 </manifest>
