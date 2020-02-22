@@ -4,6 +4,6 @@
 	android:isStatic="true" 
 	android:priority="108" 
 	android:targetPackage="android"
-        android:requiredSystemPropertyName="ro.vendor.build.overlay.deviceid"
+        android:requiredSystemPropertyName="ro.build.overlay.deviceid"
 	android:requiredSystemPropertyValue="+RMX1931*" />
 </manifest>
