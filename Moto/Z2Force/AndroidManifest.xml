@@ -8,7 +8,7 @@
 	-->
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="motorola/nash/nash:8.0.0/OPXS27.109-34-10/5:user/release-keys"
+                android:requiredSystemPropertyValue="+*nash*"
 		android:priority="72"
 		android:isStatic="true" />
 </manifest>
