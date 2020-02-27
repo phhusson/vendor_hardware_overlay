@@ -5,12 +5,7 @@
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_carrier_volte_available">true</bool>
 	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-	<bool name="config_dozeAlwaysOnEnabled">false</bool>
 	<bool name="config_enableBurnInProtection">true</bool>
-	<bool name="config_quickScreenshotAvailable">false</bool>
-	<bool name="config_supportsMultiDisplay">true</bool>
-    <bool name="config_supportsMultiWindow">true</bool>
-    <bool name="config_supportsSplitScreenMultiWindow">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
 	<bool name="config_enableAutoPowerModes">true</bool>
 	<integer name="config_autoPowerModeAnyMotionSensor">30</integer>
@@ -117,8 +112,6 @@
 	<bool name="config_use_sim_language_file">true</bool>
 	<integer name="config_cameraLaunchGestureSensorType">65540</integer>
 	<string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
-	<string name="config_defaultDndAccessPackages">com.android.camera2:com.motorola.camera2:com.google.android.apps.wellbeing:com.motorola.cameraone:com.motorola.arselfie</string>
-	<string name="config_defaultTextClassifierPackage">com.google.android.as</string>
 	<integer name="config_multiuserMaximumUsers">4</integer>
 	<bool name="config_enableMultiUserUI">true</bool>
 	<bool name="config_pinnerCameraApp">false</bool>
@@ -134,10 +127,4 @@
 		<item>/system/framework/arm64/boot-telephony-common.oat</item>
 		<item>/system/framework/arm64/boot-telephony-common.vdex</item>
 	</string-array>
-
-	<!-- Smart charge sysfs node and value for suspend/resume charging-->
-	<string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/battery_charging_enabled</string>
-	<string name="config_SmartChargingSupspendValue" translatable="false">0</string>
-	<string name="config_SmartChargingResumeValue" translatable="false">1</string>
-	
 </resources>
