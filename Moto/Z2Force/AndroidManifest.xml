@@ -2,13 +2,10 @@
         package="me.phh.treble.overlay.moto.z2force"
         android:versionCode="1"
         android:versionName="1.0">
-	<!--
-		TESTS: Ignore ro.vendor.product.name
-		Same as G6 Plus
-	-->
+
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+*nash*"
-		android:priority="72"
+		android:priority="102"
 		android:isStatic="true" />
 </manifest>
