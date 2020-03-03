@@ -72,7 +72,7 @@
     <bool name="config_auto_attach_data_on_creation">true</bool>
     <bool name="config_bluetooth_hfp_inband_ringing_support">false</bool>
     <bool name="config_dozeAfterScreenOffByDefault">false</bool>
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_dozePulsePickup">false</bool>
     <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_enableBurnInProtection">false</bool>
