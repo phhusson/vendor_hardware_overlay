@@ -1,5 +1,6 @@
 config_useRoundIcon
 config_swipe_up_gesture_setting_available
+config_bluetooth_max_connected_audio_devices
 config_cameraDoubleTapPowerGestureEnabled
 config_doublePressOnPowerBehavior
 config_dozeComponent
