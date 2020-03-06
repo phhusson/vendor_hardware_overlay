@@ -7,5 +7,4 @@
 
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
-    <bool name="config_bluetooth_pan_enable_autoconnect">true</bool>
 </resources>
