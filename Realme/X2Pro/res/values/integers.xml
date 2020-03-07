@@ -2,4 +2,5 @@
 <resources>
     <integer name="config_screenBrightnessDoze">17</integer>
     <integer name="config_defaultPeakRefreshRate">90</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
 </resources>
