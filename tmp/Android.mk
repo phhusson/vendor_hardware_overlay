@@ -6,10 +6,20 @@ PACKAGES.phh-overrides.OVERRIDES := \
 	webview \
 	HTMLViewer
 
-ifeq ($(wildcard vendor/gapps),)
+ifneq ($(wildcard vendor/gapps),)
 PACKAGES.phh-overrides.OVERRIDES += \
 	WebViewGoogle \
 	RecorderPrebuilt \
+	NgaResources \
+	Photos \
+	WallpaperPickerGoogleRelease \
+	Music \
+	QuickSearchBox \
+	Traceur \
+	WellbeingPrebuilt \
+	TipsPrebuilt \
+	Turbo \
+	Browser2 \
 
 endif
 
