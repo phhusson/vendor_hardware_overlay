@@ -9,6 +9,7 @@ PACKAGES.phh-overrides.OVERRIDES := \
 ifeq ($(wildcard vendor/gapps),)
 PACKAGES.phh-overrides.OVERRIDES += \
 	WebViewGoogle \
+	RecorderPrebuilt \
 
 endif
 
