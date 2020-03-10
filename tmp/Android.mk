@@ -18,6 +18,7 @@ PACKAGES.phh-overrides.OVERRIDES += \
 	WellbeingPrebuilt \
 	TipsPrebuilt \
 	Turbo \
+	TurboPrebuilt \
 	Browser2 \
 
 endif
