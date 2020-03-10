@@ -8,7 +8,6 @@ PACKAGES.phh-overrides.OVERRIDES := \
 
 ifneq ($(wildcard vendor/gapps),)
 PACKAGES.phh-overrides.OVERRIDES += \
-	WebViewGoogle \
 	RecorderPrebuilt \
 	NgaResources \
 	Photos \
