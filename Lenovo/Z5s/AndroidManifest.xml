@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+Lenovo/jd2019*"
-		android:priority="47"
+		android:priority="172"
 		android:isStatic="true" />
 </manifest>
