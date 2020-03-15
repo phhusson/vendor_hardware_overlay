@@ -90,7 +90,6 @@
   <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
   <bool name="config_carrier_volte_available">true</bool>
   <bool name="config_carrier_wfc_ims_available">true</bool>
-  <bool name="config_cellBroadcastAppLinks">true</bool>
   <bool name="config_device_volte_available">true</bool>
   <bool name="config_device_vt_available">true</bool>
   <bool name="config_device_wfc_ims_available">true</bool>

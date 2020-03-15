@@ -3,7 +3,6 @@
     <bool name="config_auto_attach_data_on_creation">false</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
-    <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>

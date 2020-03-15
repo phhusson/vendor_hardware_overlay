@@ -51,7 +51,6 @@
   <integer name="config_cameraLaunchGestureSensorType">-1</integer>
   <bool name="config_carrier_volte_available">true</bool>
   <bool name="config_carrier_wfc_ims_available">false</bool>
-  <bool name="config_cellBroadcastAppLinks">true</bool>
   <array name="config_defaultPinnerServiceFiles"/>
   <bool name="config_device_volte_available">true</bool>
   <bool name="config_device_vt_available">true</bool>
