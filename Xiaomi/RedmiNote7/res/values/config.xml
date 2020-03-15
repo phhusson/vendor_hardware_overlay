@@ -108,5 +108,4 @@
     <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
     <integer name="config_autoBrightnessLightSensorRate">100</integer>
     <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
-    <integer name="config_screen_magnification_multi_tap_adjustment">-50</integer>
 </resources>

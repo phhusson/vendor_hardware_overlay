@@ -176,7 +176,6 @@
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
     <integer name="config_autoPowerModeAnyMotionSensor">0</integer>
     <integer name="config_bluetooth_idle_cur_ma">0</integer>
-    <integer name="config_bluetooth_max_connected_audio_devices">5</integer>
     <integer name="config_bluetooth_operating_voltage_mv">0</integer>
     <integer name="config_bluetooth_rx_cur_ma">0</integer>
     <integer name="config_bluetooth_tx_cur_ma">0</integer>
@@ -194,6 +193,5 @@
     <integer name="config_screenBrightnessSettingDefault">128</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">3</integer>
-    <integer name="config_screen_magnification_multi_tap_adjustment">-50</integer>
     <integer name="config_shutdownBatteryTemperature">600</integer>
 </resources>
