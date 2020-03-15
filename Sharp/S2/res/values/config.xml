@@ -79,6 +79,5 @@
 
     <!-- big ram -->
     <bool name="config_pinnerCameraApp">true</bool>
-    <integer name="config_multiuserMaximumUsers">4</integer>
 
 </resources>

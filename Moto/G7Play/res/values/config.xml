@@ -6,7 +6,6 @@
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
@@ -32,7 +31,6 @@
     <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
     <integer name="config_cameraLaunchGestureSensorType">65540</integer>
     <integer name="config_mobile_mtu">1410</integer>
-    <integer name="config_multiuserMaximumUsers">4</integer>
     <integer name="config_screenBrightnessDark">3</integer>
     <integer name="config_screenBrightnessDim">3</integer>
     <integer name="config_screenBrightnessDoze">17</integer>

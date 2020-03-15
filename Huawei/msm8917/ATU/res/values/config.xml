@@ -109,12 +109,6 @@
 	turned off and the screen off animation has been performed. -->
 	<bool name="config_dozeAfterScreenOff">true</bool>
 
-	<!--  Maximum number of supported users -->
-	<integer name="config_multiuserMaximumUsers">5</integer>
-
-	<!-- Whether UI for multi user should be shown -->
-	<bool name="config_enableMultiUserUI">false</bool>
-
 	<!-- Power Management: Specifies whether to decouple the auto-suspend state of the
 	device from the display on/off state.
 	When false, autosuspend_disable() will be called before the display is turned on

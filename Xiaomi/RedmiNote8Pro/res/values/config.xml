@@ -140,7 +140,6 @@
     <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_enableBurnInProtection">false</bool>
     <bool name="config_enableFusedLocationOverlay">false</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_enableNetworkLocationOverlay">false</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_hotswapCapable">true</bool>
@@ -183,7 +182,6 @@
     <integer name="config_cameraLaunchGestureSensorType">-1</integer>
     <integer name="config_lightSensorWarmupTime">0</integer>
     <integer name="config_mobile_mtu">1500</integer>
-    <integer name="config_multiuserMaximumUsers">4</integer>
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
     <integer name="config_previousVibrationsDumpLimit">50</integer>
     <integer name="config_screenBrightnessDark">1</integer>
