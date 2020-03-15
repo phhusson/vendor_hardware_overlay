@@ -105,16 +105,6 @@
 	<!-- Boolean indicating if current platform supports BLE peripheral mode -->
 	<bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
 
-	<!-- ComponentName of a dream to show whenever the system would otherwise have
-	gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
-	try to start this dream if possible.  The dream should typically call startDozing()
-	to put the display into a low power state and allow the application processor
-	to be suspended.  When the dream ends, the system will go to sleep as usual.
-	Specify the component name or an empty string if none.
-	Note that doze dreams are not subject to the same start conditions as ordinary dreams.
-	Doze dreams will run whenever the power manager is in a dozing state. -->
-	<string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-
 	<!-- If true, the doze component is not started until after the screen has been
 	turned off and the screen off animation has been performed. -->
 	<bool name="config_dozeAfterScreenOff">true</bool>

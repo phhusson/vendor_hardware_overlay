@@ -89,7 +89,6 @@
         <item>26</item>
     </integer-array>
     <string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <string name="config_ims_package">org.codeaurora.ims</string>
     <string name="config_mainBuiltInDisplayCutout">M -188,0 L -188,72 L 188,72 L 188,0 Z</string>
     <string-array name="config_gpsParameters">
