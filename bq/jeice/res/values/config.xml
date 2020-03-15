@@ -59,7 +59,6 @@
   <bool name="config_displayBlanksAfterDoze">false</bool>
   <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
   <bool name="config_dynamic_bind_ims">true</bool>
-  <bool name="config_enableAutoPowerModes">true</bool>
   <bool name="config_enableMultiUserUI">true</bool>
   <string-array name="config_gpsParameters">
     <item>SUPL_HOST=supl.google.com</item>
