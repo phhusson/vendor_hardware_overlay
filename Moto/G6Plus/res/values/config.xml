@@ -78,7 +78,6 @@
 
 	<bool name="config_dozeAfterScreenOff">true</bool>
 	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-	<bool name="config_cellBroadcastAppLinks">true</bool>
 
 	<integer name="config_mobile_mtu">1410</integer>
 	<bool name="config_speed_up_audio_on_mt_calls">true</bool>
