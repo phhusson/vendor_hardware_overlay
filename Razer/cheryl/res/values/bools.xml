@@ -10,7 +10,6 @@
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_enableFusedLocationOverlay">false</bool>
     <bool name="config_enableNetworkLocationOverlay">false</bool>
     <bool name="config_hotswapCapable">true</bool>

@@ -35,7 +35,6 @@ config_doublePressOnPowerBehavior
 config_dozeAfterScreenOffByDefault
 config_dozeAlwaysOnDisplayAvailable
 config_dynamic_bind_ims
-config_enableAutoPowerModes
 config_enableMultiUserUI
 config_gpsParameters
 config_hotswapCapable

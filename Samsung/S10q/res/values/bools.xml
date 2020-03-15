@@ -19,7 +19,6 @@
     <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_supportAudioSourceUnprocessed">false</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>

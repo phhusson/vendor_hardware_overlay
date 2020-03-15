@@ -100,7 +100,6 @@
   <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
   <bool name="config_dozePulsePickup">true</bool>
   <bool name="config_dynamic_bind_ims">true</bool>
-  <bool name="config_enableAutoPowerModes">true</bool>
   <bool name="config_enableBurnInProtection">true</bool>
   <bool name="config_enableFusedLocationOverlay">true</bool>
   <bool name="config_enableMultiUserUI">true</bool>

@@ -100,7 +100,6 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_enableNetworkLocationOverlay">true</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
     <integer name="config_multiuserMaximumUsers">5</integer>
