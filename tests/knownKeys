@@ -31,7 +31,6 @@ config_displayBlanksAfterDoze
 config_dozeAfterScreenOffByDefault
 config_dozeAlwaysOnDisplayAvailable
 config_dynamic_bind_ims
-config_enableMultiUserUI
 config_gpsParameters
 config_hotswapCapable
 config_ims_package
@@ -42,7 +41,6 @@ config_longPressVibePattern
 config_mainBuiltInDisplayCutout
 config_maximumScreenDimRatio
 config_mobile_mtu
-config_multiuserMaximumUsers
 config_nightDisplayAvailable
 config_overrideHasPermanentMenuKey
 config_pinnerCameraApp

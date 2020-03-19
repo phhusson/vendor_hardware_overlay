@@ -14,7 +14,6 @@
     <integer name="config_screenBrightnessDim">10</integer>
     <integer name="config_brightness_ramp_rate_fast">180</integer>
     <integer name="config_brightness_ramp_rate_slow">60</integer>
-    <integer name="config_multiuserMaximumUsers">5</integer>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">299.9939%</fraction>
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>

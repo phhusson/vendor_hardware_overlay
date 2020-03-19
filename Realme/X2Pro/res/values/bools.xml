@@ -6,7 +6,6 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_enableNetworkLocationOverlay">false</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>

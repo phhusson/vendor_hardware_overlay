@@ -106,8 +106,6 @@
 
 
 	<!-- big ram -->
-	<integer name="config_multiuserMaximumUsers">4</integer>
-	<bool name="config_enableMultiUserUI">true</bool>
 	<bool name="config_pinnerCameraApp">true</bool>
 	<string-array name="config_defaultPinnerServiceFiles">
 		<item>/system/framework/arm64/boot-framework.oat</item>

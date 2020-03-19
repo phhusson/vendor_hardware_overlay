@@ -102,8 +102,6 @@
 	<bool name="config_use_sim_language_file">true</bool>
 	<integer name="config_cameraLaunchGestureSensorType">-1</integer>
 	<string name="config_cameraLaunchGestureSensorStringType" />
-	<integer name="config_multiuserMaximumUsers">4</integer>
-	<bool name="config_enableMultiUserUI">true</bool>
 	<bool name="config_pinnerCameraApp">false</bool>
 	<string-array name="config_defaultPinnerServiceFiles">
 		<item>/system/framework/arm/boot-framework.oat</item>

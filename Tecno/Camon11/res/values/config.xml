@@ -104,5 +104,4 @@
     <integer name="config_screenBrightnessDark">3</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">6000</integer>
-    <integer name="config_multiuserMaximumUsers">4</integer>
 </resources>
