@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="config_autoBrightnessDisplayValuesNits" />
+    <style name="config_autoBrightnessLcdBacklightValues" />
+    <style name="config_autoBrightnessLevels" />
+    <style name="config_mobile_tcp_buffers" />
+    <style name="config_screenBrightnessBacklight" />
+    <style name="config_screenBrightnessNits" />
+    <style name="config_tether_usb_regexs" />
+    <style name="config_tether_wifi_regexs" />
+    <style name="networkAttributes" />
+</resources>
