@@ -18,6 +18,7 @@
 -->
 <resources>
     <dimen name="rounded_corner_radius">90px</dimen>
-    <dimen name="status_bar_height">87px</dimen>
+    <dimen name="status_bar_height">90px</dimen>
+    <dimen name="status_bar_height_portrait">90px</dimen>
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M -80,0 L -50,90 L 50,90 L 80,0 Z</string>
 </resources>
