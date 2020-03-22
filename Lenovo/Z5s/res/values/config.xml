@@ -44,8 +44,6 @@
         <item>NTP_SERVER=ntp1.aliyun.com</item>
     </string-array>
     
-
-    <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
@@ -59,7 +57,6 @@
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
@@ -74,7 +71,6 @@
     <bool name="config_dozeAfterScreenOffByDefault">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_dozePulsePickup">false</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_enableBurnInProtection">false</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
     <bool name="config_enableNetworkLocationOverlay">false</bool>
@@ -96,7 +92,6 @@
     <bool name="config_wifi_fast_bss_transition_enabled">false</bool>
     
     
-    <integer name="config_multiuserMaximumUsers">1</integer>
     <integer name="config_screenBrightnessDoze">17</integer>
   
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
@@ -114,8 +109,5 @@
     <integer name="config_screenBrightnessSettingDefault">102</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
-    <integer name="config_screen_magnification_multi_tap_adjustment">-50</integer>
-    
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <string name="config_ims_package">org.codeaurora.ims</string>
 </resources>
