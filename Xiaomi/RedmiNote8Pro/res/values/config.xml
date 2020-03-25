@@ -139,8 +139,8 @@
     <bool name="config_dozePulsePickup">false</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_enableBurnInProtection">false</bool>
-    <bool name="config_enableFusedLocationOverlay">false</bool>
-    <bool name="config_enableNetworkLocationOverlay">false</bool>
+    <bool name="config_enableFusedLocationOverlay">true</bool>
+    <bool name="config_enableNetworkLocationOverlay">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_intrusiveNotificationLed">false</bool>
