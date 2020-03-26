@@ -1,10 +1,10 @@
-<!-- Some tune-up variables -->
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Some tune-up variables -->
 <resources>
-    <bool name="config_bluetooth_hfp_inband_ringing_support">false</bool>
-    <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
-    <bool name="config_dozePulsePickup">false</bool>
+    <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+    <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
     <bool name="config_enableNetworkLocationOverlay">true</bool>
-    <bool name="config_supportDoubleTapWake">false</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
