@@ -133,7 +133,6 @@
     <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
     <bool name="config_enableNetworkLocationOverlay">true</bool>
-    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_lidControlsSleep">true</bool>
     <bool name="config_nightDisplayAvailable">true</bool>
