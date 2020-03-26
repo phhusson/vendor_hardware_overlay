@@ -3,14 +3,12 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_enableFusedLocationOverlay">false</bool>
     <bool name="config_enableNetworkLocationOverlay">false</bool>
     <bool name="config_hotswapCapable">true</bool>

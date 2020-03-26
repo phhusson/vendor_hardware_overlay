@@ -3,7 +3,6 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
-    <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_wifi_dual_band_support">false</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
@@ -16,10 +15,8 @@
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_supportAudioSourceUnprocessed">false</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>

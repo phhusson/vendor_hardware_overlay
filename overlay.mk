@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-DUK \
 	treble-overlay-huawei-EML \
 	treble-overlay-huawei-LLD \
+	treble-overlay-huawei-PIC \
 	treble-overlay-huawei-PRA \
 	treble-overlay-huawei-RNE \
 	treble-overlay-huawei-STF \
@@ -42,6 +43,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6play \
 	treble-overlay-moto-g6plus \
+	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
 	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-ctl \
@@ -51,12 +53,15 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6t \
 	treble-overlay-oneplus-op6t-systemui \
 	treble-overlay-razer-cheryl \
+	treble-overlay-realme-x2pro \
+	treble-overlay-samsung-a50 \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9-systemui \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon-11 \
+	treble-overlay-umidigi-power \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi6x \

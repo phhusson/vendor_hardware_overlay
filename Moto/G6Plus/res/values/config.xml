@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<bool name="config_enableAutoPowerModes">true</bool>
 	<integer name="config_autoPowerModeAnyMotionSensor">30</integer>
 	<bool name="config_wifi_dual_band_support">true</bool>
 	<bool name="config_wifi_fast_bss_transition_enabled">true</bool>
@@ -77,10 +76,8 @@
 	<bool name="skip_restoring_network_selection">true</bool>
 	<bool name="config_showNavigationBar">true</bool>
 
-	<string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 	<bool name="config_dozeAfterScreenOff">true</bool>
 	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-	<bool name="config_cellBroadcastAppLinks">true</bool>
 
 	<integer name="config_mobile_mtu">1410</integer>
 	<bool name="config_speed_up_audio_on_mt_calls">true</bool>
@@ -109,8 +106,6 @@
 
 
 	<!-- big ram -->
-	<integer name="config_multiuserMaximumUsers">4</integer>
-	<bool name="config_enableMultiUserUI">true</bool>
 	<bool name="config_pinnerCameraApp">true</bool>
 	<string-array name="config_defaultPinnerServiceFiles">
 		<item>/system/framework/arm64/boot-framework.oat</item>

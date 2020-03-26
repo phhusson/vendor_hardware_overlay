@@ -51,7 +51,6 @@
   <integer name="config_cameraLaunchGestureSensorType">-1</integer>
   <bool name="config_carrier_volte_available">true</bool>
   <bool name="config_carrier_wfc_ims_available">false</bool>
-  <bool name="config_cellBroadcastAppLinks">true</bool>
   <array name="config_defaultPinnerServiceFiles"/>
   <bool name="config_device_volte_available">true</bool>
   <bool name="config_device_vt_available">true</bool>
@@ -59,8 +58,6 @@
   <bool name="config_displayBlanksAfterDoze">false</bool>
   <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
   <bool name="config_dynamic_bind_ims">true</bool>
-  <bool name="config_enableAutoPowerModes">true</bool>
-  <bool name="config_enableMultiUserUI">true</bool>
   <string-array name="config_gpsParameters">
     <item>SUPL_HOST=supl.google.com</item>
     <item>SUPL_PORT=7276</item>
@@ -80,7 +77,6 @@
   </integer-array>
   <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
   <integer name="config_mobile_mtu">1500</integer>
-  <integer name="config_multiuserMaximumUsers">4</integer>
   <item type="bool" name="config_nightDisplayAvailable">true</item>
   <integer name="config_overrideHasPermanentMenuKey">0</integer>
   <bool name="config_pinnerCameraApp">false</bool>

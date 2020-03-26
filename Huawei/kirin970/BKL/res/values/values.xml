@@ -18,7 +18,6 @@
     <integer name="config_autoBrightnessLightSensorRate">300</integer>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
-    <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>

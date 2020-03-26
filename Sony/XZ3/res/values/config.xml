@@ -90,7 +90,6 @@
   <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
   <bool name="config_carrier_volte_available">true</bool>
   <bool name="config_carrier_wfc_ims_available">true</bool>
-  <bool name="config_cellBroadcastAppLinks">true</bool>
   <bool name="config_device_volte_available">true</bool>
   <bool name="config_device_vt_available">true</bool>
   <bool name="config_device_wfc_ims_available">true</bool>
@@ -100,10 +99,8 @@
   <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
   <bool name="config_dozePulsePickup">true</bool>
   <bool name="config_dynamic_bind_ims">true</bool>
-  <bool name="config_enableAutoPowerModes">true</bool>
   <bool name="config_enableBurnInProtection">true</bool>
   <bool name="config_enableFusedLocationOverlay">true</bool>
-  <bool name="config_enableMultiUserUI">true</bool>
   <bool name="config_enableNetworkLocationOverlay">false</bool>
   <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
   <bool name="config_hotswapCapable">true</bool>
@@ -146,7 +143,6 @@
   <integer name="config_cameraLaunchGestureSensorType">-1</integer>
   <integer name="config_lightSensorWarmupTime">0</integer>
   <integer name="config_mobile_mtu">1500</integer>
-  <integer name="config_multiuserMaximumUsers">4</integer>
   <integer name="config_screenBrightnessDark">1</integer>
   <integer name="config_screenBrightnessDim">10</integer>
   <integer name="config_screenBrightnessDoze">17</integer>

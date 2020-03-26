@@ -93,17 +93,13 @@
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
-    <bool name="config_enableMultiUserUI">false</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_enableNetworkLocationOverlay">true</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
-    <integer name="config_multiuserMaximumUsers">5</integer>
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">6000</integer>
