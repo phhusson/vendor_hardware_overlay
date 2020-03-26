@@ -1,3 +1,4 @@
+<!-- Some tune-up variables -->
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_bluetooth_hfp_inband_ringing_support">false</bool>
