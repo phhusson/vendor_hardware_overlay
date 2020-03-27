@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
+	treble-overlay-huawei-ARE \
 	treble-overlay-huawei-ATU \
 	treble-overlay-huawei-AUM \
 	treble-overlay-huawei-BKL \
