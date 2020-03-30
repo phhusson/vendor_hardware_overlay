@@ -80,51 +80,11 @@
         <item>/system/framework/arm/boot.vdex</item>
         <item>/system/framework/arm/boot-framework.vdex</item>
     </string-array>
-    <string-array name="config_locationProviderPackageNames">
-        <item>com.google.android.gms</item>
-        <item>com.android.location.fused</item>
-    </string-array>
+
     <string-array name="config_ephemeralResolverPackage">
         <item>com.google.android.gms</item>
     </string-array>
-    <string-array name="config_nonBlockableNotificationPackages">
-        <item>com.google.android.setupwizard</item>
-        <item>com.google.android.apps.restore</item>
-        <item>com.android.launcher3</item>
-    </string-array>
-    <string-array name="vendor_required_apps_managed_device">
-        <item>com.android.vending</item>
-        <item>com.google.android.gms</item>
-        <item>com.google.android.contacts</item>
-        <item>com.google.android.googlequicksearchbox</item>
-        <item>com.google.android.launcher</item>
-        <item>com.android.launcher</item>
-        <item>com.google.android.dialer</item>
-        <item>com.google.android.apps.messaging</item>
-        <item>com.google.android.setupwizard</item>
-    </string-array>
-    <string-array name="vendor_required_apps_managed_profile">
-        <item>com.android.vending</item>
-        <item>com.google.android.gms</item>
-        <item>com.google.android.contacts</item>
-    </string-array>
-    <string-array name="vendor_required_apps_managed_user">
-        <item>com.android.vending</item>
-        <item>com.google.android.gms</item>
-        <item>com.google.android.contacts</item>
-        <item>com.google.android.googlequicksearchbox</item>
-        <item>com.google.android.launcher</item>
-        <item>com.android.launcher</item>
-        <item>com.google.android.dialer</item>
-        <item>com.google.android.apps.messaging</item>
-    </string-array>
-    <string-array name="fingerprint_acquired_vendor">
-        <item>AGOLD</item>
-        <item>Wait finger touch</item>
-        <item></item>
-        <item></item>
-        <item>Time out</item>
-        <item>Finger duplicate</item>
-        <item>Area duplicate</item>
-    </string-array>
+
+   
+
 </resources>

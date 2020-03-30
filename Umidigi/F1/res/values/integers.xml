@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
-    <integer name="config_multiuserMaximumUsers">4</integer>
-    <integer name="config_longPressOnHomeBehavior">2</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
 </resources>

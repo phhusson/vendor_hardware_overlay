@@ -10,17 +10,11 @@
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
-    <bool name="config_unplugTurnsOnScreen">true</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
-    <bool name="config_enableNetworkLocationOverlay">true</bool>
+     <bool name="config_enableNetworkLocationOverlay">true</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
-    <bool name="config_enableGeocoderOverlay">true</bool>
-    <bool name="config_enableGeofenceOverlay">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
-    <bool name="config_useRoundIcon">true</bool>
-</resources>
+    </resources>
