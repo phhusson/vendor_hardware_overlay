@@ -61,10 +61,6 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
-    <bool name="config_carrier_volte_available">false</bool>
-    <bool name="config_device_volte_available">false</bool>
-    <bool name="config_device_vt_available">false</bool>
-    <bool name="config_device_wfc_ims_available">false</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_lidControlsSleep">true</bool>
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
