@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon-11 \
 	treble-overlay-umidigi-power \
+    treble-overlay-umidigi-f1 \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi6x \
