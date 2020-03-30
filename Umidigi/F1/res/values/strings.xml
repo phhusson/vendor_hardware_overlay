@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="config_ims_package">com.mediatek.ims</string>
+  <string name="config_mainBuiltInDisplayCutout">M82,0H-82V23.58l1,.94C-56.9,47.9-46,80-2,80S52.9,51.38,77,28c1.6-1.56,3.27-3,5-4.42Z</string>
+  
+
+</resources>
