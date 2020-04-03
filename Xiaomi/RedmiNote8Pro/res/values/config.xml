@@ -153,7 +153,7 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_speed_up_audio_on_mt_calls">false</bool>
     <bool name="config_supportAudioSourceUnprocessed">false</bool>
-    <bool name="config_supportDoubleTapWake">false</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="config_supportSystemNavigationKeys">false</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">false</bool>
