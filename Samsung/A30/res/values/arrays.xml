@@ -329,7 +329,6 @@
         <item>253</item>
         <item>254</item>
         <item>255</item>
-        <item>365</item>
     </integer-array>
     <integer-array name="config_screenBrightnessNits">
         <item>2</item>
