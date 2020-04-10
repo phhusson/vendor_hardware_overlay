@@ -329,7 +329,6 @@
         <item>253</item>
         <item>254</item>
         <item>255</item>
-        <item>365</item>
     </integer-array>
     <integer-array name="config_screenBrightnessNits">
         <item>2</item>
@@ -588,7 +587,6 @@
         <item>417</item>
         <item>419</item>
         <item>420</item>
-        <item>600</item>
     </integer-array>
     <string-array name="config_tether_usb_regexs">
         <item>rndis0</item>
