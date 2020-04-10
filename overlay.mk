@@ -46,10 +46,12 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g6plus \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
-	treble-overlay-nokia-PL2 \
-	treble-overlay-nokia-b2n \
-	treble-overlay-nokia-ctl \
-	treble-overlay-nokia-drg \
+	treble-overlay-nokia-b2n-7plus \
+	treble-overlay-nokia-ctl-7.1 \
+	treble-overlay-nokia-drg-6.1plus-x6 \
+	treble-overlay-nokia-pl2-6.1 \
+	treble-overlay-nokia-pnx-8.1-x7 \
+	treble-overlay-nokia-pnx-8.1-x7-systemui \
 	treble-overlay-nubia-z18mini \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-oneplus-op6t \
