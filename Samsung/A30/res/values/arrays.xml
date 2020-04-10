@@ -587,7 +587,6 @@
         <item>417</item>
         <item>419</item>
         <item>420</item>
-        <item>600</item>
     </integer-array>
     <string-array name="config_tether_usb_regexs">
         <item>rndis0</item>
