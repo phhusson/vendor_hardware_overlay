@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g6plus \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
+	treble-overlay-nokia-PL2 \
 	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-ctl \
 	treble-overlay-nokia-drg \
