@@ -22,7 +22,6 @@
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
-    <string name="config_ims_package">com.huawei.ims</string>
     <integer name="config_mobile_mtu">1400</integer>
     <integer name="config_screenBrightnessDark">4</integer>
     <integer name="config_screenBrightnessDim">6</integer>
