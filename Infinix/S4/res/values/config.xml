@@ -59,9 +59,6 @@
         <item>255</item>
         <item>255</item>
     </integer-array>
-    <string-array name="config_tether_usb_regexs">
-        <item>rndis\\d</item>
-    </string-array>
     <string-array name="config_tether_wifi_regexs">
         <item>ap\\d</item>
     </string-array>
