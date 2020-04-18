@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file contains misc non default vars -->
 <resources>
-    <bool name="config_device_volte_available">true</bool>
-    <bool name="config_device_vt_available">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_hotswapCapable">true</bool>    
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
