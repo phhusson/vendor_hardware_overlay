@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_animateScreenLights">false</bool>
+    <bool name="config_dynamic_automatic_brightness_available">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_tether_upstream_automatic">false</bool>
+    <bool name="config_ui_enableFadingMarquee">false</bool>
+    <bool name="config_unplugTurnsOnScreen">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">false</bool>
+    <bool name="config_wifi_background_scan_support">true</bool>
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+    <bool name="config_wifi_p2p_mac_randomization_supported">false</bool>
+    <bool name="config_wifi_softap_acs_supported">true</bool>
+</resources>
