@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
         	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
         	android:requiredSystemPropertyValue="+*samsung/a10*"
-		android:priority="256"
+		android:priority="152"
 		android:isStatic="true" />
 </manifest>
