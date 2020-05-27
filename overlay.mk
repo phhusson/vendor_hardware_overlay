@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-duoqin-qin2pro \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-htc-exodus1 \
+	treble-overlay-gestures \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
