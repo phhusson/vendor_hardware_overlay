@@ -95,8 +95,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-j6 \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-s10e \
+	treble-overlay-samsung-s9-systemui \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
+	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-teclast-m30 \
