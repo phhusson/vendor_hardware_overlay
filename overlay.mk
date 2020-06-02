@@ -15,8 +15,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-devinputjack \
 	treble-overlay-duoqin-qin2pro \
 	treble-overlay-essential-ph_1 \
+	treble-overlay-essential-ph-1 \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-gestures \
+	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
@@ -52,6 +54,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
 	treble-overlay-moto-one \
+	treble-overlay-moto-one-action \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-b2n-7plus \
