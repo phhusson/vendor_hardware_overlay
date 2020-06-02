@@ -5,7 +5,11 @@ cd "$base" || exit
 
 #Usage: fail <file> <message> [ignore string]
 fail() {
-	if [ -z "$3" ] || ! grep -qF "$3" "$1";then
+    ignoreCheckPath="$1"
+    if [ -d "$ignoreCheckPath" ];then
+        ignoreCheckPath="$1/AndroidManifest.xml"
+    fi
+	if [ -z "$3" ] || ! grep -qF "$3" "$ignoreCheckPath";then
 		echo "Fatal: $1: $2"
 		touch fail
 	else
@@ -21,7 +25,7 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 	#Ensure this overlay doesn't override blacklist-ed properties
 	cat tests/blacklist |while read -r b;do
 		if grep -qRF "\"$b\"" "$folder";then
-			fail "$folder" "Overlay $folder is defining $b which is forbidden"
+			fail "$folder" "Overlay $folder is defining $b which is forbidden" "SUPER OVERLAY"
 		fi
 	done
 
