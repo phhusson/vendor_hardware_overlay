@@ -2,6 +2,7 @@
         package="me.phh.treble.overlay.gestures"
         android:versionCode="1"
         android:versionName="1.0">
+    <!-- SUPER OVERLAY -->
         <overlay android:targetPackage="android"
             android:priority="933"
             android:isStatic="true" />
