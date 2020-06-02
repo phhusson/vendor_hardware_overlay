@@ -4,7 +4,6 @@
     <bool name="config_dozePulsePickup">true</bool>
 	<bool name="config_automatic_brightness_available">true</bool>
 
-    <dimen name="status_bar_height">86px</dimen>
     <dimen name="status_bar_height_portrait">86px</dimen>
     <dimen name="status_bar_height_landscape">24dp</dimen>
     <dimen name="rounded_corner_radius_top">110.0px</dimen>
