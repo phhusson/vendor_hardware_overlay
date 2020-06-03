@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+Nokia/Onyx*"
-		android:priority="48"
+		android:priority="95"
 		android:isStatic="true" />
 </manifest>

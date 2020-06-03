@@ -13,7 +13,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
-	treble-overlay-essential-ph-1 \
+	treble-overlay-essential-ph_1 \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
@@ -33,8 +33,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-STF \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
-	treble-overlay-huawei-telephony \
+	treble-overlay-hw-ims \
 	treble-overlay-infinix-note5 \
+	treble-overlay-infinix-s4 \
+	treble-overlay-infinix-zero6 \
 	treble-overlay-lenovo-k5pro \
 	treble-overlay-lenovo-s5 \
 	treble-overlay-lenovo-z5 \
@@ -47,8 +49,13 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g6plus \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
+	treble-overlay-moto-one \
+	treble-overlay-mtk-ims \
+	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-b2n-7plus \
-	treble-overlay-nokia-ctl-7.1 \
+	treble-overlay-nokia-ctl \
+	treble-overlay-nokia-ctl-7-1 \
+	treble-overlay-nokia-drg \
 	treble-overlay-nokia-drg-6.1plus-x6 \
 	treble-overlay-nokia-pl2-6.1 \
 	treble-overlay-nokia-pnx-8.1-x7 \
@@ -59,6 +66,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6t-systemui \
 	treble-overlay-razer-cheryl \
 	treble-overlay-realme-x2pro \
+	treble-overlay-samsung-S10pq \
+	treble-overlay-samsung-S10q \
 	treble-overlay-samsung-a30 \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
@@ -67,7 +76,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-teclast-m30 \
-	treble-overlay-tecno-camon-11 \
+	treble-overlay-tecno-camon11 \
 	treble-overlay-umidigi-power \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
@@ -93,6 +102,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi6pro \
 	treble-overlay-xiaomi-redmi7a \
 	treble-overlay-xiaomi-redmi7onc \
+	treble-overlay-xiaomi-redmi8a \
 	treble-overlay-xiaomi-redmigo \
 	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redminote5 \
