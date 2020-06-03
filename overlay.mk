@@ -15,8 +15,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-devinputjack \
 	treble-overlay-duoqin-qin2pro \
 	treble-overlay-essential-ph_1 \
-	treble-overlay-essential-ph-1 \
-	treble-overlay-htc-exodus1 \
 	treble-overlay-gestures \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
@@ -56,12 +54,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
 	treble-overlay-mtk-ims \
-	treble-overlay-nokia-b2n \
 	treble-overlay-nokia-b2n-7plus \
-	treble-overlay-nokia-ctl \
 	treble-overlay-nokia-ctl-7-1 \
-	treble-overlay-nokia-drg \
 	treble-overlay-nokia-drg-6.1plus-x6 \
+	treble-overlay-nokia-nokia_4_2 \
 	treble-overlay-nokia-pl2-6.1 \
 	treble-overlay-nokia-pnx-8.1-x7 \
 	treble-overlay-nokia-pnx-8.1-x7-systemui \
