@@ -2,13 +2,13 @@
 <resources>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_showNavigationBar">true</bool>
-    
+
     <dimen name="status_bar_height_portrait">111.5px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dip</dimen>
-    
+    <dimen name="status_bar_height_landscape">28dp</dimen>
+
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
-    
+
     <integer name="config_screenBrightnessDark">1</integer>
     <integer name="config_screenBrightnessDim">12</integer>
     <integer name="config_screenBrightnessDoze">1</integer>
@@ -18,7 +18,7 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
     <integer name="config_brightness_ramp_rate_fast">180</integer>
     <integer name="config_brightness_ramp_rate_slow">60</integer>
-    
+
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
         <item>5</item>
@@ -624,7 +624,7 @@
         <item>431</item>
         <item>447</item>
     </integer-array>
-    
+
     <!-- Samsung stock measurements, but converted from left-relative & dp to absolute & px -->
     <string name="config_mainBuiltInDisplayCutout">M -540,0 L -540,111.5 L -405.5,111.5 L -405.5,0 Z</string>
 </resources>
