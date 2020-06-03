@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-razer-cheryl \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-a30 \
+	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9-systemui \
