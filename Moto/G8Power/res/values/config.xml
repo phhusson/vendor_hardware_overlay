@@ -6,35 +6,20 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_pinnerCameraApp">true</bool>
-    <bool name="config_smart_battery_available">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
-    <color name="config_defaultNotificationColor">#ffff0000</color>
     <bool name="config_intrusiveNotificationLed">true</bool>
-    <bool name="config_intrusiveBatteryLed">true</bool>
-    <bool name="config_multiColorBatteryLed">false</bool>
-    <bool name="config_multiColorNotificationLed">false</bool>
-    <dimen name="config_dialogCornerRadius">6dp</dimen>
     <integer name="config_screenBrightnessDoze">17</integer>
-    <bool name="config_allowAllRotations">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <bool name="config_dozeAfterScreenOffByDefault">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_dozeAlwaysOnDisplayEnabledDefault">false</bool>
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
     <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_cellBroadcastAppLinks">true</bool>
-    <bool name="config_button_brightness_support">true</bool>
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
     <bool name="config_carrier_wfc_ims_available">true</bool>
-    <bool name="config_carrier_volte_tty_supported">true</bool>
 
     <bool name="config_hotswapCapable">true</bool>
 
@@ -44,27 +29,17 @@
     <bool name="config_supportSystemNavigationKeys">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
-    <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_batched_scan_supported">false</bool>
-     <bool name="config_enableWifiDisplay">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
-    <bool name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">true</bool>
-    <bool name="config_wifi_pmf_supported">true</bool>
-    <bool name="config_wifi_softap_acs_supported">true</bool>
-    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="skip_restoring_network_selection">true</bool>
-    <dimen name="config_viewConfigurationTouchSlop">16dp</dimen>
     <dimen name="status_bar_height">122px</dimen>
     <dimen name="status_bar_height_landscape">24dp</dimen>
     <dimen name="status_bar_height_portrait">122px</dimen>
-    <dimen name="status_bar_icon_size">24dp</dimen>
     <dimen name="quick_qs_offset_height">122px</dimen>
     <string name="config_mainBuiltInDisplayCutout">M -483,0 L -416,0 L -416,116 L -483,116 Z</string>
-
-    <integer name="config_multiuserMaximumUsers">4</integer>
 
     <integer name="config_screenBrightnessSettingDefault">55</integer>
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
@@ -84,9 +59,6 @@
         <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
         <item>GPS_LOCK=0</item>
     </string-array>
-    <string name="config_mms_user_agent">motog8power</string>
-    <string name="config_mms_user_agent_profile_url">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
-    <string name="config_wifi_tcp_buffers">524288,2097152,4194304,262144,524288,1048576</string>
     <string name="wifi_tether_configure_ssid_default">moto g(8) power</string>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
@@ -130,10 +102,6 @@
         <item>3000</item>
         <item>4000</item>
         <item>8000</item>
-    </integer-array>
-    <integer-array name="config_availableColorModes">
-        <item>1</item>
-        <item>2</item>
     </integer-array>
 
     <integer-array name="config_keyboardTapVibePattern">
@@ -191,12 +159,6 @@
         <item>360</item>
         <item>450</item>
     </array>
-    <integer-array name="config_scrollBarrierVibePattern">
-        <item>@null</item>
-        <item>15</item>
-        <item>30</item>
-        <item>15</item>
-    </integer-array>
     <string-array name="config_tether_bluetooth_regexs">
         <item>bnep\\d</item>
         <item>bt-pan</item>
