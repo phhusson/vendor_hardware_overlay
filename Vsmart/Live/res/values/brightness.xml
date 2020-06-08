@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Brightness. This file contains non default vars -->
+<resources>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+    <integer name="config_screenBrightnessSettingDefault">88</integer>
+    <integer name="config_screenBrightnessDark">5</integer>
+    
+    <!-- For faster FOD -->
+    <!-- Fast brightness animation ramp rate in brightness units per second-->
+    <integer translatable="false" name="config_brightness_ramp_rate_fast">10000</integer>
+    <!-- Slow brightness animation ramp rate in brightness units per second-->
+    <integer translatable="false" name="config_brightness_ramp_rate_slow">10000</integer>
+</resources>

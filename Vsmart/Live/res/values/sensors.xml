@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sensors. This file contains non default vars -->
+<resources>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <integer name="config_shutdownBatteryTemperature">600</integer>
+</resources>
