@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
+	treble-overlay-nokia-Deadpool_00WW \
 	treble-overlay-nokia-drg-6.1plus-x6 \
 	treble-overlay-nokia-pl2-6.1 \
 	treble-overlay-nokia-pnx-8.1-x7 \
