@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<!-- hardware features -->
     <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_supportSystemNavigationKeys">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
 	<bool name="config_automatic_brightness_available">true</bool>
 
+	<!-- screen configuration -->
     <dimen name="status_bar_height">86px</dimen>
     <dimen name="status_bar_height_portrait">86px</dimen>
-    <dimen name="status_bar_height_landscape">24dp</dimen>
+    <dimen name="status_bar_height_landscape">86px</dimen>
     <dimen name="rounded_corner_radius_top">110.0px</dimen>
     <dimen name="rounded_corner_radius_bottom">110.0px</dimen>
     <dimen name="notification_header_padding_top">10.0dip</dimen>
