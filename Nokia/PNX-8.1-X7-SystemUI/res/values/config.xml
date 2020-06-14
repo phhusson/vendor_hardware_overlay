@@ -16,13 +16,10 @@
 */
 -->
 <resources>
-<dimen name="rounded_corner_content_padding">24.0px</dimen>
-<dimen name="status_bar_padding_start">32.0px</dimen>
-<dimen name="status_bar_padding_end">24.0px</dimen>
-<dimen name="display_cutout_margin_consumption">50.0px</dimen>
-<dimen name="status_bar_clock_size">37.0px</dimen>
-<dimen name="qs_time_collapsed_size">37.0px</dimen>
-<dimen name="qs_time_expanded_size">37.0px</dimen>
-<dimen name="rounded_corner_radius_top">110.0px</dimen>
-<dimen name="rounded_corner_radius_bottom">110.0px</dimen>
+    <dimen name="display_cutout_margin_consumption">50.0px</dimen>
+    <dimen name="qs_time_collapsed_size">37.0px</dimen>
+    <dimen name="qs_time_expanded_size">37.0px</dimen>
+    <dimen name="rounded_corner_content_padding">24.0px</dimen>
+    <dimen name="rounded_corner_radius">110.0px</dimen>
+    <dimen name="status_bar_clock_size">37.0px</dimen>
 </resources>
