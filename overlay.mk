@@ -106,6 +106,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-XZ3 \
+	treble-overlay-sprd-ims \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-umidigi-A3S \
