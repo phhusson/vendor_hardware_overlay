@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="doze_brightness_sensor_type" translatable="false">xiaomi.sensor.aod</string>
+
+    <array name="config_doze_brightness_sensor_to_brightness">
+        <item>1</item> <!-- 0: N/A -->
+        <item>1</item> <!-- 1: N/A -->
+        <item>1</item> <!-- 2: N/A -->
+        <item>1</item> <!-- 3: Pocket -->
+        <item>1</item> <!-- 4: High brightness environment -->
+        <item>1</item> <!-- 5: Low brightness environment -->
+    </array>
+
+    <array name="config_doze_brightness_sensor_to_scrim_opacity">
+        <item>0</item> <!-- 0: N/A -->
+        <item>0</item> <!-- 1: N/A -->
+        <item>0</item> <!-- 2: N/A -->
+        <item>253</item> <!-- 3: Pocket -->
+        <item>0</item> <!-- 4: High brightness environment -->
+        <item>127</item> <!-- 5: Low brightness environment -->
+    </array>
+</resources>

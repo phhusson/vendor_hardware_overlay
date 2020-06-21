@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi8pro \
 	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mi9 \
+	treble-overlay-xiaomi-mi9-sysui \
 	treble-overlay-xiaomi-mi9se \
 	treble-overlay-xiaomi-mia2 \
 	treble-overlay-xiaomi-mia2lite \
