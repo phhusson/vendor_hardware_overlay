@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2017, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <dimen name="rounded_corner_radius_top">102.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">102.0px</dimen>
+    <dimen name="status_bar_height_portrait">73.0px</dimen>    
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M73,72 C34.5904014,71.9994844 10.2575195,71.9993984 0.00135404332,71.9997422 C-10.2556836,72.0000859 -34.5894683,72.0001719 -73,72 L-73,0 L73,0 L73,72 Z</string>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>    
+</resources>
