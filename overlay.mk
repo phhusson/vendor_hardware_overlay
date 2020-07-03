@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-devinputjack \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-htc-exodus1 \
+	treble-overlay-htc-u11plus \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
