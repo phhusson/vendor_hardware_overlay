@@ -4,6 +4,5 @@
     <integer name="config_bluetooth_operating_voltage_mv">3700</integer>
     <integer name="config_bluetooth_rx_cur_ma">20</integer>
     <integer name="config_bluetooth_tx_cur_ma">33</integer>
-    <integer name="config_multiuserMaximumUsers">4</integer>
     <integer name="config_screenBrightnessDoze">17</integer>
 </resources>
