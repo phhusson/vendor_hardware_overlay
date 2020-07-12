@@ -3,6 +3,5 @@
 <resources>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 </resources>
 
