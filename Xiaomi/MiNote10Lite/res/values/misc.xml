@@ -9,4 +9,6 @@
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
 	<bool name="config_supportDoubleTapWake">true</bool>
+	<bool name="config_intrusiveNotificationLed">true</bool>
+	<bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 </resources>

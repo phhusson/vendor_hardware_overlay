@@ -194,5 +194,9 @@
         <item>4000</item>
         <item>4500</item>
     </integer-array>
-        
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>    
 </resources>
