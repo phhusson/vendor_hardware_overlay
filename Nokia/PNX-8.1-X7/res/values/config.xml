@@ -4,8 +4,7 @@
     <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="config_supportSystemNavigationKeys">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
-    <bool name="config_automatic_brightness_available">true</bool>
-    <bool name="config_wifi_dual_band_support">true</bool>
+	<bool name="config_automatic_brightness_available">true</bool>
 
 	<!-- screen configuration -->
     <dimen name="status_bar_height">86px</dimen>
