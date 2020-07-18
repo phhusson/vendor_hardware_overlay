@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-teclast-m30 \
+	treble-overlay-teclast-p10hd \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-umidigi-power \
 	treble-overlay-webview \
