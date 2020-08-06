@@ -21,4 +21,6 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_dynamic_bind_ims">false</bool>
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
 </resources>
