@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H 49.25 V 41.25  H 0 V 0 Z @dp @left</string>
+    <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
+    <string name="wifi_localhotspot_configure_ssid_default">AndroidShare</string>
+</resources>

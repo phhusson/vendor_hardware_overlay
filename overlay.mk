@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redminote8pro \
 	treble-overlay-xiaomi-redmis2 \
-
+	treble-overlay-motorola-onevision \
 
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
