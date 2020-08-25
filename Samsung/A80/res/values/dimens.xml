@@ -28,6 +28,4 @@
     <dimen name="status_bar_height_portrait">77.0px</dimen>
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">25.0dip</dimen>
-    <dimen name="rounded_corner_content_padding">16dp</dimen>
-    <dimen name="system_icons_keyguard_padding_end">16dp</dimen>
 </resources>
