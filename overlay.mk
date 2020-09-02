@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
 	treble-overlay-moto-one \
+	treble-overlay-moto-onevision \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
@@ -110,7 +111,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redminote8pro \
 	treble-overlay-xiaomi-redmis2 \
-
 
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
