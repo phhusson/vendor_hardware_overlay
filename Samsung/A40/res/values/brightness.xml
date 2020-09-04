@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
     <integer name="config_screenBrightnessDim">15</integer>
     <integer name="config_screenBrightnessSettingDefault">128</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
