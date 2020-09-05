@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<resources>
+    <string-array name="config_mobile_tcp_buffers">
+        <item>lte:2097152,4194304,8388608,524288,1572864,2097152</item>
+        <item>lte_ca:2097152,4194304,8388608,4096,1048576,2097152</item>
+        <item>umts:4094,87380,1220608,4096,16384,1220608</item>
+        <item>hspa:4094,87380,1220608,4096,16384,1220608</item>
+        <item>hsupa:4094,87380,1220608,4096,16384,1220608</item>
+        <item>hsdpa:4094,87380,1220608,4096,16384,1220608</item>
+        <item>hspap:4094,87380,1220608,4096,16384,1220608</item>
+        <item>edge:4093,26280,35040,4096,16384,35040</item>
+        <item>gprs:4092,8760,11680,4096,8760,11680</item>
+        <item>evdo:4094,87380,524288,4096,16384,262144</item>
+    </string-array>
+<string translatable="false" name="config_mainBuiltInDisplayCutout">M-35.93,0C-29.26,0,-23.46,3.85,-22.46,9.56l.12.73a22.69,22.69,0,0,0,44.68,0l.12-.73C23.5,3.85,29.26,0,35.93,0Z @dp</string>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>10</item>
+        <item>80</item>
+        <item>162</item>
+        <item>190</item>
+        <item>255</item>
+    </integer-array>
+    <integer name="config_screenBrightnessSettingMinimum">0</integer>
+    <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+
+    <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
+         for debouncing the light sensor.  Different constants are used to debounce the light sensor
+         when adapting to brighter or darker environments.  This parameter controls how quickly
+         brightness changes occur in response to an observed change in light level that exceeds the
+         hysteresis threshold. -->
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+
+    <!-- Default screen brightness setting.
+         Must be in the range specified by minimum and maximum. -->
+    <integer name="config_screenBrightnessSettingDefault">128</integer>
+
+    <!-- Screen brightness used to dim the screen when the user activity
+         timeout expires.  May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDim">15</integer>
+
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">200%</fraction>
+    <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">true</bool>
+
+    <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
+         on the headphone/microphone jack. When false use the older uevent framework. -->
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <string-array translatable="false" name="config_tether_wifi_regexs">
+        <item>wlan0</item>
+        <item>wigig0</item>
+    </string-array>
+    <string-array translatable="false" name="config_tether_bluetooth_regexs">
+        <item>bnep\\d</item>
+        <item>bt-pan</item>
+    </string-array>
+</resources>
