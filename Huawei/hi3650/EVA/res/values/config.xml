@@ -207,6 +207,6 @@
     <bool name="config_dozePulsePickup">true</bool>
     
     <!-- AOSP blue light filter -->
-    <item type="bool" name="config_nightDisplayAvailable">@bool/config_setColorTransformAccelerated</item>
+    <bool name="config_nightDisplayAvailable">true</bool>
     
 </resources>
