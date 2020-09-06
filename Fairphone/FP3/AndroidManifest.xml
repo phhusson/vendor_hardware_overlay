@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+Fairphone/FP3*"
-                android:priority="164"
+                android:priority="173"
                 android:isStatic="true" />
 </manifest>
