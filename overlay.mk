@@ -50,7 +50,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g6plus \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
+	treble-overlay-moto-g8plus \
+	treble-overlay-moto-g8power \
 	treble-overlay-moto-one \
+	treble-overlay-moto-onehyper \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
