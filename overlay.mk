@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g6plus \
 	treble-overlay-moto-g7play \
 	treble-overlay-moto-g7power \
+	treble-overlay-moto-g8 \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
 	treble-overlay-mtk-ims \
