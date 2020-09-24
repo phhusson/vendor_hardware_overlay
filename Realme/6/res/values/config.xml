@@ -23,7 +23,7 @@
     <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
     <bool name="skip_restoring_network_selection">false</bool>
     <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">fasle</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
     <bool name="config_useDevInputEventForAudioJack">fasle</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">false</bool>
