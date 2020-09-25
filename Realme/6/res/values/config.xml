@@ -26,10 +26,10 @@
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">true</bool>
-    <bool name="config_supportAudioSourceUnprocessed">false</bool>
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">false</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
-    <bool name="config_wifi_background_scan_support">false</bool>
+    <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_batched_scan_supported">false</bool>
     <bool name="config_lidControlsSleep">false</bool>
     <bool name="config_device_volte_available">true</bool>
@@ -41,10 +41,10 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_enableBurnInProtection">false</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
     <integer name="config_shutdownBatteryTemperature">610</integer>
-    <integer name="config_screenBrightnessSettingMinimum">1</integer>
-    <integer name="config_screenBrightnessSettingDefault">44</integer>
+    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessDoze">2</integer>
     <integer name="config_screenBrightnessDark">2</integer>
