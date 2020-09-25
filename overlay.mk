@@ -14,6 +14,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
 	treble-overlay-essential-ph_1 \
+	treble-overlay-fairphone-fp3 \
+	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
 	treble-overlay-huawei-ANE \
@@ -109,8 +111,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redminote8pro \
 	treble-overlay-xiaomi-redmis2 \
- 	treble-overlay-htc-exodus1 \
-        treble-overlay-fairphone-fp3 \
 
 
 PRODUCT_PACKAGES += \
