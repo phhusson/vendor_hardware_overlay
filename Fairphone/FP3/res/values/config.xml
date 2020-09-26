@@ -450,7 +450,7 @@
         <item>NTP_SERVER=europe.pool.ntp.org</item>
         <item>#SUPL_HOST=supl.google.com</item>
         <item>#SUPL_PORT=7275</item>
-        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_VER=0x30000</item>
         <item>#SUPL_MODE=1</item>
         <item>#SUPL_ES=1</item>
         <item>#LPP_PROFILE=3</item>
