@@ -5,7 +5,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+motorola/kane_retail/kane_sprout*"
+                android:requiredSystemPropertyValue="+motorola/kane*/kane*"
 		android:priority="146"
 		android:isStatic="true" />
 </manifest>
