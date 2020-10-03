@@ -82,6 +82,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-umidigi-power \
+	treble-overlay-vsmart-live \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi6x \
@@ -125,4 +126,3 @@ PRODUCT_COPY_FILES += \
 	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav:system/bin/hw-fpnav \
 	vendor/hardware_overlay/Huawei/Fingerprint/hw-fpnav.dex:system/phh/hw-fpnav.dex \
 	vendor/hardware_overlay/Huawei/Fingerprint/fingerprint.kl:system/phh/huawei/fingerprint.kl \
-
