@@ -46,5 +46,4 @@
 	<integer name="config_screenBrightnessSettingDefault">88</integer>
 	<integer name="config_screenBrightnessSettingMinimum">1</integer>
 	<integer name="config_shutdownBatteryTemperature">600</integer>
-	<string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 </resources>
