@@ -23,13 +23,7 @@
         <value>6</value>
         <value>2</value>
     </array>
-    <item name="cpu.suspend">6.957</item>
-    <item name="cpu.idle">2.855</item>
-    <item name="cpu.active">17.757</item>
-    <item name="cpu.cluster_power.cluster0">6.478</item>
-    <item name="cpu.cluster_power.cluster1">6.141</item>
-    <item name="cpu.cluster_power.cluster2">3.141</item>
-    <array name="cpu.core_speeds.cluster0">
+    <array name="cpu.speeds.cluster0">
         <value>300000</value>
         <value>576000</value>
         <value>748800</value>
@@ -40,7 +34,7 @@
         <value>1593600</value>
         <value>1708800</value>
     </array>
-    <array name="cpu.core_speeds.cluster1">
+    <array name="cpu.speeds.cluster1">
         <value>300000</value>
         <value>652800</value>
         <value>768000</value>
@@ -53,7 +47,7 @@
         <value>1900800</value>
         <value>2016000</value>
     </array>
-    <array name="cpu.core_power.cluster0">
+    <array name="cpu.active.cluster0">
         <value>42</value>
         <value>78</value>
         <value>98</value>
@@ -64,7 +58,7 @@
         <value>302</value>
         <value>358</value>
     </array>
-    <array name="cpu.core_power.cluster1">
+    <array name="cpu.active.cluster1">
         <value>34</value>
         <value>76</value>
         <value>108</value>
@@ -82,7 +76,6 @@
         <value>22.7</value>
     </array>
     <item name="battery.capacity">4000</item>
-    <item name="battery.low.volt">3100</item>
     <item name="wifi.controller.idle">0</item>
     <item name="wifi.controller.rx">0</item>
     <item name="wifi.controller.tx">0</item>
@@ -95,7 +88,6 @@
         <value>.2</value>
         <value>2</value>
     </array>
-    <item name="aod.active">35</item>
     <item name="modem.controller.sleep">0</item>
     <item name="modem.controller.idle">0</item>
     <item name="modem.controller.rx">0</item>
@@ -112,10 +104,5 @@
         <value>0</value>
     </array>
     <item name="gps.voltage">0</item>
-    <item name="bluetooth.active">4.5</item>
-    <item name="bluetooth.on">4.8</item>
-    <item name="bluetooth.controller.voltage">3300</item>
-    <item name="aod.active">35</item>
-    <item name="fod.active">20</item>
-    <item name="face.active">400</item>
 </device>
+
