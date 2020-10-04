@@ -17,6 +17,7 @@
 	<bool name="config_dozeAfterScreenOff">true</bool>
 	<bool name="config_dozeAfterScreenOffByDefault">true</bool>
 	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+	<bool name="config_displayBlanksAfterDoze">true</bool>
 	<bool name="config_enableBurnInProtection">true</bool>
 	<bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
