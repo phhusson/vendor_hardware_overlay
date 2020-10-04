@@ -19,16 +19,15 @@
 	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 	<bool name="config_dozePulsePickup">false</bool>
 	<bool name="config_displayBlanksAfterDoze">true</bool>
-	<bool name="config_enableBurnInProtection">true</bool>
 	<bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-	<bool name="config_supportDoubleTapWake">true</bool>
 	<bool name="config_device_vt_available">true</bool>
 	<bool name="config_device_wfc_ims_available">true</bool>
 	<bool name="config_enableNetworkLocationOverlay">true</bool>
 	<bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 	<bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 	<bool name="config_useDevInputEventForAudioJack">true</bool>
+	<dimen name="rounded_corner_radius">110.0px</dimen>
 	<fraction name="config_autoBrightnessAdjustmentMaxGamma">200.0%</fraction>
 	<fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
 	<integer name="config_screenBrightnessDoze">50</integer>
