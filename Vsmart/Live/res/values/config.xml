@@ -17,7 +17,6 @@
 	<bool name="config_dozeAfterScreenOff">true</bool>
 	<bool name="config_dozeAfterScreenOffByDefault">true</bool>
 	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-	<bool name="config_dozeAlwaysOnEnabled">true</bool>
 	<bool name="config_enableBurnInProtection">true</bool>
 	<bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
@@ -30,11 +29,6 @@
 	<bool name="config_useDevInputEventForAudioJack">true</bool>
 	<fraction name="config_autoBrightnessAdjustmentMaxGamma">200.0%</fraction>
 	<fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
-	<integer name="config_burnInProtectionMaxHorizontalOffset">15</integer>
-	<integer name="config_burnInProtectionMaxRadius">-1</integer>
-	<integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
-	<integer name="config_burnInProtectionMinHorizontalOffset">-15</integer>
-	<integer name="config_burnInProtectionMinVerticalOffset">-40</integer>
 	<integer name="config_screenBrightnessDoze">50</integer>
 	<integer name="config_bluetooth_idle_cur_ma">3</integer>
 	<integer name="config_bluetooth_operating_voltage_mv">3700</integer>
@@ -47,3 +41,4 @@
 	<integer name="config_screenBrightnessSettingMinimum">1</integer>
 	<integer name="config_shutdownBatteryTemperature">600</integer>
 </resources>
+
