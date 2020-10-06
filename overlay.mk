@@ -147,3 +147,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9pro \
 	treble-overlay-xiaomi-redminote9promax \
+	treble-overlay-doogee-y8 \
+
+
