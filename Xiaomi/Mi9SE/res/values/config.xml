@@ -643,4 +643,7 @@
        scan and wake the host when a configured SSID is detected by the dongle. This chipset
        capability can provide power savings when wifi needs to be always kept on. -->
   <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
+
+    <!-- Boolean indicating if current platform supports BLE peripheral mode -->
+  <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
 </resources>
