@@ -628,4 +628,11 @@
        May be less than the minimum allowed brightness setting
        that can be set by the user. -->
   <integer name="config_screenBrightnessDoze">25</integer>
+
+    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+  <integer-array name="config_availableColorModes">
+    <item>0</item> <!-- COLOR_MODE_NATURAL -->
+    <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+    <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+  </integer-array>
 </resources>
