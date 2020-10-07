@@ -660,4 +660,9 @@
   <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
        in hardware. -->
   <bool name="config_setColorTransformAccelerated">true</bool>
+
+    <!-- Whether UI for multi user should be shown -->
+  <bool name="config_enableMultiUserUI">true</bool>
+  <!--  Maximum number of supported users -->
+  <integer name="config_multiuserMaximumUsers">4</integer>
 </resources>
