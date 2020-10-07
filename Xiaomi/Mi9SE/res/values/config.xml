@@ -654,4 +654,10 @@
   <!-- If true, the doze component is not started until after the screen has been
        turned off and the screen off animation has been performed. -->
   <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+
+    <!-- Enable Night display, which requires HWC 2.0. -->
+  <bool name="config_nightDisplayAvailable">true</bool>
+  <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+       in hardware. -->
+  <bool name="config_setColorTransformAccelerated">true</bool>
 </resources>
