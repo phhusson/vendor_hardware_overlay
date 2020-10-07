@@ -661,14 +661,9 @@
        in hardware. -->
   <bool name="config_setColorTransformAccelerated">true</bool>
 
-    <!-- Whether UI for multi user should be shown -->
-  <bool name="config_enableMultiUserUI">true</bool>
-  <!--  Maximum number of supported users -->
-  <integer name="config_multiuserMaximumUsers">4</integer>
-
     <!-- Flag specifying whether VoLTE is available on device -->
   <bool name="config_device_volte_available">true</bool>
   <!-- ImsService package name to bind to by default. If none is specified in an overlay, an
-       empty string is passed in -->
+       empty string is passed in -->ea8076
   <string name="config_ims_package">org.codeaurora.ims</string>
 </resources>
