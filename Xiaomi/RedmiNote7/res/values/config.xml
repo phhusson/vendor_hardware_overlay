@@ -3,124 +3,76 @@
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
-     <array name="config_autoBrightnessButtonBacklightValues" />
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
-        <item>6</item>
-        <item>6</item>
-        <item>6</item>
-        <item>6</item>
-        <item>15</item>
-        <item>25</item>
-        <item>39</item>
-        <item>48</item>
-        <item>64</item>
-        <item>80</item>
-        <item>88</item>
-        <item>88</item>
-        <item>92</item>
-        <item>98</item>
-        <item>114</item>
-        <item>124</item>
-        <item>132</item>
-        <item>142</item>
-        <item>178</item>
-        <item>196</item>
-        <item>222</item>
-        <item>344</item>
-        <item>407</item>
-        <item>482</item>
-        <item>497</item>
-    </integer-array>
-    <integer-array name="config_autoBrightnessGame">
-        <item>100</item>
-        <item>100</item>
-        <item>100</item>
-        <item>110</item>
-        <item>128</item>
-        <item>208</item>
-        <item>320</item>
-        <item>400</item>
-        <item>528</item>
-        <item>656</item>
-        <item>720</item>
-        <item>720</item>
-        <item>720</item>
-        <item>752</item>
-        <item>800</item>
-        <item>928</item>
-        <item>1008</item>
-        <item>1072</item>
-        <item>1152</item>
-        <item>1440</item>
-        <item>1584</item>
-        <item>1792</item>
-        <item>3328</item>
-        <item>3968</item>
-        <item>4095</item>
-    </integer-array>
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>48</item>
-        <item>48</item>
-        <item>48</item>
-        <item>48</item>
-        <item>128</item>
-        <item>208</item>
-        <item>320</item>
-        <item>400</item>
-        <item>528</item>
-        <item>656</item>
-        <item>720</item>
-        <item>720</item>
-        <item>720</item>
-        <item>752</item>
-        <item>800</item>
-        <item>928</item>
-        <item>1008</item>
-        <item>1072</item>
-        <item>1152</item>
-        <item>1440</item>
-        <item>1584</item>
-        <item>1792</item>
-        <item>3328</item>
-        <item>3968</item>
-        <item>4095</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>12</item>
+        <item>15</item>
+        <item>17</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>29</item>
+        <item>37</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>55</item>
+        <item>62</item>
+        <item>62</item>
+        <item>72</item>
+        <item>76</item>
+        <item>82</item>
+        <item>90</item>
+        <item>101</item>
+        <item>105</item>
+        <item>110</item>
+        <item>119</item>
+        <item>143</item>
+        <item>190</item>
+        <item>214</item>
+        <item>240</item>
+        <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
         <item>2</item>
+        <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
         <item>8</item>
-        <item>13</item>
-        <item>17</item>
-        <item>21</item>
-        <item>26</item>
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>18</item>
+        <item>22</item>
         <item>30</item>
-        <item>34</item>
-        <item>39</item>
-        <item>60</item>
-        <item>140</item>
-        <item>310</item>
+        <item>40</item>
+        <item>50</item>
+        <item>70</item>
+        <item>150</item>
+        <item>300</item>
         <item>400</item>
-        <item>500</item>
+        <item>520</item>
         <item>600</item>
-        <item>1000</item>
+        <item>700</item>
+        <item>900</item>
+        <item>1100</item>
         <item>1200</item>
+        <item>1300</item>
         <item>1500</item>
-        <item>3000</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>2800</item>
         <item>3500</item>
         <item>4000</item>
-    </integer-array>
-    <integer-array name="config_autoRotationTiltTolerance">
-        <item>-25</item>
-        <item>70</item>
-        <item>-25</item>
-        <item>65</item>
-        <item>-25</item>
-        <item>60</item>
-        <item>-25</item>
-        <item>65</item>
     </integer-array>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
