@@ -83,6 +83,5 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
     <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
-    <integer name="config_autoBrightnessShortTermModelTimeout">300000</integer>
     <integer name="config_bluetooth_operating_voltage_mv">0</integer>
 </resources>
