@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
+	treble-overlay-Elephone-Solider \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
