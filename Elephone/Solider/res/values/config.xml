@@ -24,7 +24,6 @@
         <item>mobile_vsim,28,0,-1,60000,true</item>
     </string-array>
     <array name="config_autoBrightnessButtonBacklightValues" />
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>8</item>
         <item>64</item>
@@ -76,7 +75,6 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-    <bool name="config_enableWifiDisplay">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
 	<string name="config_ims_package">com.mediatek.ims</string>
     <bool name="config_carrier_volte_available">true</bool>
