@@ -4,7 +4,7 @@
         android:versionName="10">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-		android:requiredSystemPropertyValue="+Elephone/Soldier/Soldier:8.0.0/O00623/20180823:user/release-keys*"
+		android:requiredSystemPropertyValue="+Elephone/Soldier/Soldier"
 		android:priority="174"
 		android:isStatic="true" />
 </manifest>
