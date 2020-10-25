@@ -7,7 +7,7 @@
 		Same as G6 Plus
 	-->
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.product.device"
+                android:requiredSystemPropertyName="ro.product.vendor.device"
                 android:requiredSystemPropertyValue="troika_sprout"
 		android:priority="536"
 		android:isStatic="true" />
