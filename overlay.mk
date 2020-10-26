@@ -111,6 +111,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-umidigi-A3S \
+	treble-overlay-telephony-caf-ims \
+	treble-overlay-telephony-mtk-ims \
+	treble-overlay-telephony-slsi-ims \
 	treble-overlay-umidigi-power \
 	treble-overlay-vsmart-live \
 	treble-overlay-webview \
