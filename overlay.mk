@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-asus-zenfone5 \
+	treble-overlay-asus-zenfone5-10 \
 	treble-overlay-asus-zenfone5z \
 	treble-overlay-asus-zenfonelivel1za550kl \
 	treble-overlay-asus-zenfonemaxm2 \
@@ -83,8 +84,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
 	treble-overlay-samsung-a51x \
-	treble-overlay-samsung-a80 \
 	treble-overlay-samsung-a60q \
+	treble-overlay-samsung-a80 \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9-systemui \
