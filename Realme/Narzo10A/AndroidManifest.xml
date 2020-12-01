@@ -5,5 +5,5 @@
 	android:priority="171" 
 	android:targetPackage="android"
         android:requiredSystemPropertyName="ro.build.overlay.deviceid"
-	android:requiredSystemPropertyValue="+RMX2020*" />
+	android:requiredSystemPropertyValue="+RMX2020" />
 </manifest>
