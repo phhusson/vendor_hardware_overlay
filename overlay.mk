@@ -93,7 +93,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-s10e \
-	treble-overlay-samsung-s9-systemui \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
 	treble-overlay-sec-ims \
