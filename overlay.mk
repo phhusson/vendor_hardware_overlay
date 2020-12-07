@@ -127,7 +127,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmis2 \
 
 
-
 PRODUCT_PACKAGES += \
 	hw-fpnav-daemon \
 
