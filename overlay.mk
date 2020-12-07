@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-umidigi-power \
+	treble-overlay-umidigi-A3S \
 	treble-overlay-vsmart-live \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
@@ -124,7 +125,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redminote8pro \
 	treble-overlay-xiaomi-redmis2 \
-	treble-overlay-umidigi-A3S \
+
 
 
 PRODUCT_PACKAGES += \
