@@ -89,6 +89,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon11 \
+	treble-overlay-umidigi-A3S \
 	treble-overlay-umidigi-power \
 	treble-overlay-vsmart-live \
 	treble-overlay-webview \
