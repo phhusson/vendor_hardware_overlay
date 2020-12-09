@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<StorageList
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <storage android:mountPoint="/storage/sdcard" android:primary="true" android:storageDescription="@string/storage_usb" />
-</StorageList>

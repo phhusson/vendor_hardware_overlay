@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<zen version="7">
-    <allow alarms="true" calls="true" callsFrom="2" events="false" media="true" messages="false" reminders="false" repeatCallers="true" system="false" />
-    <disallow visualEffects="511" />
-    <state areChannelsBypassingDnd="false" />
-</zen>

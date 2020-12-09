@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mms_user_agent">motoe6plus</string>
+    <string name="config_mms_user_agent_profile_url">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
+    <string name="config_ims_package">com.mediatek.ims</string>
+    <string name="config_wifi_framework_sap_2G_channel_list">0</string>
+    <string name="config_wifi_random_mac_oui">00-0C-E7</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
+    <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
+    <string name="config_defaultListenerAccessPackages">com.motorola.launcher3:com.android.launcher3:com.google.android.setupwizard:com.google.android.apps.restore</string>
+    <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
+    <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
+    <string name="config_defaultDndAccessPackages">com.android.camera2:com.google.android.apps.wellbeing</string>
+    <string name="harmful_app_warning_title">Play Protect warning</string>
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 L 88,0 L 88,58 L 0,58 L 0,0 Z</string>
+    <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+</resources>
