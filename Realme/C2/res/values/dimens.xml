@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_bar_height">44.0dip</dimen>
+    <dimen name="notification_header_padding_bottom">16.0dip</dimen>
+    <dimen name="quick_qs_offset_height">48.0dip</dimen>
+    <dimen name="rounded_corner_radius">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_bottom">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_top">0.0dip</dimen>
+    <dimen name="status_bar_height_portrait">32.0dip</dimen>
+</resources>

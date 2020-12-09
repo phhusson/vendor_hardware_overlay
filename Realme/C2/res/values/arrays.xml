@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="config_autoBrightnessButtonBacklightValues" />
+    <array name="config_autoBrightnessDisplayValuesNits" />
+	<integer-array name="config_defaultNotificationVibePattern">
+        <item>0</item>
+        <item>350</item>
+        <item>250</item>
+        <item>350</item>
+    </integer-array>
+    <array name="config_defaultPinnerServiceFiles" />
+    <array name="config_ephemeralResolverPackage" />
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>40</item>
+    </integer-array>
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>
+    <array name="config_mobile_tcp_buffers" />
+    <array name="config_screenBrightnessBacklight" />
+    <array name="config_screenBrightnessNits" />
+    <array name="config_tether_usb_regexs" />
+    <array name="config_tether_wifi_regexs" />
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,2,60000,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+    </string-array>
+</resources>
