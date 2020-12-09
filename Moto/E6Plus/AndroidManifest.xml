@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.moto.e6plus"
+        android:versionCode="1"
+        android:versionName="1.0">
+	<!--
+		TESTS: Ignore ro.vendor.product.name
+	-->
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.product.vendor.name"
+                android:requiredSystemPropertyValue="+*pokerp*"
+		android:priority="109"
+		android:isStatic="true" />
+</manifest>
