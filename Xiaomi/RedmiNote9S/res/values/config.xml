@@ -29,7 +29,6 @@
 	<bool name="config_primarycard">false</bool>
 	<bool name="config_smart_battery_available">false</bool>
 	<bool name="config_sms_authorization_enabled">false</bool>
-	<bool name="config_swipe_up_gesture_setting_available">true</bool>
 	<bool name="config_useDefaultFocusHighlight">false</bool>
 	<bool name="config_useDevInputEventForAudioJack">true</bool>
 	<bool name="config_useMasterVolume">false</bool>

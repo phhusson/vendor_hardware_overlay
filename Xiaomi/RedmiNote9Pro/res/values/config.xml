@@ -23,42 +23,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<bool name="config_dozeAfterScreenOffByDefault">true</bool>
 	<bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
-	<bool name="config_enableLockBeforeUnlockScreen">true</bool>
 	<bool name="config_hotswapCapable">true</bool>
 	<bool name="config_lidControlsSleep">true</bool>
-	<bool name="config_primarycard">false</bool>
-	<bool name="config_smart_battery_available">false</bool>
-	<bool name="config_sms_authorization_enabled">false</bool>
-	<bool name="config_swipe_up_gesture_setting_available">true</bool>
-	<bool name="config_useDefaultFocusHighlight">false</bool>
 	<bool name="config_useDevInputEventForAudioJack">true</bool>
-	<bool name="config_useMasterVolume">false</bool>
-	<bool name="config_useVolumeKeySounds">false</bool>
-	<bool name="config_user_notification_of_restrictied_mobile_access">false</bool>
-	<bool name="config_wifi_disconnect_only_on_initial_ipreachability">true</bool>
-	<bool name="config_wifi_dual_sap_mode_enabled">false</bool>
 	<bool name="config_wifi_enable_wifi_firmware_debugging">true</bool>
-	<bool name="config_wifi_framework_secondary_sta_supported">false</bool>
-	<bool name="config_wifi_report_he_ready">true</bool>
-	<bool name="config_wifi_softap_acs_should_exclude_dfs">true</bool>
-	<bool name="config_wifi_softap_ieee80211ax_supported">false</bool>
-	<bool name="config_wifi_wap3_sap_mode_enabled">false</bool>
-	<bool name="useImsAlwaysForEmergencyCall">false</bool>
-
-	<integer name="config_MaxConcurrentDownloadsAllowed">2</integer>
-	<integer name="config_attentionMaximumExtension">240000</integer>
-	<integer name="config_criticalBatteryWarningLevel">10</integer>
-	<integer name="config_downloadDataDirSize">256</integer>
-	<integer name="config_dozeWakeLockScreenDebounce">1500</integer>
-	<integer name="config_lowBatteryCloseWarningLevel">20</integer>
-	<integer name="config_lowMemoryWarningValue">700000</integer>
-	<integer name="config_releaseMemoryLimit">200000</integer>
-	<integer name="config_sms_authorization_timeout_ms">0</integer>
-	<integer name="config_virtualKeyQuietTimeMillis">100</integer>
-	<integer name="data_retry_delay">-1</integer>
-	<integer name="data_retry_idle_delay">-1</integer>
-	<integer name="resumeboost_timeout_param">300</integer>
-	<integer name="wifi_hotspot_security_type">6</integer>
 
     <string-array name="config_defaultPinnerServiceFiles">
         <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
@@ -108,49 +76,6 @@
         <item>0</item>
         <item>5</item>
         <item>7</item>
-    </integer-array>
-
-   <array name="config_wifi_dual_sap_interfaces" />
-
-    <string-array name="fingerprint_acquired_vendor">
-        <item>Try again</item>
-        <item></item>
-        <item></item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item></item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item>Cover the fingerprint scanner completely and apply pressure</item>
-        <item>"Too fast! Couldn't recognize fingerprint"</item>
-        <item>Move your finger a bit and try again</item>
-        <item>Lift your finger and put it back on the scanner again</item>
-        <item>Keep your finger on the scanner a bit longer</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>Move your finger slightly</item>
-        <item>This fingerprint has been added, use a different finger</item>
-    </string-array>
-
-    <integer-array name="low_lux_level">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
     </integer-array>
 
     <string-array name="networkAttributes">
