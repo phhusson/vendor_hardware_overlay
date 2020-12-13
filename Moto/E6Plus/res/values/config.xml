@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_autoRotationTiltTolerance">
+        <item>-25</item>
+        <item>70</item>
+        <item>-25</item>
+        <item>65</item>
+        <item>-25</item>
+        <item>60</item>
+        <item>-25</item>
+        <item>65</item>
+    </integer-array>
+    <array name="config_availableColorModes" />
+    <array name="config_batteryPackageTypeService" />
+    <string-array name="config_batteryPackageTypeSystem">
+        <item>com.android.providers.calendar</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <integer-array name="config_calendarDateVibePattern">
+        <item>125</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="config_callBarringMMI">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <string-array name="config_globalActionsList">
+        <item>power</item>
+        <item>restart</item>
+        <item>lockdown</item>
+        <item>logout</item>
+        <item>bugreport</item>
+        <item>screenshot</item>
+    </string-array>
+    <string-array name="config_gpsParameters">
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=1</item>
+        <item>LPP_PROFILE=0</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+    <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_minimumBrightnessCurveLux">
+        <item>0.0</item>
+        <item>2000.0</item>
+        <item>4000.0</item>
+    </array>
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>
+    <array name="config_mobile_hotspot_provision_app" />
+    <array name="config_mobile_tcp_buffers" />
+    <array name="config_networkNotifySwitches" />
+    <string-array name="config_nightDisplayColorTemperatureCoefficients">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.198650895</item>
+    </string-array>
+    <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.198650895</item>
+    </string-array>
+    <array name="config_nonBlockableNotificationPackages" />
+    <integer-array name="config_notificationFallbackVibePattern">
+        <item>0</item>
+        <item>100</item>
+        <item>150</item>
+        <item>100</item>
+    </integer-array>
+    <string-array name="config_notificationSignalExtractors">
+        <item>com.android.server.notification.NotificationChannelExtractor</item>
+        <item>com.android.server.notification.NotificationAdjustmentExtractor</item>
+        <item>com.android.server.notification.ValidateNotificationPeople</item>
+        <item>com.android.server.notification.PriorityExtractor</item>
+        <item>com.android.server.notification.ZenModeExtractor</item>
+        <item>com.android.server.notification.ImportanceExtractor</item>
+        <item>com.android.server.notification.NotificationIntrusivenessExtractor</item>
+        <item>com.android.server.notification.VisibilityExtractor</item>
+        <item>com.android.server.notification.BadgeExtractor</item>
+    </string-array>
+    <array name="config_oemUsbModeOverride" />
+    <integer-array name="config_protectedNetworks">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+    <array name="config_ringtoneEffectUris" />
+    <integer-array name="config_safeModeEnabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>500</item>
+        <item>600</item>
+    </integer-array>
+    <array name="config_screenBrightnessBacklight" />
+    <array name="config_screenBrightnessNits" />
+    <array name="config_screenBrightnessNits_1" />
+    <array name="config_screenBrightnessNits_2" />
+    <integer-array name="config_scrollBarrierVibePattern">
+        <item>0</item>
+        <item>15</item>
+        <item>10</item>
+        <item>10</item>
+    </integer-array>
+    <array name="config_serialPorts" />
+    <array name="config_sms_enabled_locking_shift_tables" />
+    <array name="config_sms_enabled_single_shift_tables" />
+   
+    <string-array name="config_system_condition_providers">
+        <item>countdown</item>
+        <item>schedule</item>
+        <item>event</item>
+    </string-array>
+    <array name="config_telephonyEuiccDeviceCapabilities" />
+    <string-array name="config_telephonyHardware">
+        <item>0,modem,0,0,0,1,1,1</item>
+        <item>1,sim,0,modem</item>
+    </string-array>
+    <array name="config_testLocationProviders" />
+    <array name="config_tether_apndata" />
+    <array name="config_tether_bluetooth_regexs" />
+    <array name="config_tether_dhcp_range" />
+    <integer-array name="config_tether_upstream_types">
+        <item>1</item>
+        <item>7</item>
+        <item>0</item>
+    </integer-array>
+    <array name="config_tether_usb_regexs" />
+    <array name="config_tether_wifi_regexs" />
+    <array name="config_tether_wimax_regexs" />
+    <array name="config_twoDigitNumberPattern" />
+    <array name="config_usbHostBlacklist" />
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="config_vvmSmsFilterRegexes">
+        <item>310004,310010,310012,310013,310590,310890,310910,311110,311270,311271,311272,311273,311274,311275,311276,311277,311278,311279,311280,311281,311282,311283,311284,311285,311286,311287,311288,311289,311390,311480,311481,311482,311483,311484,311485,311486,311487,311488,311489;^//VZWVVM.*</item>
+    </string-array>
+    <string-array name="config_wearActivityModeRadios">
+        <item>wifi</item>
+    </string-array>
+    <array name="dial_string_replace" />
+    <array name="disallowed_apps_managed_device" />
+    <array name="disallowed_apps_managed_profile" />
+    <array name="disallowed_apps_managed_user" />
+    <array name="fingerprint_acquired_vendor" />
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>36149777</item>
+        <item>-95993398</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,2,60000,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+    </string-array>
+    <string-array name="network_switch_type_name">
+        <item>mobile data</item>
+        <item>Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Ethernet</item>
+        <item>VPN</item>
+    </string-array>
+    <string-array name="networks_not_clear_data">
+        <item>71203</item>
+        <item>71606</item>
+        <item>71610</item>
+        <item>732101</item>
+    </string-array>
+    <string-array name="no_ems_support_sim_operators">
+        <item>20404;suffix;BAE0000000000000</item>
+    </string-array>
+    <array name="vendor_disallowed_apps_managed_device" />
+    <array name="vendor_disallowed_apps_managed_profile" />
+    <array name="vendor_disallowed_apps_managed_user" />
+    <array name="vendor_required_apps_managed_device" />
+    <array name="vendor_required_apps_managed_profile" />
+    <array name="vendor_required_apps_managed_user" />
+    <string-array name="wfcSpnFormats">
+        <item>%s</item>
+        <item>%s Wi-Fi Calling</item>
+    </string-array>
+    <bool name="config_enableNightMode">false</bool>
+    <bool name="config_lockDayNightMode">false</bool>
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
+    <bool name="config_wifi_background_scan_support">false</bool>
+    <bool name="config_wifi_batched_scan_supported">false</bool>
+    <bool name="config_wifi_convert_apband_5ghz_to_any">false</bool>
+    <bool name="config_wifi_dual_band_support">false</bool>
+    <bool name="config_wifi_enable_disconnection_debounce">true</bool>
+    <bool name="config_wifi_enable_wifi_firmware_debugging">true</bool>
+    <bool name="config_wifi_fast_bss_transition_enabled">false</bool>
+    <bool name="config_wifi_framework_cellular_handover_enable_user_triggered_adjustment">true</bool>
+    <bool name="config_wifi_framework_enable_associated_network_selection">true</bool>
+    <bool name="config_wifi_framework_enable_voice_call_sar_tx_power_limit">false</bool>
+    <bool name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">false</bool>
+    <bool name="config_wifi_only_link_same_credential_configurations">true</bool>
+    <bool name="config_wifi_revert_country_code_on_cellular_loss">false</bool>
+    <bool name="config_wifi_softap_acs_supported">false</bool>
+    <bool name="config_wifi_softap_ieee80211ac_supported">false</bool>
+    <bool name="config_wifi_turn_off_during_emergency_call">false</bool>
+    <bool name="config_wimaxEnabled">false</bool>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
+    <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
+    <integer name="config_autoBrightnessLightSensorRate">250</integer>
+    <integer name="config_autoPowerModeAnyMotionSensor">0</integer>
+    <integer name="config_autoPowerModeThresholdAngle">200</integer>
+    <integer name="config_bluetooth_idle_cur_ma">0</integer>
+    <integer name="config_bluetooth_max_advertisers">0</integer>
+    <integer name="config_bluetooth_max_connected_audio_devices">5</integer>
+    <integer name="config_bluetooth_max_scan_filters">0</integer>
+    <integer name="config_bluetooth_operating_voltage_mv">0</integer>
+    <integer name="config_bluetooth_rx_cur_ma">0</integer>
+    <integer name="config_bluetooth_tx_cur_ma">0</integer>
+    <integer name="config_brightness_ramp_rate_fast">180</integer>
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <integer name="config_burnInProtectionMaxHorizontalOffset">0</integer>
+    <integer name="config_burnInProtectionMaxRadius">-1</integer>
+    <integer name="config_burnInProtectionMaxVerticalOffset">0</integer>
+    <integer name="config_burnInProtectionMinHorizontalOffset">0</integer>
+    <integer name="config_burnInProtectionMinVerticalOffset">0</integer>
+    <integer name="config_nightDisplayColorTemperatureDefault">2850</integer>
+    <integer name="config_nightDisplayColorTemperatureMax">4082</integer>
+    <integer name="config_nightDisplayColorTemperatureMin">2596</integer>
+    <string name="config_mms_user_agent">motoe6plus</string>
+    <string name="config_mms_user_agent_profile_url">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
+    <string name="config_ims_package">com.mediatek.ims</string>
+    <string name="config_wifi_framework_sap_2G_channel_list">0</string>
+    <string name="config_wifi_random_mac_oui">00-0C-E7</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
+    <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
+    <string name="config_defaultListenerAccessPackages">com.motorola.launcher3:com.android.launcher3:com.google.android.setupwizard:com.google.android.apps.restore</string>
+    <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
+    <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
+    <string name="config_defaultDndAccessPackages">com.android.camera2:com.google.android.apps.wellbeing</string>
+    <string name="harmful_app_warning_title">Play Protect warning</string>
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 L 88,0 L 88,58 L 0,58 L 0,0 Z</string>
+    <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+</resources>

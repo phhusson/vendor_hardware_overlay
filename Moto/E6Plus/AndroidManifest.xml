@@ -3,11 +3,11 @@
         android:versionCode="1"
         android:versionName="1.0">
 	<!--
-		TESTS: Ignore ro.vendor.build.fingerprint
-	-->
+		TESTS: Ignore ro.vendor.product.name
+		-->
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyName="ro.vendor.product.name"
                 android:requiredSystemPropertyValue="+*pokerp*"
-		android:priority="170"
+		android:priority="162"
 		android:isStatic="true" />
 </manifest>

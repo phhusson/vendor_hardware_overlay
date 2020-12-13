@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
-    <integer name="config_multiuserMaximumUsers">4</integer>
-    <integer name="config_wifi_logger_ring_buffer_verbose_size_limit_kb">64</integer>
-    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>
-</resources>
