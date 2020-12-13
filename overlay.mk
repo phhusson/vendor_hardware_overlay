@@ -104,6 +104,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-telephony-caf-ims \
 	treble-overlay-telephony-mtk-ims \
 	treble-overlay-telephony-slsi-ims \
+	treble-overlay-tethering \
 	treble-overlay-umidigi-power \
 	treble-overlay-vsmart-live \
 	treble-overlay-webview \
