@@ -108,6 +108,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-telephony-sprd-ims \
 	treble-overlay-tethering \
 	treble-overlay-umidigi-A3S \
+	treble-overlay-tethering \
 	treble-overlay-umidigi-power \
 	treble-overlay-umidigi-a7pro \
 	treble-overlay-vsmart-live \
