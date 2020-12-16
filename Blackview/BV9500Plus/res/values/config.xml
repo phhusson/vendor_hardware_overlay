@@ -21,6 +21,8 @@
         <item>mobile_preempt,29,0,9,60000,true</item>
     </string-array>
     <integer-array name="config_autoBrightnessLevels">
+        <item>8</item>
+        <item>32</item>
         <item>128</item>
         <item>256</item>
         <item>384</item>
@@ -40,6 +42,8 @@
         <item>18432</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>2</item>
+        <item>4</item>
         <item>8</item>
         <item>64</item>
         <item>98</item>
@@ -99,6 +103,7 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_enableNetworkLocationOverlay">true</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
     <string name="config_ims_package">com.mediatek.ims</string>
