@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-blackview-bv9500plus \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
+	treble-overlay-cctg \
 	treble-overlay-devinputjack \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-fairphone-fp3 \
