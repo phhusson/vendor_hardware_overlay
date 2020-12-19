@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <integer-array name="config_autoBrightnessLcdBacklightValues">
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>10</item>
         <item>80</item>
         <item>162</item>
@@ -43,28 +43,28 @@
         <item>100000</item>
     </integer-array>
     <integer-array name="config_autoBrightnessDisplayValuesNits">
-        <item>10</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>11</item>
         <item>12</item>
-        <item>15</item>
-        <item>17</item>
+        <item>14</item>
+        <item>16</item>
         <item>20</item>
-        <item>25</item>
-        <item>50</item>
-        <item>101</item>
-        <item>101</item>
-        <item>111</item>
-        <item>132</item>
-        <item>178</item>
-        <item>249</item>
-        <item>350</item>
-        <item>391</item>
-        <item>420</item>
-        <item>420</item>
-        <item>468</item>
-        <item>468</item>
-        <item>515</item>
-        <item>515</item>
-        <item>563</item>
+        <item>35</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>320</item>
+        <item>380</item>
+        <item>450</item>
+        <item>500</item>
+        <item>525</item>
         <item>563</item>
         <item>586</item>
         <item>586</item>
@@ -604,7 +604,6 @@
         <item>rndis\\d</item>
         <item>ncm\\d</item>
     </string-array>
-    
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
         <item>mobile,0,0,0,-1,true</item>
