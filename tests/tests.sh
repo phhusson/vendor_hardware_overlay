@@ -33,6 +33,9 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 	isStatic="$(xmlstarlet sel -t -m '//overlay' -v @android:isStatic -n "$manifest")"
 	[ "$isStatic" != "true" ] && continue
 
+    targetPkg="$(xmlstarlet sel -t -m '//overlay' -v @android:targetPackage -n "$manifest")"
+    [ "$targetPkg" != "android" ] && continue
+
 	#Ensure priorities unique-ness
 	priority="$(xmlstarlet sel -t -m '//overlay' -v @android:priority -n "$manifest")"
 	if grep -qE '^'"$priority"'$' tests/priorities;then
