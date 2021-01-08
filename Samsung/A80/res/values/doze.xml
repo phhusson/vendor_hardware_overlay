@@ -3,4 +3,5 @@
     <bool name="config_enableBurnInProtection">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
+    <integer name="config_screenBrightnessDoze">17</integer>
 </resources>
