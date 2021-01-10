@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a30 \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
-	treble-overlay-samsung-a7(2018) \
+	treble-overlay-samsung-a7 \
 	treble-overlay-samsung-a70 \
 	treble-overlay-samsung-a80 \
 	treble-overlay-samsung-n9q \
