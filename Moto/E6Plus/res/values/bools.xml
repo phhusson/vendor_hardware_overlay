@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+    <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
+    <bool name="config_auto_attach_data_on_creation">true</bool>
+    <bool name="config_automatic_brightness_available">false</bool>
+</resources>
