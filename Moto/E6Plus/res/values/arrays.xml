@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>10</item>
+        <item>30</item>
+        <item>80</item>
+        <item>160</item>
+        <item>300</item>
+        <item>520</item>
+        <item>700</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>8</item>
+        <item>64</item>
+        <item>98</item>
+        <item>104</item>
+        <item>110</item>
+        <item>116</item>
+        <item>122</item>
+        <item>128</item>
+        <item>134</item>
+        <item>182</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>3</item>
+        <item>70</item>
+        <item>90</item>
+        <item>125</item>
+        <item>180</item>
+        <item>180</item>
+        <item>228</item>
+        <item>255</item>
+        <item>300</item>
+        <item>420</item>
+        <item>450</item>
+        <item>562</item>
+    </integer-array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+        <item>105</item>
+        <item>120</item>
+        <item>135</item>
+        <item>150</item>
+        <item>165</item>
+        <item>180</item>
+        <item>195</item>
+        <item>210</item>
+        <item>225</item>
+        <item>240</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_screenBrightnessNits">
+        <item>9.3</item>
+        <item>9.9</item>
+        <item>13</item>
+        <item>18.5</item>
+        <item>27</item>
+        <item>39</item>
+        <item>54</item>
+        <item>72</item>
+        <item>94</item>
+        <item>118</item>
+        <item>146</item>
+        <item>177</item>
+        <item>210</item>
+        <item>247</item>
+        <item>287</item>
+        <item>329</item>
+        <item>373</item>
+        <item>420</item>
+    </array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>10</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>20</item>
+    </integer-array>
+</resources>
