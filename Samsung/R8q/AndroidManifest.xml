@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.samsung.r8q" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
-    <overlay android:isStatic="true" android:priority="212" android:requiredSystemPropertyName="samsung/r8qsqx/r8q:10/QP1A.190711.020/G781USQU1ATL2:user/release-keys" android:requiredSystemPropertyValue="+*samsung/r8qsqx*" android:targetPackage="android"/>
+    <overlay android:isStatic="true" android:priority="212" android:requiredSystemPropertyName="ro.vendor.build.fingerprint" android:requiredSystemPropertyValue="+*samsung/r8qsqx*" android:targetPackage="android"/>
 </manifest>
