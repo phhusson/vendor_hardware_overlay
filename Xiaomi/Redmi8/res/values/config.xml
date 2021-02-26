@@ -142,7 +142,6 @@
 	<bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 	<bool name="config_supportDoubleTapWake">true</bool>
 	<bool name="config_supportSystemNavigationKeys">false</bool>
-	<bool name="config_smartChargingAvailable">true</bool>
 	<bool name="config_enableBurnInProtection">true</bool>
 	<fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
 	<fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
@@ -166,7 +165,6 @@
 	<integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
 	<integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
 	<dimen name="rounded_corner_radius">70.0px</dimen>
-	<dimen name="status_bar_padding">16.0dip</dimen>
 	<dimen name="status_bar_height_portrait">60px</dimen>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 	<string name="config_mainBuiltInDisplayCutout">
