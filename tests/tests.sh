@@ -49,6 +49,10 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 			'TESTS: Ignore ro.vendor.product.'
 	fi
 
+    if grep -qF '$(TARGET_OUT)' "$folder/Android.mk";then
+        fail "$folder/Android.mk" "is wrongly pushing overlay in system/overlay rather than product/overlay"
+    fi
+
 	#Ensure the overloaded properties exist in AOSP
 	find "$folder" -name \*.xml |while read -r xml;do
 		keys="$(xmlstarlet sel -t -m '//resources/*' -v @name -n "$xml")"
