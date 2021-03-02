@@ -71,7 +71,7 @@
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
-    <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+    <fraction name="config_maximumScreenDimRatio">30%</fraction>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
     <integer name="config_screenBrightnessDark">1</integer>
