@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_datause_iface">rmnet0</string>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_wifi_tcp_buffers">524288,1048576,4194304,524288,1048576,4194304</string>
+</resources>
