@@ -7,6 +7,8 @@
 	android:requiredSystemPropertyValue="exynos7870"
 	android:requiredSystemPropertyName="ro.board.platform"
 	android:requiredSystemPropertyValue="universal7870"
+	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+	android:requiredSystemPropertyValue="+*amsung/G98*"
 	android:priority="244"
 	android:isStatic="true"/>
 </manifest>
