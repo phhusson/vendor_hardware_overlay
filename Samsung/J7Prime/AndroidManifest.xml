@@ -5,8 +5,6 @@
         <overlay android:targetPackage="android"
 	android:requiredSystemPropertyName="ro.product.board"
 	android:requiredSystemPropertyValue="exynos7870"
-	android:requiredSystemPropertyName="ro.board.platform"
-	android:requiredSystemPropertyValue="universal7870"
 	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 	android:requiredSystemPropertyValue="+*amsung/G98*"
 	android:priority="250"
