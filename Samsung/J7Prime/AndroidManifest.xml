@@ -9,6 +9,6 @@
 	android:requiredSystemPropertyValue="universal7870"
 	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 	android:requiredSystemPropertyValue="+*amsung/G98*"
-	android:priority="244"
+	android:priority="900"
 	android:isStatic="true"/>
 </manifest>
