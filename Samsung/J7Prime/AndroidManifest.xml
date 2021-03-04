@@ -1,17 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="me.phh.treble.overlay.samsung.j7prime"
         android:versionCode="1"
-        android:versionName="1.0"
-	android:compileSdkVersion="29"
-	android:compileSdkVersionCodename="10"
-	platformBuildVersionCode="29"
-	platformBuildVersionName="10">
-	<uses-sdk
-	android:minSdkVersion="29"
-	android:targetSdkVersion="29"/>
-	<application
-	android:extractNativeLibs="false"
-	android:usesNonSdkApi="true"/>
+        android:versionName="1.0">
 	<overlay
 	android:priority="0"
 	android:targetPackage="android"
