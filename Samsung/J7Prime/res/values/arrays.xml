@@ -119,10 +119,4 @@
         <item>mobile_xcap,27,0,2,60000,true</item>
         <item>mobile_ent1,28,0,2,-1,true</item>
     </string-array>
-    <string-array name="radioAttributes">
-        <item>1,1</item>
-        <item>0,1</item>
-    </string-array>
-    <item type="array" name="APKTOOL_DUMMY_f">false</item>
-    </string-array>
 </resources>
