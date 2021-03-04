@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
-    <bool name="config_automatic_brightness_available">true</bool>
-    <bool name="config_batterySdCardAccessibility">true</bool>
-    <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
-    <bool name="config_button_brightness_support">false</bool>
-    <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_carrier_volte_tty_supported">true</bool>
-    <bool name="config_carrier_wfc_ims_available">true</bool>
-    <bool name="config_device_volte_available">true</bool>
-    <bool name="config_device_vt_available">true</bool>
-    <bool name="config_device_wfc_ims_available">true</bool>
-    <bool name="config_displayBlanksAfterDoze">true</bool>
-    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
-    <bool name="config_eap_sim_based_auth_supported">true</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
-    <bool name="config_enableFusedLocationOverlay">false</bool>
-    <bool name="config_enableLockScreenTranslucentDecor">true</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
-    <bool name="config_enableNetworkLocationOverlay">false</bool>
-    <bool name="config_enableWifiDisplay">true</bool>
-    <bool name="config_haveHigherAspectRatioScreen">false</bool>
-    <bool name="config_lidControlsSleep">true</bool>
-    <bool name="config_pinnerCameraApp">true</bool>
-    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-    <bool name="config_proxiSensorWakupCheck">true</bool>
-    <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_speed_up_audio_on_mt_calls">true</bool>
-    <bool name="config_supportAudioSourceUnprocessed">true</bool>
-    <bool name="config_supportDoubleTapWake">true</bool>
-    <bool name="config_supportSystemNavigationKeys">true</bool>
-    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-    <bool name="config_sustainedPerformanceModeSupported">true</bool>
-    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
-    <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="config_useDevInputEventForAudioJack">false</bool>
-    <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
 </resources>
