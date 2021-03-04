@@ -15,7 +15,6 @@
     <public type="array" name="config_virtualKeyVibePattern" id="0x7f01000c" />
     <public type="array" name="networkAttributes" id="0x7f01000d" />
     <public type="array" name="radioAttributes" id="0x7f01000e" />
-    <public type="array" name="APKTOOL_DUMMY_f" id="0x7f01000f" />
     <public type="bool" name="config_allowAutoBrightnessWhileDozing" id="0x7f020000" />
     <public type="bool" name="config_automatic_brightness_available" id="0x7f020001" />
     <public type="bool" name="config_batterySdCardAccessibility" id="0x7f020002" />
