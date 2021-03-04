@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="dimen" name="config_screenBrightnessDimFloat">0.16078432</item>
-    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.48235294</item>
-    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
-    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
-</resources>
