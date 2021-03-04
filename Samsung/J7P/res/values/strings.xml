@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_wifi_tcp_buffers">524288,1048576,4194304,524288,1048576,4194304</string>
+</resources>

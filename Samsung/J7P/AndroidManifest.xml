@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="me.phh.treble.overlay.samsung.j7p" 
+	android:versionCode="1"
+	android:versionName="1.0">
+    	<overlay android:targetPackage="android"
+    	android:priority="300"
+    	android:requiredSystemPropertyName="ro.product.board"
+    	android:isStatic="true"
+    	android:requiredSystemPropertyValue="exynos7870"/>
+</manifest>

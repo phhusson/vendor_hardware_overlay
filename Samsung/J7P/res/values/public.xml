@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f010000" />
+    <public type="array" name="config_autoBrightnessLevels" id="0x7f010001" />
+    <public type="array" name="config_data_usage_network_types" id="0x7f010002" />
+    <public type="array" name="config_gpsParameters" id="0x7f010003" />
+    <public type="array" name="config_keyboardTapVibePattern" id="0x7f010004" />
+    <public type="array" name="config_longPressVibePattern" id="0x7f010005" />
+    <public type="array" name="config_mobile_tcp_buffers" id="0x7f010006" />
+    <public type="array" name="config_tether_bluetooth_regexs" id="0x7f010007" />
+    <public type="array" name="config_tether_dhcp_range" id="0x7f010008" />
+    <public type="array" name="config_tether_upstream_types" id="0x7f010009" />
+    <public type="array" name="config_tether_usb_regexs" id="0x7f01000a" />
+    <public type="array" name="config_tether_wifi_regexs" id="0x7f01000b" />
+    <public type="array" name="config_virtualKeyVibePattern" id="0x7f01000c" />
+    <public type="array" name="networkAttributes" id="0x7f01000d" />
+    <public type="array" name="radioAttributes" id="0x7f01000e" />
+    <public type="bool" name="config_proxiSensorWakupCheck" id="0x7f02001b" />
+    <public type="bool" name="config_suspendWhenScreenOffDueToProximity" id="0x7f020022" />
+    <public type="integer" name="config_screenBrightnessDim" id="0x7f050006" />
+    <public type="integer" name="config_screenBrightnessSettingDefault" id="0x7f050008" />
+    <public type="integer" name="config_screenBrightnessSettingMaximum" id="0x7f050009" />
+    <public type="integer" name="config_screenBrightnessSettingMinimum" id="0x7f05000a" />
+    <public type="integer" name="config_screen_off_delay" id="0x7f05000b" />
+    <public type="integer" name="config_shutdownBatteryTemperature" id="0x7f05000c" />
+    <public type="string" name="config_wifi_tcp_buffers" id="0x7f060002" />
+    <public type="xml" name="power_profile" id="0x7f080000" />
+</resources>
