@@ -2,8 +2,7 @@
         package="me.phh.treble.overlay.samsung.j7prime"
         android:versionCode="1"
         android:versionName="1.0">
-	<overlay
+	<overlay android:targetPackage="android"
 	android:priority="0"
-	android:targetPackage="android"
 	android:isStatic="true"/>
 </manifest>
