@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
 	treble-overlay-moto-onehyper \
+	treble-overlay-moto-razr \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
