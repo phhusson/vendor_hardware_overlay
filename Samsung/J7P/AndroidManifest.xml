@@ -3,8 +3,8 @@
 	android:versionCode="1"
 	android:versionName="1.0">
     	<overlay android:targetPackage="android"
-    	android:priority="300"
-    	android:requiredSystemPropertyName="ro.product.board"
-    	android:isStatic="true"
-    	android:requiredSystemPropertyValue="exynos7870"/>
+    	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+    	android:requiredSystemPropertyValue="+*amsung/G981BXXU1ATCT*"
+    	android:priority="238"
+    	android:isStatic="true">
 </manifest>
