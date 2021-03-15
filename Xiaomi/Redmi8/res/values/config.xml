@@ -121,6 +121,7 @@
 	<item>4500</item>
   </integer-array>
 
+	<bool name="config_showNavigationBar">true</bool>
 	<bool name="config_automatic_brightness_available">true</bool>
 	<bool name="config_setColorTransformAccelerated">true</bool>
 	<bool name="config_supportAudioSourceUnprocessed">true</bool>
@@ -138,13 +139,15 @@
 	<bool name="config_wifi_batched_scan_supported">true</bool>
 	<bool name="config_wifi_dual_band_support">false</bool>
 	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+	<bool name="config_dozePulsePickup">true</bool>
 	<bool name="config_displayBlanksAfterDoze">true</bool>
 	<bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 	<bool name="config_supportDoubleTapWake">true</bool>
 	<bool name="config_supportSystemNavigationKeys">false</bool>
 	<bool name="config_enableBurnInProtection">true</bool>
+	<bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 	<fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
-	<fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+	<fraction name="config_maximumScreenDimRatio">30%</fraction>
 	<fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
 	<integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
 	<integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
@@ -164,10 +167,10 @@
 	<integer name="config_screenBrightnessForVrSettingDefault">86</integer>
 	<integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
 	<integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
-	<dimen name="rounded_corner_radius">70.0px</dimen>
+	<dimen name="rounded_corner_radius">70px</dimen>
 	<dimen name="status_bar_height_portrait">60px</dimen>
-    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-	<string name="config_mainBuiltInDisplayCutout">
-		M-59,13.521603 C-51.3411734,20.2116468 -45.8262261,25.5003131 -42.4551581,29.3876018 C-37.4060696,35.2110207 -32.5523328,41.2298059 -26.3762157,45.6443331 C-22.5105074,48.4020038 -18.1301226,50.536005 -13.5506295,51.9524108 C-9.15897443,53.3087038 -4.57948127,55 1.18885336e-05,55 C4.57574829,55 9.14772792,53.3087038 13.539383,51.9524108 C18.1263897,50.536005 22.5067744,48.4020038 26.3649692,45.6443331 C32.5523566,41.2298059 37.4060934,35.2110207 42.4551819,29.3876018 C45.8237453,25.5003131 51.3386847,20.2116468 59,13.521603 L59,0 L-59,0 L-59,13.521603 Z
-	</string>
+	<dimen name="status_bar_height_landscape">24.0dip</dimen>
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">
+   	M -50,0 L -50,55 L 50,55 L 50,0 Z
+   	</string>
 </resources>
