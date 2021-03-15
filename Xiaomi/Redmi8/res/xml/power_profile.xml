@@ -28,11 +28,11 @@
         <value>307</value>
         <value>353</value>
     </array>
-    <item name="cpu.awake">1.6</item>
-    <item name="cpu.idle">1.6</item>
-    <item name="battery.capacity">5000</item>
+	<item name="cpu.awake">1.6</item>
+	<item name="cpu.idle">1.6</item>
+	<item name="battery.capacity">5000</item>
 	<item name="radio.active">140</item>
-    <item name="radio.scanning">45</item>
+	<item name="radio.scanning">45</item>
 	<array name="radio.on">
         <value>8</value>
         <value>6</value>
