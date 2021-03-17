@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lg-v40 \
 	treble-overlay-lg-velvet \
 	treble-overlay-misc-dt2w \
+	treble-overlay-misc-minimal-brightness \
 	treble-overlay-moto-e5 \
 	treble-overlay-moto-e5plus \
 	treble-overlay-moto-g6 \
