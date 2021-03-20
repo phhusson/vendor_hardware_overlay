@@ -51,6 +51,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
 	treble-overlay-lg-velvet \
+	treble-overlay-misc-aod \
+	treble-overlay-misc-aod-systemui \
 	treble-overlay-misc-dt2w \
 	treble-overlay-misc-minimal-brightness \
 	treble-overlay-moto-e5 \
