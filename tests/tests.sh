@@ -60,8 +60,8 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 			grep -qE '^'"$key"'$' tests/knownKeys && continue
 			#Run the ag only on phh's machine. Assume that knownKeys is full enough.
 			#If it's enough, ask phh to update it
-			if [ -d /build/AOSP-9.0 ] && \
-				(ag '"'"$key"'"' /build/AOSP-9.0/frameworks/base/core/res/res || \
+			if [ -d /build2/AOSP-11.0 ] && \
+				(ag '"'"$key"'"' /build2/AOSP-11.0/frameworks/base/core/res/res || \
 				ag '"'"$key"'"' /build/AOSP-8.1/frameworks/base/core/res/res)> /dev/null ;then
 				echo "$key" >> tests/knownKeys
 			else
