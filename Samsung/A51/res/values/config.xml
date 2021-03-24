@@ -630,5 +630,4 @@
         <item>700</item>
     </array>
 	    <bool name="config_automatic_brightness_available">true</bool>
-		<bool name="config_dynamic_automatic_brightness_available">true</bool>
 </resources>
