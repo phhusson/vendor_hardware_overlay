@@ -24,5 +24,5 @@
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">24.0dip</dimen>
 	<dimen name="rounded_corner_radius">36.0dip</dimen>
-	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -130,0 L -130,86 L 130,86 L 130,0 Z</string>
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -130,0 L -130,86 L 330,86 L 130,0 Z</string>
 </resources>
