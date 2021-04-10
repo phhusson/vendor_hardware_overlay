@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-WAS \
 	treble-overlay-hw-ims \
 	treble-overlay-infinix-note5 \
+	treble-overlay-infinix-note8 \
 	treble-overlay-infinix-s4 \
 	treble-overlay-infinix-zero6 \
 	treble-overlay-lenovo-k5pro \
