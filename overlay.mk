@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfonelivel1za550kl \
 	treble-overlay-asus-zenfonemaxm2 \
 	treble-overlay-asus-zenfonemaxshot \
+	treble-overlay-blackview-bv6900 \
 	treble-overlay-blackview-bv9500plus \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
