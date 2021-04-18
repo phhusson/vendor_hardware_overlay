@@ -116,6 +116,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-telephony-mtk-ims \
 	treble-overlay-telephony-slsi-ims \
 	treble-overlay-telephony-sprd-ims \
+	treble-overlay-teracube-tc2e \
 	treble-overlay-tethering \
 	treble-overlay-umidigi-A3S \
 	treble-overlay-umidigi-power \
