@@ -1,4 +1,4 @@
-<?xml version=1.0" encoding="utf-8">
+<?xml version=1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
