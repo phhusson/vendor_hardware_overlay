@@ -83,7 +83,7 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
-    <bool name="config_useDevInputEventForAudioJack">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_carrier_volte_available">true</bool>
@@ -101,6 +101,8 @@
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+    <bool name="config_smartChargingAvailable">true</bool>
+    <bool name="config_supportSmartPixels">true</bool>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">200.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
