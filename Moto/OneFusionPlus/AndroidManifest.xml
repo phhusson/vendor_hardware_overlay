@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.moto.onefusionplus" android:versionCode="1" android:versionName="1.0">
+	<overlay android:targetPackage="android" android:requiredSystemPropertyName="ro.vendor.build.fingerprint" android:requiredSystemPropertyValue="+motorola/liber_retail/liber*" android:priority="206" android:isStatic="true" />
+</manifest>
