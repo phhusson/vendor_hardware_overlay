@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-RNE \
 	treble-overlay-huawei-STF \
 	treble-overlay-huawei-VTR \
+	treble-overlay-huawei-EVA \
 	treble-overlay-huawei-WAS \
 	treble-overlay-hw-ims \
 	treble-overlay-infinix-note5 \
