@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-asus-zenfonelivel1za550kl \
 	treble-overlay-asus-zenfonemaxm2 \
 	treble-overlay-asus-zenfonemaxshot \
+	treble-overlay-blackview-bv6900 \
 	treble-overlay-blackview-bv9500plus \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
@@ -95,6 +96,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a30 \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
+	treble-overlay-samsung-a51 \
 	treble-overlay-samsung-a51x \
 	treble-overlay-samsung-a60q \
 	treble-overlay-samsung-a7 \
