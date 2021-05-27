@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.realme.7pro">
     <overlay 
 	android:isStatic="true" 
-	android:priority="500" 
+	android:priority="257" 
 	android:targetPackage="android"
         android:requiredSystemPropertyName="ro.build.overlay.deviceid"
 	android:requiredSystemPropertyValue="+RMX2170" />
