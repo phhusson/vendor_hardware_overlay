@@ -96,6 +96,7 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
