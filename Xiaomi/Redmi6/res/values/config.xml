@@ -96,6 +96,7 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
@@ -111,4 +112,5 @@
     <integer name="config_bluetooth_rx_cur_ma">2</integer>
     <integer name="config_bluetooth_tx_cur_ma">3</integer>
     <integer name="config_shutdownBatteryTemperature">680</integer>
+    <dimen name="rounded_corner_radius">11.0dip</dimen>
 </resources>
