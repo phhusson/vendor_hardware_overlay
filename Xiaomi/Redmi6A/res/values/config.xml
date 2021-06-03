@@ -53,4 +53,5 @@
     <integer name="config_bluetooth_rx_cur_ma">2</integer>
     <integer name="config_bluetooth_tx_cur_ma">3</integer>
     <integer name="config_shutdownBatteryTemperature">680</integer>
+    <dimen name="rounded_corner_radius">11.0dip</dimen>
 </resources>
