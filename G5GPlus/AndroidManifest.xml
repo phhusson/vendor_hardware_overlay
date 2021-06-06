@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.moto.g5gplus"
+        android:versionCode="1"
+        android:versionName="1.0">
+
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.product.name"
+                android:requiredSystemPropertyValue="nairo_retail"
+		android:priority="29"
+		android:isStatic="true" />
+</manifest>

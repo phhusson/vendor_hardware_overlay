@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_ims_package">org.codeaurora.ims</string>
+    <string name="config_mainBuiltInDisplayCutout">M -1040,0 L -840,0 L -840,115 L -1040,115 Z @right</string>
+    <string name="config_mms_user_agent">motog5gplus</string>
+    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="config_motoCameraAppPackageName">com.motorola.camera2</string>
+    <string name="config_networkLocationProviderPackageName">com.qualcomm.location</string>
+    <string name="config_optionalPackageVerifierName">seemp.service</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
+    <string name="config_wifi_tcp_buffers">524288,2097152,4194304,262144,524288,1048576</string>
+    <string name="config_wlan_data_service_package">vendor.qti.iwlan</string>
+    <string name="config_wlan_network_service_package">vendor.qti.iwlan</string>
+    <string name="wifi_tether_configure_ssid_default">moto g 5G plus</string>
+</resources>
