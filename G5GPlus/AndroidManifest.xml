@@ -6,6 +6,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.product.name"
                 android:requiredSystemPropertyValue="nairo_retail"
-		android:priority="29"
+		android:priority="120"
 		android:isStatic="true" />
 </manifest>
