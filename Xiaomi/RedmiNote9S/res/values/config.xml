@@ -182,5 +182,6 @@
     <integer name="config_brightness_ramp_rate_slow">60</integer>
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
     <integer name="config_lightSensorWarmupTime">200</integer>
-
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_maskMainBuiltInDisplayCutout">false</bool>
 </resources>
