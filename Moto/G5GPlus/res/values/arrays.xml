@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="config_allowedAccessShortcutsPackages">
-        <item>com.motorola.motofpstouch</item>
-    </string-array>
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
+    <integer-array name="config_autoBrightnessDisplayValuesNits"> 
         <item>3</item>
         <item>10</item>
         <item>20</item>
@@ -77,22 +74,6 @@
         <item>/apex/com.android.media/javalib/updatable-media.jar</item>
         <item>/system/lib64/libsurfaceflinger.so</item>
     </string-array>
-    <integer-array name="config_lmk_minfreehigh">
-        <item>84224</item>
-        <item>96512</item>
-        <item>108800</item>
-        <item>121088</item>
-        <item>176949</item>
-        <item>221185</item>
-    </integer-array>
-    <integer-array name="config_lmk_minfreelow">
-        <item>12288</item>
-        <item>18432</item>
-        <item>24576</item>
-        <item>36864</item>
-        <item>43008</item>
-        <item>49152</item>
-    </integer-array>
     <string-array name="config_mobile_tcp_buffers">
         <item>nr:2097152,6291456,16777216,512000,2097152,8388608</item>
         <item>lte:524288,1048576,8388608,262144,524288,4194304</item>
@@ -106,27 +87,6 @@
         <item>gprs:4096,8192,24576,4096,8192,24576</item>
         <item>evdo:131072,262144,1048576,4096,16384,524288</item>
         <item>ehrpd:4094,87380,1048576,4096,16384,262144</item>
-    </string-array>
-    <string-array name="config_oemUsbModeOverride">
-        <item>bp-tools:mtp:diag,serial,rmnet:mtp</item>
-        <item>bp-tools:mtp,adb:diag,serial,rmnet,adb:mtp,adb</item>
-        <item>bp-tools:adb:diag,serial,rmnet,adb:adb</item>
-        <item>bp-tools:ptp:diag,serial,rmnet:ptp</item>
-        <item>bp-tools:ptp,adb:diag,serial,rmnet,adb:ptp,adb</item>
-        <item>bp-tools:rndis:rndis,diag,serial:mtp</item>
-        <item>bp-tools:rndis,adb:rndis,diag,serial,adb:mtp,adb</item>
-        <item>qcom:adb:diag,diag_mdm,qdss,qdss_mdm,serial_cdev,serial_cdev_mdm,mass_storage,adb:adb</item>
-        <item>qcom:mtp:diag,diag_mdm,qdss,qdss_mdm,serial_cdev,serial_cdev_mdm,mass_storage:mtp</item>
-        <item>qcom:mtp,adb:diag,diag_mdm,qdss,qdss_mdm,serial_cdev,serial_cdev_mdm,mass_storage,adb:mtp,adb</item>
-        <item>qcom:ptp:diag,diag_mdm,qdss,qdss_mdm,serial_cdev,serial_cdev_mdm,dpl,rmnet:ptp</item>
-        <item>qcom:ptp,adb:diag,diag_mdm,qdss,qdss_mdm,serial_cdev,serial_cdev_mdm,dpl,rmnet,adb:ptp,adb</item>
-        <item>qcom:rndis:rndis,diag,diag_mdm,qdss,qdss_mdm,serial_cdev,dpl:mtp</item>
-        <item>qcom:rndis,adb:rndis,diag,diag_mdm,qdss,qdss_mdm,serial_cdev,dpl,adb:mtp,adb</item>
-        <item>mot-factory:mtp:usbnet:mtp</item>
-        <item>mot-factory:mtp,adb:usbnet,adb:mtp,adb</item>
-        <item>mot-factory:adb:usbnet,adb:adb</item>
-        <item>mot-factory:ptp:usbnet:ptp</item>
-        <item>mot-factory:ptp,adb:usbnet,adb:ptp,adb</item>
     </string-array>
     <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
@@ -172,28 +132,6 @@
         <item>bnep\\d</item>
         <item>bt-pan</item>
     </string-array>
-    <string-array name="config_tether_dhcp_range">
-        <item>192.168.42.2</item>
-        <item>192.168.42.254</item>
-        <item>192.168.43.2</item>
-        <item>192.168.43.254</item>
-        <item>192.168.44.2</item>
-        <item>192.168.44.254</item>
-        <item>192.168.45.2</item>
-        <item>192.168.45.254</item>
-        <item>192.168.46.2</item>
-        <item>192.168.46.254</item>
-        <item>192.168.47.2</item>
-        <item>192.168.47.254</item>
-        <item>192.168.48.2</item>
-        <item>192.168.48.254</item>
-        <item>192.168.49.2</item>
-        <item>192.168.49.254</item>
-        <item>192.168.50.2</item>
-        <item>192.168.50.254</item>
-        <item>192.168.51.2</item>
-        <item>192.168.51.254</item>
-    </string-array>
     <integer-array name="config_tether_upstream_types">
         <item>0</item>
         <item>1</item>
@@ -232,57 +170,5 @@
         <item>0,1</item>
         <item>7,1</item>
         <item>9,1</item>
-    </string-array>
-    <string-array name="ringtone_haptic_wave">
-        <item>Argo Navis-101-1</item>
-        <item>Attentive-102-1</item>
-        <item>Awake-103-1</item>
-        <item>Bird Loop-104-1</item>
-        <item>Brilliant Times-105-1</item>
-        <item>Chimey Phone-106-1</item>
-        <item>Complex-107-1</item>
-        <item>Crazy Dream-108-1</item>
-        <item>Curve Ball Blend-109-1</item>
-        <item>Digital Phone-110-1</item>
-        <item>Electrovision-111-1</item>
-        <item>Ether Shake-112-1</item>
-        <item>Fateful Words-113-1</item>
-        <item>Flutey Phone-114-1</item>
-        <item>Future Funk-115-1</item>
-        <item>Future Hi Tech-116-1</item>
-        <item>Girtab-117-1</item>
-        <item>Hello-118-1</item>
-        <item>Hexagon-119-1</item>
-        <item>Hydra-120-1</item>
-        <item>Insert Coin-121-1</item>
-        <item>Jumping Dots-122-1</item>
-        <item>Keys-123-1</item>
-        <item>Loopy-124-1</item>
-        <item>Loopy Lounge-125-1</item>
-        <item>Modular-126-1</item>
-        <item>Momentum-127-1</item>
-        <item>Morning-128-1</item>
-        <item>Moto-129-1</item>
-        <item>Natural-130-1</item>
-        <item>New Player-131-1</item>
-        <item>Onward-132-1</item>
-        <item>Organ Dub-133-1</item>
-        <item>Overclocked-134-1</item>
-        <item>Pegasus-135-1</item>
-        <item>Pyxis-136-1</item>
-        <item>Regrade-137-1</item>
-        <item>Scarabaeus-138-1</item>
-        <item>Sceptrum-139-1</item>
-        <item>Simple-140-1</item>
-        <item>Solarium-141-1</item>
-        <item>Sparse-142-1</item>
-        <item>Terrabytes-143-1</item>
-        <item>Zero Hour-144-1</item>
-        <item>Play-145-1</item>
-        <item>TJINGLE-146-1</item>
-        <item>Verizon Airwaves-147-1</item>
-        <item>AT&amp;T City Lights-148-1</item>
-        <item>AT&amp;T Firefly-149-1</item>
-        <item>AT&amp;T Now or Never-150-1</item>
     </string-array>
 </resources>

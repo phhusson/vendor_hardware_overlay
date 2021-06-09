@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
+    <string name="config_ims_package">org.codeaurora.ims</string>
+    <string name="config_mainBuiltInDisplayCutout">M -1040,0 L -840,0 L -840,115 L -1040,115 Z @right</string>
+    <string name="wifi_tether_configure_ssid_default">moto g 5G plus</string>
+</resources>

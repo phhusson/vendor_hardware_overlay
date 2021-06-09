@@ -4,8 +4,8 @@
         android:versionName="1.0">
 
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.product.name"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="nairo_retail"
-		android:priority="250"
+		android:priority="29"
 		android:isStatic="true" />
 </manifest>
