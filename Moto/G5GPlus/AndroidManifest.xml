@@ -1,11 +1,19 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="me.phh.treble.overlay.moto.g5gplus"
-        android:versionCode="1"
-        android:versionName="1.0">
-
-        <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="nairo_retail"
-		android:priority="250"
-		android:isStatic="true" />
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:compileSdkVersion="30"
+  android:compileSdkVersionCodename="11"
+  package="me.phh.treble.overlay.moto.g5gplus"
+  platformBuildVersionCode="30"
+  platformBuildVersionName="11">
+  
+<application
+	android:extractNativeLibs="false"
+	android:usesNonSdkApi="true"/>
+	
+<overlay 
+	android:isStatic="true" 
+	android:priority="0" 
+	android:targetPackage="android"
+	android:requiredSystemPropertyValue="+*nairo_retail"/>
 </manifest>
