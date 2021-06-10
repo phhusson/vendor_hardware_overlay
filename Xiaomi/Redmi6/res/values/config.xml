@@ -96,6 +96,7 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+    <dimen name="rounded_corner_radius">11.0dip</dimen>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
