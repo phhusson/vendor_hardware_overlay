@@ -6,7 +6,7 @@
   platformBuildVersionName="11">
   
 <application
-  android:extractNativeLibs="false">
+  android:extractNativeLibs="false"/>
 	
 <overlay 
   android:isStatic="true" 
