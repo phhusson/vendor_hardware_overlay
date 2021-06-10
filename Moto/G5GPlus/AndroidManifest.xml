@@ -4,13 +4,11 @@
   package="me.phh.treble.overlay.moto.g5gplus"
   platformBuildVersionCode="30"
   platformBuildVersionName="11">
-  
-<application
-  android:extractNativeLibs="false"/>
-	
+
 <overlay 
-  android:isStatic="true" 
-  android:priority="0" 
+  android:priority="66" 
   android:targetPackage="android"
-  android:requiredSystemPropertyValue="+*nairo_retail"/>
+  android:requiredSystemPropertyName="ro.vendor.build.fingerprint*"
+  android:requiredSystemPropertyValue="+motorola/nairo_retail*"
+  android:isStatic="true"/>
 </manifest>
