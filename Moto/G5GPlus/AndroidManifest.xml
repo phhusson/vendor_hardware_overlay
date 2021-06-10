@@ -2,10 +2,13 @@
   package="me.phh.treble.overlay.moto.g5gplus"
   android:versionCode="1"
   android:versionName="1.0">
-
+  	<!--
+		TESTS: Ignore ro.vendor.product.name
+                Avoid issues with modified vendors
+	-->
 <overlay android:targetPackage="android"
-  android:requiredSystemPropertyName="ro.vendor.build.fingerprint*"
-  android:requiredSystemPropertyValue="nairo_retail"
-  android:priority="121"
-  android:isStatic="true" />
+  android:requiredSystemPropertyName="ro.vendor.product.name"
+  android:requiredSystemPropertyValue="+*nairo_retail"
+  android:priority="251"
+  android:isStatic="true"/>
 </manifest>
