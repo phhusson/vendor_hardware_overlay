@@ -39,8 +39,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-PIC \
 	treble-overlay-huawei-PRA \
 	treble-overlay-huawei-RNE \
-	treble-overlay-huawei-STF \
 	treble-overlay-huawei-SHT \
+	treble-overlay-huawei-STF \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
 	treble-overlay-hw-ims \
