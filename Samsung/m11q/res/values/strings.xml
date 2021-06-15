@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_defaultAugmentedAutofillService" />
+    <string name="config_defaultContentCaptureService" />
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 M 34.28571428571429,9.828571428571429 a 13.6,13.6 0 1,0 0,27.2 a 13.6,13.6 0 1,0 0,-27.2 Z @dp @left</string>
+    <string name="config_mms_user_agent">Android-Mms/2.0</string>
+    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="config_optionalPackageVerifierName">seemp.service</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+</resources>
