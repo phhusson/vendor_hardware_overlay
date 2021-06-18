@@ -2,12 +2,10 @@
         package="me.phh.treble.overlay.moto.g5gplus"
         android:versionCode="1"
         android:versionName="1.0">
-	<!--
-		TESTS: Ignore ro.vendor.product.name
-	-->
+
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.product.name"
-                android:requiredSystemPropertyValue="nairo_retail"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyValue="+Motorola/nairo_retail*"
 		android:priority="314"
 		android:isStatic="true" />
 </manifest>
