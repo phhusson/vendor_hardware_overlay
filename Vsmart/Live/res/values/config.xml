@@ -13,7 +13,9 @@
 	<bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 	<bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 	<bool name="config_useDevInputEventForAudioJack">true</bool>
-	<dimen name="rounded_corner_radius">110.0px</dimen>
+	<dimen name="rounded_corner_radius">105.0px</dimen>
+	<dimen name="status_bar_height_landscape">24dp</dimen>
+	<dimen name="status_bar_height_portrait">91px</dimen>
 	<fraction name="config_autoBrightnessAdjustmentMaxGamma">200.0%</fraction>
 	<fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
 	<integer name="config_bluetooth_idle_cur_ma">3</integer>

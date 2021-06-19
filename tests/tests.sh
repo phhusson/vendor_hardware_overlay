@@ -49,6 +49,10 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 			'TESTS: Ignore ro.vendor.product.'
 	fi
 
+    if grep -qF '$(TARGET_OUT)' "$folder/Android.mk";then
+        fail "$folder/Android.mk" "is wrongly pushing overlay in system/overlay rather than product/overlay"
+    fi
+
 	#Ensure the overloaded properties exist in AOSP
 	find "$folder" -name \*.xml |while read -r xml;do
 		keys="$(xmlstarlet sel -t -m '//resources/*' -v @name -n "$xml")"
@@ -56,8 +60,8 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 			grep -qE '^'"$key"'$' tests/knownKeys && continue
 			#Run the ag only on phh's machine. Assume that knownKeys is full enough.
 			#If it's enough, ask phh to update it
-			if [ -d /build/AOSP-9.0 ] && \
-				(ag '"'"$key"'"' /build/AOSP-9.0/frameworks/base/core/res/res || \
+			if [ -d /build2/AOSP-11.0 ] && \
+				(ag '"'"$key"'"' /build2/AOSP-11.0/frameworks/base/core/res/res || \
 				ag '"'"$key"'"' /build/AOSP-8.1/frameworks/base/core/res/res)> /dev/null ;then
 				echo "$key" >> tests/knownKeys
 			else
