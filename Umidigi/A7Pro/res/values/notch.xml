@@ -18,13 +18,8 @@
 -->
 <resources>
     <!-- Height of the status bar in portrait -->
-<<<<<<< HEAD:Umidigi/A7Pro/res/values/notch.xml
-    <dimen name="status_bar_height_portrait">32.0dip</dimen>
-    <string name="config_mainBuiltInDisplayCutout">M 0,0 L -25 0 A 25,28 0 1 0 25,0 Z @dp</string>
-=======
     <dimen name="status_bar_height_portrait">165px</dimen>
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">24dp</dimen>
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 L 0,165 L 165,165 L 165,0 Z @left</string>
->>>>>>> 9ec29610498b13355b7f5e2c97c8ba3de7ee09d3:Moto/OneAction/res/values/notch.xml
 </resources>
