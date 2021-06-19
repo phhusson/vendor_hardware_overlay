@@ -17,11 +17,11 @@
 */
 -->
 <resources>
-    <!-- Height of the status bar in portrait -->
-    <dimen name="status_bar_height_portrait">81px</dimen>
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height">81px</dimen>
-    <!-- Height of the status bar in landscape -->
-    <dimen name="status_bar_height_landscape">81px</dimen>
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 L -58, 0 L -40.9940446283, 10.0595537175 L -35, 27 L -35, 10.0595537175 L 35.2, 10.0595537175 L 35, 27 L 40, 0 Z @dp</string>
+    <dimen name="status_bar_height_portrait">81.0px</dimen>
+    <dimen name="status_bar_height_landscape">81.0px</dimen>
+    <!-- Height of area above QQS where battery/time go (equal to status bar height if > 48dp) -->
+    <dimen name="quick_qs_offset_height">48dp</dimen>
+    <!-- Total height of QQS (quick_qs_offset_height + 128) -->
+    <dimen name="quick_qs_total_height">176dp</dimen>
 </resources>
