@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.samsung.r8q"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="samsung/r8qsqx/r8q:10/QP1A.190711.020/G781USQU1ATL2:user/release-keys"
+                android:requiredSystemPropertyValue="+*samsung/r8qsqx*"
+		android:priority="212"
+		android:isStatic="true" />
+</manifest>
