@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+    <table name="APPLICATION">
+        <column name="packageName" primarykey="true" type="text" />
+        <column default="0" name="javaCrash" properties="UNSIGNED" type="int" />
+        <column default="0" name="nativeCrash" properties="UNSIGNED" type="int" />
+        <column default="0" name="anr" properties="UNSIGNED" type="int" />
+    </table>
+</database>

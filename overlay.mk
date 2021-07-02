@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-j6 \
 	treble-overlay-samsung-n9q \
+	treble-overlay-samsung-r8s \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \

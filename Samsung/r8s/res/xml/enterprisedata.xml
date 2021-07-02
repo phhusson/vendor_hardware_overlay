@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table name="MUMContainerType">
+    <row>
+        <column name="UID" value="0" />
+        <column name="UserID" value="-1" />
+        <column name="Name" value="knox-b2b" />
+        <column name="DefaultConfigType" value="true" />
+        <column name="DefaultContainerLayout" value="1" />
+        <column name="LayoutSwitchingAllowed" value="true" />
+        <column name="PasswordMinimumLength" value="0" />
+        <column name="PasswordMinimumNonLetters" value="0" />
+        <column name="PasswordMinimumLetters" value="0" />
+        <column name="PasswordMinimumSymbols" value="0" />
+        <column name="PasswordQuality" value="0" />
+        <column name="MaximumCharacterOccurences" value="0" />
+        <column name="MaximumCharacterSequenceLength" value="0" />
+        <column name="MaximumNumericSequenceLength" value="0" />
+        <column name="EncryptionRequired" value="true" />
+        <column name="CustomHomeScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="EC" value="false" />
+        <column name="NameIcon" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="ECName" value="Custom" />
+        <column name="ECIcon" value="/system/container/resources/ECIcon.jpg" />
+        <column name="ECBadge" value="/system/container/resources/ECBadge.jpg" />
+        <column name="CustomLockScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="CustomStatusLabel" value="Enterprise Knox" />
+        <column name="BiometricAuthEnabled" type="3" value="true" />
+        <column name="USBDebuggingAllowed" value="false" />
+        <column name="AppInstallList">
+            <application name="com.samsung.android.app.notes" />
+            <application name="com.samsung.android.app.memo" />
+            <application allow="systemAppOnly" name="com.sec.spp.push" />
+            <application allow="systemAppOnly" name="com.samsung.android.calendar" />
+            <application allow="systemAppOnly" name="com.samsung.android.app.scrollcapture" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.pentastic" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.airviewdictionary" />
+            <application allow="tre3ca, viennalte, v1a, v2, hlte, ha3g, h3g, htdlte, hvolte, hllte, hl3g, lt03, t0, chagallwifizc, chagallltetdzc, klimtltetdzc, klimtwifizc, trlte, tblte, trelte, tre3g, trhplte, tbelte, SC-01G, SCL24, gt5note, noblelte, SCL22" name="com.samsung.android.app.pinboard" />
+            <application name="com.sec.android.widgetapp.diotek.smemo" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer4" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice4" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.launcher.shared" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.viewer.launcher" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.appwidget" />
+            <application allow="systemAppOnly" name="com.hancom.office.hword.viewer.hword_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hcell.viewer.hcell_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hshow.viewer.hshow_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hwp.viewer.hwp_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.viewer" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor.hidden" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5tablet" />
+            <application name="com.microsoft.office.word" />
+            <application name="com.microsoft.office.powerpoint" />
+            <application name="com.microsoft.office.excel" />
+            <application name="com.microsoft.office.officehub" />
+            <application name="com.microsoft.office.officesuite" />
+            <application name="com.microsoft.office.officehubrow" />
+            <application name="com.sec.android.mimage.photoretouching" />
+            <application name="com.sec.android.inputmethod" />
+            <application name="com.android.browser.provider" />
+            <application name="com.google.android.marvin.talkback" />
+            <application name="com.google.android.gm" />
+            <application name="com.android.chrome" />
+            <application name="com.sec.android.app.chromecustomizations" />
+            <application name="com.google.android.apps.maps" />
+            <application name="com.google.android.gms" />
+            <application name="com.google.android.gsf" />
+            <application name="com.google.android.gsf.login" />
+            <application name="com.google.android.feedback" />
+            <application name="com.google.android.partnersetup" />
+            <application name="com.android.vending" />
+            <application name="com.google.android.street" />
+            <application name="com.google.android.backuptransport" />
+            <application name="com.google.android.configupdater" />
+            <application name="com.google.android.syncadapters.contacts" />
+            <application name="com.google.android.syncadapters.calendar" />
+            <application name="com.google.android.tts" />
+            <application name="com.gd.mobicore.pa" />
+            <application name="com.sec.android.quickmemo" />
+            <application name="com.android.providers.downloads.ui" />
+            <application name="com.baidu.map.location" />
+            <application name="com.amap.android.location" />
+            <application name="com.baidu.BaiduMap" />
+            <application name="com.autonavi.cmccmap" />
+            <application name="com.samsung.locationhistory" />
+            <application name="com.android.calendar" />
+            <application name="com.android.contacts" />
+            <application name="com.samsung.android.app.contacts" />
+            <application name="com.samsung.android.email.sync" />
+            <application name="com.samsung.android.email.provider" />
+            <application name="com.samsung.android.email.composer" />
+            <application name="com.samsung.android.email.widget" />
+            <application name="com.samsung.android.email.ui" />
+            <application name="com.samsung.android.provider.shootingmodeprovider" />
+            <application name="com.samsung.android.app.telephonyui" remove="true" />
+            <application name="com.android.email" />
+            <application name="com.sec.android.app.camera" />
+            <application name="com.sec.android.widgetapp.SPlannerAppWidget" />
+            <application name="com.sec.android.widgetapp.digitalclock" />
+            <application name="com.samsung.helphub" remove="true" />
+            <application name="sstream.app" remove="true" />
+            <application name="com.sec.android.app.launcher" remove="true" />
+            <application name="com.sec.ims" remove="true" />
+            <application name="com.sec.imsservice" remove="true" />
+            <application name="com.sec.android.app.music" />
+            <application name="com.samsung.android.app.music.chn" />
+            <application name="com.sec.android.app.soundalive" />
+            <application name="com.sec.android.app.myfiles" />
+            <application allow="systemAppOnly" name="com.sec.android.app.samsungapps" />
+            <application allow="systemAppOnly" name="com.osp.app.signin" />
+            <application name="com.samsung.android.mobileservice" />
+            <application allow="systemAppOnly" name="com.sec.android.app.billing" />
+            <application name="com.sec.android.app.sbrowser" />
+            <application name="com.sec.sprextension" />
+            <application name="com.android.browser" />
+            <application name="com.sec.android.gallery3d" />
+            <application name="com.samsung.android.mdm" />
+            <application name="com.samsung.android.fingerprint.service" />
+            <application name="com.android.externalstorage" />
+            <application name="com.samsung.android.video" />
+            <application name="com.samsung.android.videolist" />
+            <application name="com.samsung.android.onlinevideo" />
+            <application name="com.samsung.everglades.video" />
+            <application name="com.sec.android.app.videoplayer" />
+            <application name="com.sec.android.app.SamsungContentsAgent" />
+            <application name="com.google.android.webview" />
+            <application name="com.android.keychain" />
+            <application name="com.android.webview" />
+            <application name="com.samsung.knox.keychain" />
+            <application name="com.samsung.knox.kss" />
+            <application name="com.samsung.knox.knoxtrustagent" />
+            <application name="com.samsung.android.dlp.service" />
+            <application name="com.samsung.cmh" />
+            <application name="com.samsung.dcmservice" />
+            <application name="com.samsung.faceservice" />
+            <application name="com.samsung.ipservice" />
+            <application name="com.samsung.storyservice" />
+            <application name="com.sec.face" />
+            <application name="com.samsung.android.themecenter" />
+            <application name="com.samsung.android.themestore" />
+            <application name="com.samsung.android.sdk.handwriting" />
+            <application name="com.samsung.app.highlightplayer" />
+            <application name="com.samsung.android.authfw" />
+            <application name="com.samsung.android.authservice" />
+            <application name="com.samsung.android.tadownloader" remove="true" />
+            <application name="com.samsung.android.tapack.authfw" remove="true" />
+            <application name="com.samsung.android.server.iris" />
+            <application name="com.samsung.android.spdfnote" />
+            <application name="com.samsung.android.app.smartcapture" />
+            <application name="com.samsung.android.service.livedrawing" />
+            <application name="com.sec.android.app.ocrservice" />
+            <application name="com.samsung.android.app.soundpicker" />
+            <application name="com.samsung.android.app.dofviewer" />
+            <application name="com.skms.android.agent" />
+            <application name="org.simalliance.openmobileapi.service" />
+            <application name="com.samsung.android.knox.containeragent" />
+            <application name="com.google.android.permissioncontroller" />
+            <application name="com.samsung.android.biometrics.app.setting" />
+            <application name="com.samsung.android.aircommandmanager" remove="true" />
+            <application name="com.android.stk" remove="true" />
+            <application name="com.sec.android.RilServiceModeApp" remove="true" />
+            <application name="com.sec.app.RilErrorNotifier" remove="true" />
+            <application name="com.sec.android.app.personalization" remove="true" />
+            <application name="com.samsung.android.kgclient" remove="true" />
+            <application name="com.samsung.android.game.gos" remove="true" />
+            <application name="com.samsung.android.beaconmanager" remove="true" />
+            <application name="com.sec.phone" remove="true" />
+            <application name="com.sec.android.app.bluetoothtest" remove="true" />
+            <application name="com.wssyncmldm" remove="true" />
+            <application name="com.sec.android.sdhms" remove="true" />
+            <application name="com.samsung.android.knox.analytics.uploader" remove="true" />
+            <application name="com.samsung.android.bbc.bbcagent" remove="true" />
+            <application name="com.samsung.android.svcagent" remove="true" />
+            <application name="com.samsung.android.shortcutbackupservice" remove="true" />
+            <application name="com.samsung.android.app.omcagent" remove="true" />
+            <application name="com.samsung.android.sdm.config" remove="true" />
+            <application name="com.samsung.android.easysetup" remove="true" />
+            <application name="com.samsung.android.rubin.app" remove="true" />
+            <application name="com.samsung.knox.securefolder" remove="true" />
+            <application name="com.sec.android.AutoPreconfig" remove="true" />
+            <application name="com.samsung.android.spdclient" remove="true" />
+        </column>
+        <column name="ProtectedPkgList">
+            <protectedPkg name="com.sec.knox.setup" />
+            <protectedPkg name="com.sec.knox.switcher" />
+            <protectedPkg name="com.sec.knox.containeragent2" />
+            <protectedPkg name="com.sec.knox.shortcutsms" />
+            <protectedPkg name="com.sec.knox.packageverifier" />
+            <protectedPkg name="com.samsung.knox.kss" />
+            <protectedPkg name="com.samsung.knox.knoxtrustagent" />
+            <protectedPkg name="com.sec.knox.bluetooth" />
+        </column>
+        <column name="GoogleAppsPkgList">
+            <disablePkg name="com.android.browser.provider" />
+            <disablePkg name="com.google.android.gm" />
+            <disablePkg name="com.google.android.apps.maps" />
+            <disablePkg name="com.google.android.gms" />
+            <disablePkg name="com.google.android.gsf" />
+            <disablePkg name="com.google.android.gsf.login" />
+            <disablePkg name="com.google.android.feedback" />
+            <disablePkg name="com.android.vending" />
+            <disablePkg name="com.google.android.street" />
+            <disablePkg name="com.google.android.backuptransport" />
+            <disablePkg name="com.google.android.configupdater" />
+            <disablePkg name="com.google.android.syncadapters.contacts" />
+            <disablePkg name="com.google.android.syncadapters.calendar" />
+            <disablePkg name="com.google.android.partnersetup" />
+            <disablePkg name="com.google.android.apps.turbo" />
+        </column>
+        <column name="FOTADisableAppsPkgList">
+            <fotadisablePkg name="com.samsung.android.fingerprint.service" />
+            <fotadisablePkg name="com.samsung.android.mdm" reenable="true" />
+        </column>
+        <column name="RCPDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+            </provider>
+        </column>
+        <column name="RCPAllowChangeDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+    </row>
+    <row>
+        <column name="UID" value="0" />
+        <column name="UserID" value="-1" />
+        <column name="Name" value="knox-1.0" />
+        <column name="PasswordMinimumLength" value="6" />
+        <column name="PasswordQuality" value="327680" />
+        <column name="MaximumTimeToLock" value="1800000" />
+        <column name="EncryptionRequired" value="true" />
+        <column name="CustomHomeScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="EC" value="false" />
+        <column name="NameIcon" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="ECName" value="Custom" />
+        <column name="ECIcon" value="/system/container/resources/ECIcon.jpg" />
+        <column name="ECBadge" value="/system/container/resources/ECBadge.jpg" />
+        <column name="CustomLockScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="CustomStatusLabel" value="Enterprise Knox" />
+        <column name="USBDebuggingAllowed" value="false" />
+        <column name="AppInstallList">
+            <application name="com.samsung.android.app.notes" />
+            <application name="com.samsung.android.app.memo" />
+            <application allow="systemAppOnly" name="com.sec.spp.push" />
+            <application allow="systemAppOnly" name="com.samsung.android.calendar" />
+            <application allow="systemAppOnly" name="com.samsung.android.app.scrollcapture" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.pentastic" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.airviewdictionary" />
+            <application allow="tre3ca, viennalte, v1a, v2, hlte, ha3g, h3g, htdlte, hvolte, hllte, hl3g, lt03, t0, chagallwifizc, chagallltetdzc, klimtltetdzc, klimtwifizc, trlte, tblte, trelte, tre3g, trhplte, tbelte, SC-01G, SCL24, gt5note, noblelte, SCL22" name="com.samsung.android.app.pinboard" />
+            <application name="com.sec.android.widgetapp.diotek.smemo" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer4" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice4" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.launcher.shared" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.viewer.launcher" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.appwidget" />
+            <application allow="systemAppOnly" name="com.hancom.office.hword.viewer.hword_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hcell.viewer.hcell_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hshow.viewer.hshow_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hwp.viewer.hwp_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.viewer" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor.hidden" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5tablet" />
+            <application name="com.microsoft.office.word" />
+            <application name="com.microsoft.office.powerpoint" />
+            <application name="com.microsoft.office.excel" />
+            <application name="com.sec.android.mimage.photoretouching" />
+            <application name="com.sec.android.inputmethod" />
+            <application name="com.gd.mobicore.pa" />
+            <application name="com.android.browser.provider" />
+            <application name="com.google.android.marvin.talkback" />
+            <application name="com.google.android.gm" />
+            <application name="com.android.chrome" />
+            <application name="com.sec.android.app.chromecustomizations" />
+            <application name="com.google.android.apps.maps" />
+            <application name="com.google.android.gms" />
+            <application name="com.google.android.gsf" />
+            <application name="com.google.android.gsf.login" />
+            <application name="com.google.android.feedback" />
+            <application name="com.google.android.partnersetup" />
+            <application name="com.android.vending" />
+            <application name="com.google.android.street" />
+            <application name="com.google.android.backuptransport" />
+            <application name="com.google.android.configupdater" />
+            <application name="com.google.android.syncadapters.contacts" />
+            <application name="com.google.android.syncadapters.calendar" />
+            <application name="com.google.android.tts" />
+            <application name="com.android.providers.downloads.ui" />
+            <application name="com.baidu.map.location" />
+            <application name="com.amap.android.location" />
+            <application name="com.baidu.BaiduMap" />
+            <application name="com.autonavi.cmccmap" />
+            <application name="com.samsung.locationhistory" />
+            <application name="com.android.calendar" />
+            <application name="com.android.contacts" />
+            <application name="com.samsung.android.app.contacts" />
+            <application name="com.samsung.android.email.sync" />
+            <application name="com.samsung.android.email.provider" />
+            <application name="com.samsung.android.email.composer" />
+            <application name="com.samsung.android.email.widget" />
+            <application name="com.samsung.android.email.ui" />
+            <application name="com.android.email" />
+            <application name="com.sec.android.app.camera" />
+            <application name="com.sec.android.widgetapp.SPlannerAppWidget" />
+            <application name="com.sec.android.widgetapp.digitalclock" />
+            <application name="com.samsung.helphub" remove="true" />
+            <application name="sstream.app" remove="true" />
+            <application name="com.sec.ims" remove="true" />
+            <application name="com.sec.imsservice" remove="true" />
+            <application name="com.sec.android.app.music" />
+            <application name="com.samsung.android.app.music.chn" />
+            <application name="com.sec.android.app.soundalive" />
+            <application name="com.sec.android.app.myfiles" />
+            <application allow="systemAppOnly" name="com.sec.android.app.samsungapps" />
+            <application allow="systemAppOnly" name="com.osp.app.signin" />
+            <application name="com.samsung.android.mobileservice" />
+            <application allow="systemAppOnly" name="com.sec.android.app.billing" />
+            <application name="com.sec.android.app.sbrowser" />
+            <application name="com.sec.sprextension" />
+            <application name="com.android.browser" />
+            <application name="com.sec.android.gallery3d" />
+            <application name="com.samsung.android.mdm" />
+            <application name="com.samsung.android.fingerprint.service" />
+            <application name="com.android.externalstorage" />
+            <application name="com.samsung.android.video" />
+            <application name="com.samsung.android.videolist" />
+            <application name="com.samsung.android.onlinevideo" />
+            <application name="com.samsung.everglades.video" />
+            <application name="com.sec.android.app.videoplayer" />
+            <application name="com.sec.android.app.SamsungContentsAgent" />
+            <application name="com.google.android.webview" />
+            <application name="com.android.keychain" />
+            <application name="com.android.webview" />
+            <application name="com.samsung.knox.kss" />
+            <application name="com.samsung.knox.knoxtrustagent" />
+            <application name="com.samsung.cmh" />
+            <application name="com.samsung.dcmservice" />
+            <application name="com.samsung.faceservice" />
+            <application name="com.samsung.ipservice" />
+            <application name="com.samsung.storyservice" />
+            <application name="com.sec.face" />
+            <application name="com.samsung.android.themecenter" />
+            <application name="com.samsung.android.themestore" />
+            <application name="com.samsung.android.sdk.handwriting" />
+            <application name="com.samsung.app.highlightplayer" />
+            <application name="com.samsung.android.authfw" />
+            <application name="com.samsung.android.authservice" />
+            <application name="com.samsung.android.server.iris" />
+            <application name="com.samsung.android.spdfnote" />
+            <application name="com.samsung.android.app.smartcapture" />
+            <application name="com.samsung.android.service.livedrawing" />
+            <application name="com.sec.android.app.ocrservice" />
+            <application name="com.samsung.android.app.soundpicker" />
+            <application name="com.samsung.android.app.dofviewer" />
+            <application name="com.skms.android.agent" />
+            <application name="org.simalliance.openmobileapi.service" />
+            <application name="com.samsung.android.knox.containeragent" />
+            <application name="com.google.android.permissioncontroller" />
+            <application name="com.samsung.android.biometrics.app.setting" />
+            <application name="com.samsung.android.aircommandmanager" remove="true" />
+            <application name="com.android.stk" remove="true" />
+            <application name="com.sec.android.RilServiceModeApp" remove="true" />
+            <application name="com.sec.app.RilErrorNotifier" remove="true" />
+            <application name="com.sec.android.app.personalization" remove="true" />
+            <application name="com.samsung.android.kgclient" remove="true" />
+            <application name="com.samsung.android.game.gos" remove="true" />
+            <application name="com.samsung.android.beaconmanager" remove="true" />
+            <application name="com.sec.phone" remove="true" />
+            <application name="com.sec.android.app.bluetoothtest" remove="true" />
+            <application name="com.wssyncmldm" remove="true" />
+            <application name="com.sec.android.sdhms" remove="true" />
+            <application name="com.samsung.android.knox.analytics.uploader" remove="true" />
+            <application name="com.samsung.android.bbc.bbcagent" remove="true" />
+            <application name="com.samsung.android.svcagent" remove="true" />
+            <application name="com.samsung.android.shortcutbackupservice" remove="true" />
+            <application name="com.samsung.android.app.omcagent" remove="true" />
+            <application name="com.samsung.android.sdm.config" remove="true" />
+            <application name="com.samsung.android.easysetup" remove="true" />
+            <application name="com.samsung.android.rubin.app" remove="true" />
+            <application name="com.samsung.knox.securefolder" remove="true" />
+            <application name="com.sec.android.AutoPreconfig" remove="true" />
+            <application name="com.samsung.android.spdclient" remove="true" />
+        </column>
+        <column name="ProtectedPkgList">
+            <protectedPkg name="com.sec.knox.setup" />
+            <protectedPkg name="com.sec.knox.switcher" />
+            <protectedPkg name="com.sec.knox.containeragent2" />
+            <protectedPkg name="com.sec.knox.shortcutsms" />
+            <protectedPkg name="com.sec.knox.packageverifier" />
+            <protectedPkg name="com.samsung.knox.kss" />
+            <protectedPkg name="com.samsung.knox.knoxtrustagent" />
+            <protectedPkg name="com.sec.knox.bluetooth" />
+        </column>
+        <column name="GoogleAppsPkgList">
+            <disablePkg name="com.android.browser.provider" />
+            <disablePkg name="com.google.android.gm" />
+            <disablePkg name="com.google.android.apps.maps" />
+            <disablePkg name="com.google.android.gms" />
+            <disablePkg name="com.google.android.gsf" />
+            <disablePkg name="com.google.android.gsf.login" />
+            <disablePkg name="com.google.android.feedback" />
+            <disablePkg name="com.android.vending" />
+            <disablePkg name="com.google.android.street" />
+            <disablePkg name="com.google.android.backuptransport" />
+            <disablePkg name="com.google.android.configupdater" />
+            <disablePkg name="com.google.android.syncadapters.contacts" />
+            <disablePkg name="com.google.android.syncadapters.calendar" />
+            <disablePkg name="com.google.android.apps.turbo" />
+        </column>
+        <column name="FOTADisableAppsPkgList">
+            <fotadisablePkg name="com.samsung.android.fingerprint.service" />
+            <fotadisablePkg name="com.samsung.android.mdm" reenable="true" />
+        </column>
+        <column name="RCPDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+            </provider>
+        </column>
+        <column name="RCPAllowChangeDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+    </row>
+    <row>
+        <column name="UID" value="0" />
+        <column name="UserID" value="-1" />
+        <column name="Name" value="knox-b2c" />
+        <column name="MaximumFailedPasswordsForWipe" value="20" />
+        <column name="PasswordMinimumLength" value="0" />
+        <column name="PasswordQuality" value="0" />
+        <column name="EncryptionRequired" value="true" />
+        <column name="CustomHomeScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="EC" value="false" />
+        <column name="NameIcon" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="ECName" value="Custom" />
+        <column name="ECIcon" value="/system/container/resources/ECIcon.jpg" />
+        <column name="ECBadge" value="/system/container/resources/ECBadge.jpg" />
+        <column name="CustomLockScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="CustomStatusLabel" value="Enterprise Knox" />
+        <column name="UserManaged" value="true" />
+        <column name="USBDebuggingAllowed" value="false" />
+        <column name="AppInstallList">
+            <application name="com.samsung.android.app.notes" />
+            <application name="com.samsung.android.app.memo" />
+            <application allow="systemAppOnly" name="com.sec.spp.push" />
+            <application allow="systemAppOnly" name="com.samsung.android.calendar" />
+            <application allow="systemAppOnly" name="com.samsung.android.app.scrollcapture" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.pentastic" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.airviewdictionary" />
+            <application allow="tre3ca, viennalte, v1a, v2, hlte, ha3g, h3g, htdlte, hvolte, hllte, hl3g, lt03, t0, chagallwifizc, chagallltetdzc, klimtltetdzc, klimtwifizc, trlte, tblte, trelte, tre3g, trhplte, tbelte, SC-01G, SCL24, gt5note, noblelte, SCL22" name="com.samsung.android.app.pinboard" />
+            <application name="com.sec.android.widgetapp.diotek.smemo" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer4" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice4" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.launcher.shared" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.viewer.launcher" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.appwidget" />
+            <application allow="systemAppOnly" name="com.hancom.office.hword.viewer.hword_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hcell.viewer.hcell_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hshow.viewer.hshow_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hwp.viewer.hwp_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.viewer" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor.hidden" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5tablet" />
+            <application name="com.microsoft.office.word" />
+            <application name="com.microsoft.office.powerpoint" />
+            <application name="com.microsoft.office.excel" />
+            <application name="com.sec.android.mimage.photoretouching" />
+            <application name="com.sec.android.inputmethod" />
+            <application name="com.google.android.marvin.talkback" />
+            <application name="com.gd.mobicore.pa" />
+            <application name="com.android.calendar" />
+            <application name="com.android.contacts" />
+            <application name="com.samsung.android.app.contacts" />
+            <application name="com.samsung.android.email.sync" />
+            <application name="com.samsung.android.email.provider" />
+            <application name="com.samsung.android.email.composer" />
+            <application name="com.samsung.android.email.widget" />
+            <application name="com.samsung.android.email.ui" />
+            <application name="com.android.email" />
+            <application name="com.sec.android.app.camera" />
+            <application name="com.sec.android.widgetapp.SPlannerAppWidget" />
+            <application name="com.sec.android.widgetapp.digitalclock" />
+            <application name="com.samsung.helphub" remove="true" />
+            <application name="sstream.app" remove="true" />
+            <application name="com.sec.ims" remove="true" />
+            <application name="com.sec.imsservice" remove="true" />
+            <application name="com.baidu.map.location" />
+            <application name="com.amap.android.location" />
+            <application name="com.baidu.BaiduMap" />
+            <application name="com.autonavi.cmccmap" />
+            <application name="com.samsung.locationhistory" />
+            <application name="com.sec.android.app.music" />
+            <application name="com.samsung.android.app.music.chn" />
+            <application name="com.sec.android.app.soundalive" />
+            <application name="com.sec.android.app.myfiles" />
+            <application allow="systemAppOnly" name="com.sec.android.app.samsungapps" />
+            <application allow="systemAppOnly" name="com.osp.app.signin" />
+            <application name="com.samsung.android.mobileservice" />
+            <application allow="systemAppOnly" name="com.sec.android.app.billing" />
+            <application name="com.sec.android.app.sbrowser" />
+            <application name="com.sec.sprextension" />
+            <application name="com.sec.android.gallery3d" />
+            <application name="com.samsung.android.mdm" />
+            <application name="com.samsung.android.fingerprint.service" />
+            <application name="com.android.externalstorage" />
+            <application name="com.samsung.android.video" />
+            <application name="com.samsung.android.videolist" />
+            <application name="com.samsung.android.onlinevideo" />
+            <application name="com.samsung.everglades.video" />
+            <application name="com.sec.android.app.videoplayer" />
+            <application name="com.sec.android.app.SamsungContentsAgent" />
+            <application name="com.sec.android.quickmemo" />
+            <application name="com.android.providers.downloads.ui" />
+            <application name="com.android.browser" />
+            <application name="com.google.android.webview" />
+            <application name="com.android.keychain" />
+            <application name="com.android.webview" />
+            <application name="com.samsung.knox.kss" />
+            <application name="com.samsung.knox.knoxtrustagent" />
+            <application name="com.samsung.cmh" />
+            <application name="com.samsung.dcmservice" />
+            <application name="com.samsung.faceservice" />
+            <application name="com.samsung.ipservice" />
+            <application name="com.samsung.storyservice" />
+            <application name="com.sec.face" />
+            <application name="com.samsung.android.themecenter" />
+            <application name="com.samsung.android.themestore" />
+            <application name="com.samsung.android.sdk.handwriting" />
+            <application name="com.samsung.app.highlightplayer" />
+            <application name="com.samsung.android.authfw" />
+            <application name="com.samsung.android.authservice" />
+            <application name="com.samsung.android.samsungpass" />
+            <application name="com.samsung.android.server.iris" />
+            <application name="com.samsung.android.spdfnote" />
+            <application name="com.samsung.android.app.smartcapture" />
+            <application name="com.samsung.android.service.livedrawing" />
+            <application name="com.sec.android.app.ocrservice" />
+            <application name="com.samsung.android.app.soundpicker" />
+            <application name="com.samsung.android.app.dofviewer" />
+            <application name="com.samsung.android.knox.containeragent" />
+            <application name="com.google.android.permissioncontroller" />
+            <application name="com.samsung.android.biometrics.app.setting" />
+            <application name="com.samsung.android.aircommandmanager" remove="true" />
+            <application name="com.android.stk" remove="true" />
+            <application name="com.sec.android.RilServiceModeApp" remove="true" />
+            <application name="com.sec.app.RilErrorNotifier" remove="true" />
+            <application name="com.sec.android.app.personalization" remove="true" />
+            <application name="com.samsung.android.kgclient" remove="true" />
+            <application name="com.samsung.android.game.gos" remove="true" />
+            <application name="com.samsung.android.beaconmanager" remove="true" />
+            <application name="com.sec.phone" remove="true" />
+            <application name="com.sec.android.app.bluetoothtest" remove="true" />
+            <application name="com.wssyncmldm" remove="true" />
+            <application name="com.sec.android.sdhms" remove="true" />
+            <application name="com.samsung.android.knox.analytics.uploader" remove="true" />
+            <application name="com.samsung.android.bbc.bbcagent" remove="true" />
+            <application name="com.samsung.android.svcagent" remove="true" />
+            <application name="com.samsung.android.shortcutbackupservice" remove="true" />
+            <application name="com.samsung.android.app.omcagent" remove="true" />
+            <application name="com.samsung.android.sdm.config" remove="true" />
+            <application name="com.samsung.android.easysetup" remove="true" />
+            <application name="com.samsung.android.rubin.app" remove="true" />
+            <application name="com.samsung.knox.securefolder" remove="true" />
+            <application name="com.sec.android.AutoPreconfig" remove="true" />
+            <application name="com.samsung.android.spdclient" remove="true" />
+        </column>
+        <column name="FOTADisableAppsPkgList">
+            <fotadisablePkg name="com.samsung.android.fingerprint.service" />
+            <fotadisablePkg name="com.samsung.android.mdm" reenable="true" />
+        </column>
+        <column name="ProtectedPkgList">
+            <protectedPkg name="com.sec.knox.setup" />
+            <protectedPkg name="com.sec.knox.switcher" />
+            <protectedPkg name="com.sec.knox.containeragent2" />
+            <protectedPkg name="com.sec.knox.shortcutsms" />
+            <protectedPkg name="com.sec.knox.packageverifier" />
+            <protectedPkg name="com.samsung.knox.kss" />
+            <protectedPkg name="com.samsung.knox.knoxtrustagent" />
+            <protectedPkg name="com.sec.knox.bluetooth" />
+        </column>
+        <column name="RCPDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+            </provider>
+        </column>
+        <column name="RCPAllowChangeDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+    </row>
+    <row type="securefolder">
+        <column name="UID" value="0" />
+        <column name="UserID" value="-1" />
+        <column name="Name" value="secure-folder" />
+        <column name="DefaultConfigType" value="true" />
+        <column name="DefaultContainerLayout" value="1" />
+        <column name="LayoutSwitchingAllowed" value="true" />
+        <column name="PasswordMinimumLength" value="0" />
+        <column name="PasswordMinimumNonLetters" value="4" />
+        <column name="PasswordMinimumLetters" value="4" />
+        <column name="PasswordMinimumSymbols" value="1" />
+        <column name="PasswordQuality" value="65536" />
+        <column name="MaximumCharacterOccurences" value="0" />
+        <column name="MaximumCharacterSequenceLength" value="0" />
+        <column name="MaximumNumericSequenceLength" value="0" />
+        <column name="EncryptionRequired" value="true" />
+        <column name="CustomHomeScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="CustomStatusLabel" value="Enterprise Knox" />
+        <column name="BiometricAuthEnabled" type="3" value="true" />
+        <column name="USBDebuggingAllowed" value="true" />
+        <column name="AppInstallList">
+            <application allow="systemAppOnly" name="com.sec.spp.push" />
+            <application allow="systemAppOnly" name="com.samsung.android.app.scrollcapture" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.pentastic" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.airviewdictionary" />
+            <application allow="tre3ca, viennalte, v1a, v2, hlte, ha3g, h3g, htdlte, hvolte, hllte, hl3g, lt03, t0, chagallwifizc, chagallltetdzc, klimtltetdzc, klimtwifizc, trlte, tblte, trelte, tre3g, trhplte, tbelte, SC-01G, SCL24, gt5note, noblelte, SCL22" name="com.samsung.android.app.pinboard" />
+            <application name="android.support.v4.print" />
+            <application name="com.sec.android.mimage.photoretouching" />
+            <application name="com.sec.android.inputmethod" />
+            <application name="com.android.browser.provider" />
+            <application name="com.google.android.marvin.talkback" />
+            <application name="com.google.android.googlequicksearchbox" />
+            <application name="com.sec.android.app.chromecustomizations" />
+            <application name="com.google.android.gms" />
+            <application name="com.google.android.gsf" />
+            <application name="com.google.android.gsf.login" />
+            <application name="com.google.android.feedback" />
+            <application name="com.google.android.partnersetup" />
+            <application name="com.google.android.configupdater" />
+            <application name="com.google.android.syncadapters.contacts" />
+            <application name="com.google.android.syncadapters.calendar" />
+            <application name="com.google.android.tts" />
+            <application name="com.gd.mobicore.pa" />
+            <application name="com.android.providers.downloads.ui" />
+            <application name="com.samsung.locationhistory" />
+            <application name="com.sec.android.widgetapp.SPlannerAppWidget" />
+            <application name="com.sec.android.widgetapp.digitalclock" />
+            <application name="com.samsung.helphub" remove="true" />
+            <application name="sstream.app" remove="true" />
+            <application name="com.sec.ims" remove="true" />
+            <application name="com.sec.imsservice" remove="true" />
+            <application name="com.sec.android.app.soundalive" />
+            <application allow="systemAppOnly" name="com.sec.android.app.samsungapps" />
+            <application allow="systemAppOnly" name="com.osp.app.signin" />
+            <application name="com.samsung.android.mobileservice" />
+            <application allow="systemAppOnly" name="com.sec.android.app.billing" />
+            <application name="com.sec.sprextension" />
+            <application name="com.samsung.android.mdm" />
+            <application name="com.samsung.android.fingerprint.service" />
+            <application name="com.android.externalstorage" />
+            <application name="com.sec.android.app.SamsungContentsAgent" />
+            <application name="com.google.android.webview" />
+            <application name="com.android.keychain" />
+            <application name="com.android.webview" />
+            <application name="com.samsung.android.dlp.service" />
+            <application name="com.samsung.cmh" />
+            <application name="com.samsung.dcmservice" />
+            <application name="com.samsung.faceservice" />
+            <application name="com.samsung.ipservice" />
+            <application name="com.samsung.storyservice" />
+            <application name="com.sec.face" />
+            <application name="com.samsung.android.sdk.handwriting" />
+            <application name="com.samsung.app.highlightplayer" />
+            <application name="com.samsung.android.authfw" />
+            <application name="com.samsung.android.authservice" />
+            <application name="com.samsung.android.samsungpass" />
+            <application name="com.samsung.android.server.iris" />
+            <application name="com.samsung.android.spdfnote" />
+            <application name="com.samsung.android.app.smartcapture" />
+            <application name="com.samsung.android.service.livedrawing" />
+            <application name="com.sec.android.app.ocrservice" />
+            <application name="com.samsung.android.app.soundpicker" />
+            <application name="com.samsung.android.app.dofviewer" />
+        </column>
+        <column name="FOTADisableAppsPkgList">
+            <fotadisablePkg name="com.samsung.android.fingerprint.service" />
+            <fotadisablePkg name="com.samsung.android.mdm" reenable="true" />
+        </column>
+        <column name="RCPDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+        <column name="RCPAllowChangeDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+    </row>
+    <row type="kiosk">
+        <column name="UID" value="0" />
+        <column name="UserID" value="-1" />
+        <column name="Name" value="knox-b2b-com" />
+        <column name="LayoutSwitchingAllowed" value="false" />
+        <column name="PasswordMinimumLength" value="0" />
+        <column name="PasswordMinimumNonLetters" value="0" />
+        <column name="PasswordMinimumLetters" value="0" />
+        <column name="PasswordMinimumSymbols" value="0" />
+        <column name="PasswordQuality" value="0" />
+        <column name="MaximumCharacterOccurences" value="0" />
+        <column name="MaximumCharacterSequenceLength" value="0" />
+        <column name="MaximumNumericSequenceLength" value="0" />
+        <column name="EncryptionRequired" value="true" />
+        <column name="CustomHomeScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="EC" value="false" />
+        <column name="NameIcon" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="ECName" value="Custom" />
+        <column name="ECIcon" value="/system/container/resources/ECIcon.jpg" />
+        <column name="ECBadge" value="/system/container/resources/ECBadge.jpg" />
+        <column name="CustomLockScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="CustomStatusLabel" value="Enterprise Knox" />
+        <column name="BiometricAuthEnabled" type="3" value="true" />
+        <column name="AllowMultiwindowMode" value="true" />
+        <column name="AllowTaskManager" value="true" />
+        <column name="AllowSettingsChanges" value="true" />
+        <column name="AllowStatusBarExpansion" value="true" />
+        <column name="AllowHomeKey" value="true" />
+        <column name="AllowClearAllNotification" value="true" />
+        <column name="HideSystemBar" value="false" />
+        <column name="WipeRecentTasks" value="true" />
+        <column name="USBDebuggingAllowed" value="false" />
+        <column name="AppInstallList">
+            <application name="com.sec.android.app.launcher" />
+            <application name="com.samsung.android.app.notes" />
+            <application name="com.samsung.android.app.memo" />
+            <application allow="systemAppOnly" name="com.sec.spp.push" />
+            <application allow="systemAppOnly" name="com.samsung.android.calendar" />
+            <application allow="systemAppOnly" name="com.samsung.android.app.scrollcapture" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.pentastic" />
+            <application allow="systemAppOnly" name="com.samsung.android.service.airviewdictionary" />
+            <application allow="tre3ca, viennalte, v1a, v2, hlte, ha3g, h3g, htdlte, hvolte, hllte, hl3g, lt03, t0, chagallwifizc, chagallltetdzc, klimtltetdzc, klimtwifizc, trlte, tblte, trelte, tre3g, trhplte, tbelte, SC-01G, SCL24, gt5note, noblelte, SCL22" name="com.samsung.android.app.pinboard" />
+            <application name="com.sec.android.widgetapp.diotek.smemo" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer4" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice4" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.launcher.shared" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.viewer.launcher" />
+            <application allow="systemAppOnly" name="com.hancom.androidpc.appwidget" />
+            <application allow="systemAppOnly" name="com.hancom.office.hword.viewer.hword_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hcell.viewer.hcell_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hshow.viewer.hshow_viewer_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.hwp.viewer.hwp_apk" />
+            <application allow="systemAppOnly" name="com.hancom.office.viewer" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor" />
+            <application allow="systemAppOnly" name="com.hancom.office.editor.hidden" />
+            <application allow="systemAppOnly" name="com.infraware.polarisoffice5tablet" />
+            <application name="com.sec.android.mimage.photoretouching" />
+            <application name="com.sec.android.inputmethod" />
+            <application name="com.microsoft.office.word" />
+            <application name="com.microsoft.office.powerpoint" />
+            <application name="com.microsoft.office.excel" />
+            <application name="com.gd.mobicore.pa" />
+            <application name="com.android.browser.provider" />
+            <application name="com.google.android.marvin.talkback" />
+            <application name="com.google.android.gm" />
+            <application name="com.android.chrome" />
+            <application name="com.sec.android.app.chromecustomizations" />
+            <application name="com.google.android.apps.maps" />
+            <application name="com.google.android.gms" />
+            <application name="com.google.android.gsf" />
+            <application name="com.google.android.gsf.login" />
+            <application name="com.google.android.feedback" />
+            <application name="com.google.android.partnersetup" />
+            <application name="com.android.vending" />
+            <application name="com.google.android.street" />
+            <application name="com.google.android.backuptransport" />
+            <application name="com.google.android.configupdater" />
+            <application name="com.google.android.syncadapters.contacts" />
+            <application name="com.google.android.syncadapters.calendar" />
+            <application name="com.google.android.tts" />
+            <application name="com.baidu.map.location" />
+            <application name="com.amap.android.location" />
+            <application name="com.baidu.BaiduMap" />
+            <application name="com.autonavi.cmccmap" />
+            <application name="com.samsung.locationhistory" />
+            <application name="com.android.calendar" />
+            <application name="com.android.contacts" />
+            <application name="com.samsung.android.app.contacts" />
+            <application name="com.samsung.android.dialer" />
+            <application name="com.samsung.android.email.sync" />
+            <application name="com.samsung.android.email.provider" />
+            <application name="com.samsung.android.email.composer" />
+            <application name="com.samsung.android.email.widget" />
+            <application name="com.samsung.android.email.ui" />
+            <application name="com.samsung.android.app.telephonyui" remove="true" />
+            <application name="com.android.email" />
+            <application name="com.sec.android.app.camera" />
+            <application name="com.sec.android.widgetapp.SPlannerAppWidget" />
+            <application name="com.sec.android.quickmemo" />
+            <application name="com.android.providers.downloads.ui" />
+            <application name="com.sec.android.widgetapp.digitalclock" />
+            <application name="com.samsung.helphub" remove="true" />
+            <application name="sstream.app" remove="true" />
+            <application name="com.sec.ims" remove="true" />
+            <application name="com.sec.imsservice" remove="true" />
+            <application name="com.sec.android.app.music" />
+            <application name="com.samsung.android.app.music.chn" />
+            <application name="com.sec.android.app.soundalive" />
+            <application name="com.sec.android.app.myfiles" />
+            <application allow="systemAppOnly" name="com.sec.android.app.samsungapps" />
+            <application allow="systemAppOnly" name="com.osp.app.signin" />
+            <application name="com.samsung.android.mobileservice" />
+            <application allow="systemAppOnly" name="com.sec.android.app.billing" />
+            <application name="com.sec.android.app.sbrowser" />
+            <application name="com.sec.sprextension" />
+            <application name="com.android.browser" />
+            <application name="com.sec.android.gallery3d" />
+            <application name="com.samsung.android.mdm" />
+            <application name="com.samsung.android.fingerprint.service" />
+            <application name="com.android.externalstorage" />
+            <application name="com.samsung.android.video" />
+            <application name="com.samsung.android.videolist" />
+            <application name="com.samsung.android.onlinevideo" />
+            <application name="com.samsung.everglades.video" />
+            <application name="com.sec.android.app.videoplayer" />
+            <application name="com.sec.android.app.SamsungContentsAgent" />
+            <application name="com.samsung.spg" />
+            <application name="com.google.android.webview" />
+            <application name="com.android.keychain" />
+            <application name="com.android.webview" />
+            <application name="com.samsung.knox.keychain" />
+            <application name="com.samsung.knox.kss" />
+            <application name="com.samsung.knox.knoxtrustagent" />
+            <application name="com.samsung.android.dlp.service" />
+            <application name="com.samsung.cmh" />
+            <application name="com.samsung.dcmservice" />
+            <application name="com.samsung.faceservice" />
+            <application name="com.samsung.ipservice" />
+            <application name="com.samsung.storyservice" />
+            <application name="com.sec.face" />
+            <application name="com.samsung.android.themecenter" />
+            <application name="com.samsung.android.themestore" />
+            <application name="com.samsung.android.sdk.handwriting" />
+            <application name="com.samsung.app.highlightplayer" />
+            <application name="com.samsung.android.authfw" />
+            <application name="com.samsung.android.authservice" />
+            <application name="com.samsung.android.server.iris" />
+            <application name="com.sec.android.app.servicemodeapp" />
+            <application name="com.samsung.android.spdfnote" />
+            <application name="com.samsung.android.app.smartcapture" />
+            <application name="com.samsung.android.service.livedrawing" />
+            <application name="com.sec.android.app.ocrservice" />
+            <application name="com.samsung.android.app.soundpicker" />
+            <application name="com.samsung.android.app.dofviewer" />
+            <application name="com.sec.android.app.desktoplauncher" />
+            <application name="com.skms.android.agent" />
+            <application name="org.simalliance.openmobileapi.service" />
+            <application name="com.samsung.android.lool" />
+            <application name="com.sec.android.app.cmas" />
+            <application name="com.samsung.android.knox.containeragent" />
+            <application name="com.google.android.permissioncontroller" />
+            <application name="com.samsung.android.biometrics.app.setting" />
+            <application name="com.samsung.android.aircommandmanager" remove="true" />
+            <application name="com.android.stk" remove="true" />
+            <application name="com.sec.android.RilServiceModeApp" remove="true" />
+            <application name="com.sec.app.RilErrorNotifier" remove="true" />
+            <application name="com.sec.android.app.personalization" remove="true" />
+            <application name="com.samsung.android.kgclient" remove="true" />
+            <application name="com.samsung.android.game.gos" remove="true" />
+            <application name="com.samsung.android.beaconmanager" remove="true" />
+            <application name="com.sec.phone" remove="true" />
+            <application name="com.sec.android.app.bluetoothtest" remove="true" />
+            <application name="com.wssyncmldm" remove="true" />
+            <application name="com.sec.android.sdhms" remove="true" />
+            <application name="com.samsung.android.knox.analytics.uploader" remove="true" />
+            <application name="com.samsung.android.bbc.bbcagent" remove="true" />
+            <application name="com.samsung.android.svcagent" remove="true" />
+            <application name="com.samsung.android.shortcutbackupservice" remove="true" />
+            <application name="com.samsung.android.app.omcagent" remove="true" />
+            <application name="com.samsung.android.sdm.config" remove="true" />
+            <application name="com.samsung.android.easysetup" remove="true" />
+            <application name="com.samsung.android.rubin.app" remove="true" />
+            <application name="com.samsung.knox.securefolder" remove="true" />
+            <application name="com.sec.android.AutoPreconfig" remove="true" />
+            <application name="com.samsung.android.spdclient" remove="true" />
+        </column>
+        <column name="ProtectedPkgList">
+            <protectedPkg name="com.sec.knox.setup" />
+            <protectedPkg name="com.sec.knox.switcher" />
+            <protectedPkg name="com.sec.knox.containeragent2" />
+            <protectedPkg name="com.sec.knox.shortcutsms" />
+            <protectedPkg name="com.sec.knox.packageverifier" />
+            <protectedPkg name="com.samsung.knox.kss" />
+            <protectedPkg name="com.samsung.knox.knoxtrustagent" />
+            <protectedPkg name="com.sec.knox.bluetooth" />
+        </column>
+        <column name="GoogleAppsPkgList">
+            <disablePkg name="com.android.browser.provider" />
+            <disablePkg name="com.google.android.gm" />
+            <disablePkg name="com.google.android.apps.maps" />
+            <disablePkg name="com.google.android.gms" />
+            <disablePkg name="com.google.android.gsf" />
+            <disablePkg name="com.google.android.gsf.login" />
+            <disablePkg name="com.google.android.feedback" />
+            <disablePkg name="com.android.vending" />
+            <disablePkg name="com.google.android.street" />
+            <disablePkg name="com.google.android.backuptransport" />
+            <disablePkg name="com.google.android.configupdater" />
+            <disablePkg name="com.google.android.syncadapters.contacts" />
+            <disablePkg name="com.google.android.syncadapters.calendar" />
+            <disablePkg name="com.google.android.partnersetup" />
+            <disablePkg name="com.google.android.apps.turbo" />
+        </column>
+        <column name="FOTADisableAppsPkgList">
+            <fotadisablePkg name="com.samsung.android.fingerprint.service" />
+            <fotadisablePkg name="com.samsung.android.mdm" reenable="true" />
+        </column>
+        <column name="RCPDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+        <column name="RCPAllowChangeDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+    </row>
+    <row type="lightweight">
+        <column name="UID" value="0" />
+        <column name="UserID" value="-1" />
+        <column name="Name" value="knox-b2b-lwc" />
+        <column name="LayoutSwitchingAllowed" value="false" />
+        <column name="PasswordMinimumLength" value="0" />
+        <column name="PasswordMinimumNonLetters" value="0" />
+        <column name="PasswordMinimumLetters" value="0" />
+        <column name="PasswordMinimumSymbols" value="0" />
+        <column name="PasswordQuality" value="0" />
+        <column name="MaximumCharacterOccurences" value="0" />
+        <column name="MaximumCharacterSequenceLength" value="0" />
+        <column name="MaximumNumericSequenceLength" value="0" />
+        <column name="EncryptionRequired" value="true" />
+        <column name="CustomHomeScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="EC" value="false" />
+        <column name="NameIcon" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="ECName" value="Custom" />
+        <column name="ECIcon" value="/system/container/resources/ECIcon.jpg" />
+        <column name="ECBadge" value="/system/container/resources/ECBadge.jpg" />
+        <column name="CustomLockScreenWallpaper" value="/system/container/resources/CustomHomeWallpaper-b2b.jpg" />
+        <column name="CustomStatusLabel" value="Enterprise Knox" />
+        <column name="BiometricAuthEnabled" type="3" value="true" />
+        <column name="USBDebuggingAllowed" value="false" />
+        <column name="FolderDisabledChangeLayout" value="true" />
+        <column name="AppInstallList">
+            <application allow="systemAppOnly" name="com.sec.spp.push" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer5" />
+            <application allow="systemAppOnly" name="com.infraware.polarisviewer4" />
+            <application name="com.gd.mobicore.pa" />
+            <application name="com.android.providers.downloads.ui" />
+            <application name="com.android.browser.provider" />
+            <application name="com.google.android.marvin.talkback" />
+            <application name="com.google.android.gm" />
+            <application name="com.android.chrome" />
+            <application name="com.sec.android.app.chromecustomizations" />
+            <application name="com.google.android.apps.maps" />
+            <application name="com.google.android.gms" />
+            <application name="com.google.android.gsf" />
+            <application name="com.google.android.gsf.login" />
+            <application name="com.google.android.feedback" />
+            <application name="com.google.android.partnersetup" />
+            <application name="com.android.vending" />
+            <application name="com.google.android.street" />
+            <application name="com.google.android.backuptransport" />
+            <application name="com.google.android.configupdater" />
+            <application name="com.google.android.syncadapters.contacts" />
+            <application name="com.google.android.syncadapters.calendar" />
+            <application name="com.google.android.tts" />
+            <application name="com.samsung.locationhistory" />
+            <application name="com.sec.android.app.SamsungContentsAgent" />
+            <application name="com.google.android.webview" />
+            <application name="com.android.keychain" />
+            <application name="com.android.webview" />
+            <application name="com.samsung.knox.kss" />
+            <application name="com.samsung.knox.knoxtrustagent" />
+            <application name="com.samsung.android.dlp.service" />
+            <application name="com.samsung.cmh" />
+            <application name="com.samsung.dcmservice" />
+            <application name="com.samsung.faceservice" />
+            <application name="com.samsung.ipservice" />
+            <application name="com.samsung.storyservice" />
+            <application name="com.sec.face" />
+            <application name="com.samsung.app.highlightplayer" />
+            <application name="com.samsung.android.authfw" />
+            <application name="com.samsung.android.authservice" />
+            <application name="com.samsung.android.server.iris" />
+            <application name="com.samsung.android.app.smartcapture" />
+            <application name="com.samsung.android.service.livedrawing" />
+            <application name="com.sec.android.app.ocrservice" />
+            <application name="com.samsung.android.app.soundpicker" />
+            <application name="com.samsung.android.app.dofviewer" />
+            <application name="com.skms.android.agent" />
+            <application name="org.simalliance.openmobileapi.service" />
+            <application name="com.samsung.android.knox.containeragent" />
+            <application name="com.google.android.permissioncontroller" />
+            <application name="com.samsung.android.biometrics.app.setting" />
+        </column>
+        <column name="ProtectedPkgList">
+            <protectedPkg name="com.sec.knox.setup" />
+            <protectedPkg name="com.sec.knox.switcher" />
+            <protectedPkg name="com.sec.knox.containeragent2" />
+            <protectedPkg name="com.sec.knox.shortcutsms" />
+            <protectedPkg name="com.sec.knox.packageverifier" />
+            <protectedPkg name="com.samsung.knox.kss" />
+            <protectedPkg name="com.samsung.knox.knoxtrustagent" />
+            <protectedPkg name="com.sec.knox.bluetooth" />
+        </column>
+        <column name="GoogleAppsPkgList">
+            <disablePkg name="com.android.browser.provider" />
+            <disablePkg name="com.google.android.gm" />
+            <disablePkg name="com.android.chrome" />
+            <disablePkg name="com.google.android.apps.maps" />
+            <disablePkg name="com.google.android.gms" />
+            <disablePkg name="com.google.android.gsf" />
+            <disablePkg name="com.google.android.gsf.login" />
+            <disablePkg name="com.google.android.feedback" />
+            <disablePkg name="com.android.vending" />
+            <disablePkg name="com.google.android.street" />
+            <disablePkg name="com.google.android.backuptransport" />
+            <disablePkg name="com.google.android.configupdater" />
+            <disablePkg name="com.google.android.syncadapters.contacts" />
+            <disablePkg name="com.google.android.syncadapters.calendar" />
+            <disablePkg name="com.google.android.partnersetup" />
+            <disablePkg name="com.google.android.apps.turbo" />
+        </column>
+        <column name="RCPDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="false" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="true" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+            </provider>
+        </column>
+        <column name="RCPAllowChangeDataSettings">
+            <provider name="Contacts">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Calendar">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Bookmarks">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+                <property name="knox-sanitize-data" value="false" />
+            </provider>
+            <provider name="Notifications">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="true" />
+                <property name="knox-sanitize-data" value="true" />
+                <property name="knox-sanitize-data-lockscreen" value="true" />
+            </provider>
+            <provider name="Clipboard">
+                <property name="knox-import-data" value="true" />
+                <property name="knox-export-data" value="false" />
+            </provider>
+        </column>
+    </row>
+    <FOTACloneApps>
+        <column name="AppInstallListForFotaClone">
+            <cloneapplication name="com.samsung.android.calendar" />
+            <cloneapplication name="com.samsung.android.mdm" />
+            <cloneapplication name="com.samsung.android.fingerprint.service" />
+            <cloneapplication name="com.android.externalstorage" />
+            <cloneapplication name="com.samsung.helphub" remove="true" />
+            <cloneapplication name="sstream.app" remove="true" />
+            <cloneapplication name="com.sec.ims" remove="true" />
+            <cloneapplication name="com.sec.imsservice" remove="true" />
+            <cloneapplication name="com.sec.hearingadjust" remove="true" />
+            <cloneapplication name="com.google.android.webview" />
+            <cloneapplication name="com.android.keychain" />
+            <cloneapplication name="com.android.webview" />
+            <cloneapplication name="com.samsung.knox.kss" />
+            <cloneapplication name="com.sec.knox.bluetooth" />
+            <cloneapplication name="com.samsung.knox.knoxtrustagent" />
+            <cloneapplication name="com.samsung.android.packageinstaller" />
+            <cloneapplication name="com.google.android.packageinstaller" />
+            <cloneapplication name="com.sec.android.inputmethod" />
+            <cloneapplication name="com.sec.android.inputmethod.iwnnime.japan" />
+            <cloneapplication name="com.samsung.inputmethod" />
+            <cloneapplication name="com.sec.android.inputmethod.theme.lightchina" />
+            <cloneapplication name="com.sec.sprextension" />
+            <cloneapplication name="com.gd.mobicore.pa" />
+            <cloneapplication name="com.amap.android.location" />
+            <cloneapplication name="com.qualcomm.location" />
+            <cloneapplication name="com.sec.android.app.storycam" />
+            <cloneapplication name="com.samsung.locationhistory" />
+            <cloneapplication name="com.sec.android.app.SamsungContentsAgent" />
+            <cloneapplication name="com.samsung.android.dlp.service" />
+            <cloneapplication name="com.samsung.cmh" />
+            <cloneapplication name="com.samsung.dcmservice" />
+            <cloneapplication name="com.samsung.faceservice" />
+            <cloneapplication name="com.samsung.ipservice" />
+            <cloneapplication name="com.samsung.storyservice" />
+            <cloneapplication name="com.sec.face" />
+            <cloneapplication name="com.android.wallpaper.livepicker" />
+            <cloneapplication name="com.samsung.android.writingbuddyservice" />
+            <cloneapplication name="com.sec.android.providers.downloads" />
+            <cloneapplication name="com.sec.android.app.SPenKeeper" />
+            <cloneapplication name="com.sec.android.wallpapercropper2" />
+            <cloneapplication name="com.sec.android.gesturepad" />
+            <cloneapplication name="com.sec.android.ofviewer" />
+            <cloneapplication name="com.arcsoft.magicshotstudio" />
+            <cloneapplication name="com.sec.knox.cocktailprovider3" />
+            <cloneapplication name="com.samsung.app.slowmotion" />
+            <cloneapplication name="com.myscript.atk.rmc.service.sample" />
+            <cloneapplication name="com.android.providers.userdictionary" />
+            <cloneapplication name="com.samsung.android.app.qragent" />
+            <cloneapplication name="com.hancom.office.editor.hidden" />
+            <cloneapplication name="com.samsung.android.app.scrollcapture" />
+            <cloneapplication name="com.samsung.android.service.pentastic" />
+            <cloneapplication name="com.samsung.android.service.airviewdictionary" />
+            <cloneapplication name="com.samsung.android.themecenter" />
+            <cloneapplication name="com.samsung.android.themestore" />
+            <cloneapplication name="com.samsung.android.sdk.handwriting" />
+            <cloneapplication name="com.samsung.app.highlightplayer" />
+            <cloneapplication name="com.samsung.android.app.contacts" />
+            <cloneapplication name="com.sec.spp.push" />
+            <cloneapplication name="com.sec.android.mimage.photoretouching" />
+            <cloneapplication name="com.google.android.permissioncontroller" />
+            <cloneapplication name="com.samsung.android.biometrics.app.setting" />
+        </column>
+        <column name="AppDisableListForFotaClone">
+            <clonedisablePkg name="com.samsung.android.fingerprint.service" />
+            <clonedisablePkg name="com.samsung.android.mdm" reenable="true" />
+        </column>
+    </FOTACloneApps>
+    <knoxCore>
+        <package name="com.samsung.android.fingerprint.service" />
+        <application name="com.samsung.android.server.iris" />
+        <package name="com.sec.android.inputmethod" />
+        <package name="com.sec.android.inputmethod.iwnnime.japan" />
+        <package name="com.samsung.inputmethod" />
+        <package name="com.sec.android.inputmethod.theme.lightchina" />
+        <package name="com.samsung.android.intelligenceservice" />
+        <package name="com.samsung.android.internal.intelligence.useranalysis" />
+        <package name="com.samsung.android.provider.filterprovider" />
+        <package name="com.sec.android.app.camerabokehservice" />
+        <package name="com.sec.android.app.FlashBarService" />
+        <package name="com.android.packageinstaller" />
+        <package name="com.google.android.packageinstaller" />
+        <package name="com.samsung.android.packageinstaller" />
+        <package name="com.android.wallpaper.livepicker" />
+        <package name="com.samsung.android.writingbuddyservice" />
+        <package name="com.android.providers.calendar" />
+        <package name="com.android.providers.contacts" />
+        <package name="com.samsung.android.providers.contacts" />
+        <package name="com.android.providers.downloads" />
+        <package name="com.sec.android.providers.downloads" />
+        <package name="com.android.providers.media" />
+        <package name="com.android.providers.telephony" />
+        <package name="com.android.vpndialogs" />
+        <package name="com.knox.vpn.proxyhandler" />
+        <package name="com.samsung.clipboardsaveservice" />
+        <package name="com.sec.android.provider.badge" />
+        <package name="com.sec.android.provider.logsprovider" />
+        <package name="com.sec.android.providers.tasks" />
+        <package name="com.sec.enterprise.knox.attestation" />
+        <package name="com.samsung.android.knox.attestation" />
+        <package name="com.samsung.android.knox.pushmanager" />
+        <package name="com.sec.smartcard.pinservice" />
+        <package name="com.sec.smartcard.manager" />
+        <package name="com.samsung.knox.bridge.clipboard.syncer" />
+        <package name="com.samsung.knox.rcp.components" />
+        <package name="com.sec.knox.containeragent2" />
+        <package name="com.samsung.knox.kss" />
+        <package name="com.sec.knox.bluetooth" />
+        <package name="com.sec.knox.seandroid" />
+        <package name="com.sec.knox.store" />
+        <package name="com.monotype.android.font.chococooky" />
+        <package name="com.monotype.android.font.cooljazz" />
+        <package name="com.monotype.android.font.droidserifitalic" />
+        <package name="com.monotype.android.font.rosemary" />
+        <package name="com.monotype.android.font.samsungsans" />
+        <package name="com.monotype.android.font.applemint" />
+        <package name="com.samsung.android.mdm" />
+        <package name="com.sec.android.app.ringtoneBR" />
+        <package name="com.sec.android.app.SPenKeeper" />
+        <package name="com.samsung.android.app.gestureservice" />
+        <package name="com.samsung.accessibility" />
+        <package name="com.samsung.android.app.airwakeupview" />
+        <package name="com.samsung.android.app.shareaccessibilitysettings" />
+        <package name="com.sec.android.motions.settings.panningtutorial" />
+        <package name="com.samsung.android.app.colorblind" />
+        <package name="com.android.documentsui" />
+        <package name="com.samsung.dcm" />
+        <package name="com.samsung.SMT" />
+        <package name="com.sec.android.app.popupuireceiver" />
+        <package name="com.visionobjects.resourcemanager" />
+        <package name="com.samsung.pickuptutorial" />
+        <package name="com.sec.android.app.wallpaperchooser" />
+        <package name="com.sec.android.wallpapercropper2" />
+        <package name="com.android.exchange" />
+        <package name="com.android.htmlviewer" />
+        <package name="com.android.musicfx" />
+        <package name="com.samsung.android.internal.smartassistant" />
+        <package name="com.sec.android.app.mv.player" />
+        <package name="com.sec.android.app.sbrowsertry" />
+        <package allow="kona" name="com.sec.android.app.browsertry" />
+        <package name="com.sec.android.iap" />
+        <package name="com.sec.factory.camera" />
+        <package name="com.sec.android.app.parser" />
+        <package name="com.sec.android.app.DataCreate" />
+        <package name="com.samsung.android.sdk.spenv10" />
+        <package name="com.sec.android.mmapp" />
+        <package name="com.sec.android.app.taskmanager" />
+        <package name="com.sec.android.app.controlpanel" />
+        <package name="com.sec.android.app.minimode.res" />
+        <package name="com.sec.everglades.update" />
+        <package name="com.sec.android.app.tourviewer" />
+        <package name="com.sec.android.app.apex" />
+        <package name="com.samsung.android.quickmemo" />
+        <package name="com.sec.android.app.rakein" />
+        <package name="com.sec.spen.flashannotate" />
+        <package name="com.sec.spen.flashannotatesvc" />
+        <package name="com.samsung.android.provider.smartclip" />
+        <package name="com.sec.android.app.SmartClipService" />
+        <package name="com.sec.android.gesturepad" />
+        <package name="com.sec.android.quickmemowidget" />
+        <package name="com.sec.android.provider.snote" />
+        <package name="com.sec.android.provider.smemo" />
+        <package name="com.android.externalstorage" />
+        <package name="com.sec.android.ofviewer" />
+        <package name="com.arcsoft.magicshotstudio" />
+        <package name="com.google.android.webview" />
+        <package name="com.sec.knox.cocktailprovider3" />
+        <package name="com.samsung.app.slowmotion" />
+        <package name="com.myscript.atk.rmc.service.sample" />
+        <package name="com.android.providers.userdictionary" />
+        <package name="com.qualcomm.location" />
+        <package name="com.sec.android.app.storycam" />
+        <package name="com.samsung.android.app.qragent" />
+        <package name="com.android.apps.tag" />
+        <package name="com.sec.android.app.SmartClipEdgeService" />
+        <package name="com.samsung.android.sdk.handwriting" />
+        <package name="com.samsung.android.smartmirroring" />
+        <package name="com.android.certinstaller" />
+        <package name="com.samsung.android.knox.containeragent" />
+        <package name="com.google.android.permissioncontroller" />
+    </knoxCore>
+    <BadgePolicy>
+        <policy name="multiwindow" value="ic_knox_badge" />
+    </BadgePolicy>
+</table>

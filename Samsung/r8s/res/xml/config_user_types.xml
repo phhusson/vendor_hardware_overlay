@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<user-types>
+    <profile-type max-allowed-per-parent="1" name="com.samsung.usertype.profile.APPSEPARATION">
+        <default-restrictions no_cross_profile_copy_paste="true" />
+        <default-restrictions no_bluetooth_sharing="true" />
+        <default-restrictions no_outgoing_beam="true" />
+        <default-restrictions no_install_unknown_sources="true" />
+    </profile-type>
+</user-types>
