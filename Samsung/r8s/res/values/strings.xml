@@ -2,7 +2,8 @@
 <resources>
     <string name="config_cameraLaunchGestureSensorStringType" />
 
-    <string name="config_mainBuiltInDisplayCutout" />
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
-    <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 M 0,10 a 10,10 0 1,0 0,20 a 10,10 0 1,0 0,-20 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,0 M -10,10 H 10 V 30 H -10 V 10</string>
+    
+    <string name="wifi_tether_configure_ssid_default">Galaxy S20 FE</string>
 </resources>
