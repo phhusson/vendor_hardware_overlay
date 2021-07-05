@@ -90,8 +90,6 @@
         <item>413</item>
         <item>413</item>
     </integer-array>
-    <array name="config_autoBrightnessGame" />
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>21</item>
         <item>40</item>
@@ -211,16 +209,6 @@
         <item>4000</item>
         <item>4500</item>
     </integer-array>
-    <integer-array name="config_autoRotationTiltTolerance">
-        <item>-25</item>
-        <item>70</item>
-        <item>-25</item>
-        <item>65</item>
-        <item>-25</item>
-        <item>60</item>
-        <item>-25</item>
-        <item>65</item>
-    </integer-array>
     <integer-array name="config_screenBrighteningThresholds">
         <item>0</item>
     </integer-array>
@@ -273,17 +261,11 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
-    <bool name="config_camera_sound_forced">false</bool>
     <bool name="config_carrier_volte_available">false</bool>
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
-    <bool name="config_enableNightMode">true</bool>
-    <bool name="config_supportsMultiDisplay">true</bool>
-    <bool name="config_supportsMultiWindow">true</bool>
-    <bool name="config_supportsRoundedCornersOnWindows">true</bool>
-    <bool name="config_supportsSplitScreenMultiWindow">true</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_lidControlsSleep">true</bool>
     <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
