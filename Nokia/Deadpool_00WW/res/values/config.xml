@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_dozePulsePickup">true</bool>
+
+    <dimen name="status_bar_height_portrait">89px</dimen>
+    <dimen name="status_bar_height_landscape">24dp</dimen>
+    <dimen name="rounded_corner_radius_top">106px</dimen>
+    <dimen name="rounded_corner_radius_bottom">64px</dimen>
+
+    <integer name="config_screenBrightnessSettingMinimum">3</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
+    <integer name="config_screenBrightnessDark">1</integer>
+    <integer name="config_screenBrightnessDim">10</integer>
+    <integer name="config_brightness_ramp_rate_fast">180</integer>
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">300%</fraction>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>100</item>
+        <item>400</item>
+        <item>2000</item>
+        <item>10000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>17</item>
+        <item>87</item>
+        <item>165</item>
+        <item>285</item>
+        <item>432</item>
+    </integer-array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>3</item>
+        <item>48</item>
+        <item>95</item>
+        <item>175</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_screenBrightnessNits">
+        <item>17</item>
+        <item>87</item>
+        <item>165</item>
+        <item>285</item>
+        <item>432</item>
+    </array>
+
+    <!-- notch configuration in oem xml, works well -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 L -24,0 C -24,0 -24,28 0,28 C 0,28 24,28 24,0 Z @dp</string>
+</resources>
