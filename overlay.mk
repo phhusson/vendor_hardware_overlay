@@ -130,6 +130,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-tethering \
 	treble-overlay-umidigi-A3S \
 	treble-overlay-umidigi-power \
+	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vsmart-live \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
