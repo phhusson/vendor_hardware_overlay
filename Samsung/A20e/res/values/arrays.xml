@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_HysteresisBrightInputLux">
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>50</item>
+        <item>103</item>
+        <item>226</item>
+        <item>308</item>
+        <item>388</item>
+        <item>472</item>
+        <item>553</item>
+        <item>654</item>
+        <item>776</item>
+        <item>898</item>
+        <item>1020</item>
+        <item>1144</item>
+        <item>1309</item>
+        <item>1468</item>
+        <item>1630</item>
+    </integer-array>
+    <integer-array name="config_HysteresisBrightOutputLux">
+        <item>5</item>
+        <item>7</item>
+        <item>7</item>
+        <item>103</item>
+        <item>472</item>
+        <item>472</item>
+        <item>898</item>
+        <item>898</item>
+        <item>898</item>
+        <item>1468</item>
+        <item>1468</item>
+        <item>1468</item>
+        <item>1468</item>
+        <item>1468</item>
+        <item>1630</item>
+        <item>1630</item>
+        <item>1630</item>
+        <item>1630</item>
+        <item>1630</item>
+    </integer-array>
+    <integer-array name="config_HysteresisDarkInputLux">
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>50</item>
+        <item>103</item>
+        <item>226</item>
+        <item>308</item>
+        <item>388</item>
+        <item>472</item>
+        <item>553</item>
+        <item>654</item>
+        <item>776</item>
+        <item>898</item>
+        <item>1020</item>
+        <item>1144</item>
+        <item>1309</item>
+        <item>1468</item>
+        <item>1630</item>
+    </integer-array>
+    <integer-array name="config_HysteresisDarkOutputLux">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>103</item>
+        <item>103</item>
+        <item>103</item>
+        <item>103</item>
+        <item>654</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>4</item>
+        <item>18</item>
+        <item>43</item>
+        <item>89</item>
+        <item>109</item>
+        <item>137</item>
+        <item>147</item>
+        <item>155</item>
+        <item>165</item>
+        <item>171</item>
+        <item>182</item>
+        <item>190</item>
+        <item>199</item>
+        <item>210</item>
+        <item>221</item>
+        <item>227</item>
+        <item>241</item>
+        <item>255</item>
+        <item>306</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>50</item>
+        <item>103</item>
+        <item>226</item>
+        <item>308</item>
+        <item>388</item>
+        <item>472</item>
+        <item>553</item>
+        <item>654</item>
+        <item>776</item>
+        <item>898</item>
+        <item>1020</item>
+        <item>1144</item>
+        <item>1309</item>
+        <item>1468</item>
+        <item>1630</item>
+    </integer-array>
+    <string-array name="config_mobile_tcp_buffers">
+        <item>5gnr:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>lte:2097152,4194304,8388608,1048576,3145728,4194304</item>
+    </string-array>
+    <string-array name="config_tether_ethernet_regexs">
+        <item>eth\\d</item>
+    </string-array>
+    <string-array name="config_tether_ncm_regexs">
+        <item>ncm\\d</item>
+    </string-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis0</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>wlan0</item>
+    </string-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,240000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>bluetooth,7,7,0,-1,true</item>
+        <item>ethernet,9,9,2,-1,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,1,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+        <item>mobile_bip,23,0,2,60000,true</item>
+        <item>mobile_cas,24,0,3,60000,true</item>
+        <item>mobile_xcap,27,0,2,60000,true</item>
+        <item>mobile_ent1,28,0,2,-1,true</item>
+        <item>mobile_mcx,32,0,2,-1,true</item>
+        <item>mobile_foc,30,0,2,-1,true</item>
+    </string-array>
+</resources>
