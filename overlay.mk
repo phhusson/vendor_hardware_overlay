@@ -55,6 +55,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
 	treble-overlay-lg-velvet \
+	treble-overlay-meizu-m2181 \
+	treble-overlay-meizu-m2181-systemui \
 	treble-overlay-misc-aod \
 	treble-overlay-misc-aod-systemui \
 	treble-overlay-misc-dt2w \
@@ -86,6 +88,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-oneplus-op6t \
 	treble-overlay-oneplus-op6t-systemui \
+	treble-overlay-oppo-peqm00 \
+	treble-overlay-oppo-peqm00-systemui \
 	treble-overlay-oukitel-wp8pro \
 	treble-overlay-razer-cheryl \
 	treble-overlay-realme-6 \
