@@ -2,7 +2,7 @@
         package="me.phh.treble.overlay.cafims"
         android:versionCode="1"
         android:versionName="1.0">
-        <overlay android:targetPackage="android"
+        <overlay android:targetPackage="com.android.phone"
                 android:requiredSystemPropertyName="persist.sys.phh.ims.caf"
                 android:requiredSystemPropertyValue="true"
 		android:priority="39"

@@ -8,12 +8,13 @@ if [ "$1" == "--local-aapt" ];then
     shift
 fi
 
-script_dir="$(dirname "$(realpath "$0")")"
+script_dir="$(dirname "$(readlink -f -- "$0")")"
 if [ "$#" -eq 1 ]; then
     if [ -d "$1" ];then
-	    makes="$(find "$1" -name Android.mk)"
+	    makes="$(find "$1" -name Android.mk -exec readlink -f -- '{}' \;)"
+
     else
-	    makes="$(realpath "$1")"
+	    makes="$(readlink -f -- "$1")"
     fi
 else
     cd "$script_dir"

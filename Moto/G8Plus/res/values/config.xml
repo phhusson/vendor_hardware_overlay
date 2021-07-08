@@ -27,7 +27,6 @@
     <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="skip_restoring_network_selection">true</bool>
-    <dimen name="status_bar_height">80px</dimen>
     <dimen name="status_bar_height_landscape">24dp</dimen>
     <dimen name="status_bar_height_portrait">24dp</dimen>
 

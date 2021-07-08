@@ -5,7 +5,11 @@ cd "$base" || exit
 
 #Usage: fail <file> <message> [ignore string]
 fail() {
-	if [ -z "$3" ] || ! grep -qF "$3" "$1";then
+    ignoreCheckPath="$1"
+    if [ -d "$ignoreCheckPath" ];then
+        ignoreCheckPath="$1/AndroidManifest.xml"
+    fi
+	if [ -z "$3" ] || ! grep -qF "$3" "$ignoreCheckPath";then
 		echo "Fatal: $1: $2"
 		touch fail
 	else
@@ -20,14 +24,17 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 	folder="$(dirname "$manifest")"
 	#Ensure this overlay doesn't override blacklist-ed properties
 	cat tests/blacklist |while read -r b;do
-		if grep -qRF "$b" "$folder";then
-			fail "$folder" "Overlay $folder is defining $b which is forbidden"
+		if grep -qRF "\"$b\"" "$folder";then
+			fail "$folder" "Overlay $folder is defining $b which is forbidden" "SUPER OVERLAY"
 		fi
 	done
 
 	#Everything after that is specifically for static overlays, targetting framework-res
 	isStatic="$(xmlstarlet sel -t -m '//overlay' -v @android:isStatic -n "$manifest")"
 	[ "$isStatic" != "true" ] && continue
+
+    targetPkg="$(xmlstarlet sel -t -m '//overlay' -v @android:targetPackage -n "$manifest")"
+    [ "$targetPkg" != "android" ] && continue
 
 	#Ensure priorities unique-ness
 	priority="$(xmlstarlet sel -t -m '//overlay' -v @android:priority -n "$manifest")"
@@ -42,6 +49,10 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 			'TESTS: Ignore ro.vendor.product.'
 	fi
 
+    if grep -qF '$(TARGET_OUT)' "$folder/Android.mk";then
+        fail "$folder/Android.mk" "is wrongly pushing overlay in system/overlay rather than product/overlay"
+    fi
+
 	#Ensure the overloaded properties exist in AOSP
 	find "$folder" -name \*.xml |while read -r xml;do
 		keys="$(xmlstarlet sel -t -m '//resources/*' -v @name -n "$xml")"
@@ -49,8 +60,8 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 			grep -qE '^'"$key"'$' tests/knownKeys && continue
 			#Run the ag only on phh's machine. Assume that knownKeys is full enough.
 			#If it's enough, ask phh to update it
-			if [ -d /build/AOSP-9.0 ] && \
-				(ag '"'"$key"'"' /build/AOSP-9.0/frameworks/base/core/res/res || \
+			if [ -d /build2/AOSP-11.0 ] && \
+				(ag '"'"$key"'"' /build2/AOSP-11.0/frameworks/base/core/res/res || \
 				ag '"'"$key"'"' /build/AOSP-8.1/frameworks/base/core/res/res)> /dev/null ;then
 				echo "$key" >> tests/knownKeys
 			else
