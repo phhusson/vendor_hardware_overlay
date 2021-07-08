@@ -59,6 +59,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g8plus \
 	treble-overlay-moto-g8power \
 	treble-overlay-moto-one \
+	treble-overlay-moto-onefusionplus \
+	treble-overlay-moto-onefusionplus-systemui \
 	treble-overlay-moto-onehyper \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
