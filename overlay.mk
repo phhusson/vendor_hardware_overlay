@@ -129,7 +129,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teracube-v7101o \
 	treble-overlay-tethering \
 	treble-overlay-umidigi-A3S \
+	treble-overlay-tethering \
 	treble-overlay-umidigi-power \
+	treble-overlay-umidigi-a7pro \
 	treble-overlay-vsmart-live \
 	treble-overlay-webview \
 	treble-overlay-wifi5g \
@@ -166,4 +168,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redminote8pro \
 	treble-overlay-xiaomi-redmis2 \
-
+	treble-overlay-xiaomi-redminote9s \
+	treble-overlay-xiaomi-redminote9s-wifi \
+	treble-overlay-xiaomi-redminote9pro \
+	treble-overlay-xiaomi-redminote9pro-wifi \
+	treble-overlay-xiaomi-redminote9promax \
+	treble-overlay-xiaomi-redminote9promax-wifi \
+	treble-overlay-doogee-y8 \
