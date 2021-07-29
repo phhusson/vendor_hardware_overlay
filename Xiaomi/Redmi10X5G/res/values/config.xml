@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Custom Config  -->
-    <bool name="config_enableHapticTextHandle">true</bool>
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
-    <bool name="config_sendCameraStatusIntent">true</bool>
-    <bool name="config_supportsInDisplayFingerprint">true</bool>
-    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
-    <bool name="config_haveHigherAspectRatioScreen">true</bool>
-    <integer name="config_navBarInteractionMode">2</integer>
     <!--
 	
 		Config From MIUI V12.5.2.0 China Version
@@ -192,9 +184,6 @@
         <item>4000</item>
         <item>4500</item>
     </integer-array>
-    <string-array name="config_biometric_sensors">
-        <item>0:2:15</item>
-    </string-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
         <item>mobile,0,0,0,-1,true</item>
@@ -280,23 +269,23 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_sustainedPerformanceModeSupported">false</bool>
-    <bool name="config_enableMultiUserUI">true</bool>
+    
     <bool name="config_enableBurnInProtection">false</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
-    <bool name="config_unplugTurnsOnScreen">true</bool>
-    <bool name="config_cellBroadcastAppLinks">false</bool>
-    <bool name="config_dozeAlwaysOnEnabled">true</bool>
+
+
+
     <bool name="config_pinnerCameraApp">false</bool>
     <bool name="config_enableNetworkLocationOverlay">false</bool>
     <bool name="config_pinnerHomeApp">false</bool>
-    <bool name="config_enableWifiDisplay">false</bool>
-    <bool name="config_camera_sound_forced">true</bool>
+
+
     <bool name="config_carrier_wfc_ims_available">false</bool>
     <bool name="config_speed_up_audio_on_mt_calls">false</bool>
-    <bool name="config_carrier_volte_tty_supported">true</bool>
+
     <bool name="config_supportDoubleTapWake">false</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
-    <bool name="config_eap_sim_based_auth_supported">true</bool>
+
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <dimen name="status_bar_height_portrait">24dp</dimen>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
@@ -305,23 +294,20 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
     <integer name="config_brightness_ramp_rate_fast">180</integer>
     <integer name="config_brightness_ramp_rate_slow">60</integer>
-    <integer name="config_defaultRingVibrationIntensity">2</integer>
+
     <integer name="config_screenBrightnessDark">1</integer>
     <integer name="config_screenBrightnessDim">10</integer>
-    <integer name="config_safe_media_volume_index">10</integer>
-    <integer name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz">-83</integer>
-    <integer name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-80</integer>
-    <integer name="config_wifi_framework_wifi_score_low_rssi_threshold_24GHz">-73</integer>
-    <integer name="config_wifi_framework_wifi_score_low_rssi_threshold_5GHz">-70</integer>
+
+
     <integer name="config_screenBrightnessDoze">1</integer>
-    <integer name="config_multiuserMaximumUsers">4</integer>
-    <integer name="config_num_physical_slots">1</integer>
-    <integer name="config_defaultHapticFeedbackIntensity">2</integer>
+
+
+
     <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
-    <integer name="config_defaultNotificationVibrationIntensity">2</integer>
+
     <integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
     <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
-    <integer name="config_wakeUpDelayDoze">0</integer>
+
     <integer name="config_screenBrightnessSettingDefault">102</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">10</integer>
@@ -331,9 +317,8 @@
     <integer name="config_lightSensorWarmupTime">0</integer>
     <integer name="config_bluetooth_tx_cur_ma">0</integer>
     <integer name="config_shutdownBatteryTemperature">599</integer>
-    <integer name="config_bluetooth_max_advertisers">0</integer>
-    <integer name="config_bluetooth_max_scan_filters">0</integer>
-    <string name="config_qualified_networks_service_package">com.android.phone</string>
+
+
+
     <string name="config_ims_package">com.mediatek.ims</string>
-    <string name="config_wifi_tcp_buffers">524288,1048576,4194304,262144,524288,3670016</string>
 </resources>
