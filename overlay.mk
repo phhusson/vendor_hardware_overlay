@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-sprd-ims \
 	treble-overlay-teclast-m30 \
+	treble-overlay-teclast-t30 \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-telephony-caf-ims \
 	treble-overlay-telephony-mtk-ims \
