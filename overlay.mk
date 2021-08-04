@@ -73,6 +73,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-oneplus-op6t \
 	treble-overlay-oneplus-op6t-systemui \
+	treble-overlay-oukitel-c18pro \
 	treble-overlay-oukitel-wp8pro \
 	treble-overlay-razer-cheryl \
 	treble-overlay-realme-6 \
