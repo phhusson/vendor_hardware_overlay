@@ -1,42 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>8</item>
+        <item>2</item>
+        <item>5</item>
+        <item>9</item>
+        <item>13</item>
+        <item>16</item>
+        <item>21</item>
+        <item>30</item>
+        <item>37</item>
+        <item>40</item>
+        <item>44</item>
+        <item>47</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>51</item>
+        <item>51</item>
+        <item>51</item>
+        <item>51</item>
+        <item>52</item>
+        <item>52</item>
+        <item>52</item>
+        <item>52</item>
+        <item>52</item>
+        <item>53</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
         <item>64</item>
-        <item>98</item>
-        <item>104</item>
-        <item>110</item>
-        <item>116</item>
-        <item>122</item>
-        <item>128</item>
-        <item>134</item>
-        <item>182</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>67</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>86</item>
+        <item>100</item>
+        <item>113</item>
+        <item>126</item>
+        <item>138</item>
+        <item>153</item>
+        <item>163</item>
+        <item>171</item>
+        <item>208</item>
+        <item>241</item>
         <item>255</item>
         <item>255</item>
         <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
-        <item>128</item>
-        <item>256</item>
-        <item>384</item>
-        <item>512</item>
-        <item>640</item>
-        <item>768</item>
-        <item>896</item>
-        <item>1024</item>
-        <item>2048</item>
-        <item>4096</item>
-        <item>6144</item>
-        <item>8192</item>
-        <item>10240</item>
-        <item>12288</item>
-        <item>14336</item>
-        <item>16384</item>
-        <item>18432</item>
+        <item>45</item>
+        <item>1025</item>
+        <item>1480</item>
+        <item>2250</item>
+        <item>3300</item>
+        <item>10000</item>
     </integer-array>
 </resources>
