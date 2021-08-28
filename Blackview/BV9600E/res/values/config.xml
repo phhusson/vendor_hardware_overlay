@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,-1,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+        <item>mobile_wap,21,0,3,60000,true</item>
+        <item>mobile_xcap,25,0,3,60000,true</item>
+        <item>mobile_rcs,26,0,3,60000,true</item>
+        <item>mobile_bip,27,0,3,60000,true</item>
+        <item>mobile_vsim,28,0,-1,60000,true</item>
+        <item>mobile_preempt,29,0,9,60000,true</item>
+    </string-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>128</item>
+        <item>256</item>
+        <item>384</item>
+        <item>512</item>
+        <item>640</item>
+        <item>768</item>
+        <item>896</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>6144</item>
+        <item>8192</item>
+        <item>10240</item>
+        <item>12288</item>
+        <item>14336</item>
+        <item>16384</item>
+        <item>18432</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>8</item>
+        <item>64</item>
+        <item>98</item>
+        <item>104</item>
+        <item>110</item>
+        <item>116</item>
+        <item>122</item>
+        <item>128</item>
+        <item>134</item>
+        <item>182</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+    </integer-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>ap\\d</item>
+    </string-array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+        <item>bt-dun</item>
+    </string-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm/boot-mediatek-framework.vdex</item>
+        <item>/system/lib/libjavacrypto.so</item>
+        <item>/system/lib/libhidltransport.so</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-conscrypt.oat</item>
+        <item>/system/framework/arm/boot-core-libart.vdex</item>
+        <item>/system/framework/arm/boot-ext.vdex</item>
+        <item>/system/framework/arm/boot.vdex</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+    </string-array>
+    <string-array name="config_locationProviderPackageNames">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </string-array>
+    <string-array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
+    </string-array>
+    <string-array name="config_nonBlockableNotificationPackages">
+        <item>com.google.android.setupwizard</item>
+        <item>com.google.android.apps.restore</item>
+    </string-array>
+    <string-array name="vendor_required_apps_managed_device">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.launcher</item>
+        <item>com.android.launcher</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.google.android.setupwizard</item>
+    </string-array>
+    <string-array name="vendor_required_apps_managed_profile">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+    </string-array>
+    <string-array name="vendor_required_apps_managed_user">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.launcher</item>
+        <item>com.android.launcher</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+    </string-array>
+    <string-array name="power_save_launcher">
+        <item>com.android.systemmanager|com.hct.powersaver.SimpleLauncherMainActivity</item>
+        <item>com.freeme.freemelite.global|com.freeme.launcher.searchlauncher.SearchLauncher</item>
+        <item>com.hct.chlidmode|com.hct.chlidmode.workespace.ChlidActivity</item>
+    </string-array>
+    <string-array name="hct_default_launcher">
+        <item>com.freeme.freemelite.global|com.freeme.launcher.searchlauncher.SearchLauncher</item>
+    </string-array>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_dynamic_bind_ims">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_background_scan_support">true</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_enableMultiUserUI">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_useRoundIcon">true</bool>
+    <bool name="config_swipe_up_gesture_default">true</bool>
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <bool name="config_enableNetworkLocationOverlay">true</bool>
+    <bool name="config_enableFusedLocationOverlay">true</bool>
+    <bool name="config_enableGeocoderOverlay">true</bool>
+    <bool name="config_enableGeofenceOverlay">true</bool>
+    <bool name="config_shutdown_centerstyle">true</bool>
+    <bool name="hct_config_auto_unlock_pin">true</bool>
+    <bool name="hct_config_screenshot_delaytime">true</bool>
+    <bool name="config_disable_fingerprint_error_vibrate">true</bool>
+    <bool name="config_fingerprint_cancel_failed_attempts">true</bool>
+    <bool name="config_fingerprint_failed_attempts_wakeup">false</bool>
+    <bool name="config_shutdown_dialog_delay">true</bool>
+    <bool name="hct_config_keyguard_navigationbar_button_customer_rules">true</bool>
+    <bool name="hct_remove_display_largest">false</bool>
+    <bool name="hct_config_available_wifi">true</bool>
+    <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
+    <integer name="config_multiuserMaximumUsers">1</integer>
+    <integer name="hct_screenshot_timeout">4000</integer>
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
+    <fraction name="config_dimBehindFadeDuration">100.0%</fraction>
+    <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index1">50.0%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index2">70.00001%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index3">85.0%</fraction>
+    <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
+    <fraction name="docked_stack_divider_fixed_ratio">34.150005%</fraction>
+    <fraction name="thumbnail_fullscreen_scale">60.000004%</fraction>
+    <string name="config_mms_user_agent">Android-Mms/0.1</string>
+    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="config_ims_package">com.mediatek.ims</string>
+    <string name="config_wifi_framework_sap_2G_channel_list">0</string>
+    <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,262144,524288,1048576</string>
+    <string name="config_wifi_random_mac_oui">00-0C-E7</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string>
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
+    <string name="config_defaultListenerAccessPackages">com.android.launcher3:com.google.android.setupwizard:com.google.android.apps.restore:com.freeme.freemelite.global</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
+    <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
+    <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
+    <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
+    <string name="config_defaultDndAccessPackages">com.google.android.apps.wellbeing</string>
+    <string name="harmful_app_warning_title">Play Protect warning</string>
+    <string name="config_mainBuiltInDisplayCutout">M -300,0 L -300,90 L 300,90 L 300,0 Z</string>
+    <string name="default_browser">com.android.chrome</string>
+    <string name="config_dreamsDefaultComponent">com.android.deskclock/com.android.deskclock.Screensaver</string>
+    <string name="wifi_tether_configure_ssid_default">BV9600E</string>
+</resources>

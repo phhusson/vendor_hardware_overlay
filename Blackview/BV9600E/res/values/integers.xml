@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
+    <integer name="config_multiuserMaximumUsers">1</integer>
+    <integer name="hct_screenshot_timeout">4000</integer>
+</resources>

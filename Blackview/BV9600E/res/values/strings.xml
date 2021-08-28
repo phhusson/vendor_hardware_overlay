@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mms_user_agent">Android-Mms/0.1</string>
+    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="config_ims_package">com.mediatek.ims</string>
+    <string name="config_wifi_framework_sap_2G_channel_list">0</string>
+    <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,262144,524288,1048576</string>
+    <string name="config_wifi_random_mac_oui">00-0C-E7</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string>
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
+    <string name="config_defaultListenerAccessPackages">com.android.launcher3:com.google.android.setupwizard:com.google.android.apps.restore:com.freeme.freemelite.global</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
+    <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
+    <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
+    <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
+    <string name="config_defaultDndAccessPackages">com.google.android.apps.wellbeing</string>
+    <string name="harmful_app_warning_title">Play Protect warning</string>
+    <string name="config_mainBuiltInDisplayCutout">M -300,0 L -300,90 L 300,90 L 300,0 Z</string>
+    <string name="default_browser">com.android.chrome</string>
+    <string name="config_dreamsDefaultComponent">com.android.deskclock/com.android.deskclock.Screensaver</string>
+    <string name="wifi_tether_configure_ssid_default">BV9600E</string>
+</resources>
