@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="ambient.on">0.1</item>
-    <item name="screen.on">0.1</item>
-    <item name="screen.full">0.1</item>
-    <item name="bluetooth.active">0.1</item>
-    <item name="bluetooth.on">0.1</item>
+    <item name="ambient.on">100</item>
+    <item name="screen.on">100</item>
+    <item name="screen.full">100</item>
+    <item name="bluetooth.active">31</item>
+    <item name="bluetooth.on">2.1</item>
     <item name="wifi.on">0.1</item>
-    <item name="wifi.active">0.1</item>
-    <item name="wifi.scan">0.1</item>
-    <item name="audio">0.1</item>
-    <item name="video">0.1</item>
-    <item name="camera.flashlight">0.1</item>
-    <item name="camera.avg">0.1</item>
-    <item name="gps.on">0.1</item>
-    <item name="radio.active">0.1</item>
-    <item name="radio.scanning">0.1</item>
+    <item name="wifi.active">285.5</item>
+    <item name="wifi.scan">291</item>
+    <item name="audio">13</item>
+    <item name="video">71</item>
+    <item name="camera.flashlight">160</item>
+    <item name="camera.avg">550</item>
+    <item name="gps.on">35</item>
+    <item name="radio.active">500</item>
+    <item name="radio.scanning">65.1</item>
     <array name="radio.on">
-        <value>0.2</value>
-        <value>0.1</value>
-    </array>
-    <array name="cpu.active">
-        <value>0.1</value>
+        <value>2.7</value>
+        <value>2.7</value>
     </array>
     <array name="cpu.clusters.cores">
         <value>1</value>
@@ -29,7 +26,7 @@
         <value>400000</value>
     </array>
     <array name="cpu.active.cluster0">
-        <value>0.1</value>
+        <value>100</value>
     </array>
     <item name="cpu.idle">0.1</item>
     <array name="memory.bandwidths">
