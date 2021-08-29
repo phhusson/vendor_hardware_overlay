@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+	<bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+	<integer name="config_bluetooth_idle_cur_ma">0</integer>
+	<integer name="config_bluetooth_operating_voltage_mv">0</integer>
+    <integer name="config_bluetooth_rx_cur_ma">0</integer>
+    <integer name="config_bluetooth_tx_cur_ma">0</integer>
+</resources>
