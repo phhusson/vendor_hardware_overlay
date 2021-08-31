@@ -52,12 +52,6 @@
         <item>wifi_p2p,13,1,0,-1,true</item>
         <item>mobile_ia,14,0,2,-1,true</item>
         <item>mobile_emergency,15,0,2,-1,true</item>
-        <item>mobile_wap,21,0,3,60000,true</item>
-        <item>mobile_xcap,25,0,3,60000,true</item>
-        <item>mobile_rcs,26,0,3,60000,true</item>
-        <item>mobile_bip,27,0,3,60000,true</item>
-        <item>mobile_vsim,28,0,-1,60000,true</item>
-        <item>mobile_preempt,29,0,9,60000,true</item>
     </string-array>
     <string-array name="config_tether_usb_regexs">
         <item>rndis\\d</item>
