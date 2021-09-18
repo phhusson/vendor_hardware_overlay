@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.umidigi.f1"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="UMIDIGI/F1_EEA/F1:9/PPR1.180610.011/root.20190718.110039:user/release-keys"
+		android:requiredSystemPropertyValue="+UMIDIGI/F1/F1*"
+		android:priority="114"
+		android:isStatic="true" />
+</manifest>
