@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.Elephone.Solider"
+        android:versionCode="29"
+        android:versionName="10">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+		android:requiredSystemPropertyValue="+Elephone/Soldier/Soldier"
+		android:priority="174"
+		android:isStatic="true" />
+</manifest>
