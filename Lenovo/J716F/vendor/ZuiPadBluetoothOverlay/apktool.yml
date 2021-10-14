@@ -1,0 +1,14 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ZuiPadBluetoothOverlay.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+isFrameworkApk: false
+packageInfo: null
+sdkInfo: null
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework: null
+version: 2.6.0
+versionInfo: null
