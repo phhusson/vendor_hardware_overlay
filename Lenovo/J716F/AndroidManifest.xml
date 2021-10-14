@@ -7,7 +7,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.product.model"
-                android:requiredSystemPropertyValue="Lenovo/LenovoTB-J716F_PRC"
-		android:priority="70"
+                android:requiredSystemPropertyValue="+Lenovo/LenovoTB-J716F*"
+		android:priority="645"
 		android:isStatic="true" />
 </manifest>
