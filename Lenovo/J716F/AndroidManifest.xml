@@ -1,6 +1,3 @@
-<!-- "getprop ro.vendor.build.fingerprint" throws: -->
-<!-- Lenovo/LenovoTB-J716F_PRC/J716F:11/RKQ1.201112.002/12.6.238_210824:user/release-keys -->
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="me.phh.treble.overlay.lenovo.j716f"
         android:versionCode="1"

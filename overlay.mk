@@ -179,3 +179,4 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9promax \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redmis2 \
+
