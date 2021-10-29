@@ -48,4 +48,5 @@
     </integer-array>
 
     <string name="config_mainBuiltInDisplayCutout">M -540,0 L -540,106 L -401,106 L -401,0 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -540,0 L -540,106 L -401,106 L -401,0 Z</string>
 </resources>
