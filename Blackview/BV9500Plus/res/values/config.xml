@@ -103,6 +103,8 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_enableNetworkLocationOverlay">true</bool>
     <bool name="config_enableFusedLocationOverlay">true</bool>
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
