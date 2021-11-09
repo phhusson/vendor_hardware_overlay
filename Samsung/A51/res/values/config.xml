@@ -3,28 +3,13 @@
 	    <string-array name="config_tether_usb_regexs">
         <item>rndis0</item>
     </string-array>
-	    <integer-array name="config_keyboardTapVibePattern">
-        <item>40</item>
-    </integer-array>
-	    <integer-array name="config_longPressVibePattern">
-        <item>0</item>
-        <item>1</item>
-        <item>20</item>
-        <item>21</item>
-    </integer-array>
-	    <integer-array name="config_virtualKeyVibePattern">
-        <item>0</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-    </integer-array>
 	    <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
         <integer name="config_screenBrightnessSettingDefault">102</integer>
         <integer name="config_screenBrightnessSettingMaximum">255</integer>
         <integer name="config_screenBrightnessSettingMinimum">10</integer>
-	    <integer name="config_screenBrightnessDoze">1</integer>
-		<integer name="config_screenBrightnessDark">1</integer>
-	    <array name="config_autoBrightnessDisplayValuesNits">
+        <integer name="config_screenBrightnessDoze">1</integer>
+	<integer name="config_screenBrightnessDark">1</integer>
+	 <array name="config_autoBrightnessDisplayValuesNits">
         <item>10</item>
         <item>12</item>
         <item>15</item>
@@ -629,5 +614,8 @@
         <item>675</item>
         <item>700</item>
     </array>
-	    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+	 <string name="config_mainBuiltInDisplayCutout">M 0,0 M 0,12.25101276465640 a 10.60613009248640,10.60613009248640 0 1,0 0,21.21226018497290 a 10.60613009248640,10.60613009248640 0 1,0 0,-21.21226018497290 Z @dp</string>
+    <dimen name="rounded_corner_radius">100.0px</dimen>
+    <dimen name="status_bar_height_portrait">87.0px</dimen>
 </resources>
