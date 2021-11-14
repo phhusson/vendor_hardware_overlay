@@ -1,91 +1,436 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer-array name="config_lteDbmThresholds">
-        <item>-140</item>
-        <item>-128</item>
-        <item>-118</item>
-        <item>-108</item>
-        <item>-98</item>
-        <item>-44</item>
-    </integer-array>
-    <array name="config_minimumBrightnessCurveNits">
-        <item>0.0</item>
-        <item>50.0</item>
-        <item>90.0</item>
-    </array>
-    <integer-array name="config_screenBrighteningThresholds">
-        <item>100</item>
-    </integer-array>
-    <integer-array name="config_screenDarkeningThresholds">
-        <item>200</item>
-    </integer-array>
-    <string-array name="networkAttributes">
-        <item>wifi,1,1,1,-1,true</item>
-        <item>mobile,0,0,0,-1,true</item>
-        <item>mobile_mms,2,0,2,60000,true</item>
-        <item>mobile_supl,3,0,2,60000,true</item>
-        <item>mobile_dun,4,0,2,60000,true</item>
-        <item>mobile_hipri,5,0,3,60000,true</item>
-        <item>mobile_fota,10,0,2,60000,true</item>
-        <item>mobile_ims,11,0,2,60000,true</item>
-        <item>mobile_cbs,12,0,2,60000,true</item>
-        <item>wifi_p2p,13,1,0,-1,true</item>
-        <item>mobile_ia,14,0,2,-1,true</item>
-        <item>mobile_emergency,15,0,2,-1,true</item>
-    </string-array>
-    <string-array name="radioAttributes">
-        <item>1,1</item>
-        <item>0,1</item>
-    </string-array>
-    <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
-    <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
-    <integer name="config_autoBrightnessLightSensorRate">250</integer>
-    <integer name="config_defaultPeakRefreshRate">0</integer>
-    <integer name="config_screenBrightnessDark">1</integer>
-    <integer name="config_screenBrightnessDim">10</integer>
-    <integer name="config_screenBrightnessDoze">1</integer>
-    <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
-    <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
-    <integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
-    <integer name="config_screenBrightnessSettingDefault">102</integer>
-    <integer name="config_screenBrightnessSettingMaximum">255</integer>
-    <integer name="config_screenBrightnessSettingMinimum">1</integer>
-    <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
-    <fraction name="config_maximumScreenDimRatio">25.0%</fraction>
-    <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
-    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
-    <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
-    <bool name="config_device_volte_available">true</bool>
-    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-    <bool name="config_automatic_brightness_available">true</bool>
-    <integer-array name="config_screenBrightnessBacklight">
-        <item>10</item>
-        <item>255</item>
-    </integer-array>
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>10</item>
-        <item>20</item>
-        <item>40</item>
-        <item>70</item>
-        <item>110</item>
-        <item>160</item>
-        <item>200</item>
-        <item>255</item>
-    </integer-array>
+<!--
+/*
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds.  Do not translate. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- devices-sony-common base -->
+
+    <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
+         The N entries of this array define N  1 zones as follows:
+         Zone 0:        0 <= LUX < array[0]
+         Zone 1:        array[0] <= LUX < array[1]
+         ...
+         Zone N:        array[N - 1] <= LUX < array[N]
+         Zone N + 1     array[N] <= LUX < infinity
+         Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>10</item>
-        <item>30</item>
-        <item>60</item>
-        <item>100</item>
-        <item>150</item>
-        <item>210</item>
-        <item>255</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>170</item>
+        <item>220</item>
+        <item>256</item>
+        <item>384</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1536</item>
+        <item>2048</item>
+        <item>4096</item>
     </integer-array>
+
+    <!-- Array of output values for LCD backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>3</item>    <!--    0 -->
+        <item>10</item>   <!--   32 -->
+        <item>32</item>   <!--   64 -->
+        <item>64</item>   <!--  128 -->
+        <item>80</item>   <!--  170 -->
+        <item>96</item>   <!--  220 -->
+        <item>112</item>  <!--  256 -->
+        <item>128</item>  <!--  384 -->
+        <item>144</item>  <!--  512 -->
+        <item>176</item>  <!--  768 -->
+        <item>196</item>  <!-- 1024 -->
+        <item>208</item>  <!-- 1536 -->
+        <item>224</item>  <!-- 2048 -->
+        <item>255</item>  <!-- 4096 -->
+    </integer-array>
+
+    <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
+         when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
+         where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
+         and Strength as defined in BiometricManager.java -->
+    <string-array name="config_biometric_sensors" translatable="false" >
+        <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
+    </string-array>
+
+    <!-- Minimum screen brightness setting allowed by the power manager.
+         The user is forbidden from setting the brightness below this level. -->
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
+
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+         May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">1</integer>
+
+    <!-- Screen brightness used to dim the screen when the user activity
+         timeout expires.  May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDim">3</integer>
+
+    <!-- Minimum allowable screen brightness to use in a very dark room.
+         This value sets the floor for the darkest possible auto-brightness
+         adjustment.  It is expected to be somewhat less than the first entry in
+         config_autoBrightnessLcdBacklightValues so as to allow the user to have
+         some range of adjustment to dim the screen further than usual in very
+         dark rooms. The contents of the screen must still be clearly visible
+         in darkness (although they may not be visible in a bright room). -->
+    <integer name="config_screenBrightnessDark">1</integer>
+
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+         autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">true</bool>
+
+    <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
+         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+
+    <!-- Boolean indicating if restoring network selection should be skipped -->
+    <!-- The restoring is handled by modem if it is true-->
+    <bool translatable="false" name="skip_restoring_network_selection">true</bool>
+
+    <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
+
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+         USB interfaces.  If the device doesn't want to support tething over USB this should
+         be empty.  An example would be "usb.*" -->
+    <string-array translatable="false" name="config_tether_usb_regexs">
+        <item>"usb\\d"</item>
+        <item>"rndis\\d"</item>
+    </string-array>
+
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+         Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
+         should be empty.  An example would be "softap.*" -->
+    <string-array translatable="false" name="config_tether_wifi_regexs">
+        <item>"wlan0"</item>
+    </string-array>
+
+    <!-- Enable ACS (auto channel selection) for Wifi hotspot (SAP) -->
+    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
+
+    <!-- Channel list restriction to Automatic channel selection (ACS) for softap. If the device
+         doesn't want to restrict channels this should be empty. Value is a comma separated channel
+         string and/or channel range string like '1-6,11' -->
+    <string translatable="false" name="config_wifi_softap_acs_supported_channel_list"></string>
+
+    <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
+    <bool translatable="false" name="config_wifi_softap_ieee80211ac_supported">true</bool>
+
+    <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
+    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
+
+    <!-- Boolean indicating whether the wifi chipset has background scan support -->
+    <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
+
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
+         bluetooth interfaces.  If the device doesn't want to support tethering over bluetooth this
+         should be empty. -->
+    <string-array translatable="false" name="config_tether_bluetooth_regexs">
+        <item>"bt-pan"</item>
+    </string-array>
+
+    <!-- This string array should be overridden by the device to present a list of network
+         attributes.  This is used by the connectivity manager to decide which networks can coexist
+         based on the hardware -->
+    <!-- An Array of "[Connection name],[ConnectivityManager.TYPE_xxxx],
+         [associated radio-type],[priority],[restoral-timer(ms)],[dependencyMet]  -->
+    <!-- the 5th element "resore-time" indicates the number of milliseconds to delay
+         before automatically restore the default connection.  Set -1 if the connection
+         does not require auto-restore. -->
+    <!-- the 6th element indicates boot-time dependency-met value. -->
+    <string-array translatable="false" name="networkAttributes">
+        <item>"wifi,1,1,1,-1,true"</item>
+        <item>"mobile,0,0,0,-1,true"</item>
+        <item>"mobile_mms,2,0,2,60000,true"</item>
+        <item>"mobile_supl,3,0,2,60000,true"</item>
+        <item>"mobile_dun,4,0,0,60000,true"</item>
+        <item>"mobile_hipri,5,0,3,60000,true"</item>
+        <item>"mobile_ims,11,0,2,300000,true"</item>
+        <item>"mobile_cbs,12,0,2,300000,true"</item>
+        <item>"mobile_ia,14,0,2,-1,true"</item>
+        <item>"mobile_emergency,15,0,2,-1,true"</item>
+        <item>"wifi_p2p,13,1,0,-1,true"</item>
+        <item>"bluetooth,7,7,2,-1,true"</item>
+    </string-array>
+
+    <!-- Package name(s) containing location provider support.
+         These packages can contain services implementing location providers,
+         such as the Geocode Provider, Network Location Provider, and
+         Fused Location Provider. They will each be searched for
+         service components implementing these providers.
+         It is strongly recommended that the packages explicitly named
+         below are on the system image, so that they will not map to
+         a 3rd party application.
+         The location framework also has support for installation
+         of new location providers at run-time. The new package does not
+         have to be explicitly listed here, however it must have a signature
+         that matches the signature of at least one package on this list.
+         -->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+        <!-- The Google provider -->
+        <item>com.google.android.gms</item>
+    </string-array>
+
+    <!-- Array of allowable ConnectivityManager network types for tethering -->
+    <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
+         [0,1,5,7] for TYPE_MOBILE, TYPE_WIFI, TYPE_MOBILE_HIPRI and TYPE_BLUETOOTH -->
+    <integer-array translatable="false" name="config_tether_upstream_types">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+
+    <!-- This string array should be overridden by the device to present a list of radio
+         attributes.  This is used by the connectivity manager to decide which networks can coexist
+         based on the hardware -->
+    <!-- An Array of "[ConnectivityManager connectionType],
+                      [# simultaneous connection types]"  -->
+    <string-array translatable="false" name="radioAttributes">
+        <item>"1,1"</item>
+        <item>"0,1"</item>
+        <item>"7,1"</item>
+    </string-array>
+
+    <!-- Setting this true forces the headset jack switches to use the/dev/input/event subsystem
+         rather than the uevent framework. -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
-    <bool name="config_setColorTransformAccelerated">true</bool>
+
+    <!-- Vibrator pattern for feedback about a long screen/key press -->
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>40</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Vibrator pattern for feedback about touching a virtual key -->
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>40</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Whether WiFi display is supported by this device.
+         There are many prerequisites for this feature to work correctly.
+         Here are a few of them:
+         * The WiFi radio must support WiFi P2P.
+         * The WiFi radio must support concurrent connections to the WiFi display and
+           to an access point.
+         * The Audio Flinger audio_policy.conf file must specify a rule for the "r_submix"
+           remote submix module.  This module is used to record and stream system
+           audio output to the WiFi display encoder in the media server.
+         * The remote submix module "audio.r_submix.default" must be installed on the device.
+         * The device must be provisioned with HDCP keys (for protected content).
+    -->
+    <bool name="config_enableWifiDisplay">false</bool>
+
+    <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>60</item>
+    </integer-array>
+
+    <!-- Wifi driver supports batched scan -->
+    <bool translatable="false" name="config_wifi_batched_scan_supported">true</bool>
+
+    <!-- MMS user agent string -->
+    <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
+
+    <!--  Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
+
+    <!--  Whether Multiuser UI should be shown -->
+    <bool name="config_enableMultiUserUI">true</bool>
+
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
+
+    <!-- Set this to true to enable the platform's auto-power-save modes like doze and
+         app standby.  These are not enabled by default because they require a standard
+         cloud-to-device messaging service for apps to interact correctly with the modes
+         (such as to be able to deliver an instant message to the device even when it is
+         dozing).  This should be enabled if you have such services and expect apps to
+         correctly use them when installed on your device.  Otherwise, keep this disabled
+         so that applications can still use their own mechanisms. -->
+    <bool name="config_enableAutoPowerModes">true</bool>
+
+    <!-- Configure mobile tcp buffer sizes in the form:
+         rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
+         If no value is found for the rat-name in use, the system default will be applied.
+    -->
+    <string-array name="config_mobile_tcp_buffers">
+        <item>"lte:2097152,4194304,8388608,262144,524288,1048576"</item>
+        <item>"umts:4094,87380,1220608,4096,16384,1220608"</item>
+        <item>"hspa:4094,87380,1220608,4096,16384,1220608"</item>
+        <item>"hsupa:4094,87380,1220608,4096,16384,1220608"</item>
+        <item>"hsdpa:4094,87380,1220608,4096,16384,1220608"</item>
+        <item>"hspap:4094,87380,1220608,4096,16384,1220608"</item>
+        <item>"edge:4093,26280,35040,4096,16384,35040"</item>
+        <item>"gprs:4092,8760,11680,4096,8760,11680"</item>
+        <item>"evdo:4094,87380,524288,4096,16384,262144"</item>
+    </string-array>
+
+    <!-- Configure wifi tcp buffersizes in the form:
+         rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
+    <string name="config_wifi_tcp_buffers" translatable="false">524288,6291456,8291456,524288,6291456,8291456</string>
+
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up.
+         The default is false. -->
+    <bool name="config_lidControlsSleep">true</bool>
+
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/arm64/boot-framework.oat"</item>
+        <item>"/system/framework/framework.jar"</item>
+        <item>"/system/framework/oat/arm64/services.odex"</item>
+        <item>"/system/framework/services.jar"</item>
+        <item>"/apex/com.android.art/javalib/arm64/boot.oat"</item>
+        <item>"/apex/com.android.art/javalib/arm64/boot-core-libart.oat"</item>
+        <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
+        <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
+        <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
+        <item>"/system/lib64/libsurfaceflinger.so"</item>
+    </string-array>
+    <!-- Should the pinner service pin the Camera application? -->
+    <bool name="config_pinnerCameraApp">true</bool>
+    <!-- Should the pinner service pin the Home application? -->
+    <bool name="config_pinnerHomeApp">true</bool>
+
+    <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
+    <bool name="config_useRoundIcon">true</bool>
+
+    <!-- Specifies the path that is used by AdaptiveIconDrawable class to crop launcher icons. -->
+    <string name="config_icon_mask" translatable="false">"M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z"</string>
+
+    <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
-    <bool name="config_hotswapCapable">true</bool>
+
+    <!-- Colon separated list of package names that should be granted DND access -->
+    <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.gms:com.google.android.GoogleCamera:com.android.camera2</string>
+
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device --> 
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <!-- Flag indicating whether we should enable smart battery. -->
+    <bool name="config_smart_battery_available">true</bool>
+
+    <!-- Flag specifying whether VoLTE is available on device -->
+    <bool name="config_device_volte_available">true</bool>
+
+    <!-- Flag specifying whether VT is available on device -->
+    <bool name="config_device_vt_available">true</bool>
+
+    <!-- Flag specifying whether WFC over IMS is availasble on device -->
+    <bool name="config_device_wfc_ims_available">true</bool>
+
+    <!-- Flag specifying whether VoLTE should be available for carrier: independent of
+         carrier provisioning. If false: hard disabled. If true: then depends on carrier
+         provisioning, availability etc -->
+    <bool name="config_carrier_volte_available">true</bool>
+
+    <!-- Flag specifying whether VT should be available for carrier: independent of
+         carrier provisioning. If false: hard disabled. If true: then depends on carrier
+         provisioning, availability etc -->
+    <bool name="config_carrier_vt_available">true</bool>
+
+    <!-- ImsService package name to bind to by default, if config_dynamic_bind_ims is true -->
+    <string name="config_ims_package">org.codeaurora.ims</string>
+
+    <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
+    <bool name="config_dynamic_bind_ims">true</bool>
+
+    <!-- Add the IWLan services for VoWiFi -->
+    <string name="config_wlan_data_service_package">vendor.qti.iwlan</string>
+    <string name="config_wlan_network_service_package">vendor.qti.iwlan</string>
+    <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
+
+<!-- pdx213 base -->
+
+    <!-- Enable doze mode
+         ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+
+    <!-- Whether the always on display mode is available. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Disable AOD by default -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- If true, the doze component is not started until after the screen has been turned off
+         and the screen off animation has been performed. -->
+    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
-    <bool name="config_wifi_dual_band_support">true</bool>
+
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">false</bool>
+
+    <!-- MMS user agent prolfile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/XQBT52R5802.xml</string>
+
+<!-- pdx213 SystemUI -->
+
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Doze: does this device support STATE_DOZE_SUSPEND?  -->
+    <bool name="doze_suspend_display_state_supported">true</bool>
+
+    <!-- Type of a sensor that provides a low-power estimate of the desired display
+         brightness, suitable to listen to while the device is asleep (e.g. during
+         always-on display)
+    <string name="doze_brightness_sensor_type" translatable="false">com.google.sensor.binned_brightness</string>
+    -->
+
+    <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
+    <bool name="doze_pickup_performs_proximity_check">true</bool>
+
+    <!-- Doze: whether the double tap sensor reports 2D touch coordinates -->
+    <bool name="doze_double_tap_reports_touch_coordinates">false</bool>
+
+    <!-- Whether to enable shifting of elements in the status bar and the navigation bar.
+         Should be enabled for OLED devices to reduce/prevent burn in on the status bar
+         and on the navigation bar and disabled for all other devices. -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+
+    <!-- Amount of time in seconds to wait before shifting elements around when the burn-in
+         protection is enabled for status bar and navigation bar -->
+    <integer name="config_shift_interval">45</integer>
+
 </resources>
