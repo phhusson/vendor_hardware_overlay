@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.realme.r2c1">
     <overlay android:isStatic="true"
              android:priority="406"
-             android:requiredSystemPropertyName="ro.build.overlay.deviceid"
-             android:requiredSystemPropertyValue="+RMX1805"
+             android:requiredSystemPropertyName="ro.vendor.oppo.build.id"
+             android:requiredSystemPropertyValue="PKQ1.190319.001"
              android:targetPackage="android"/>
 </manifest>
