@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.realme.r2c1">
     <overlay android:isStatic="true"
-             android:priority="406"
+             android:priority="69"
              android:requiredSystemPropertyName="ro.vendor.oppo.build.id"
              android:requiredSystemPropertyValue="PKQ1.190319.001"
              android:targetPackage="android"/>
