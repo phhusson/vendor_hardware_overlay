@@ -4,6 +4,6 @@
 	android:isStatic="true" 
 	android:priority="669" 
 	android:targetPackage="android"
-        android:requiredSystemPropertyName="ro.product.vendor.model"
+        android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 	android:requiredSystemPropertyValue="+RMX1811" />
 </manifest>
