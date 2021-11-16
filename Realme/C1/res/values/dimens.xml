@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height_portrait">26.599976dip</dimen>
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -143,0 L -143,53 L 143,53 L 143,0 Z</string>
+</resources>
