@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_ims_package">com.spreadtrum.ims</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_wlan_network_service_package">com.spreadtrum.ims</string>
+</resources>
