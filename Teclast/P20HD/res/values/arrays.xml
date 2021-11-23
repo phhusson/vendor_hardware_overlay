@@ -56,18 +56,6 @@
         <item>0</item>
         <item>30</item>
     </integer-array>
-    <string-array name="config_prfmlock_appstart_duration">
-        <item>12000</item>
-        <item>20000</item>
-        <item>15000</item>
-        <item>20000</item>
-    </string-array>
-    <string-array name="config_prfmlock_appstart_name">
-        <item>com.tencent.mm</item>
-        <item>com.facebook.katana</item>
-        <item>com.facebook.orca</item>
-        <item>com.imangi.templerun2</item>
-    </string-array>
     <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
         <item>15</item>
