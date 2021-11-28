@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mainBuiltInDisplayCutout">M62,0l-3.8,0l-3.9,0.2l-3.9,0.4l-4,0.8l-3.9,1.2l-3.8,1.6l-3.7,2l-3.4,2.4l-3.1,2.8l-2.9,3l-2.7,3.1l-2.6,3.1 l-2.7,2.8C12.5,28,6.2,30.3,0,30.3c-6.3,0-12.5-2.3-17.5-6.8l-2.7-2.8l-2.6-3.1l-2.7-3.1l-2.9-3l-3.2-2.8 L-35,6.2l-3.7-2l-3.8-1.6l-3.9-1.2l-4-0.8L-54.3,0.2L-58.2,0L-62,0Z @dp</string>
+	<string name="config_radio_access_family">GSM|CDMA|EVDO|WCDMA|LTE</string>
+</resources>
