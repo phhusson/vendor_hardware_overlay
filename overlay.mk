@@ -105,6 +105,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-narzo10a \
 	treble-overlay-realme-rmx2117 \
 	treble-overlay-realme-rmx2117-systemui \
+	treble-overlay-realme-rmx3366 \
+	treble-overlay-realme-rmx3366-systemui \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
