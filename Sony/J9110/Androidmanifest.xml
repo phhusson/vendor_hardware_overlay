@@ -2,9 +2,9 @@
           package="me.phh.treble.overlay.Sony.J9110"
           android:versionCode="1"
           android:versionName="1.0">
-        <overlay android:targetPackage="android"
-                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                 android:requiredSystemPropertyValue="+Sony/J9110*"
-                 android:priority="545"
-                 android:isStatic="true" />
+          <overlay android:targetPackage="android"
+                    android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                    android:requiredSystemPropertyValue="+Sony/J9110*"
+          android:priority="545"
+          android:isStatic="true" />
 </manifest>
