@@ -816,9 +816,9 @@
         <item>zh_TW</item>
     </string-array>
     <string-array name="special_locale_names">
-        <item>丕賱毓乇亘賷丞</item>
-        <item>涓枃 (绠€浣?</item>
-        <item>涓枃 (绻侀珨)</item>
+        <item>العربية</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
     </string-array>
     <string-array name="supported_locales">
         <item>af-NA</item>
@@ -1352,7 +1352,7 @@
         <item>To make calls and send messages over Wi-Fi, first ask your carrier to set up this service. Then turn on Wi-Fi calling again from Settings. (Error code: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Issue registering Wi鈥慒i calling with your carrier: %1$s</item>
+        <item>Issue registering Wi‑Fi calling with your carrier: %1$s</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>@string/wfcSpnFormat_spn</item>
@@ -1368,7 +1368,8 @@
         <item>@string/wfcSpnFormat_vowifi</item>
         <item>@string/wfcSpnFormat_spn_wifi_calling_vo_hyphen</item>
     </string-array>
-
+</resources>
+<resources>
     <bool name="config_sendPackageName">false</bool>
     <bool name="config_showDefaultAssistant">true</bool>
     <bool name="config_showDefaultEmergency">false</bool>
@@ -1665,7 +1666,8 @@
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="split_action_bar_is_narrow">true</bool>
     <bool name="use_lock_pattern_drawable">false</bool>
-    
+</resources>
+<resources>
     <integer name="config_shortAnimTime">200</integer>
     <integer name="config_mediumAnimTime">400</integer>
     <integer name="config_longAnimTime">500</integer>
@@ -1915,7 +1917,8 @@
     <integer name="thumbnail_width_tv">240</integer>
     <integer name="time_picker_mode">1</integer>
     <integer name="time_picker_mode_material">2</integer>
-    
+</resources>
+<resources>
     <string name="cancel">Cancel</string>
     <string name="copy">Copy</string>
     <string name="copyUrl">Copy URL</string>
@@ -1980,119 +1983,119 @@
     <string name="ColrMmi">Connected Line ID Restriction</string>
     <string name="CwMmi">Call waiting</string>
     <string name="DndMmi">Do not disturb</string>
-    <string name="EmergencyCallWarningSummary">Can鈥檛 make emergency calls over Wi鈥慒i</string>
+    <string name="EmergencyCallWarningSummary">Can’t make emergency calls over Wi‑Fi</string>
     <string name="EmergencyCallWarningTitle">Emergency calling unavailable</string>
     <string name="Midnight">Midnight</string>
     <string name="NetworkPreferenceSwitchSummary">Try changing preferred network. Tap to change.</string>
-    <string name="NetworkPreferenceSwitchTitle">Can鈥檛 reach mobile network</string>
+    <string name="NetworkPreferenceSwitchTitle">Can’t reach mobile network</string>
     <string name="Noon">Noon</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_ENTRY">RUIM corporate unlock PIN</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">RUIM Corporate unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">Requesting RUIM corporate unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">Requesting RUIM corporate unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_SUCCESS">RUIM Corporate unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_ENTRY">RUIM hrpd unlock PIN</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_ERROR">RUIM Hrpd unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_HRPD_IN_PROGRESS">Requesting RUIM hrpd unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_HRPD_IN_PROGRESS">Requesting RUIM hrpd unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_SUCCESS">RUIM Hrpd unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_ENTRY">RUIM network1 unlock PIN</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_ERROR">RUIM Network1 unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK1_IN_PROGRESS">Requesting RUIM network1 unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_IN_PROGRESS">Requesting RUIM network1 unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_SUCCESS">RUIM Network1 unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_ENTRY">RUIM network2 unlock PIN</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_ERROR">RUIM Network2 unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK2_IN_PROGRESS">Requesting RUIM network2 unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_IN_PROGRESS">Requesting RUIM network2 unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_SUCCESS">RUIM Network2 unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_ENTRY">RUIM unlock PIN</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_ERROR">RUIM unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_RUIM_IN_PROGRESS">Requesting RUIM unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_RUIM_IN_PROGRESS">Requesting RUIM unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_SUCCESS">RUIM unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_ENTRY">RUIM service provider unlock PIN</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_ERROR">RUIM Service Provider unlock request un successful.</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_IN_PROGRESS">Requesting RUIM service provider unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_IN_PROGRESS">Requesting RUIM service provider unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_SUCCESS">RUIM Service Provider unlock successf ul.</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_ENTRY">SIM corporate unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_ERROR">SIM Corporate unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_CORPORATE_IN_PROGRESS">Requesting SIM corporate unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_IN_PROGRESS">Requesting SIM corporate unlock…</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_SUCCESS">SIM Corporate unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_ICCID_ENTRY">ICCID unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_ICCID_ERROR">ICCID unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_ICCID_IN_PROGRESS">Requesting ICCID unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_ICCID_IN_PROGRESS">Requesting ICCID unlock…</string>
     <string name="PERSOSUBSTATE_SIM_ICCID_SUCCESS">ICCID unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_IMPI_ENTRY">IMPI unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_IMPI_ERROR">IMPI unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_IMPI_IN_PROGRESS">Requesting IMPI unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_IMPI_IN_PROGRESS">Requesting IMPI unlock…</string>
     <string name="PERSOSUBSTATE_SIM_IMPI_SUCCESS">IMPI unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">SIM network unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ERROR">SIM Network unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_IN_PROGRESS">Requesting SIM network unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_NETWORK_IN_PROGRESS">Requesting SIM network unlock…</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_ENTRY">SIM network subset unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_ERROR">SIM Network Subset unlock request unsucces sful.</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_IN_PROGRESS">Requesting SIM network subset unlock 鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_IN_PROGRESS">Requesting SIM network subset unlock …</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_SUCCESS">SIM Network Subset unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUCCESS">SIM Network unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_ENTRY">Network subset service provider unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_ERROR">Network subset service provider unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_NS_SP_IN_PROGRESS">Requesting Network subset service provider unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_NS_SP_IN_PROGRESS">Requesting Network subset service provider unlock…</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_SUCCESS">Network subset service provider unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_ENTRY">SIM service provider unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_ERROR">SIM Service Provider unlock request unsu ccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_IN_PROGRESS">Requesting SIM service provider un lock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_IN_PROGRESS">Requesting SIM service provider un lock…</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_SUCCESS">SIM Service Provider unlock successful .</string>
     <string name="PERSOSUBSTATE_SIM_SIM_ENTRY">SIM unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_SIM_ERROR">SIM unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_SIM_IN_PROGRESS">Requesting SIM unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_SIM_IN_PROGRESS">Requesting SIM unlock…</string>
     <string name="PERSOSUBSTATE_SIM_SIM_PUK_ENTRY">Enter PUK</string>
     <string name="PERSOSUBSTATE_SIM_SIM_PUK_ERROR">PUK unlock unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_SIM_PUK_IN_PROGRESS">Requesting PUK unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_SIM_PUK_IN_PROGRESS">Requesting PUK unlock…</string>
     <string name="PERSOSUBSTATE_SIM_SIM_PUK_SUCCESS">PUK unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_SIM_SUCCESS">SIM unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_SPN_ENTRY">SPN unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_SPN_ERROR">SPN unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_SPN_IN_PROGRESS">Requesting SPN unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_SPN_IN_PROGRESS">Requesting SPN unlock…</string>
     <string name="PERSOSUBSTATE_SIM_SPN_SUCCESS">SPN unlock successful.</string>
     <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_ENTRY">SP Equivalent Home PLMN unlock PIN</string>
     <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_ERROR">SP Equivalent Home PLMN unlock request unsuccessful.</string>
-    <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_IN_PROGRESS">Requesting SP Equivalent Home PLMN unlock鈥?/string>
+    <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_IN_PROGRESS">Requesting SP Equivalent Home PLMN unlock…</string>
     <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_SUCCESS">SP Equivalent Home PLMN unlock successful.</string>
     <string name="PinMmi">PIN change</string>
     <string name="PwdMmi">Password change</string>
@@ -2113,7 +2116,7 @@
     <string name="accessibility_dialog_button_deny">Deny</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Choose features to use with the accessibility button</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Choose features to use with the volume key shortcut</string>
-    <string name="accessibility_enable_service_encryption_warning">If you turn on %1$s, your device won鈥檛 use your screen lock to enhance data encryption.</string>
+    <string name="accessibility_enable_service_encryption_warning">If you turn on %1$s, your device won’t use your screen lock to enhance data encryption.</string>
     <string name="accessibility_enable_service_title">Allow %1$s to have full control of your device?</string>
     <string name="accessibility_freeform_caption">Caption bar of %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">To switch between features, swipe up with three fingers and hold.</string>
@@ -2131,7 +2134,7 @@
     <string name="accessibility_shortcut_enabling_service">Held volume keys. %1$s turned on.</string>
     <string name="accessibility_shortcut_menu_item_status_off">OFF</string>
     <string name="accessibility_shortcut_menu_item_status_on">ON</string>
-    <string name="accessibility_shortcut_multiple_service_list">"\u0009鈥?%1$s
+    <string name="accessibility_shortcut_multiple_service_list">"\u0009• %1$s
 "</string>
     <string name="accessibility_shortcut_multiple_service_warning">"Holding down both volume keys for a few seconds turns on accessibility features. This may change how your device works.
 
@@ -2139,7 +2142,7 @@ Current features:
 %1$s
 You can change selected features in Settings > Accessibility."</string>
     <string name="accessibility_shortcut_multiple_service_warning_title">Turn on accessibility features?</string>
-    <string name="accessibility_shortcut_off">Don鈥檛 turn on</string>
+    <string name="accessibility_shortcut_off">Don’t turn on</string>
     <string name="accessibility_shortcut_on">Turn on</string>
     <string name="accessibility_shortcut_single_service_warning">"Holding down both volume keys for a few seconds turns on %1$s, an accessibility feature. This may change how your device works.
 
@@ -2196,7 +2199,7 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="aerr_wait">Wait</string>
     <string name="alert_windows_notification_channel_group_name">Display over other apps</string>
     <string name="alert_windows_notification_channel_name">%s displaying over other apps</string>
-    <string name="alert_windows_notification_message">If you don鈥檛 want %s to use this feature, tap to open settings and turn it off.</string>
+    <string name="alert_windows_notification_message">If you don’t want %s to use this feature, tap to open settings and turn it off.</string>
     <string name="alert_windows_notification_title">%s is displaying over other apps</string>
     <string name="alert_windows_notification_turn_off_action">Turn off</string>
     <string name="allow">Allow</string>
@@ -2205,14 +2208,14 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="alternate_eri_file">/data/eri.xml</string>
     <string name="alwaysUse">Use by default for this action.</string>
     <string name="android_preparing_apk">Preparing %1$s.</string>
-    <string name="android_start_title">Phone is starting鈥?/string>
+    <string name="android_start_title">Phone is starting…</string>
     <string name="android_system_label">Android System</string>
     <string name="android_upgrading_apk">Optimizing app %1$d of %2$d.</string>
     <string name="android_upgrading_complete">Finishing boot.</string>
     <string name="android_upgrading_fstrim">Optimizing storage.</string>
-    <string name="android_upgrading_notification_title">Finishing system update鈥?/string>
+    <string name="android_upgrading_notification_title">Finishing system update…</string>
     <string name="android_upgrading_starting_apps">Starting apps.</string>
-    <string name="android_upgrading_title">Phone is updating鈥?/string>
+    <string name="android_upgrading_title">Phone is updating…</string>
     <string name="anr_activity_application">"%2$s isn't responding"</string>
     <string name="anr_activity_process">"%1$s isn't responding"</string>
     <string name="anr_application_process">"%1$s isn't responding"</string>
@@ -2232,11 +2235,11 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="app_not_found">No application found to handle this action</string>
     <string name="app_running_notification_text">Tap for more information or to stop the app.</string>
     <string name="app_running_notification_title">%1$s is running</string>
-    <string name="app_suspended_default_message">%1$s isn鈥檛 available right now. This is managed by %2$s.</string>
+    <string name="app_suspended_default_message">%1$s isn’t available right now. This is managed by %2$s.</string>
     <string name="app_suspended_more_details">Learn more</string>
-    <string name="app_suspended_title">App isn鈥檛 available</string>
+    <string name="app_suspended_title">App isn’t available</string>
     <string name="app_suspended_unsuspend_message">Unpause app</string>
-    <string name="app_upgrading_toast">%1$s is upgrading鈥?/string>
+    <string name="app_upgrading_toast">%1$s is upgrading…</string>
     <string name="application_disabled_notification_message">A security policy restricts the use of this application.</string>
     <string name="application_disabled_notification_title">Application is disabled</string>
     <string name="application_install_disabled_notification_message">A security policy restricts users from installing the app</string>
@@ -2248,9 +2251,9 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="audio_recording_disabled_notification_title">Audio recording is restricted</string>
     <string name="auto_sync_data_disabled_notification_message">A security policy restricts auto-sync data</string>
     <string name="auto_sync_data_disabled_notification_title">Auto-sync data is restricted</string>
-    <string name="autofill_address_line_1_label_re">address|adresse|indirizzo|浣忔墍|鍦板潃</string>
-    <string name="autofill_address_line_1_re">address.?line|address1|addr1|street|strasse|stra脽e|hausnummer|housenumber|house.?name|direccion|direcci贸n|adresse|indirizzo|浣忔墍1|morada|endere莽o|袗写褉械褋|鍦板潃</string>
-    <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit|adresszusatz|erg盲nzende.?angaben|direccion2|colonia|adicional|addresssuppl|complementnom|appartement|indirizzo2|浣忔墍2</string>
+    <string name="autofill_address_line_1_label_re">address|adresse|indirizzo|住所|地址</string>
+    <string name="autofill_address_line_1_re">address.?line|address1|addr1|street|strasse|straße|hausnummer|housenumber|house.?name|direccion|dirección|adresse|indirizzo|住所1|morada|endereço|Адрес|地址</string>
+    <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit|adresszusatz|ergänzende.?angaben|direccion2|colonia|adicional|addresssuppl|complementnom|appartement|indirizzo2|住所2</string>
     <string name="autofill_address_line_3_re">address.?line3|address3|addr3|street|line3|municipio|batiment|residence|indirizzo3</string>
     <string name="autofill_address_name_separator">" "</string>
     <string name="autofill_address_summary_format">$1$2$3</string>
@@ -2265,35 +2268,35 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="autofill_billing_designator_re">bill</string>
     <string name="autofill_card_cvc_re">verification|card identification|cvn|security code|cvv code|cvc</string>
     <string name="autofill_card_ignored_re">^card</string>
-    <string name="autofill_card_number_re">number|card.?#|card.?no|ccnum|nummer|credito|numero|n煤mero|num茅ro|銈兗銉夌暘鍙穦袧芯屑械褉.*泻邪褉褌褘|淇＄敤鍗″彿|淇＄敤鍗″彿鐮亅淇＄敤鍗″崱铏?/string>
-    <string name="autofill_city_re">city|town|ort|stadt|suburb|ciudad|provincia|localidad|poblacion|ville|commune|localita|甯傚尯鐢烘潙|cidade|袚芯褉芯写|甯倈鍒嗗崁</string>
-    <string name="autofill_company_re">company|business|organization|organisation|department|firma|firmenname|empresa|societe|soci茅t茅|ragione.?sociale|浼氱ぞ|薪邪蟹胁邪薪懈械.?泻芯屑锌邪薪懈懈|鍗曚綅|鍏徃</string>
+    <string name="autofill_card_number_re">number|card.?#|card.?no|ccnum|nummer|credito|numero|número|numéro|カード番号|Номер.*карты|信用卡号|信用卡号码|信用卡卡號</string>
+    <string name="autofill_city_re">city|town|ort|stadt|suburb|ciudad|provincia|localidad|poblacion|ville|commune|localita|市区町村|cidade|Город|市|分區</string>
+    <string name="autofill_company_re">company|business|organization|organisation|department|firma|firmenname|empresa|societe|société|ragione.?sociale|会社|название.?компании|单位|公司</string>
     <string name="autofill_continue_yes">Continue</string>
     <string name="autofill_country_code_re">country.*code|ccode|_cc</string>
-    <string name="autofill_country_re">country|location|鍥絴鍥藉</string>
+    <string name="autofill_country_re">country|location|国|国家</string>
     <string name="autofill_county">County</string>
     <string name="autofill_department">Department</string>
     <string name="autofill_district">District</string>
-    <string name="autofill_email_re">e.?mail|銉°兗銉偄銉夈儸銈箌协谢械泻褌褉芯薪薪芯泄.?袩芯褔褌褘|閭欢|閭|闆婚兊鍦板潃</string>
+    <string name="autofill_email_re">e.?mail|メールアドレス|Электронной.?Почты|邮件|邮箱|電郵地址</string>
     <string name="autofill_emirate">Emirate</string>
-    <string name="autofill_error_cannot_autofill">Contents can鈥檛 be autofilled</string>
-    <string name="autofill_expiration_date_re">exp|^/|year|ablaufdatum|gueltig|g眉ltig|yahr|fecha|scadenza|鏈夊姽鏈熼檺|validade|小褉芯泻 写械泄褋褌胁懈褟 泻邪褉褌褘|骞磡鏈夋晥鏈?/string>
-    <string name="autofill_expiration_month_re">expir|exp.*month|exp.*date|ccmonth|gueltig|g眉ltig|monat|fecha|date.*exp|scadenza|鏈夊姽鏈熼檺|validade|小褉芯泻 写械泄褋褌胁懈褟 泻邪褉褌褘|鏈?/string>
-    <string name="autofill_fax_re">fax|t茅l茅copie|telecopie|銉曘偂銉冦偗銈箌褎邪泻褋|浼犵湡|鍌崇湡</string>
-    <string name="autofill_first_name_re">irst.*name|initials|fname|first$|vorname|nombre|forename|pr茅nom|prenom|鍚峾nome|袠屑褟</string>
+    <string name="autofill_error_cannot_autofill">Contents can’t be autofilled</string>
+    <string name="autofill_expiration_date_re">exp|^/|year|ablaufdatum|gueltig|gültig|yahr|fecha|scadenza|有効期限|validade|Срок действия карты|年|有效期</string>
+    <string name="autofill_expiration_month_re">expir|exp.*month|exp.*date|ccmonth|gueltig|gültig|monat|fecha|date.*exp|scadenza|有効期限|validade|Срок действия карты|月</string>
+    <string name="autofill_fax_re">fax|télécopie|telecopie|ファックス|факс|传真|傳真</string>
+    <string name="autofill_first_name_re">irst.*name|initials|fname|first$|vorname|nombre|forename|prénom|prenom|名|nome|Имя</string>
     <string name="autofill_island">Island</string>
-    <string name="autofill_last_name_re">last.*name|lname|surname|last$|nachname|apellidos|famille|^nom|cognome|濮搢morada|apelidos|surename|sobrenome|肖邪屑懈谢懈褟</string>
+    <string name="autofill_last_name_re">last.*name|lname|surname|last$|nachname|apellidos|famille|^nom|cognome|姓|morada|apelidos|surename|sobrenome|Фамилия</string>
     <string name="autofill_middle_initial_re">middle.*initial|m\\.i\\.|mi$</string>
     <string name="autofill_middle_name_re">middle.*name|mname|middle$|apellido.?materno|lastlastname</string>
     <string name="autofill_name_on_card_contextual_re">name</string>
-    <string name="autofill_name_on_card_re">card.?holder|name.?on.?card|ccname|owner|karteninhaber|nombre.*tarjeta|nom.*carte|nome.*cart|鍚嶅墠|袠屑褟.*泻邪褉褌褘|淇＄敤鍗″紑鎴峰悕|寮€鎴峰悕|鎸佸崱浜哄鍚峾鎸佸崱浜哄鍚?/string>
-    <string name="autofill_name_re">^name|full.?name|your.?name|customer.?name|firstandlastname|nombre.*y.*apellidos|^nom|銇婂悕鍓峾姘忓悕|^nome|濮撳悕</string>
+    <string name="autofill_name_on_card_re">card.?holder|name.?on.?card|ccname|owner|karteninhaber|nombre.*tarjeta|nom.*carte|nome.*cart|名前|Имя.*карты|信用卡开户名|开户名|持卡人姓名|持卡人姓名</string>
+    <string name="autofill_name_re">^name|full.?name|your.?name|customer.?name|firstandlastname|nombre.*y.*apellidos|^nom|お名前|氏名|^nome|姓名</string>
     <string name="autofill_name_specific_re">^name|^nom|^nome</string>
     <string name="autofill_parish">Parish</string>
     <string name="autofill_phone_extension_re">ext|ramal</string>
     <string name="autofill_phone_prefix_re">prefix|preselection|ddd</string>
     <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
-    <string name="autofill_phone_re">phone|telefonnummer|telefono|tel茅fono|telfixe|闆昏┍|telefone|telemovel|褌械谢械褎芯薪|鐢佃瘽</string>
+    <string name="autofill_phone_re">phone|telefonnummer|telefono|teléfono|telfixe|電話|telefone|telemovel|телефон|电话</string>
     <string name="autofill_phone_suffix_re">suffix</string>
     <string name="autofill_phone_suffix_separator_re">^-$</string>
     <string name="autofill_picker_accessibility_title">Autofill options</string>
@@ -2321,35 +2324,36 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
     <string name="autofill_save_yes">Save</string>
     <string name="autofill_shipping_designator_re">ship</string>
     <string name="autofill_state">State</string>
-    <string name="autofill_state_re">state|county|region|province|land|county|principality|閮介亾搴滅湆|estado|provincia|芯斜谢邪褋褌褜|鐪亅鍦板崁</string>
+    <string name="autofill_state_re">state|county|region|province|land|county|principality|都道府県|estado|provincia|область|省|地區</string>
     <string name="autofill_this_form">Autofill</string>
     <string name="autofill_update_title">Update in <b>%1$s</b>?</string>
     <string name="autofill_update_title_with_2types">Update %1$s and %2$s in <b>%3$s</b>?</string>
     <string name="autofill_update_title_with_3types">Update these items in <b>%4$s</b>: %1$s, %2$s, and %3$s ?</string>
     <string name="autofill_update_title_with_type">Update %1$s in <b>%2$s</b>?</string>
     <string name="autofill_update_yes">Update</string>
-    <string name="autofill_username_re">user.?name|user.?id|vollst盲ndiger.?name|鐢ㄦ埛鍚?/string>
+    <string name="autofill_username_re">user.?name|user.?id|vollständiger.?name|用户名</string>
     <string name="autofill_window_title">Autofill with %1$s</string>
     <string name="autofill_zip_4_re">zip|^-$|post2|codpos2</string>
     <string name="autofill_zip_code">ZIP code</string>
-    <string name="autofill_zip_code_re">zip|postal|post code|pcode|^1z$|postleitzahl|cp|cdp|cap|閮典究鐣彿|codigo|codpos|cep|袩芯褔褌芯胁褘泄.?袠薪写械泻褋|閭斂缂栫爜|閭紪|閮甸仦鍗€铏?/string>
+    <string name="autofill_zip_code_re">zip|postal|post code|pcode|^1z$|postleitzahl|cp|cdp|cap|郵便番号|codigo|codpos|cep|Почтовый.?Индекс|邮政编码|邮编|郵遞區號</string>
     <string name="back_button_label">Back</string>
     <string name="badPin">"The old PIN you typed isn't correct."</string>
     <string name="badPuk">"The PUK you typed isn't correct."</string>
     <string name="battery_saver_charged_notification_summary">Phone has enough charge. Features no longer restricted.</string>
     <string name="battery_saver_description">"To extend battery life, Battery Saver:
 
-鈥urns on Dark theme
-鈥urns off or restricts background activity, some visual effects, and other features like 鈥淗ey Google鈥?</string>
+•Turns on Dark theme
+•Turns off or restricts background activity, some visual effects, and other features like “Hey Google”"</string>
     <string name="battery_saver_description_with_learn_more">"To extend battery life, Battery Saver:
 
-鈥urns on Dark theme
-鈥urns off or restricts background activity, some visual effects, and other features like 鈥淗ey Google鈥?
+•Turns on Dark theme
+•Turns off or restricts background activity, some visual effects, and other features like “Hey Google”
+
 "<annotation id="url">Learn more</annotation></string>
     <string name="battery_saver_notification_channel_name">Battery Saver</string>
     <string name="battery_saver_off_notification_title">Battery Saver turned off</string>
     <string name="beforeOneMonthDurationPast">Before 1 month ago</string>
-    <string name="biometric_dialog_default_title">Verify it鈥檚 you</string>
+    <string name="biometric_dialog_default_title">Verify it’s you</string>
     <string name="biometric_error_canceled">Authentication canceled</string>
     <string name="biometric_error_device_not_secured">No pin, pattern, or password set</string>
     <string name="biometric_error_hw_unavailable">Biometric hardware unavailable</string>
@@ -2600,14 +2604,14 @@ You can change this shortcut to another feature in Settings > Accessibility."</s
 using %s"</string>
     <string name="crypt_keeper_notification_message">A device administrator requires the SD card to be encrypted</string>
     <string name="crypt_keeper_notification_title">Encrypt SD card</string>
-    <string name="ct_cplusw_notification_text">You鈥檝e accessed CT WLAN network. Please contact 10000 or local CT store for billing info. Please disconnect while not in use.</string>
+    <string name="ct_cplusw_notification_text">You’ve accessed CT WLAN network. Please contact 10000 or local CT store for billing info. Please disconnect while not in use.</string>
     <string name="ct_cplusw_notification_title">China Telecom Wi-Fi connected</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">"You will be connected to China Telecom's WLAN network. For details of the charges, please contact China Telecom customer service. Proceed?"</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">"Don't remind me again"</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Note</string>
     <string name="data_roaming_disabled_notification_message">A security policy restricts the use of data roaming.</string>
     <string name="data_roaming_disabled_notification_title">Data roaming is restricted</string>
-    <string name="data_saver_description">To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app you鈥檙e currently using can access data, but may do so less frequently. This may mean, for example, that images don鈥檛 display until you tap them.</string>
+    <string name="data_saver_description">To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app you’re currently using can access data, but may do so less frequently. This may mean, for example, that images don’t display until you tap them.</string>
     <string name="data_saver_enable_button">Turn on</string>
     <string name="data_saver_enable_title">Turn on Data Saver?</string>
     <string name="data_usage_limit_body">Data paused for the rest of your cycle</string>
@@ -2662,8 +2666,8 @@ using %s"</string>
     <string name="delete">Delete</string>
     <string name="deleteText">Delete</string>
     <string name="deleted_key">%1$s deleted</string>
-    <string name="demo_restarting_message">Resetting device鈥?/string>
-    <string name="demo_starting_message">Starting demo鈥?/string>
+    <string name="demo_restarting_message">Resetting device…</string>
+    <string name="demo_starting_message">Starting demo…</string>
     <string name="deny">Deny</string>
     <string name="deprecated_target_sdk_app_store">Check for update</string>
     <string name="deprecated_target_sdk_message">This app was built for an older version of Android and may not work properly. Try checking for updates, or contact the developer.</string>
@@ -2700,8 +2704,8 @@ using %s"</string>
     <string name="dump_heap_notification">%1$s exceeded memory limit</string>
     <string name="dump_heap_notification_detail">Heap dump collected. Tap to share.</string>
     <string name="dump_heap_ready_notification">%1$s heap dump ready</string>
-    <string name="dump_heap_ready_text">A heap dump of %1$s鈥檚 process is available for you to share. Be careful: this heap dump may contain any sensitive personal information that the process has access to, which may include things you鈥檝e typed.</string>
-    <string name="dump_heap_system_text">The %1$s process has exceeded its memory limit of %2$s. A heap dump is available for you to share. Be careful: this heap dump can contain any sensitive personal information that the process has access to, which may include things you鈥檝e typed.</string>
+    <string name="dump_heap_ready_text">A heap dump of %1$s’s process is available for you to share. Be careful: this heap dump may contain any sensitive personal information that the process has access to, which may include things you’ve typed.</string>
+    <string name="dump_heap_system_text">The %1$s process has exceeded its memory limit of %2$s. A heap dump is available for you to share. Be careful: this heap dump can contain any sensitive personal information that the process has access to, which may include things you’ve typed.</string>
     <string name="dump_heap_text">The %1$s process has exceeded its memory limit of %2$s. A heap dump is available for you to share with its developer. Be careful: this heap dump can contain any of your personal information that the application has access to.</string>
     <string name="dump_heap_title">Share heap dump?</string>
     <string name="dynamic_mode_notification_channel_name">Routine Mode info notification</string>
@@ -2755,12 +2759,12 @@ using %s"</string>
     <string name="ext_media_badremoval_notification_title">%s unexpectedly removed</string>
     <string name="ext_media_browse_action">Explore</string>
     <string name="ext_media_checking_notification_message">Reviewing current content</string>
-    <string name="ext_media_checking_notification_title">Checking %s鈥?/string>
+    <string name="ext_media_checking_notification_title">Checking %s…</string>
     <string name="ext_media_init_action">Set up</string>
     <string name="ext_media_missing_message">Insert device again</string>
     <string name="ext_media_missing_title">%s missing</string>
     <string name="ext_media_move_failure_message">Try moving content again</string>
-    <string name="ext_media_move_failure_title">Couldn鈥檛 move content</string>
+    <string name="ext_media_move_failure_title">Couldn’t move content</string>
     <string name="ext_media_move_specific_title">Moving %s</string>
     <string name="ext_media_move_success_message">Content moved to %s</string>
     <string name="ext_media_move_success_title">Content transfer is done</string>
@@ -2772,9 +2776,9 @@ using %s"</string>
     <string name="ext_media_ready_notification_message">For transferring photos and media</string>
     <string name="ext_media_seamless_action">Switch output</string>
     <string name="ext_media_status_bad_removal">Removed unsafely</string>
-    <string name="ext_media_status_checking">Checking鈥?/string>
-    <string name="ext_media_status_ejecting">Ejecting鈥?/string>
-    <string name="ext_media_status_formatting">Formatting鈥?/string>
+    <string name="ext_media_status_checking">Checking…</string>
+    <string name="ext_media_status_ejecting">Ejecting…</string>
+    <string name="ext_media_status_formatting">Formatting…</string>
     <string name="ext_media_status_missing">Not inserted</string>
     <string name="ext_media_status_mounted">Ready</string>
     <string name="ext_media_status_mounted_ro">Read-only</string>
@@ -2785,15 +2789,15 @@ using %s"</string>
     <string name="ext_media_unmount_action">Eject</string>
     <string name="ext_media_unmountable_notification_message">Tap to fix</string>
     <string name="ext_media_unmountable_notification_title">Issue with %s</string>
-    <string name="ext_media_unmounting_notification_message">Don鈥檛 remove</string>
+    <string name="ext_media_unmounting_notification_message">Don’t remove</string>
     <string name="ext_media_unmounting_notification_title">Ejecting %s</string>
-    <string name="ext_media_unsupported_notification_message">This device doesn鈥檛 support this %s. Tap to set up in a supported format.</string>
+    <string name="ext_media_unsupported_notification_message">This device doesn’t support this %s. Tap to set up in a supported format.</string>
     <string name="ext_media_unsupported_notification_title">Unsupported %s</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Preparing internal storage</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Internal storage damaged. Please format it.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Internal storage damaged</string>
     <string name="extract_edit_menu_button">Edit</string>
-    <string name="face_acquired_insufficient">Couldn鈥檛 capture accurate face data. Try again.</string>
+    <string name="face_acquired_insufficient">Couldn’t capture accurate face data. Try again.</string>
     <string name="face_acquired_not_detected">Position your face directly in front of the phone.</string>
     <string name="face_acquired_obscured">Remove anything hiding your face.</string>
     <string name="face_acquired_pan_too_extreme">Turn your head a little less.</string>
@@ -2816,15 +2820,15 @@ using %s"</string>
     <string name="face_authenticated_confirmation_required">Face authenticated, please press confirm</string>
     <string name="face_authenticated_no_confirmation_required">Face authenticated</string>
     <string name="face_error_canceled">Face operation canceled.</string>
-    <string name="face_error_hw_not_available">Can鈥檛 verify face. Hardware not available.</string>
+    <string name="face_error_hw_not_available">Can’t verify face. Hardware not available.</string>
     <string name="face_error_hw_not_present">Face unlock is not supported on this device.</string>
     <string name="face_error_lockout">Too many attempts. Try again later.</string>
     <string name="face_error_lockout_permanent">Too many attempts. Face unlock disabled.</string>
-    <string name="face_error_no_space">Can鈥檛 store new face data. Delete an old one first.</string>
-    <string name="face_error_not_enrolled">You haven鈥檛 set up face unlock.</string>
+    <string name="face_error_no_space">Can’t store new face data. Delete an old one first.</string>
+    <string name="face_error_not_enrolled">You haven’t set up face unlock.</string>
     <string name="face_error_security_update_required">Sensor temporarily disabled.</string>
     <string name="face_error_timeout">Try face unlock again.</string>
-    <string name="face_error_unable_to_process">Can鈥檛 verify face. Try again.</string>
+    <string name="face_error_unable_to_process">Can’t verify face. Try again.</string>
     <string name="face_error_user_canceled">Face unlock canceled by user.</string>
     <string name="face_icon_content_description">Face icon</string>
     <string name="face_name_template">Face %d</string>
@@ -3081,7 +3085,7 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers.</string>
     <string name="kg_login_account_recovery_hint">"Forgot your username or password?
 Visit "<b>google.com/accounts/recovery</b>.</string>
-    <string name="kg_login_checking_password">Checking account鈥?/string>
+    <string name="kg_login_checking_password">Checking account…</string>
     <string name="kg_login_instructions">To unlock, sign in with your Google account.</string>
     <string name="kg_login_invalid_input">Invalid username or password.</string>
     <string name="kg_login_password_hint">Password</string>
@@ -3096,8 +3100,8 @@ Visit "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact carrier for details.</string>
     <string name="kg_reordering_delete_drop_target_text">Remove</string>
     <string name="kg_sim_pin_instructions">Enter SIM PIN</string>
-    <string name="kg_sim_unlock_progress_dialog_message">Unlocking SIM card鈥?/string>
-    <string name="kg_text_message_separator">" 鈥?"</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
+    <string name="kg_text_message_separator">" — "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"You have incorrectly typed your password %1$d times. 
 
 Try again in %2$d seconds."</string>
@@ -3122,7 +3126,7 @@ Try again in %2$d seconds."</string>
     <string name="leave_accessibility_shortcut_on">Use Shortcut</string>
     <string name="limit_roaming_call_notification_message">A security policy restricts the use of call roaming</string>
     <string name="limit_roaming_call_notification_title">Call roaming is restricted</string>
-    <string name="loading">Loading鈥?/string>
+    <string name="loading">Loading…</string>
     <string name="locale_replacement" />
     <string name="locale_search_menu">Search</string>
     <string name="location_changed_notification_text">Contact your IT admin to learn more</string>
@@ -3152,7 +3156,7 @@ Try again in %2$d seconds."</string>
     <string name="lockscreen_forgot_pattern_button_text">Forgot pattern?</string>
     <string name="lockscreen_glogin_account_recovery_hint">"Forgot your username or password?
 Visit "<b>google.com/accounts/recovery</b>.</string>
-    <string name="lockscreen_glogin_checking_password">Checking鈥?/string>
+    <string name="lockscreen_glogin_checking_password">Checking…</string>
     <string name="lockscreen_glogin_forgot_pattern">Account unlock</string>
     <string name="lockscreen_glogin_instructions">To unlock, sign in with your Google account.</string>
     <string name="lockscreen_glogin_invalid_input">Invalid username or password.</string>
@@ -3179,7 +3183,7 @@ Visit "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_sim_locked_message">SIM card is locked.</string>
     <string name="lockscreen_sim_puk_locked_instructions">See the User Guide or contact Customer Care.</string>
     <string name="lockscreen_sim_puk_locked_message">SIM card is PUK-locked.</string>
-    <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card鈥?/string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="lockscreen_sound_off_label">Sound off</string>
     <string name="lockscreen_sound_on_label">Sound on</string>
     <string name="lockscreen_storage_locked">Unlock for all features and data</string>
@@ -3195,13 +3199,13 @@ Visit "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_strings_backup_question_emergency_button_txt">Emergency call</string>
     <string name="lockscreen_strings_backup_question_header_txt">Security question</string>
     <string name="lockscreen_strings_backup_question_unlock_button_txt">Unlock</string>
-    <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Unlock with Google鈩?account details</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Enter Google鈩?account details</string>
+    <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Unlock with Google™ account details</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Enter Google™ account details</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Unlock screen</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Next</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Unlock with security question</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Answer question</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Select how to unlock the screen if you鈥檝e forgotten your unlock pattern</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">Select how to unlock the screen if you’ve forgotten your unlock pattern</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">New notifications: %d</string>
     <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Notifications in Lock screen</string>
     <string name="lockscreen_strings_howtounlock_txt">Press %icon to unlock</string>
@@ -3255,7 +3259,7 @@ Try again in %2$d seconds."</string>
     <string name="me">Me</string>
     <string name="media_route_button_content_description">Cast</string>
     <string name="media_route_chooser_extended_settings">Settings</string>
-    <string name="media_route_chooser_searching">Searching for devices鈥?/string>
+    <string name="media_route_chooser_searching">Searching for devices…</string>
     <string name="media_route_chooser_title">Connect to device</string>
     <string name="media_route_chooser_title_for_remote_display">Cast screen to device</string>
     <string name="media_route_controller_disconnect">Disconnect</string>
@@ -3407,7 +3411,7 @@ Try again in %2$d seconds."</string>
     <string name="n_cacerts">%d CA certificates</string>
     <string name="needPuk">Your SIM card is PUK-locked. Type the PUK code to unlock it.</string>
     <string name="needPuk2">Type PUK2 to unblock SIM card.</string>
-    <string name="negative_duration">鈭?1$s</string>
+    <string name="negative_duration">−%1$s</string>
     <string name="network_available_sign_in">Sign in to network</string>
     <string name="network_available_sign_in_detailed">%1$s</string>
     <string name="network_logging_notification_text">Your organization manages this device and may monitor network traffic. Tap for details.</string>
@@ -3469,11 +3473,11 @@ Try again in %2$d seconds."</string>
     <string name="notification_channel_voice_mail">Voicemail messages</string>
     <string name="notification_channel_vpn">VPN status</string>
     <string name="notification_channel_wfc">Wi-Fi calling</string>
-    <string name="notification_header_divider_symbol">鈥?/string>
-    <string name="notification_header_divider_symbol_with_spaces">" 鈥?"</string>
+    <string name="notification_header_divider_symbol">•</string>
+    <string name="notification_header_divider_symbol_with_spaces">" • "</string>
     <string name="notification_hidden_text">New notification</string>
     <string name="notification_history_title_placeholder">Custom app notification</string>
-    <string name="notification_inbox_ellipsis">鈥?/string>
+    <string name="notification_inbox_ellipsis">…</string>
     <string name="notification_listener_binding_label">Notification listener</string>
     <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Notification ranker service</string>
@@ -3801,7 +3805,7 @@ for account %s."</string>
     <string name="perms_description_app">Provided by %1$s.</string>
     <string name="perms_new_perm_prefix"><font fgcolor="#ff33b5e5" size="12">NEW: </font></string>
     <string name="personal_apps_suspended_turn_profile_on">Turn on</string>
-    <string name="personal_apps_suspension_soon_text">Personal apps will be blocked on %1$s at %2$s. Your IT admin doesn鈥檛 allow your work profile to stay off for more than %3$d days.</string>
+    <string name="personal_apps_suspension_soon_text">Personal apps will be blocked on %1$s at %2$s. Your IT admin doesn’t allow your work profile to stay off for more than %3$d days.</string>
     <string name="personal_apps_suspension_text">Your personal apps are blocked until you turn on your work profile</string>
     <string name="personal_apps_suspension_title">Turn on your work profile</string>
     <string name="petabyteShort">PB</string>
@@ -3993,7 +3997,7 @@ for account %s."</string>
     <string name="profile_encrypted_detail">Work profile locked</string>
     <string name="profile_encrypted_message">Tap to unlock work profile</string>
     <string name="profile_encrypted_title">Some functionality may be limited</string>
-    <string name="progress_erasing">Erasing shared storage鈥?/string>
+    <string name="progress_erasing">Erasing shared storage…</string>
     <string name="prohibit_manual_network_selection_in_gobal_mode">false</string>
     <string name="quick_contacts_not_available">No application found to view this contact.</string>
     <string name="radial_numbers_typeface">sans-serif</string>
@@ -4003,11 +4007,11 @@ for account %s."</string>
     <string name="reboot_safemode_title">Reboot to safe mode</string>
     <string name="reboot_shutdown_notification_message">A security policy restricts the use of restart and power off.</string>
     <string name="reboot_shutdown_notification_title">Restart and power off are restricted</string>
-    <string name="reboot_to_reset_message">Restarting鈥?/string>
+    <string name="reboot_to_reset_message">Restarting…</string>
     <string name="reboot_to_reset_title">Factory data reset</string>
-    <string name="reboot_to_update_package">Processing the update package鈥?/string>
-    <string name="reboot_to_update_prepare">Preparing to update鈥?/string>
-    <string name="reboot_to_update_reboot">Restarting鈥?/string>
+    <string name="reboot_to_update_package">Processing the update package…</string>
+    <string name="reboot_to_update_prepare">Preparing to update…</string>
+    <string name="reboot_to_update_reboot">Restarting…</string>
     <string name="reboot_to_update_title">Android system update</string>
     <string name="recent_tasks_title">Recent</string>
     <string name="redo">Redo</string>
@@ -4031,26 +4035,26 @@ for account %s."</string>
     <string name="remote_control_allow">Allow</string>
     <string name="remote_control_ask_permission_dialog">"%s would like to perform one or more actions on this device, including: 
 
-鈥?Interact with device functions. 
-鈥?View your screen and actions. 
-鈥?Access and modify your data.
+• Interact with device functions. 
+• View your screen and actions. 
+• Access and modify your data.
 
 Start remote control session?"</string>
     <string name="remote_control_notification_message_started">%s is controlling your device.</string>
     <string name="remote_control_notification_title">Remote control active</string>
     <string name="remote_control_reject">Reject</string>
     <string name="remote_control_stop">Stop session</string>
-    <string name="replace">Replace鈥?/string>
+    <string name="replace">Replace…</string>
     <string name="report">Report</string>
     <string name="reset">Reset</string>
-    <string name="resolver_cant_access_personal_apps">Can鈥檛 open this with personal apps</string>
-    <string name="resolver_cant_access_personal_apps_explanation">Your IT admin doesn鈥檛 allow you to open this content with apps in your personal profile</string>
-    <string name="resolver_cant_access_work_apps">Can鈥檛 open this with work apps</string>
-    <string name="resolver_cant_access_work_apps_explanation">Your IT admin doesn鈥檛 allow you to open this content with apps in your work profile</string>
-    <string name="resolver_cant_share_with_personal_apps">Can鈥檛 share this with personal apps</string>
-    <string name="resolver_cant_share_with_personal_apps_explanation">Your IT admin doesn鈥檛 allow you to share this content with apps in your personal profile</string>
-    <string name="resolver_cant_share_with_work_apps">Can鈥檛 share this with work apps</string>
-    <string name="resolver_cant_share_with_work_apps_explanation">Your IT admin doesn鈥檛 allow you to share this content with apps in your work profile</string>
+    <string name="resolver_cant_access_personal_apps">Can’t open this with personal apps</string>
+    <string name="resolver_cant_access_personal_apps_explanation">Your IT admin doesn’t allow you to open this content with apps in your personal profile</string>
+    <string name="resolver_cant_access_work_apps">Can’t open this with work apps</string>
+    <string name="resolver_cant_access_work_apps_explanation">Your IT admin doesn’t allow you to open this content with apps in your work profile</string>
+    <string name="resolver_cant_share_with_personal_apps">Can’t share this with personal apps</string>
+    <string name="resolver_cant_share_with_personal_apps_explanation">Your IT admin doesn’t allow you to share this content with apps in your personal profile</string>
+    <string name="resolver_cant_share_with_work_apps">Can’t share this with work apps</string>
+    <string name="resolver_cant_share_with_work_apps_explanation">Your IT admin doesn’t allow you to share this content with apps in your work profile</string>
     <string name="resolver_no_personal_apps_available_resolve">No personal apps can open this content</string>
     <string name="resolver_no_personal_apps_available_share">No personal apps can support this content</string>
     <string name="resolver_no_work_apps_available_resolve">No work apps can open this content</string>
@@ -4120,7 +4124,7 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="sdcrypt_keeper_notification_title">Encrypt SD card</string>
     <string name="sdcrypt_multimedia_force_off_notification_message">Security policy forces media file encryption</string>
     <string name="sdcrypt_multimedia_force_off_notification_title">Force media files encryption</string>
-    <string name="search_hint">Search鈥?/string>
+    <string name="search_hint">Search…</string>
     <string name="search_language_hint">Type language name</string>
     <string name="searchview_description_clear">Clear query</string>
     <string name="searchview_description_query">Search query</string>
@@ -4138,7 +4142,7 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="select_minutes">Select minutes</string>
     <string name="select_year">Select year</string>
     <string name="sendText">Choose an action for text</string>
-    <string name="sending">Sending鈥?/string>
+    <string name="sending">Sending…</string>
     <string name="sensor_notification_service">Sensor Notification Service</string>
     <string name="serial_number">Serial number:</string>
     <string name="serviceClassData">Data</string>
@@ -4165,16 +4169,16 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="share_remote_bugreport_notification_title">Share bug report?</string>
     <string name="shareactionprovider_share_with">Share with</string>
     <string name="shareactionprovider_share_with_application">Share with %s</string>
-    <string name="sharing_remote_bugreport_notification_title">Sharing bug report鈥?/string>
+    <string name="sharing_remote_bugreport_notification_title">Sharing bug report…</string>
     <string name="shortcut_disabled_reason_unknown">Shortcut is disabled</string>
-    <string name="shortcut_restore_not_supported">Couldn鈥檛 restore shortcut because app doesn鈥檛 support backup and restore</string>
-    <string name="shortcut_restore_signature_mismatch">Couldn鈥檛 restore shortcut because of app signature mismatch</string>
-    <string name="shortcut_restore_unknown_issue">Couldn鈥檛 restore shortcut</string>
-    <string name="shortcut_restored_on_lower_version">App version downgraded, or isn鈥檛 compatible with this shortcut</string>
+    <string name="shortcut_restore_not_supported">Couldn’t restore shortcut because app doesn’t support backup and restore</string>
+    <string name="shortcut_restore_signature_mismatch">Couldn’t restore shortcut because of app signature mismatch</string>
+    <string name="shortcut_restore_unknown_issue">Couldn’t restore shortcut</string>
+    <string name="shortcut_restored_on_lower_version">App version downgraded, or isn’t compatible with this shortcut</string>
     <string name="show_ime">Keep it on screen while physical keyboard is active</string>
     <string name="shutdown_confirm">Your phone will shut down.</string>
     <string name="shutdown_confirm_question">Do you want to shut down?</string>
-    <string name="shutdown_progress">Shutting down鈥?/string>
+    <string name="shutdown_progress">Shutting down…</string>
     <string name="silent_mode">Silent mode</string>
     <string name="silent_mode_ring">Ringer on</string>
     <string name="silent_mode_silent">Ringer off</string>
@@ -4204,7 +4208,7 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="sms_short_code_confirm_never_allow">Never Allow</string>
     <string name="sms_short_code_details">This <b>may cause charges</b> on your mobile account.</string>
     <string name="sms_short_code_remember_choice">Remember my choice</string>
-    <string name="sms_short_code_remember_undo_instruction">You can change this later in Settings聽>聽Apps</string>
+    <string name="sms_short_code_remember_undo_instruction">You can change this later in Settings > Apps</string>
     <string name="smv_application">The app %1$s (process %2$s) has violated its self-enforced StrictMode policy.</string>
     <string name="smv_process">The process %1$s has has violated its self-enforced StrictMode policy.</string>
     <string name="ssl_ca_cert_noti_by_administrator">By your work profile admin</string>
@@ -4285,7 +4289,7 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="system_error_manufacturer">"There's an internal problem with your device. Contact your manufacturer for details."</string>
     <string name="system_error_wipe_data">"There's an internal problem with your device, and it may be unstable until you factory data reset."</string>
     <string name="system_ui_date_pattern">@string/icu_abbrev_wday_month_day_no_year</string>
-    <string name="taking_remote_bugreport_notification_title">Taking bug report鈥?/string>
+    <string name="taking_remote_bugreport_notification_title">Taking bug report…</string>
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Perform a factory reset to disable Test Harness Mode.</string>
     <string name="test_harness_mode_notification_title">Test Harness Mode enabled</string>
@@ -4402,10 +4406,10 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="use_a_different_app">Use a different app</string>
     <string name="user_creation_account_exists">Allow %1$s to create a new User with %2$s (a User with this account already exists) ?</string>
     <string name="user_creation_adding">Allow %1$s to create a new User with %2$s ?</string>
-    <string name="user_logging_out_message">Logging out %1$s鈥?/string>
+    <string name="user_logging_out_message">Logging out %1$s…</string>
     <string name="user_owner_label">Switch to personal profile</string>
     <string name="user_switched">Current user %1$s.</string>
-    <string name="user_switching_message">Switching to %1$s鈥?/string>
+    <string name="user_switching_message">Switching to %1$s…</string>
     <string name="validity_period">Validity:</string>
     <string name="voice_roaming_disabled_notification_message">A security policy restricts voice roaming</string>
     <string name="voice_roaming_disabled_notification_title">Voice roaming is restricted</string>
@@ -4429,7 +4433,7 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="volume_unknown">Volume</string>
     <string name="vpn_lockdown_config">Change network or VPN settings</string>
     <string name="vpn_lockdown_connected">Always-on VPN connected</string>
-    <string name="vpn_lockdown_connecting">Always-on VPN connecting鈥?/string>
+    <string name="vpn_lockdown_connecting">Always-on VPN connecting…</string>
     <string name="vpn_lockdown_disconnected">Disconnected from always-on VPN</string>
     <string name="vpn_lockdown_error">"Couldn't connect to always-on VPN"</string>
     <string name="vpn_text">Tap to manage the network.</string>
@@ -4447,7 +4451,7 @@ Do you want to close it?"</string>
     <string name="websearch">Web Search</string>
     <string name="week">week</string>
     <string name="weeks">weeks</string>
-    <string name="wfcRegErrorTitle">Couldn鈥檛 set up Wi鈥慒i calling</string>
+    <string name="wfcRegErrorTitle">Couldn’t set up Wi‑Fi calling</string>
     <string name="wfcSpnFormat_spn">%s</string>
     <string name="wfcSpnFormat_spn_vowifi">%s VoWifi</string>
     <string name="wfcSpnFormat_spn_wifi">%s Wi-Fi</string>
@@ -4532,4 +4536,3 @@ Do you want to close it?"</string>
     <string name="zen_upgrade_notification_visd_content">Tap to learn more and change.</string>
     <string name="zen_upgrade_notification_visd_title">New: Do Not Disturb is hiding notifications</string>
 </resources>
-
