@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zen version="8">
+    <allow alarms="true" calls="true" events="false" from="1" media="true" messages="false" reminders="false" repeatCallers="false" system="false" />
+    <automatic component="android/com.android.server.notification.EventConditionProvider" conditionId="condition://android/event?userId=-10000&amp;calendar=&amp;reply=1" enabled="false" name="Event" ruleId="EVENTS_DEFAULT_RULE" snoozing="false" zen="1" />
+    <automatic component="android/com.android.server.notification.ScheduleConditionProvider" conditionId="condition://android/schedule?days=1.2.3.4.5.6.7&amp;start=22.0&amp;end=7.0&amp;exitAtAlarm=true" enabled="false" name="Sleeping" ruleId="EVERY_NIGHT_DEFAULT_RULE" snoozing="false" zen="1" />
+    <disallow visualEffects="0" />
+    <state areChannelsBypassingDnd="false" />
+</zen>
