@@ -1368,8 +1368,6 @@
         <item>@string/wfcSpnFormat_vowifi</item>
         <item>@string/wfcSpnFormat_spn_wifi_calling_vo_hyphen</item>
     </string-array>
-</resources>
-<resources>
     <bool name="config_sendPackageName">false</bool>
     <bool name="config_showDefaultAssistant">true</bool>
     <bool name="config_showDefaultEmergency">false</bool>
@@ -1666,8 +1664,6 @@
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="split_action_bar_is_narrow">true</bool>
     <bool name="use_lock_pattern_drawable">false</bool>
-</resources>
-<resources>
     <integer name="config_shortAnimTime">200</integer>
     <integer name="config_mediumAnimTime">400</integer>
     <integer name="config_longAnimTime">500</integer>
@@ -1917,8 +1913,6 @@
     <integer name="thumbnail_width_tv">240</integer>
     <integer name="time_picker_mode">1</integer>
     <integer name="time_picker_mode_material">2</integer>
-</resources>
-<resources>
     <string name="cancel">Cancel</string>
     <string name="copy">Copy</string>
     <string name="copyUrl">Copy URL</string>
