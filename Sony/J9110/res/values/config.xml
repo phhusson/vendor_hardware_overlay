@@ -17,21 +17,10 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds.  Do not translate. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
-    <bool name="config_unplugTurnsOnScreen">true</bool>
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
     <bool translatable="false" name="skip_restoring_network_selection">true</bool>
-
-    <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
-    <bool name="config_cellBroadcastAppLinks">true</bool>
-
-    <!-- MMS user agent string -->
-    <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
-
-    <!-- MMS user agent prolfile url -->
-    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/I4213R5301.xml</string>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          USB interfaces.  If the device doesn't want to support tething over USB this should
@@ -58,43 +47,6 @@
     <string-array translatable="false" name="config_tether_bluetooth_regexs">
         <item>"bnep\\d"</item>
         <item>"bt-pan"</item>
-    </string-array>
-
-    <!-- When true, the tethering upstream network follows the current default
-         Internet network (except when the current default network is mobile,
-         in which case a DUN network will be used if required). -->
-    <bool translatable="false" name="config_tether_upstream_automatic">true</bool>
-
-    <!-- Dhcp range (min, max) to use for tethering purposes -->
-    <!-- USB is  192.168.42.1 and 255.255.255.0
-         Wifi is 192.168.43.1 and 255.255.255.0
-         BT is limited to max default of 5 connections. 192.168.44.1 to 192.168.48.1
-         with 255.255.255.0
-         P2P is 192.168.49.1 and 255.255.255.0
-         Wigig is 192.168.50.1 and 255.255.255.0
-         Wigig P2P is 192.168.51.1 and 255.255.255.0
-    -->
-    <string-array name="config_tether_dhcp_range">
-        <item>192.168.42.2</item>
-        <item>192.168.42.254</item>
-        <item>192.168.43.2</item>
-        <item>192.168.43.254</item>
-        <item>192.168.44.2</item>
-        <item>192.168.44.254</item>
-        <item>192.168.45.2</item>
-        <item>192.168.45.254</item>
-        <item>192.168.46.2</item>
-        <item>192.168.46.254</item>
-        <item>192.168.47.2</item>
-        <item>192.168.47.254</item>
-        <item>192.168.48.2</item>
-        <item>192.168.48.254</item>
-        <item>192.168.49.2</item>
-        <item>192.168.49.254</item>
-        <item>192.168.50.2</item>
-        <item>192.168.50.254</item>
-        <item>192.168.51.2</item>
-        <item>192.168.51.254</item>
     </string-array>
 
      <!-- This string array should be overridden by the device to present a list of network
@@ -130,20 +82,6 @@
         <item>"0,1"</item>
         <item>"7,1"</item>
     </string-array>
-
-    <!-- Whether WiFi display is supported by this device.
-         There are many prerequisites for this feature to work correctly.
-         Here are a few of them:
-         * The WiFi radio must support WiFi P2P.
-         * The WiFi radio must support concurrent connections to the WiFi display and
-           to an access point.
-         * The Audio Flinger audio_policy.conf file must specify a rule for the "r_submix"
-           remote submix module.  This module is used to record and stream system
-           audio output to the WiFi display encoder in the media server.
-         * The remote submix module "audio.r_submix.default" must be installed on the device.
-         * The device must be provisioned with HDCP keys (for protected content).
-    -->
-    <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- Set to true if the wifi display supports compositing content stored
          in gralloc protected buffers.  For this to be true, there must exist
@@ -185,13 +123,6 @@
     <!-- Flag specifying whether WFC over IMS is available on device -->
     <bool name="config_device_wfc_ims_available">true</bool>
 
-    <!-- IWLAN network service package name to bind to by default. If none is specified in an overlay, an
-         empty string is passed in -->
-    <string name="config_wlan_network_service_package">vendor.qti.iwlan</string>
-
-    <!-- Telephony qualified networks service package name to bind to by default. -->
-    <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
-
     <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
 
@@ -232,17 +163,6 @@
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
 
-    <!-- List of files pinned by the Pinner Service with the JIT Zygote boot image b/119800099 -->
-    <string-array translatable="false" name="config_jitzygoteBootImagePinnerServiceFiles">
-        <item>"/system/framework/framework.jar"</item>
-        <item>"/system/framework/services.jar"</item>
-        <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
-        <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
-        <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
-        <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
-        <item>"/system/lib64/libsurfaceflinger.so"</item>
-    </string-array>
-
     <!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
          if the sensor HAL correctly handles the proximity sensor as a wake-up source.
@@ -274,10 +194,6 @@
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">1</integer>
-
-    <!-- Enable doze mode
-         ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -375,10 +291,6 @@
          devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
          states. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-
-    <!-- Control whether the always on display mode is enabled by default. This value will be used
-         during initialization when the setting is still null. -->
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
