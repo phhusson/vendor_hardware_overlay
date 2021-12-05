@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
         	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-        	android:requiredSystemPropertyValue="+*samsung/a20*"
+        	android:requiredSystemPropertyValue="+*Samsung/A20*"
 		android:priority="167"
 		android:isStatic="true" />
 </manifest>
