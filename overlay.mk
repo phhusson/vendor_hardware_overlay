@@ -1,3 +1,4 @@
+
 PRODUCT_PACKAGES += \
 	HardwareOverlayPicker \
 	QtiAudio \
@@ -57,6 +58,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
 	treble-overlay-lg-velvet \
+	treble-overlay-lge-mfh505glm \
+	treble-overlay-lge-mfh505glm-systemui \
 	treble-overlay-mbi-s10 \
 	treble-overlay-mbi-s10-systemui \
 	treble-overlay-meizu-m2181 \
@@ -105,6 +108,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-narzo10a \
 	treble-overlay-realme-rmx2117 \
 	treble-overlay-realme-rmx2117-systemui \
+	treble-overlay-realme-rmx3366 \
+	treble-overlay-realme-rmx3366-systemui \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
@@ -127,6 +132,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-s9q \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
+	treble-overlay-sony-J9110 \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-sony-pdx206 \
 	treble-overlay-sprd-ims \
@@ -185,3 +191,4 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
+
