@@ -96,6 +96,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6 \
 	treble-overlay-oneplus-op6t \
 	treble-overlay-oneplus-op6t-systemui \
+	treble-overlay-oneplus-op8 \
+	treble-overlay-oneplus-op8-systemui \
 	treble-overlay-oppo-peqm00 \
 	treble-overlay-oppo-peqm00-systemui \
 	treble-overlay-oukitel-wp8pro \
