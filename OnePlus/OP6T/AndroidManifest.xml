@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-		android:requiredSystemPropertyValue="+OnePlus/OnePlus6T/OnePlus6T*"
+                android:requiredSystemPropertyName="ro.boot.project_name"
+		android:requiredSystemPropertyValue="18801"
 		android:priority="74"
 		android:isStatic="true" />
 </manifest>
