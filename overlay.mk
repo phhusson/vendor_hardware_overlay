@@ -1,7 +1,4 @@
 PRODUCT_PACKAGES += \
-	HardwareOverlayPicker \
-	QtiAudio \
-	TrebleApp \
 	treble-overlay-NavBar \
 	treble-overlay-NightMode \
 	treble-overlay-SystemUI-FalseLocks \
