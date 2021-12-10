@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="me.phh.treble.overlay.oneplus.n200"
+        package="me.phh.treble.overlay.infinix.note10pro"
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+OnePlus/OnePlusN200*"
-                android:priority="2081"
-		android:isStatic="true" />
+                android:requiredSystemPropertyValue="+Infinix/X695C-GL/Infinix-X695C*"
+        android:priority="547"
+        android:isStatic="true" />
 </manifest>
