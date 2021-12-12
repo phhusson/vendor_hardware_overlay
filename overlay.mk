@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-BND \
 	treble-overlay-huawei-CLT \
 	treble-overlay-huawei-COR \
+	treble-overlay-huawei-COL \
 	treble-overlay-huawei-DUK \
 	treble-overlay-huawei-EML \
 	treble-overlay-huawei-FIG \
