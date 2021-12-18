@@ -9,6 +9,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+*pokerp*"
-		android:priority="171"
+		android:priority="498"
 		android:isStatic="true" />
 </manifest>
