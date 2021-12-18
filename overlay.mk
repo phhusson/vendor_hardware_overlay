@@ -71,6 +71,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-misc-minimal-brightness \
 	treble-overlay-moto-e5 \
 	treble-overlay-moto-e5plus \
+	treble-overlay-moto-e6plus \
 	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6play \
 	treble-overlay-moto-g6plus \
