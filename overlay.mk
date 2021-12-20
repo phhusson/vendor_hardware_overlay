@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oppo-peqm00 \
 	treble-overlay-oppo-peqm00-systemui \
 	treble-overlay-oukitel-wp8pro \
+	treble-overlay-oukitel-с18pro \
 	treble-overlay-razer-cheryl \
 	treble-overlay-realme-6 \
 	treble-overlay-realme-6i \
