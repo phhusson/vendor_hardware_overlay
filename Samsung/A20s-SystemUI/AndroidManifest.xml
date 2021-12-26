@@ -7,5 +7,4 @@
         	android:requiredSystemPropertyValue="+*samsung/a20s*"
 		android:priority="720"
 		android:isStatic="true"/>
-        <application></application>
 </manifest>
