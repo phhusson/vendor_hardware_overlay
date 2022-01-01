@@ -20,7 +20,9 @@
         <item>mobile_emergency,15,0,2,-1,true</item>
     </string-array>
     <dimen name="status_bar_height_portrait">24.0dip</dimen>
-     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
     <integer name="config_screenBrightnessDark">1</integer>
@@ -53,4 +55,5 @@
         <item>250</item>
         <item>350</item>
     </integer-array>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 L 88,0 L 88,58 L 0,58 L 0,0 Z</string>
 </resources>
