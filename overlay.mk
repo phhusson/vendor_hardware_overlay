@@ -132,9 +132,12 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-j6 \
 	treble-overlay-samsung-n9q \
+	treble-overlay-samsung-o1s \
+	treble-overlay-samsung-p3s \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
+	treble-overlay-samsung-t2s \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-J9110 \
