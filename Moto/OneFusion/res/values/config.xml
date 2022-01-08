@@ -4,9 +4,9 @@
 	<!--Status bar-->
 
     <item type="dimen" name="status_bar_height_landscape">@dimen/status_bar_height_portrait</item>
-    <dimen name="status_bar_height_portrait">24.0dip</dimen>
+    <dimen name="status_bar_height_portrait">30.0dip</dimen>
 	<bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-	<string name="config_mainBuiltInDisplayCutout" />
+	<string name="config_mainBuiltInDisplayCutout">M -40,0 L -5,10 L 5,10 L 40,0 Z</string>
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
 		
     <string name="wifi_tether_configure_ssid_default">moto one fusion</string>	
