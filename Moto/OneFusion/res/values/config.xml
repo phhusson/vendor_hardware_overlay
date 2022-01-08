@@ -165,6 +165,5 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_pinnerCameraApp">false</bool>
     <bool name="config_pinnerHomeApp">false</bool>
-    <bool name="config_fingerprintSupportsGestures">false</bool>
 
 </resources>
