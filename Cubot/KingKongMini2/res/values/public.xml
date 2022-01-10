@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f010000" />
+    <public type="array" name="config_autoBrightnessLevels" id="0x7f010001" />
+    <public type="bool" name="config_automatic_brightness_available" id="0x7f020000" />
+    <public type="bool" name="config_showNavigationBar" id="0x7f020001" />
+    <public type="bool" name="config_suspendWhenScreenOffDueToProximity" id="0x7f020002" />
+    <public type="bool" name="config_wifi_dual_band_support" id="0x7f020003" />
+    <public type="bool" name="config_wifi_softap_ieee80211ac_supported" id="0x7f020004" />
+    <public type="integer" name="config_defaultPeakRefreshRate" id="0x7f030000" />
+    <public type="xml" name="power_profile" id="0x7f040000" />
+</resources>
