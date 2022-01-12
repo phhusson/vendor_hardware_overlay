@@ -150,10 +150,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-t30 \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-telephony-caf-ims \
+	treble-overlay-telephony-hw-ims \
 	treble-overlay-telephony-mtk-ims \
 	treble-overlay-telephony-slsi-ims \
 	treble-overlay-telephony-sprd-ims \
-	treble-overlay-telephony-hw-ims \
 	treble-overlay-teracube-2e \
 	treble-overlay-teracube-v7101o \
 	treble-overlay-tethering \
