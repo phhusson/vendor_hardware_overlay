@@ -129,6 +129,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a71 \
 	treble-overlay-samsung-a80 \
 	treble-overlay-samsung-a9 \
+	treble-overlay-samsung-d1q \
+	treble-overlay-samsung-d1q-systemui \
+	treble-overlay-samsung-d1x \
+	treble-overlay-samsung-d1x-systemui \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-j6 \
 	treble-overlay-samsung-n9q \
@@ -137,6 +141,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
+	treble-overlay-samsung-starqltekdi \
+	treble-overlay-samsung-starqltekdi-systemui \
 	treble-overlay-samsung-t2s \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
