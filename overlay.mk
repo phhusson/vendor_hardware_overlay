@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-telephony-mtk-ims \
 	treble-overlay-telephony-slsi-ims \
 	treble-overlay-telephony-sprd-ims \
+	treble-overlay-telephony-hw-ims \
 	treble-overlay-teracube-2e \
 	treble-overlay-teracube-v7101o \
 	treble-overlay-tethering \
