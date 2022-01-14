@@ -134,3 +134,4 @@ config_ambientDarkeningThresholds
 config_ambientThresholdLevels
 config_screenBrighteningThresholds
 config_screenDarkeningThresholds
+config_volumeAdjustmentForRemoteGroupSessions
