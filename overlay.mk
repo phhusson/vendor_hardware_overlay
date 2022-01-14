@@ -99,6 +99,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
 	treble-overlay-realme-narzo10a \
+	treble-overlay-realme-oppo6833 \
+	treble-overlay-realme-oppo6833-systemui \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
