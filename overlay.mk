@@ -170,6 +170,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
+	treble-overlay-xiaomi-mi11lite5g \
+	treble-overlay-xiaomi-mi11lite5g-settings \
+	treble-overlay-xiaomi-mi11lite5g-systemui \
 	treble-overlay-xiaomi-mi6x \
 	treble-overlay-xiaomi-mi8 \
 	treble-overlay-xiaomi-mi8ee \
@@ -178,9 +181,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi8se \
 	treble-overlay-xiaomi-mi9 \
 	treble-overlay-xiaomi-mi9se \
-	treble-overlay-xiaomi-mi11lite5g \
-	treble-overlay-xiaomi-mi11lite5g-settings \
-	treble-overlay-xiaomi-mi11lite5g-systemui \
 	treble-overlay-xiaomi-mia2 \
 	treble-overlay-xiaomi-mia2lite \
 	treble-overlay-xiaomi-mimax3 \
@@ -212,5 +212,4 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
-
 

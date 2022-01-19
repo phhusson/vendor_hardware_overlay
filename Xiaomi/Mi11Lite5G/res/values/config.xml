@@ -23,10 +23,6 @@
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
-    <bool name="config_camera_sound_forced">false</bool>
-
-    <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_enableSmartPixels">true</bool>
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
@@ -46,9 +42,6 @@
 
     <!-- Specifies the maximum burn-in offset vertically. -->
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
-
-    <!-- Whether to show settings for hiding notch fill -->
-    <bool name="config_showHideNotchSettings">true</bool>
 
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
@@ -129,11 +122,6 @@
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
-
-    <!-- Enables or disables fading edges when marquee is enabled in TextView.
-         Off by default, since the framebuffer readback used to implement the
-         fading edges is prohibitively expensive on most GPUs. -->
-    <bool name="config_ui_enableFadingMarquee">true</bool>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
