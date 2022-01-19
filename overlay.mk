@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-duoqin-qin2pro \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-fairphone-fp3 \
-	treble-overlay-gestures \
+	treble-overlay-highpriomisc \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
@@ -118,6 +118,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
 	treble-overlay-samsung-a20 \
+	treble-overlay-samsung-a20s \
+	treble-overlay-samsung-a20s-systemui \
 	treble-overlay-samsung-a30 \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
@@ -129,6 +131,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a71 \
 	treble-overlay-samsung-a80 \
 	treble-overlay-samsung-a9 \
+	treble-overlay-samsung-d1q \
+	treble-overlay-samsung-d1q-systemui \
+	treble-overlay-samsung-d1x \
+	treble-overlay-samsung-d1x-systemui \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-j6 \
 	treble-overlay-samsung-n9q \
@@ -137,6 +143,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
+	treble-overlay-samsung-starqltekdi \
+	treble-overlay-samsung-starqltekdi-systemui \
 	treble-overlay-samsung-t2s \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
@@ -150,6 +158,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-t30 \
 	treble-overlay-tecno-camon11 \
 	treble-overlay-telephony-caf-ims \
+	treble-overlay-telephony-hw-ims \
 	treble-overlay-telephony-mtk-ims \
 	treble-overlay-telephony-slsi-ims \
 	treble-overlay-telephony-sprd-ims \
@@ -160,7 +169,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vsmart-live \
-	treble-overlay-webview \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi6x \
 	treble-overlay-xiaomi-mi8 \
