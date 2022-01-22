@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	    <string-array name="config_tether_usb_regexs">
+    <string-array name="config_tether_usb_regexs">
         <item>rndis0</item>
     </string-array>
-	    <integer-array name="config_keyboardTapVibePattern">
+
+    <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
-	    <integer-array name="config_longPressVibePattern">
+    <integer-array name="config_longPressVibePattern">
         <item>0</item>
         <item>1</item>
         <item>20</item>
         <item>21</item>
     </integer-array>
-	    <integer-array name="config_virtualKeyVibePattern">
+    <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
         <item>10</item>
         <item>20</item>
         <item>30</item>
     </integer-array>
-	    <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
-        <integer name="config_screenBrightnessSettingDefault">102</integer>
-        <integer name="config_screenBrightnessSettingMaximum">255</integer>
-        <integer name="config_screenBrightnessSettingMinimum">10</integer>
-	    <integer name="config_screenBrightnessDoze">1</integer>
-		<integer name="config_screenBrightnessDark">1</integer>
-	    <array name="config_autoBrightnessDisplayValuesNits">
+
+    <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+    <integer name="config_screenBrightnessDoze">1</integer>
+    <integer name="config_screenBrightnessDark">1</integer>
+
+    <array name="config_autoBrightnessDisplayValuesNits">
         <item>10</item>
         <item>12</item>
         <item>15</item>
@@ -61,8 +64,9 @@
         <item>675</item>
         <item>675</item>
         <item>700</item>
-    </array>
-	   <integer-array name="config_autoBrightnessLcdBacklightValues">
+   </array>
+
+   <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>6</item>
         <item>6</item>
         <item>6</item>
@@ -91,7 +95,7 @@
         <item>19999</item>
         <item>20000</item>
     </integer-array>
-	    <integer-array name="config_screenBrightnessBacklight">
+    <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -629,5 +633,8 @@
         <item>675</item>
         <item>700</item>
     </array>
-	    <bool name="config_automatic_brightness_available">true</bool>
+
+     <bool name="config_automatic_brightness_available">true</bool>
+     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+     <bool name="config_supportDoubleTapWake">true</bool>
 </resources>

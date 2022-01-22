@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-duoqin-qin2pro \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-fairphone-fp3 \
-	treble-overlay-gestures \
+	treble-overlay-highpriomisc \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
@@ -126,6 +126,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
 	treble-overlay-samsung-a51 \
+	treble-overlay-samsung-a51-systemui \
 	treble-overlay-samsung-a51x \
 	treble-overlay-samsung-a60q \
 	treble-overlay-samsung-a7 \
@@ -171,9 +172,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vsmart-live \
-	treble-overlay-webview \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi11lite5g \
+	treble-overlay-xiaomi-mi11lite5g-settings \
 	treble-overlay-xiaomi-mi6x \
 	treble-overlay-xiaomi-mi8 \
 	treble-overlay-xiaomi-mi8ee \
@@ -213,5 +214,4 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
-
 
