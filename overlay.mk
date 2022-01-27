@@ -109,9 +109,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
 	treble-overlay-realme-narzo10a \
-	treble-overlay-realme-oppo6833 \
-	treble-overlay-realme-oppo6833-systemui \
 	treble-overlay-realme-q3 \
+	treble-overlay-realme-re513cl1 \
+	treble-overlay-realme-re513cl1-systemui \
 	treble-overlay-realme-rmx2117 \
 	treble-overlay-realme-rmx2117-systemui \
 	treble-overlay-realme-rmx3366 \
