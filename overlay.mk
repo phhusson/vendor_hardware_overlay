@@ -174,7 +174,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-mi11lite5g \
-	treble-overlay-xiaomi-mi11lite5g-settings \
 	treble-overlay-xiaomi-mi6x \
 	treble-overlay-xiaomi-mi8 \
 	treble-overlay-xiaomi-mi8ee \
