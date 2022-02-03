@@ -5,10 +5,12 @@
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
     <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
     <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
+
     <!-- FrameworkResOverlay -->
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_device_volte_available">true</bool>
+
     <!-- Product frameworks auto-gen rro -->
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
@@ -18,4 +20,7 @@
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
+
+    <!-- Enables support for dt2w -->
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
