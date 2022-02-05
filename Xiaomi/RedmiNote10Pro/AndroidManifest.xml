@@ -2,6 +2,8 @@
         package="me.phh.treble.overlay.xiaomi.redminote10pro"
         android:versionCode="1"
         android:versionName="1.0">
+        <uses-sdk android:minSdkVersion="30" 
+                 android:targetSdkVersion="31" />
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
                 android:requiredSystemPropertyValue="sweet"
