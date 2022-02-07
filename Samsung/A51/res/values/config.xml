@@ -636,5 +636,5 @@
 
      <bool name="config_automatic_brightness_available">true</bool>
      <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-     <bool name="config_dozePulsePickup">true</bool>
+     <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
