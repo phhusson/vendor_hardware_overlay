@@ -237,7 +237,7 @@
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
 
-     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
+    <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N + 1 control points as follows:
          (1-based arrays)
          Point 1:            (0, value[1]):             lux <= 0
@@ -312,55 +312,6 @@
         <item>4000</item>
         <item>4500</item>
         <item>5000</item>
-        <item>5500</item>
-        <item>6000</item>
-        <item>6500</item>
-        <item>7000</item>
-        <item>7500</item>
-        <item>8000</item>
-        <item>8500</item>
-        <item>9000</item>
-        <item>9500</item>
-        <item>10000</item>
-        <item>10500</item>
-        <item>11000</item>
-        <item>11500</item>
-        <item>12000</item>
-        <item>12500</item>
-        <item>13000</item>
-        <item>13500</item>
-        <item>14000</item>
-        <item>14500</item>
-        <item>15000</item>
-        <item>16000</item>
-        <item>17000</item>
-        <item>18000</item>
-        <item>19000</item>
-        <item>20000</item>
-        <item>21000</item>
-        <item>22000</item>
-        <item>23000</item>
-        <item>24000</item>
-        <item>25000</item>
-        <item>26000</item>
-        <item>27000</item>
-        <item>28000</item>
-        <item>29000</item>
-        <item>30000</item>
-        <item>35000</item>
-        <item>40000</item>
-        <item>45000</item>
-        <item>50000</item>
-        <item>55000</item>
-        <item>60000</item>
-        <item>65000</item>
-        <item>70000</item>
-        <item>75000</item>
-        <item>80000</item>
-        <item>85000</item>
-        <item>90000</item>
-        <item>95000</item>
-        <item>100000</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -375,114 +326,25 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>4.5</item>
-        <item>6.6</item>
-        <item>8.0</item>
-        <item>20.0</item>
-        <item>24.3</item>
-        <item>29.7</item>
-        <item>34.0</item>
-        <item>46.0</item>
-        <item>59.0</item>
-        <item>76.0</item>
-        <item>81.0</item>
-        <item>82.0</item>
-        <item>82.0</item>
-        <item>82.0</item>
-        <item>83.0</item>
-        <item>83.0</item>
-        <item>83.0</item>
-        <item>84.0</item>
-        <item>84.0</item>
-        <item>85.0</item>
-        <item>85.0</item>
-        <item>85.0</item>
-        <item>85.0</item>
-        <item>86.0</item>
-        <item>86.0</item>
-        <item>87.0</item>
-        <item>89.0</item>
-        <item>90.0</item>
-        <item>91.0</item>
-        <item>93.0</item>
-        <item>94.0</item>
-        <item>96.0</item>
-        <item>97.0</item>
-        <item>99.0</item>
-        <item>100.0</item>
-        <item>101.0</item>
-        <item>104.0</item>
-        <item>105.0</item>
-        <item>106.0</item>
-        <item>108.0</item>
-        <item>109.0</item>
-        <item>111.0</item>
-        <item>112.0</item>
-        <item>114.0</item>
-        <item>116.0</item>
-        <item>137.0</item>
-        <item>157.0</item>
-        <item>180.0</item>
-        <item>205.0</item>
-        <item>226.0</item>
-        <item>257.0</item>
-        <item>280.0</item>
-        <item>295.0</item>
-        <item>369.0</item>
-        <item>400.0</item>
-        <item>416.7</item>
-        <item>433.3</item>
-        <item>450.0</item>
-        <item>466.7</item>
-        <item>483.3</item>
-        <item>500.0</item>
-        <item>512.5</item>
-        <item>525.0</item>
-        <item>537.5</item>
-        <item>550.0</item>
-        <item>562.5</item>
-        <item>575.0</item>
-        <item>587.5</item>
-        <item>600.0</item>
-        <item>610.0</item>
-        <item>620.0</item>
-        <item>630.0</item>
-        <item>640.0</item>
-        <item>650.0</item>
-        <item>660.0</item>
-        <item>670.0</item>
-        <item>680.0</item>
-        <item>690.0</item>
-        <item>700.0</item>
-        <item>705.0</item>
-        <item>710.0</item>
-        <item>715.0</item>
-        <item>720.0</item>
-        <item>725.0</item>
-        <item>730.0</item>
-        <item>735.0</item>
-        <item>740.0</item>
-        <item>745.0</item>
-        <item>750.0</item>
-        <item>755.0</item>
-        <item>760.0</item>
-        <item>765.0</item>
-        <item>770.0</item>
-        <item>775.0</item>
-        <item>800.0</item>
-        <item>816.7</item>
-        <item>833.3</item>
-        <item>850.0</item>
-        <item>866.7</item>
-        <item>883.3</item>
-        <item>900.0</item>
-        <item>914.3</item>
-        <item>928.6</item>
-        <item>942.9</item>
-        <item>957.1</item>
-        <item>971.4</item>
-        <item>985.7</item>
-        <item>1000.0</item>
+        <item>10.45935</item>   <!-- 0-1 -->
+        <item>29.25559</item>   <!-- 1-2 -->
+        <item>34.240692</item>  <!-- 2-3 -->
+        <item>37.514347</item>  <!-- 3-4 -->
+        <item>40.018696</item>  <!-- 4-8 -->
+        <item>46.885098</item>  <!-- 8-12 -->
+        <item>51.626434</item>  <!-- 12-20 -->
+        <item>58.610405</item>  <!-- 20-33 -->
+        <item>66.890915</item>  <!-- 33-55 -->
+        <item>77.61644</item>   <!-- 55-90 -->
+        <item>90.221886</item>  <!-- 90-148 -->
+        <item>105.80314</item>  <!-- 148-245 -->
+        <item>126.073845</item> <!-- 245-403 -->
+        <item>154.16931</item>  <!-- 403-665 -->
+        <item>191.83717</item>  <!-- 665-1097 -->
+        <item>240.74442</item>  <!-- 1097-1808 -->
+        <item>294.84857</item>  <!-- 1808-2981 -->
+        <item>348.05453</item>  <!-- 2981-5000 -->
+        <item>389.70</item>     <!-- 5000+ -->
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
