@@ -79,6 +79,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g8 \
 	treble-overlay-moto-g8plus \
 	treble-overlay-moto-g8power \
+	treble-overlay-moto-hiphi \
+	treble-overlay-moto-hiphi-systemui \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
 	treble-overlay-moto-onehyper \
