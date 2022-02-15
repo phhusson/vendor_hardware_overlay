@@ -175,6 +175,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teracube-v7101o \
 	treble-overlay-tethering \
 	treble-overlay-umidigi-A3S \
+	treble-overlay-umidigi-a7proeea \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vsmart-live \
