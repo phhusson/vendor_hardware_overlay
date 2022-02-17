@@ -27,4 +27,9 @@
 
     <!-- Boolean indicating whether 802.11r Fast BSS Transition is enabled on this platform -->
     <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+
+    <!-- Control whether the always on display mode is available. This should only be enabled on
+         devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
+         states. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 </resources>
