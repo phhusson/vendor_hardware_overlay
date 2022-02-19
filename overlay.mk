@@ -182,6 +182,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
+	treble-overlay-xiaomi-civi \
+	treble-overlay-xiaomi-civi-systemui \
 	treble-overlay-xiaomi-mi11lite5g \
 	treble-overlay-xiaomi-mi6x \
 	treble-overlay-xiaomi-mi8 \
