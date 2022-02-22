@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="com.android.systemui"
                 android:requiredSystemPropertyName="ro.boot.prjname"
-                android:requiredSystemPropertyValue="20363"
+                android:requiredSystemPropertyValue="+(20361|20362|20363|20364|20365|20366)"
         android:priority="2036"
         android:isStatic="true" />
 </manifest>
