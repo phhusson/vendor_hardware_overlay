@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+		<dimen name="status_bar_height_landscape">24.0dip</dimen>
 		<item type="dimen" name="status_bar_height">@dimen/status_bar_height_landscape</item>
 		<dimen name="quick_qs_offset_height">@dimen/status_bar_height_landscape</dimen>
 </resources>
