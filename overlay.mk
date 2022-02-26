@@ -183,6 +183,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-A3S \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
+	treble-overlay-vivo-y20 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-civi \
@@ -228,4 +229,3 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
-
