@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-		android:compileSdkVersion="30"
-		android:compileSdkVersionCodename="11"
+		android:versionCode="1"
+		android:versionName="1.0"
 		package="me.phh.treble-overlay-vivo-y20"
 		platformBuildVersionCode="30"
 		platformBuildVersionName="11">
