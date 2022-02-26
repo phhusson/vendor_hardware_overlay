@@ -1,14 +1,12 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
-		android:compileSdkVersion="30" 
-		android:compileSdkVersionCodename="11" 
-		package="me.phh.treble-overlay-vivo-y20" 
-		platformBuildVersionCode="30" 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		android:compileSdkVersion="30"
+		android:compileSdkVersionCodename="11"
+		package="me.phh.treble-overlay-vivo-y20"
+		platformBuildVersionCode="30"
 		platformBuildVersionName="11">
-		<overlay android:targetPackage="android" 
+		<overlay android:targetPackage="android"
 				android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+*vivo/y20*"
-		android:priority="1"
+		android:priority="392"
 		android:isStatic="true" />
 </manifest>
-
-
