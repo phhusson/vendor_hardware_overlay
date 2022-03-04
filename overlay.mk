@@ -84,6 +84,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-nio \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
+	treble-overlay-moto-onefusion \
 	treble-overlay-moto-onehyper \
 	treble-overlay-moto-razr \
 	treble-overlay-mtk-ims \
