@@ -79,8 +79,12 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g8 \
 	treble-overlay-moto-g8plus \
 	treble-overlay-moto-g8power \
+	treble-overlay-moto-hiphi \
+	treble-overlay-moto-hiphi-systemui \
+	treble-overlay-moto-nio \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
+	treble-overlay-moto-onefusionplus \
 	treble-overlay-moto-onehyper \
 	treble-overlay-moto-razr \
 	treble-overlay-mtk-ims \
@@ -92,7 +96,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-nokia-pl2-6.1 \
 	treble-overlay-nokia-pnx-8.1-x7 \
 	treble-overlay-nokia-pnx-8.1-x7-systemui \
+	treble-overlay-nubia-redmagic3s \
 	treble-overlay-nubia-z18mini \
+	treble-overlay-oneplus-n2 \
+	treble-overlay-oneplus-n2-systemui \
 	treble-overlay-oneplus-n200 \
 	treble-overlay-oneplus-n200-systemui \
 	treble-overlay-oneplus-op10pro \
@@ -102,10 +109,12 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6t-systemui \
 	treble-overlay-oneplus-op8 \
 	treble-overlay-oneplus-op8-systemui \
+	treble-overlay-oppo-a54 \
+	treble-overlay-oppo-a54-systemui \
 	treble-overlay-oppo-peqm00 \
 	treble-overlay-oppo-peqm00-systemui \
-	treble-overlay-oppo-reno3pro \
-	treble-overlay-oppo-reno3pro-systemui \
+	treble-overlay-oppo-renopro2019 \
+	treble-overlay-oppo-renopro2019-systemui \
 	treble-overlay-oukitel-wp8pro \
 	treble-overlay-razer-cheryl \
 	treble-overlay-realme-6 \
@@ -177,8 +186,12 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-A3S \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
+	treble-overlay-vivo-y20 \
+	treble-overlay-vsmart-joy3 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
+	treble-overlay-xiaomi-civi \
+	treble-overlay-xiaomi-civi-systemui \
 	treble-overlay-xiaomi-mi11lite5g \
 	treble-overlay-xiaomi-mi6x \
 	treble-overlay-xiaomi-mi8 \
@@ -209,6 +222,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmigo \
 	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redmik20pro-systemui \
+	treble-overlay-xiaomi-redminote10pro \
+	treble-overlay-xiaomi-redminote10s \
 	treble-overlay-xiaomi-redminote5 \
 	treble-overlay-xiaomi-redminote6pro \
 	treble-overlay-xiaomi-redminote6pro-systemui \
