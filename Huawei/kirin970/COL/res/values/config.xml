@@ -41,5 +41,5 @@
     <dimen name="notification_header_padding_top">8.0dip</dimen>
     <dimen name="status_bar_height_portrait">90px</dimen>
     <dimen name="status_bar_height_landscape">90px</dimen>
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -170,0 L -170,90 L 170,90 L 170,0 Z</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -156,0 L -156,90 L 156,90 L 156,0 Z</string>
 </resources>
