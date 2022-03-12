@@ -99,6 +99,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
 	treble-overlay-sharp-s2 \
+	treble-overlay-sony-kirin_dsds \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-teclast-m30 \
 	treble-overlay-tecno-camon11 \
