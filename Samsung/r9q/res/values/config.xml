@@ -25,7 +25,7 @@
         <integer name="config_screenBrightnessSettingMinimum">0</integer>
 	    <integer name="config_screenBrightnessDoze">1</integer>
 		<integer name="config_screenBrightnessDark">1</integer>
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
+    <array name="config_autoBrightnessDisplayValuesNits">
         <item>11</item>
         <item>15</item>
         <item>22</item>
@@ -53,6 +53,21 @@
         <item>776</item>
         <item>800</item>
         <item>800</item>
+    </array>
+    	   <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>11</item>
+        <item>79</item>
+        <item>95</item>
+        <item>141</item>
+        <item>183</item>
+        <item>200</item>
+        <item>219</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
@@ -1062,4 +1077,3 @@
     </array>
 	    <bool name="config_automatic_brightness_available">true</bool>
 </resources>
-
