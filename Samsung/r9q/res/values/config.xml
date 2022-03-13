@@ -54,7 +54,7 @@
         <item>800</item>
         <item>800</item>
     </array>
-    	   <integer-array name="config_autoBrightnessLcdBacklightValues">
+    	<integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>6</item>
         <item>6</item>
         <item>6</item>
