@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="config_mainBuiltInDisplayCutout">M -180,0 L -180,40 L -140,40 L -140,0 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutout">M -360,0 L -360,76 L -280,76 L -280,0 Z</string>
 </resources>
