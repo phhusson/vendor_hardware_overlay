@@ -4,5 +4,4 @@
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
 </resources>
