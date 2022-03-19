@@ -89,7 +89,7 @@
         <value>22.7</value>
     </array>
     <item
-        name="battery.capacity">1000</item>
+        name="battery.capacity">5000</item>
     <item
         name="wifi.controller.idle">0</item>
     <item
