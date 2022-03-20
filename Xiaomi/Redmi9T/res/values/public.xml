@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="array" name="config_ambientBrighteningThresholds" id="0x7f010000" />
+    <public type="array" name="config_ambientDarkeningThresholds" id="0x7f010001" />
+    <public type="array" name="config_ambientThresholdLevels" id="0x7f010002" />
+    <public type="array" name="config_autoBrightnessDisplayValuesNits" id="0x7f010003" />
+    <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f010004" />
+    <public type="array" name="config_autoBrightnessLevels" id="0x7f010005" />
+    <public type="array" name="config_screenBrighteningThresholds" id="0x7f010006" />
+    <public type="array" name="config_screenDarkeningThresholds" id="0x7f010007" />
+    <public type="array" name="config_tether_wifi_regexs" id="0x7f010009" />
+    <public type="bool" name="config_automatic_brightness_available" id="0x7f020000" />
+    <public type="bool" name="config_dozeAlwaysOnDisplayAvailable" id="0x7f020001" />
+    <public type="bool" name="config_showNavigationBar" id="0x7f020003" />
+    <public type="bool" name="config_useDevInputEventForAudioJack" id="0x7f020004" />
+    <public type="fraction" name="config_autoBrightnessAdjustmentMaxGamma" id="0x7f030000" />
+    <public type="integer" name="config_autoBrightnessBrighteningLightDebounce" id="0x7f040000" />
+    <public type="integer" name="config_autoBrightnessDarkeningLightDebounce" id="0x7f040001" />
+    <public type="integer" name="config_brightness_ramp_rate_fast" id="0x7f040002" />
+    <public type="integer" name="config_brightness_ramp_rate_slow" id="0x7f040003" />
+    <public type="integer" name="config_defaultPeakRefreshRate" id="0x7f040004" />
+    <public type="integer" name="config_screenBrightnessDim" id="0x7f040005" />
+    <public type="integer" name="config_screenBrightnessSettingDefault" id="0x7f040006" />
+    <public type="integer" name="config_screenBrightnessSettingMaximum" id="0x7f040007" />
+    <public type="integer" name="config_screenBrightnessSettingMinimum" id="0x7f040008" />
+</resources>
