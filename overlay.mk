@@ -71,8 +71,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-misc-minimal-brightness \
 	treble-overlay-moto-e5 \
 	treble-overlay-moto-e5plus \
-	treble-overlay-moto-g6 \
+	treble-overlay-moto-e6plus \
 	treble-overlay-moto-g31 \
+	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6play \
 	treble-overlay-moto-g6plus \
 	treble-overlay-moto-g7play \
@@ -131,6 +132,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
+	treble-overlay-samsung-S20fe \
+	treble-overlay-samsung-S20fe-systemui \
 	treble-overlay-samsung-a20 \
 	treble-overlay-samsung-a20s \
 	treble-overlay-samsung-a20s-systemui \
