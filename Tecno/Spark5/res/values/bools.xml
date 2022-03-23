@@ -4,4 +4,5 @@
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
 </resources>
