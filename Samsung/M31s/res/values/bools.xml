@@ -20,4 +20,6 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="add config_displayBlanksAfterDoze">false</bool>
+    
+    <bool name="config_smart_battery_available">true</bool>
 </resources>

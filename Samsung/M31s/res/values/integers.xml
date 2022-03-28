@@ -9,4 +9,6 @@
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">0</integer>
     <integer name="config_valueOfVirtualZeroCandela">0</integer>
+    
+    <integer name="config_screenBrightnessDoze">10</integer>
 </resources>
