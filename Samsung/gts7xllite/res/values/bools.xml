@@ -17,4 +17,5 @@
     <bool name="config_wifi_batched_scan_supported">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
 </resources>
