@@ -1,7 +1,7 @@
 name: Overlay
 
 on:
-  pull_requests:
+  pull_request:
     branches: [pie]
 
 jobs:
