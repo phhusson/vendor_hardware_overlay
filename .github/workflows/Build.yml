@@ -31,5 +31,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v3.0.0
       with:
-        path: vendor_hardware_overlay/build/*.apk
+        path: build/*.apk
         name: OverlayZip
