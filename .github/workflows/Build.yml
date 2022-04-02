@@ -1,12 +1,8 @@
 name: Overlay
 
 on:
-  workflow_dispatch:
-    inputs:
-      FORK_URL:
-        description: 'FORKED_URL'
-        required: true
-        default: 'https://github.com/phhusson/vendor_hardware_overlay'
+  pull_requests:
+    branches: [pie]
 
 jobs:
   build:
@@ -32,7 +28,7 @@ jobs:
         PATH=~/bin:$PATH
         mkdir workspace
         cd workspace
-        git clone ${{github.event.inputs.FORK_URL }}
+        git clone https://github.com/phhusson/vendor_hardware_overlay
 
     - name: Run test scripts
       run: |
