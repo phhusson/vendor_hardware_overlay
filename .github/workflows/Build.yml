@@ -18,35 +18,18 @@ jobs:
         sudo apt -y install git-core git xmlstarlet
         sudo apt update
 
-    - name: Set variables
-      run: |
-        echo "::set-output name=date::$(date +%F)"
-      id: var
-
-    - name: Clone vendor_hardware_overlay
-      run: |
-        PATH=~/bin:$PATH
-        mkdir workspace
-        cd workspace
-        git clone https://github.com/phhusson/vendor_hardware_overlay
-
     - name: Run test scripts
       run: |
-        PATH=~/bin:$PATH
-        cd workspace && cd vendor_hardware_overlay
-        git config --global user.name "Johx22"
-        git config --global user.email "johannjose2004@gmail.com"
         cd tests
         bash tests.sh
 
     - name: Build APK's
       run: |
-        PATH=~/bin:$PATH
-        cd workspace && cd vendor_hardware_overlay && cd build
+        cd build
         bash build.sh
 
     - name: Upload APK
       uses: actions/upload-artifact@v3.0.0
       with:
-        path: workspace/vendor_hardware_overlay/build/*.apk
+        path: vendor_hardware_overlay/build/*.apk
         name: OverlayZip
