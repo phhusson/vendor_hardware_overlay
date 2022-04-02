@@ -55,6 +55,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lenovo-k5pro \
 	treble-overlay-lenovo-s5 \
 	treble-overlay-lenovo-s5pro \
+	treble-overlay-lenovo-yoga-smart-tab \
+	treble-overlay-lenovo-yoga-smart-tab-systemui \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-v40 \
@@ -240,5 +242,5 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
-        treble-overlay-xiaomi-redmi9t \
+    	treble-overlay-xiaomi-redmi9t \
 

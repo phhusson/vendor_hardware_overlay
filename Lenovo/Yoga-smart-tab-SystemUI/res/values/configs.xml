@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rounded_corner_radius">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_adjustment">0.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_bottom_adjustment">0.0px</dimen>
+    <dimen name="rounded_corner_radius_top">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_top_adjustment">0.0px</dimen>
+	
+	<integer name="config_wifi_associated_short_scan_interval">20000</integer>
+    <integer name="config_wifi_disconnected_short_scan_interval">15000</integer>
+    <integer name="config_wifi_framework_5GHz_preference_boost_factor">40</integer>
+    <integer name="config_wifi_framework_5GHz_preference_boost_threshold">-65</integer>
+    <integer name="config_wifi_framework_5GHz_preference_penalty_threshold">-75</integer>
+	<integer name="config_screenBrightnessSettingDefault">102</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">27</integer>
+</resources>
