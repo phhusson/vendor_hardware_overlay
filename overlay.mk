@@ -117,6 +117,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mi9se \
 	treble-overlay-xiaomi-mia2 \
 	treble-overlay-xiaomi-mia2lite \
+	treble-overlay-xiaomi-mia3 \
 	treble-overlay-xiaomi-mimax3 \
 	treble-overlay-xiaomi-mimix2s \
 	treble-overlay-xiaomi-mimix3 \
