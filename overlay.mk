@@ -169,6 +169,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-starqltekdi \
 	treble-overlay-samsung-starqltekdi-systemui \
 	treble-overlay-samsung-t2s \
+	treble-overlay-samsung-z3q \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-J9110 \
@@ -225,6 +226,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi8 \
 	treble-overlay-xiaomi-redmi8a \
 	treble-overlay-xiaomi-redmi9a \
+	treble-overlay-xiaomi-redmi9t \
 	treble-overlay-xiaomi-redmigo \
 	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redmik20pro-systemui \
@@ -241,5 +243,4 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
-        treble-overlay-xiaomi-redmi9t \
 
