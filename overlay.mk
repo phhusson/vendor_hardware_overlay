@@ -193,6 +193,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vivo-y20 \
+	treble-overlay-vivo-y20-systemui \
 	treble-overlay-vsmart-joy3 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
@@ -241,4 +242,3 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
         treble-overlay-xiaomi-redmi9t \
-
