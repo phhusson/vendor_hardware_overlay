@@ -1,0 +1,34 @@
+name: Overlay
+
+on:
+  pull_request:
+    branches: [pie]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Out
+      uses: actions/checkout@main
+
+    - name: Prepare the environment
+      run: |
+        sudo apt -y install git-core git xmlstarlet
+        sudo apt update
+
+    - name: Run test scripts
+      run: |
+        cd tests
+        bash tests.sh
+
+    - name: Build APK's
+      run: |
+        cd build
+        bash build.sh
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v3.0.0
+      with:
+        path: build/*.apk
+        name: Overlays
