@@ -6,7 +6,7 @@
 				platformBuildVersionName="11">
 				<overlay android:targetPackage="android"
 						android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-		                android:requiredSystemPropertyValue="+*vivo/y20*"
+		                android:requiredSystemPropertyValue="+*vivo/2026*"
 				android:priority="392"
 				android:isStatic="true" />
 </manifest>

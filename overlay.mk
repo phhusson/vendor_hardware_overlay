@@ -71,6 +71,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-misc-minimal-brightness \
 	treble-overlay-moto-e5 \
 	treble-overlay-moto-e5plus \
+	treble-overlay-moto-e6plus \
+	treble-overlay-moto-g31 \
 	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6play \
 	treble-overlay-moto-g6plus \
@@ -132,6 +134,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
+	treble-overlay-samsung-S20fe \
+	treble-overlay-samsung-S20fe-systemui \
 	treble-overlay-samsung-a20 \
 	treble-overlay-samsung-a20s \
 	treble-overlay-samsung-a20s-systemui \
@@ -154,16 +158,20 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-d1x-systemui \
 	treble-overlay-samsung-gta2xl \
 	treble-overlay-samsung-gta3xl \
+	treble-overlay-samsung-gts7xllite \
 	treble-overlay-samsung-j6 \
+	treble-overlay-samsung-m31s \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-o1s \
 	treble-overlay-samsung-p3s \
+	treble-overlay-samsung-r9q \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
 	treble-overlay-samsung-starqltekdi \
 	treble-overlay-samsung-starqltekdi-systemui \
 	treble-overlay-samsung-t2s \
+	treble-overlay-samsung-z3q \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-J9110 \
@@ -175,6 +183,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-m30 \
 	treble-overlay-teclast-t30 \
 	treble-overlay-tecno-camon11 \
+	treble-overlay-tecno-spark5 \
 	treble-overlay-telephony-caf-ims \
 	treble-overlay-telephony-hw-ims \
 	treble-overlay-telephony-mtk-ims \
@@ -219,11 +228,13 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi8 \
 	treble-overlay-xiaomi-redmi8a \
 	treble-overlay-xiaomi-redmi9a \
+	treble-overlay-xiaomi-redmi9t \
 	treble-overlay-xiaomi-redmigo \
 	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redmik20pro-systemui \
 	treble-overlay-xiaomi-redminote10pro \
 	treble-overlay-xiaomi-redminote10s \
+	treble-overlay-xiaomi-redminote11 \
 	treble-overlay-xiaomi-redminote5 \
 	treble-overlay-xiaomi-redminote6pro \
 	treble-overlay-xiaomi-redminote6pro-systemui \

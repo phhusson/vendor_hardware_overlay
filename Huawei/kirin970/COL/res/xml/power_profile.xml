@@ -19,17 +19,17 @@
 <device name="Android">
   <!-- All values are in mA except as noted -->
   <item name="none">0</item>
-  <item name="screen.on">95</item> <!-- min brite -->
-  <item name="bluetooth.active">97</item>
-  <item name="bluetooth.on">0.6</item>
-  <item name="bluetooth.at">0.6</item> <!-- TBD -->
+  <item name="screen.on">130</item> <!-- min brite -->
+  <item name="bluetooth.active">120</item>
+  <item name="bluetooth.on">0.8</item>
+  <item name="bluetooth.at">0.8</item> <!-- TBD -->
   <item name="screen.full">365</item> <!-- backlight 16 leds -->
-  <item name="wifi.on">0.6</item>
-  <item name="wifi.active">128</item>
-  <item name="wifi.scan">146</item>
+  <item name="wifi.on">0.7</item>
+  <item name="wifi.active">150</item>
+  <item name="wifi.scan">80</item>
   <item name="dsp.audio">43</item> <!-- k3v5 -->
-  <item name="dsp.video">176</item>
-  <item name="radio.active">190</item>
+  <item name="dsp.video">187</item>
+  <item name="radio.active">95</item>
   <item name="gps.on">70</item>
   <item name="battery.capacity">3400</item> <!-- 3750mAh -->
   <item name="radio.scanning">65</item> <!-- TBD -->
@@ -42,14 +42,20 @@
     <value>10.0</value>
   </array>
   <array name="cpu.speeds">
-    <value>533000</value> <!-- 533 MHz CPU speed -->
-    <value>999000</value> <!-- 999 MHz CPU speed -->
-    <value>1402000</value> <!-- 1.4 GHz CPU speed -->
-    <value>1709000</value><!-- 1.7 GHz CPU speed -->
+    <value>509000</value> <!-- 509 MHz CPU speed -->
+    <value>682000</value> <!-- 682 MHz CPU speed -->
+    <value>1018000</value> <!-- 1.0 GHz CPU speed -->
+    <value>1210000</value><!-- 1.2 GHz CPU speed -->
+    <value>1364000</value><!-- 1.3 GHz CPU speed -->
+    <value>1402000</value><!-- 1.4 GHz CPU speed -->
+    <value>1498000</value><!-- 1.48 GHz CPU speed -->
+    <value>1556000</value><!-- 1.5 GHz CPU speed -->
+    <value>1652000</value><!-- 1.6 GHz CPU speed -->
+    <value>1690000</value><!-- 1.68 GHz CPU speed -->
     <value>1844000</value><!-- 1.8 GHz CPU speed -->
-    <value>2112000</value><!-- 2.1 GHz CPU speed -->
+    <value>1863000</value><!-- 1.83 GHz CPU speed -->
+    <value>2093000</value><!-- 2.0 GHz CPU speed -->
     <value>2362000</value><!-- 2.3 GHz CPU speed -->
-    <value>2612000</value><!-- 2.6 GHz CPU speed -->
   </array>
   <!-- Power consumption in suspend -->
   <item name="cpu.idle">5</item> <!-- k3v5 -->
@@ -57,13 +63,19 @@
   <item name="cpu.awake">35</item> <!-- k3v5 -->
   <!-- Power consumption at different speeds -->
   <array name="cpu.active">
-    <value>30</value>
-    <value>72</value>
-    <value>133</value>
-    <value>201</value>
-    <value>250</value>
-    <value>990</value>
-    <value>1761</value>
-    <value>1948</value>
+    <value>117</value>
+    <value>151</value>
+    <value>270</value>
+    <value>360</value>
+    <value>435</value>
+    <value>451</value>
+    <value>465</value>
+    <value>610</value>
+    <value>630</value>
+    <value>660</value>
+    <value>920</value>
+    <value>950</value>
+    <value>2000</value>
+    <value>2200</value>
   </array>
 </device>
