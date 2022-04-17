@@ -123,6 +123,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-6i \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
+	treble-overlay-realme-gtneo3 \
+	treble-overlay-realme-gtneo3-systemui \
 	treble-overlay-realme-narzo10a \
 	treble-overlay-realme-q3 \
 	treble-overlay-realme-rmx2117 \

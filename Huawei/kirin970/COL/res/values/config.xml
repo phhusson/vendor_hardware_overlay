@@ -39,6 +39,7 @@
     <dimen name="navigation_bar_width">7.5mm</dimen>
     <dimen name="notification_header_padding_bottom">8.0dip</dimen>
     <dimen name="notification_header_padding_top">8.0dip</dimen>
+    <dimen name="status_bar_height">90px</dimen>
     <dimen name="status_bar_height_portrait">90px</dimen>
     <dimen name="status_bar_height_landscape">90px</dimen>
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M -156,0 L -156,90 L 156,90 L 156,0 Z</string>

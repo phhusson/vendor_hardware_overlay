@@ -3,8 +3,8 @@
     <dimen name="status_bar_padding_start">35px</dimen>
     <dimen name="status_bar_padding_end">35px</dimen>
     <dimen name="status_bar_header_height_keyguard">102px</dimen>
-    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
-    <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
+    <dimen name="keyguard_carrier_text_margin">35px</dimen>
+    <dimen name="system_icons_keyguard_padding_end">35px</dimen>
 
     <!-- Moto please no -->
     <dimen name="rounded_corner_content_padding">4dp</dimen>
