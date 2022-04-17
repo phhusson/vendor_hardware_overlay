@@ -1044,17 +1044,17 @@
         <item>800</item>
     </array>
 
-	<bool name="config_useDevInputEventForAudioJack">true</bool>
+	  <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-	<bool name="config_automatic_brightness_available">true</bool>
-	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-	<bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+	  <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+	  <bool name="config_supportDoubleTapWake">true</bool>
 
-    <dimen name="status_bar_height">88.0px</dimen>
-    <dimen name="status_bar_height_portrait">88.0px</dimen>
+    <dimen name="status_bar_height">92.0px</dimen>
+    <dimen name="status_bar_height_portrait">92.0px</dimen>
     <dimen name="status_bar_height_landscape">26.0dp</dimen>
-	<dimen name="quick_qs_offset_height">88.0px</dimen>
+	  <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
 
     <integer name="config_screenBrightnessSettingMinimum">0</integer>
 </resources>
