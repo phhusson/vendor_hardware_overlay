@@ -99,6 +99,7 @@
          <dimen name="quick_qs_offset_height">55px</dimen>
 
        -->
+    <dimen name="status_bar_height">80px</dimen>
     <dimen name="status_bar_height_portrait">80px</dimen>
     <dimen name="quick_qs_offset_height">80px</dimen>
 

@@ -3,6 +3,6 @@
     <dimen name="status_bar_padding_start">16px</dimen>
     <dimen name="status_bar_padding_end">30px</dimen>
     <dimen name="status_bar_header_height_keyguard">88px</dimen>
-    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
-    <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
+    <dimen name="keyguard_carrier_text_margin">16px</dimen>
+    <dimen name="system_icons_keyguard_padding_end">30px</dimen>
 </resources>

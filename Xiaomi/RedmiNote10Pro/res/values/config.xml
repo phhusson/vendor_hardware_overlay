@@ -9,6 +9,7 @@
     <!-- dimens.xml files -->
     <dimen name="rounded_corner_radius_bottom">102px</dimen>
     <dimen name="rounded_corner_radius_top">102px</dimen>
+    <dimen name="status_bar_height">93px</dimen>
     <dimen name="status_bar_height_portrait">93px</dimen>
 
     <!-- arrays.xml files -->

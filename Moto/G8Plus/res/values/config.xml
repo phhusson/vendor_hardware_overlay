@@ -27,8 +27,9 @@
     <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="skip_restoring_network_selection">true</bool>
-    <dimen name="status_bar_height_landscape">24dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
     <dimen name="status_bar_height_portrait">24dp</dimen>
+    <dimen name="status_bar_height_landscape">24dp</dimen>
 
     <string name="config_mainBuiltInDisplayCutout">M -85,0 L -84,72.5 L 85,72.5 L 85,0 Z</string>
 
