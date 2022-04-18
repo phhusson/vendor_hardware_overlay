@@ -19,6 +19,7 @@
         <item>mobile_ia,14,0,2,-1,true</item>
         <item>mobile_emergency,15,0,2,-1,true</item>
     </string-array>
+    <dimen name="status_bar_height">24.0dip</dimen>
     <dimen name="status_bar_height_portrait">24.0dip</dimen>
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>

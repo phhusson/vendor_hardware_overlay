@@ -11,5 +11,4 @@ config_multiuserMaximumUsers
 config_screen_magnification_multi_tap_adjustment
 config_swipe_up_gesture_default
 config_allowAllRotations
-status_bar_height
 config_volumeAdjustmentForRemoteGroupSessions

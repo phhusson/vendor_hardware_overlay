@@ -7,6 +7,7 @@
     <bool name="config_wifi_dual_band_support">false</bool>
     <bool name="config_wifi_enable_disconnection_debounce">true</bool>
     <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+    <dimen name="status_bar_height">72px</dimen>
     <dimen name="status_bar_height_portrait">72px</dimen>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoPowerModeAnyMotionSensor">30</integer>

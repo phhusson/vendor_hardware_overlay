@@ -7,6 +7,7 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
 
+    <dimen name="status_bar_height">86px</dimen>
     <dimen name="status_bar_height_portrait">86px</dimen>
     <dimen name="status_bar_height_landscape">86px</dimen>
     <dimen name="rounded_corner_radius_top">110.0px</dimen>
@@ -27,7 +28,7 @@
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
-	
+
     <integer-array name="config_autoBrightnessDisplayValuesNits">
         <item>9</item>
         <item>13</item>

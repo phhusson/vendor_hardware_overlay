@@ -112,9 +112,10 @@
     </string>
 
     <!-- Height of the status bar -->
+    <dimen name="status_bar_height">80px</dimen>
     <dimen name="status_bar_height_portrait">80px</dimen>
     <dimen name="status_bar_height_landscape">80px</dimen>
-    
+
     <!-- Screen off delay
     <integer name="config_screen_off_delay">1800</integer> -->
 

@@ -123,6 +123,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-6i \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
+	treble-overlay-realme-gtneo3 \
+	treble-overlay-realme-gtneo3-systemui \
 	treble-overlay-realme-narzo10a \
 	treble-overlay-realme-q3 \
 	treble-overlay-realme-rmx2117 \
@@ -195,6 +197,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vivo-y20 \
+	treble-overlay-vivo-y20-systemui \
 	treble-overlay-vsmart-joy3 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
