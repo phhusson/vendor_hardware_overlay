@@ -606,6 +606,7 @@
     
     <dimen name="rounded_corner_radius_top">70.0px</dimen>
     <dimen name="rounded_corner_radius_bottom">70.0px</dimen>
+    <dimen name="rounded_corner_radius">50.0px</dimen>
     
     
     <integer name="config_screenBrightnessDim">15</integer>
