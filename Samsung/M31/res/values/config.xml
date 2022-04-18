@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis0</item>
+    </string-array>
+    
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+    
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+    
+    
+    <dimen name="rounded_corner_radius_top">70.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">70.0px</dimen>
+    <dimen name="rounded_corner_radius">10.0px</dimen>
+    
+    <integer name="config_screenBrightnessDoze">17</integer>
+</resources>
