@@ -17,6 +17,7 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
 
     <!-- dimens.xml files-->
+    <dimen name="status_bar_height">32.0dip</dimen>
     <dimen name="status_bar_height_portrait">32.0dip</dimen>
     <dimen name="status_bar_height_landscape">32.0dip</dimen>
 

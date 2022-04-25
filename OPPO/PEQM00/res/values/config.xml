@@ -3,9 +3,10 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_showNavigationBar">true</bool>
 
+    <dimen name="status_bar_height">139px</dimen>
     <dimen name="status_bar_height_portrait">139px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
-    <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="quick_qs_offset_height">139px</dimen>
 
     <integer-array name="config_autoBrightnessLevels">
         <item>128</item>

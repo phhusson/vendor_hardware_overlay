@@ -123,6 +123,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-6i \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
+	treble-overlay-realme-gtneo3 \
+	treble-overlay-realme-gtneo3-systemui \
 	treble-overlay-realme-narzo10a \
 	treble-overlay-realme-q3 \
 	treble-overlay-realme-re513cl1 \
@@ -160,6 +162,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-gts7xllite \
 	treble-overlay-samsung-j6 \
+	treble-overlay-samsung-m31 \
 	treble-overlay-samsung-m31s \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-o1s \
@@ -196,6 +199,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vivo-y20 \
+	treble-overlay-vivo-y20-systemui \
 	treble-overlay-vsmart-joy3 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \

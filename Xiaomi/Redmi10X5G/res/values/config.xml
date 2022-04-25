@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--
-	
+
 		Config From MIUI V12.5.2.0 China Version
-	
+
 	-->
     <integer-array name="config_autoBrightnessDisplayValuesNits">
         <item>4</item>
@@ -269,7 +269,7 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_sustainedPerformanceModeSupported">false</bool>
-    
+
     <bool name="config_enableBurnInProtection">false</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
 
@@ -287,6 +287,7 @@
     <bool name="config_dynamic_bind_ims">true</bool>
 
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <dimen name="status_bar_height">24dp</dimen>
     <dimen name="status_bar_height_portrait">24dp</dimen>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>

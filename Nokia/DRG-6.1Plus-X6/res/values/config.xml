@@ -3,6 +3,7 @@
     <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
 
+    <dimen name="status_bar_height">89.0px</dimen>
     <dimen name="status_bar_height_portrait">89.0px</dimen>
     <dimen name="status_bar_height_landscape">89.0px</dimen>
 

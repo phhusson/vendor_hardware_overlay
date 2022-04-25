@@ -34,6 +34,7 @@
     <bool name="config_supportDoubleTapWake">false</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <dimen name="status_bar_height">24dp</dimen>
     <dimen name="status_bar_height_portrait">24dp</dimen>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>

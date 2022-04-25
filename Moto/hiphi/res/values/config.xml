@@ -8,9 +8,10 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_enableBurnInProtection">true</bool>
 
+    <dimen name="status_bar_height">102px</dimen>
     <dimen name="status_bar_height_portrait">102px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
-    <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="quick_qs_offset_height">102px</dimen>
 
     <integer name="config_screenBrightnessDoze">6</integer>
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
