@@ -31,7 +31,8 @@
     </array>
     <item name="cpu.idle">1.11</item>
     <item name="cpu.suspend">5</item>
-    <item name="cpu.active">2.55</item>. <item name="cpu.cluster_power.cluster0">2.11</item>
+    <item name="cpu.active">2.55</item>
+    <item name="cpu.cluster_power.cluster0">2.11</item>
     <item name="cpu.cluster_power.cluster1">2.22</item>
     <array name="cpu.core_speeds.cluster0">
         <value>300000</value>
