@@ -4,6 +4,6 @@
 	android:isStatic="true" 
 	android:priority="261" 
 	android:targetPackage="android"
-        android:requiredSystemPropertyName="ro.product.odm.device"
-	android:requiredSystemPropertyValue="RE513CL1" />
+        android:requiredSystemPropertyName="ro.boot.prjname"
+	android:requiredSystemPropertyValue="(132863|133013)" />
 </manifest>
