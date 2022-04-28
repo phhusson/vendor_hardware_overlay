@@ -85,13 +85,4 @@
     <item name="cpu.idle">5.019</item>
     <item name="cpu.active">3</item>
     <item name="battery.capacity">5000</item>
-
-    <!-- Idle current for bluetooth in mA.-->
-    <item name="bluetooth.controller.idle">0.01</item>
-    <!-- Rx current for bluetooth in mA.-->
-    <item name="bluetooth.controller.rx">9</item>
-    <!-- Tx current for bluetooth in mA-->
-    <item name="bluetooth.controller.tx">7</item>
-    <!-- Operating voltage for bluetooth in mV.-->
-    <item name="bluetooth.controller.voltage">3300</item>
 </device>
