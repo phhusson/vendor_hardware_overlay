@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="battery.capacity">3000</item>
+    <item name="battery.capacity">4000</item>
     <array name="cpu.clusters.cores">
         <value>4</value>
         <value>4</value>
