@@ -127,6 +127,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-gtneo3-systemui \
 	treble-overlay-realme-narzo10a \
 	treble-overlay-realme-q3 \
+	treble-overlay-realme-re513cl1 \
 	treble-overlay-realme-rmx2117 \
 	treble-overlay-realme-rmx2117-systemui \
 	treble-overlay-realme-rmx3366 \
