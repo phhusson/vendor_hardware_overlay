@@ -1020,5 +1020,11 @@
         <item>897.999</item>
         <item>900</item>
     </array>
-	    <bool name="config_automatic_brightness_available">true</bool>
+            <bool name="config_automatic_brightness_available">true</bool>
+            <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+            <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+            <bool name="config_displayBlanksAfterDoze">false</bool>
+            <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+            <dimen name="status_bar_height">95px</dimen>
+            <dimen name="status_bar_height_portrait">95px</dimen>
 </resources>
