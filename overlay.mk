@@ -170,6 +170,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-o1s \
 	treble-overlay-samsung-p3s \
+	treble-overlay-samsung-r0s \
+	treble-overlay-samsung-r0s-systemui \
 	treble-overlay-samsung-r9q \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
