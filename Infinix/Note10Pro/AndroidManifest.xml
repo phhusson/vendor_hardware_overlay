@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+Infinix/X695C-GL/Infinix-X695C*"
+                android:requiredSystemPropertyValue="+Infinix/X695*/Infinix-X695*"
         android:priority="547"
         android:isStatic="true" />
 </manifest>
