@@ -598,8 +598,11 @@
 <item>600</item>
 </integer-array>
 
-<dimen name="rounded_corner_radius_top">70.0px</dimen>
-<dimen name="rounded_corner_radius_bottom">70.0px</dimen>
+<dimen name="status_bar_height_portrait">63px</dimen>
+<dimen name="status_bar_height">63px</dimen>
+<dimen name="status_bar_height_landscape">24dp</dimen>
+<dimen name="rounded_corner_radius_top">75.0px</dimen>
+<dimen name="rounded_corner_radius_bottom">75.0px</dimen>
 <dimen name="rounded_corner_radius">10.0px</dimen>
 
 <bool name="config_automatic_brightness_available">true</bool>
