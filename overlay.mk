@@ -208,6 +208,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-vsmart-joy3 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
+	treble-overlay-xiaomi-11tpro \
 	treble-overlay-xiaomi-civi \
 	treble-overlay-xiaomi-civi-systemui \
 	treble-overlay-xiaomi-mi11lite5g \
