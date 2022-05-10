@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="com.android.systemui"
-                android:requiredSystemPropertyName="ro.product.vendor.device"
-                android:requiredSystemPropertyValue="+(rosemary|secret|maltose)"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyValue="+(*edmi/rosemary*|*edmi/secret*|*edmi/maltose*)"
 		android:priority="934"
 		android:isStatic="true" />
 </manifest>
