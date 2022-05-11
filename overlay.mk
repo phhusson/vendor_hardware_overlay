@@ -127,6 +127,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-gtneo3-systemui \
 	treble-overlay-realme-narzo10a \
 	treble-overlay-realme-q3 \
+	treble-overlay-realme-re513cl1 \
 	treble-overlay-realme-rmx2117 \
 	treble-overlay-realme-rmx2117-systemui \
 	treble-overlay-realme-rmx3366 \
@@ -146,6 +147,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a51-systemui \
 	treble-overlay-samsung-a51x \
 	treble-overlay-samsung-a52 \
+	treble-overlay-samsung-a53 \
+	treble-overlay-samsung-a53-systemui \
 	treble-overlay-samsung-a60q \
 	treble-overlay-samsung-a7 \
 	treble-overlay-samsung-a70 \
@@ -159,12 +162,16 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-gta2xl \
 	treble-overlay-samsung-gta3xl \
 	treble-overlay-samsung-gts7xllite \
+	treble-overlay-samsung-gts8p \
 	treble-overlay-samsung-j6 \
 	treble-overlay-samsung-m31 \
+	treble-overlay-samsung-m31-systemui \
 	treble-overlay-samsung-m31s \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-o1s \
 	treble-overlay-samsung-p3s \
+	treble-overlay-samsung-r0s \
+	treble-overlay-samsung-r0s-systemui \
 	treble-overlay-samsung-r9q \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
