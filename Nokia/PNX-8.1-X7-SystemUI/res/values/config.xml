@@ -20,6 +20,6 @@
     <dimen name="qs_time_collapsed_size">37.0px</dimen>
     <dimen name="qs_time_expanded_size">37.0px</dimen>
     <dimen name="rounded_corner_content_padding">24.0px</dimen>
-    <dimen name="rounded_corner_radius">110.0px</dimen>
+    <dimen name="rounded_corner_radius">103.0px</dimen>
     <dimen name="status_bar_clock_size">37.0px</dimen>
 </resources>
