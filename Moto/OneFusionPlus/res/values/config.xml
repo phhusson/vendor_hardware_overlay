@@ -1,142 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-/*
-** Copyright 2012, The Android Open Source Project
-**
-** Licensed under the Apache License, Version 2.0 (the "License");
-** you may not use this file except in compliance with the License.
-** You may obtain a copy of the License at
-**
-**     http://www.apache.org/licenses/LICENSE-2.0
-**
-** Unless required by applicable law or agreed to in writing, software
-** distributed under the License is distributed on an "AS IS" BASIS,
-** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-** See the License for the specific language governing permissions and
-** limitations under the License.
-*/
--->
+<resources>
+	<bool name="config_automatic_brightness_available">true</bool>
+	<bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+	<bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+	<bool name="config_carrier_volte_available">true</bool>
+	<bool name="config_device_volte_available">true</bool>
+	<bool name="config_device_vt_available">true</bool>
+	<bool name="config_device_wfc_ims_available">true</bool>
+	<bool name="config_hotswapCapable">true</bool>
+	<bool name="config_intrusiveNotificationLed">false</bool>
+	<bool name="config_nightDisplayAvailable">true</bool>
+	<bool name="config_showNavigationBar">true</bool>
+	<bool name="config_speed_up_audio_on_mt_calls">true</bool>
+	<bool name="config_supportSystemNavigationKeys">true</bool>
+	<bool name="config_sustainedPerformanceModeSupported">true</bool>
+	<bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+	<bool name="config_useDevInputEventForAudioJack">true</bool>
+	<bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+	<bool name="config_wifi_background_scan_support">true</bool>
+	<bool name="config_wifi_batched_scan_supported">false</bool>
+	<bool name="config_wifi_dual_band_support">true</bool>
+	<bool name="skip_restoring_network_selection">true</bool>
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<integer name="config_autoBrightnessBrighteningLightDebounce">500</integer>
+	<integer name="config_autoBrightnessDarkeningLightDebounce">500</integer>
+	<integer name="config_cameraLaunchGestureSensorType">65540</integer>
+	<integer name="config_screenBrightnessDark">1</integer>
+	<integer name="config_screenBrightnessDim">1</integer>
+	<integer name="config_screenBrightnessSettingDefault">68</integer>
+	<integer name="config_screenBrightnessSettingMinimum">2</integer>
 
-    <!-- Array of light sensor lux values to define our levels for auto backlight brightness support.
-         The N entries of this array define N + 1 control points as follows:
-         (1-based arrays)
-         Point 1:            (0, value[1]):             lux <= 0
-         Point 2:     (level[1], value[2]):  0        < lux <= level[1]
-         Point 3:     (level[2], value[3]):  level[2] < lux <= level[3]
-         ...
-         Point N+1: (level[N], value[N+1]):  level[N] < lux
-         The control points must be strictly increasing.  Each control point
-         corresponds to an entry in the brightness backlight values arrays.
-         For example, if lux == level[1] (first element of the levels array)
-         then the brightness will be determined by value[2] (second element
-         of the brightness values array).
-         Spline interpolation is used to determine the auto-brightness
-         backlight values for lux levels between these control points.
-         Must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessLevels">
-         <item>1</item>
-         <item>2</item>
-         <item>3</item>
-         <item>4</item>
-         <item>8</item>
-         <item>12</item>
-         <item>20</item>
-         <item>33</item>
-         <item>55</item>
-         <item>90</item>
-         <item>148</item>
-         <item>245</item>
-         <item>403</item>
-         <item>665</item>
-         <item>1097</item>
-         <item>1808</item>
-         <item>2981</item>
-         <item>5000</item>
-         <item>10000</item>
-    </integer-array>
+	<string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
+	<string name="wifi_tether_configure_ssid_default">motorola one fusion+</string>
 
-    <!-- Array of desired screen brightness in nits corresponding to the lux values
-         in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
-         config_screenBrightnessMaximumNits, the display brightness is defined as the measured
-         brightness of an all-white image.
-         If this is defined then:
-            - config_autoBrightnessLcdBacklightValues should not be defined
-            - config_screenBrightnessNits must be defined
-            - config_screenBrightnessBacklight must be defined
-         This array should have size one greater than the size of the config_autoBrightnessLevels
-         array. The brightness values must be non-negative and non-decreasing. This must be
-         overridden in platform specific overlays -->
-    <array name="config_autoBrightnessDisplayValuesNits">
-         <item>5.139055</item>       <!--  0 - 1 -->
-         <item>9.962018965</item>    <!--  1 - 2 -->
-         <item>18.34822964</item>    <!--  2 - 3 -->
-         <item>21.55068128</item>    <!--  3 - 4 -->
-         <item>24.0167788</item>     <!--  4 - 8 -->
-         <item>30.62162162</item>    <!--  8 - 12 -->
-         <item>35.09486396</item>    <!--  12 - 20 -->
-         <item>41.2249643</item>     <!--  20 - 33 -->
-         <item>47.6760716</item>     <!--  33 - 55 -->
-         <item>55.73002427</item>    <!--  55 - 90 -->
-         <item>66.24126116</item>    <!--  90 - 148 -->
-         <item>79.67614115</item>    <!--  148 - 245 -->
-         <item>98.04727274</item>    <!--  245 - 403 -->
-         <item>125.1221991</item>    <!--  403 - 665 -->
-         <item>161.6875093</item>    <!--  665 - 1097 -->
-         <item>208.4885553</item>    <!--  1097 - 1808 -->
-         <item>264.8221315</item>    <!--  1808 - 2981 -->
-         <item>327.8974352</item>    <!--  2981 - 5000 -->
-         <item>401.1676739</item>    <!--  5000 - 10000 -->
-         <item>494.0846144</item>    <!--  10000+ -->
-    </array>
+	<dimen name="rounded_corner_radius">103px</dimen>
 
-    <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
-         values in the config_screenBrightnessBacklight array.  On OLED displays these  values
-         should be measured with an all white image while the display is in the fully on state.
-         Note that this value should *not* reflect the maximum brightness value for any high
-         brightness modes but only the maximum brightness value obtainable in a sustainable manner.
-         This array should be equal in size to config_screenBrightnessBacklight -->
-    <array name="config_screenBrightnessNits">
-         <item>2.0</item>
-         <item>450.0</item>
-    </array>
-
-    <!-- An array describing the screen's backlight values corresponding to the brightness
-         values in the config_screenBrightnessNits array.
-         This array should be equal in size to config_screenBrightnessBacklight. -->
-    <integer-array name="config_screenBrightnessBacklight">
-        <item>1</item>
-        <item>255</item>
-    </integer-array>
-
-    <!-- Screen brightness used to dim the screen when the user activity
-         timeout expires.  May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">1</integer>
-
-    <!-- Default screen brightness setting.
-         Must be in the range specified by minimum and maximum. -->
-    <integer name="config_screenBrightnessSettingDefault">68</integer>
-
-    <!-- Minimum screen brightness setting allowed by the power manager.
-         The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">1</integer>
-
-    <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
-         for debouncing the light sensor.  Different constants are used to debounce the light sensor
-         when adapting to brighter or darker environments.  This parameter controls how quickly
-         brightness changes occur in response to an observed change in light level that exceeds the
-         hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">500</integer>
-
-    <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
-         For this time after the screen turns on, the Power Manager
-         will not debounce light sensor readings -->
-    <integer name="config_lightSensorWarmupTime">200</integer>
-
-    <!-- Control whether the always on display mode is available. This should only be enabled on
-         devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
-         states. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+	<integer-array name="config_autoBrightnessDisplayValuesNits">
+		<item>2</item>
+		<item>10</item>
+		<item>20</item>
+		<item>50</item>
+		<item>70</item>
+		<item>85</item>
+		<item>110</item>
+		<item>130</item>
+		<item>150</item>
+		<item>180</item>
+		<item>180</item>
+		<item>180</item>
+		<item>180</item>
+		<item>225</item>
+		<item>270</item>
+		<item>300</item>
+		<item>315</item>
+		<item>420</item>
+		<item>450</item>
+		<item>450</item>
+		<item>450</item>
+	</integer-array>
+	<integer-array name="config_autoBrightnessLcdBacklightValues">
+		<item>10</item>
+		<item>20</item>
+		<item>40</item>
+		<item>70</item>
+		<item>110</item>
+		<item>160</item>
+		<item>200</item>
+		<item>255</item>
+	</integer-array>
+	<integer-array name="config_autoBrightnessLevels">
+		<item>1</item>
+		<item>2</item>
+		<item>5</item>
+		<item>10</item>
+		<item>29</item>
+		<item>50</item>
+		<item>90</item>
+		<item>100</item>
+		<item>150</item>
+		<item>200</item>
+		<item>300</item>
+		<item>400</item>
+		<item>500</item>
+		<item>800</item>
+		<item>1000</item>
+		<item>1300</item>
+		<item>2000</item>
+		<item>3000</item>
+		<item>4000</item>
+		<item>8000</item>
+	</integer-array>
+	<integer-array name="config_availableColorModes">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</integer-array>
+	<string-array name="config_defaultPinnerServiceFiles">
+		<item>/system/framework/arm/boot-framework.oat</item>
+		<item>/system/framework/framework.jar</item>
+		<item>/system/framework/oat/arm/services.odex</item>
+		<item>/system/framework/services.jar</item>
+		<item>/system/framework/arm/boot.oat</item>
+		<item>/system/framework/arm/boot-core-libart.oat</item>
+		<item>/apex/com.android.runtime/javalib/core-oj.jar</item>
+		<item>/apex/com.android.runtime/javalib/core-libart.jar</item>
+		<item>/apex/com.android.media/javalib/updatable-media.jar</item>
+		<item>/system/lib64/libsurfaceflinger.so</item>
+	</string-array>
+	<integer-array name="config_keyboardTapVibePattern">
+		<item>0</item>
+		<item>30</item>
+	</integer-array>
+	<integer-array name="config_longPressVibePattern">
+		<item>0</item>
+		<item>30</item>
+	</integer-array>
+	<string-array name="config_mobile_tcp_buffers">
+		<item>nr:2097152,6291456,16777216,512000,2097152,8388608</item>
+		<item>lte:524288,1048576,8388608,262144,524288,4194304</item>
+		<item>lte_ca:1048576,2097152,16777216,524288,1048576,8388608</item>
+		<item>umts:131072,262144,1452032,4096,16384,399360</item>
+		<item>hspa:131072,262144,1452032,4096,16384,399360</item>
+		<item>hsupa:131072,262144,1452032,4096,16384,399360</item>
+		<item>hsdpa:131072,262144,1452032,4096,16384,399360</item>
+		<item>hspap:131072,262144,1452032,4096,16384,399360</item>
+		<item>edge:16384,32768,131072,4096,16384,65536</item>
+		<item>gprs:4096,8192,24576,4096,8192,24576</item>
+		<item>evdo:131072,262144,1048576,4096,16384,524288</item>
+		<item>ehrpd:4094,87380,1048576,4096,16384,262144</item>
+	</string-array>
+	<integer-array name="config_safeModeEnabledVibePattern">
+		<item>0</item>
+		<item>0</item>
+		<item>94</item>
+	</integer-array>
+	<integer-array name="config_screenBrightnessBacklight">
+		<item>0</item>
+		<item>1</item>
+		<item>6</item>
+		<item>11</item>
+		<item>28</item>
+		<item>40</item>
+		<item>48</item>
+		<item>62</item>
+		<item>74</item>
+		<item>85</item>
+		<item>102</item>
+		<item>128</item>
+		<item>153</item>
+		<item>170</item>
+		<item>179</item>
+		<item>238</item>
+		<item>255</item>
+	</integer-array>
+	<integer-array name="config_screenBrightnessNits">
+		<item>0</item>
+		<item>2</item>
+		<item>10</item>
+		<item>20</item>
+		<item>50</item>
+		<item>70</item>
+		<item>85</item>
+		<item>110</item>
+		<item>130</item>
+		<item>150</item>
+		<item>180</item>
+		<item>225</item>
+		<item>270</item>
+		<item>300</item>
+		<item>315</item>
+		<item>420</item>
+		<item>450</item>
+	</integer-array>
+	<integer-array name="config_scrollBarrierVibePattern">
+		<item>0</item>
+		<item>15</item>
+		<item>30</item>
+		<item>15</item>
+	</integer-array>
+	<string-array name="config_tether_bluetooth_regexs">
+		<item>bnep\\d</item>
+		<item>bt-pan</item>
+	</string-array>
+	<integer-array name="config_tether_upstream_types">
+		<item>0</item>
+		<item>1</item>
+		<item>5</item>
+		<item>7</item>
+	</integer-array>
+	<string-array name="config_tether_usb_regexs">
+		<item>rndis\\d</item>
+	</string-array>
+	<string-array name="config_tether_wifi_regexs">
+		<item>wigig0</item>
+		<item>wlan0</item>
+		<item>softap0</item>
+	</string-array>
+	<integer-array name="config_virtualKeyVibePattern">
+		<item>0</item>
+		<item>28</item>
+	</integer-array>
+	<string-array name="networkAttributes">
+		<item>wifi,1,1,1,-1,true</item>
+		<item>mobile,0,0,0,-1,true</item>
+		<item>mobile_mms,2,0,4,60000,true</item>
+		<item>mobile_supl,3,0,2,60000,true</item>
+		<item>mobile_dun,4,0,2,60000,true</item>
+		<item>mobile_hipri,5,0,3,60000,true</item>
+		<item>mobile_fota,10,0,2,60000,true</item>
+		<item>mobile_ims,11,0,2,60000,true</item>
+		<item>mobile_cbs,12,0,2,60000,true</item>
+		<item>bluetooth,7,7,2,-1,true</item>
+		<item>mobile_emergency,15,0,5,-1,true</item>
+		<item>ethernet,9,9,3,-1,true</item>
+	</string-array>
+	<string-array name="radioAttributes">
+		<item>1,1</item>
+		<item>0,1</item>
+		<item>7,1</item>
+		<item>9,1</item>
+	</string-array>
 </resources>
