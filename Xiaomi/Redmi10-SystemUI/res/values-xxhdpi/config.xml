@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notch_height">103.0px</dimen>
+    <dimen name="notch_width">66.0px</dimen>
+    <dimen name="rounded_corner_content_padding">50.0px</dimen>
+</resources>

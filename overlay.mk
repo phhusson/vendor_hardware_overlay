@@ -228,6 +228,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-mipad4 \
 	treble-overlay-xiaomi-miplay \
 	treble-overlay-xiaomi-pocof1 \
+	treble-overlay-xiaomi-redmi10 \
+	treble-overlay-xiaomi-redmi10-systemui \
 	treble-overlay-xiaomi-redmi10x5g \
 	treble-overlay-xiaomi-redmi6 \
 	treble-overlay-xiaomi-redmi6a \
