@@ -6,5 +6,4 @@
     <dimen name="keyguard_carrier_text_margin">4.5dp</dimen>
     <dimen name="system_icons_keyguard_padding_end">4.5dp</dimen>
     <dimen name="rounded_corner_content_padding">52.0px</dimen>
-    <dimen name="physical_power_button_center_screen_location_y">1035px</dimen>
 </resources>
