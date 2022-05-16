@@ -57,6 +57,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lenovo-s5pro \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
+	treble-overlay-lg-phoenix_lao_com-phoenix_sprout \
 	treble-overlay-lg-v40 \
 	treble-overlay-lg-velvet \
 	treble-overlay-lge-mfh505glm \
