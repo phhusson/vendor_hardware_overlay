@@ -44,7 +44,7 @@
     <integer name="config_defaultPeakRefreshRate">0</integer>
     <integer name="config_screenBrightnessDark">1</integer>
     <integer name="config_screenBrightnessDim">10</integer>
-    <integer name="config_screenBrightnessDoze">1</integer>
+    <integer name="config_screenBrightnessDoze">10</integer>
     <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
     <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
     <integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
@@ -88,4 +88,5 @@
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_enableBurnInProtection">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 </resources>
