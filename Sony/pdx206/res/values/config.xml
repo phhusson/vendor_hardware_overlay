@@ -44,7 +44,7 @@
     <integer name="config_defaultPeakRefreshRate">0</integer>
     <integer name="config_screenBrightnessDark">1</integer>
     <integer name="config_screenBrightnessDim">10</integer>
-    <integer name="config_screenBrightnessDoze">10</integer>
+    <integer name="config_screenBrightnessDoze">5</integer>
     <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
     <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
     <integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
