@@ -188,6 +188,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sony-J9110 \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-sony-pdx206 \
+	treble-overlay-sony-pdx206-kddi \
 	treble-overlay-sony-pdx213 \
 	treble-overlay-sony-pdx213-systemui \
 	treble-overlay-sprd-ims \
