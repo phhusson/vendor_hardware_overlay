@@ -142,6 +142,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a20s \
 	treble-overlay-samsung-a20s-systemui \
 	treble-overlay-samsung-a30 \
+	treble-overlay-samsung-a33 \
+	treble-overlay-samsung-a33-systemui \
 	treble-overlay-samsung-a40 \
 	treble-overlay-samsung-a50 \
 	treble-overlay-samsung-a51 \
