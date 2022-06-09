@@ -4,7 +4,8 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_showNavigationBar">true</bool>
 
-    <dimen name="status_bar_height_portrait">87.0px</dimen>
+    <dimen name="status_bar_height">87px</dimen>
+    <dimen name="status_bar_height_portrait">87px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
 
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
