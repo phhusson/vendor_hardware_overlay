@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := treble-overlay-realme-rmx2117-systemui
+LOCAL_PACKAGE_NAME := treble-overlay-realme-gtmasterexplorer-systemui
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay
 LOCAL_IS_RUNTIME_RESOURCE_OVERLAY := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
