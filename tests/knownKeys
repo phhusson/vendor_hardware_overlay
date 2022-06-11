@@ -79,6 +79,7 @@ skip_restoring_network_selection
 status_bar_height_landscape
 status_bar_height_portrait
 status_bar_height
+status_bar_height_default
 config_supportDoubleTapWake
 config_dozePulsePickup
 navigation_bar_height

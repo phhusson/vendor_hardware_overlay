@@ -4,6 +4,7 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_intrusiveNotificationLed">true</bool>
 
+    <dimen name="status_bar_height_default">110px</dimen>
     <dimen name="status_bar_height">110px</dimen>
     <dimen name="status_bar_height_portrait">110px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>

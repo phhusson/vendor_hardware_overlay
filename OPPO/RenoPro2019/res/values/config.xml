@@ -4,6 +4,7 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 
+    <dimen name="status_bar_height_default">132px</dimen>
     <dimen name="status_bar_height">132px</dimen>
     <dimen name="status_bar_height_portrait">132px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
