@@ -7,6 +7,7 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_enableBurnInProtection">true</bool>
 
+    <dimen name="status_bar_height_default">96px</dimen>
     <dimen name="status_bar_height">96px</dimen>
     <dimen name="status_bar_height_portrait">96px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
