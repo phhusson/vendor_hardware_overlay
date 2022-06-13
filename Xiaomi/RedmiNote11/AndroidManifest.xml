@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
-                android:requiredSystemPropertyValue="+(fleur|miel)"
+                android:requiredSystemPropertyValue="spesn"
 		android:priority="618"
 		android:isStatic="true" />
 </manifest>
