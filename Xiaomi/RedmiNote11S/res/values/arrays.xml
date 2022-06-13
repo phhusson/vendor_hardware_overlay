@@ -250,43 +250,6 @@
         <item>2047</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
-        <item>16</item>
-        <item>22</item>
-        <item>28</item>
-        <item>48</item>
-        <item>78</item>
-        <item>93</item>
-        <item>112</item>
-        <item>140</item>
-        <item>163</item>
-        <item>210</item>
-        <item>255</item>
-        <item>410</item>
-        <item>450</item>
-        <item>495</item>
-        <item>495</item>
-        <item>495</item>
-        <item>500</item>
-        <item>510</item>
-        <item>510</item>
-        <item>513</item>
-        <item>520</item>
-        <item>520</item>
-        <item>533</item>
-        <item>545</item>
-        <item>570</item>
-        <item>655</item>
-        <item>750</item>
-        <item>890</item>
-        <item>985</item>
-        <item>1225</item>
-        <item>1360</item>
-        <item>1550</item>
-        <item>1670</item>
-        <item>1840</item>
-        <item>2047</item>
-    </integer-array>
-    <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
         <item>2</item>
         <item>3</item>
