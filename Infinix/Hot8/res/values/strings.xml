@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_ims_package">com.mediatek.ims</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 L -50, 0 C -22, 0 ,-24 ,27 , 0,32 L 0, 32 C 24, 27 ,22 ,0 , 50,0 Z @dp</string>
+</resources>
