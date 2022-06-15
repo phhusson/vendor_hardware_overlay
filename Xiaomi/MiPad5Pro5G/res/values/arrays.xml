@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <array name="config_keySystemUuidMapping" />
+    <array name="carrier_properties" />
+    <array name="common_nicknames" />
+    <array name="config_allowedGlobalInstantAppSettings" />
+    <array name="config_allowedSecureInstantAppSettings" />
+    <array name="config_allowedSystemInstantAppSettings" />
+    <integer-array name="config_ambientBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="config_ambientThresholdLevels" />
+    <array name="config_ambientThresholdsOfPeakRefreshRate" />
+    <integer-array name="config_apfEthTypeBlackList">
+        <item>0x000088A2</item>
+        <item>0x000088A4</item>
+        <item>0x000088B8</item>
+        <item>0x000088CD</item>
+        <item>0x000088E3</item>
+    </integer-array>
+    <string-array name="config_appsToPin">
+        <item>com.tencent.mm</item>
+    </string-array>
+    <array name="config_autoBrightnessButtonBacklightValues" />
+    <array name="config_autoBrightnessDisplayValuesNits" />
+    <array name="config_autoBrightnessGame" />
+    <array name="config_autoBrightnessKeyboardBacklightValues" />
+    <array name="config_autoBrightnessLcdBacklightValues" />
+    <array name="config_autoBrightnessLevels" />
+    <integer-array name="config_autoRotationTiltTolerance">
+        <item>-25</item>
+        <item>70</item>
+        <item>-25</item>
+        <item>65</item>
+        <item>-25</item>
+        <item>60</item>
+        <item>-25</item>
+        <item>65</item>
+    </integer-array>
+    <array name="config_availableColorModes" />
+    <array name="config_backGestureInsetScales">
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.33</item>
+        <item>1.66</item>
+    </array>
+    <array name="config_batteryPackageTypeService" />
+    <string-array name="config_batteryPackageTypeSystem">
+        <item>com.android.providers.calendar</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
+    <array name="config_brightnessThresholdsOfPeakRefreshRate" />
+    <integer-array name="config_calendarDateVibePattern">
+        <item>125</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="config_callBarringMMI">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <string-array name="config_callBarringMMI_for_ims">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <array name="config_cdma_dun_supported_types" />
+    <array name="config_cdma_international_roaming_indicators" />
+    <array name="config_cell_retries_per_error_code" />
+    <integer-array name="config_clockTickVibePattern">
+        <item>125</item>
+        <item>30</item>
+    </integer-array>
+    <array name="config_convert_to_emergency_number_map" />
+    <array name="config_defaultFirstUserRestrictions" />
+    <array name="config_defaultImperceptibleKillingExemptionPkgs" />
+    <integer-array name="config_defaultImperceptibleKillingExemptionProcStates">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="config_defaultNotificationVibePattern">
+        <item>0</item>
+        <item>350</item>
+        <item>250</item>
+        <item>350</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
+        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
+        <item>/system/framework/arm64/boot.oat</item>
+        <item>/system/framework/arm/boot.oat</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/oat/arm/services.odex</item>
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/lib64/libRScpp.so</item>
+        <item>/system/lib64/libRS.so</item>
+        <item>/system/lib64/libRS_internal.so</item>
+        <item>/system/lib64/libbcinfo.so</item>
+        <item>/system/lib64/libRSDriver.so</item>
+        <item>/system/lib64/libRSCpuRef.so</item>
+        <item>/system/lib64/libblas.so</item>
+    </string-array>
+    <array name="config_default_vm_number" />
+    <array name="config_deviceSpecificSystemServices" />
+    <array name="config_disableApkUnlessMatchedSku_skus_list" />
+    <array name="config_disableApksUnlessMatchedSku_apk_list" />
+    <string-array name="config_disabledUntilUsedPreinstalledImes">
+        <item>com.android.inputmethod.latin</item>
+    </string-array>
+    <array name="config_displayCompositionColorModes" />
+    <array name="config_displayCompositionColorSpaces" />
+    <array name="config_displayWhiteBalanceAmbientColorTemperatures" />
+    <array name="config_displayWhiteBalanceBaseThresholds">
+        <item>0.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceDecreaseThresholds">
+        <item>0.1</item>
+    </array>
+    <array name="config_displayWhiteBalanceDisplayColorTemperatures" />
+    <string-array name="config_displayWhiteBalanceDisplayNominalWhite">
+        <item>0.950456</item>
+        <item>1.000000</item>
+        <item>1.089058</item>
+    </string-array>
+    <string-array name="config_displayWhiteBalanceDisplayPrimaries">
+        <item>0.412315</item>
+        <item>0.212600</item>
+        <item>0.019327</item>
+        <item>0.357600</item>
+        <item>0.715200</item>
+        <item>0.119200</item>
+        <item>0.180500</item>
+        <item>0.072200</item>
+        <item>0.950633</item>
+        <item>0.950456</item>
+        <item>1.000000</item>
+        <item>1.089058</item>
+    </string-array>
+    <array name="config_displayWhiteBalanceHighLightAmbientBiases" />
+    <array name="config_displayWhiteBalanceHighLightAmbientBrightnesses" />
+    <array name="config_displayWhiteBalanceIncreaseThresholds">
+        <item>0.1</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBiases">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBrightnesses">
+        <item>10.0</item>
+        <item>10.0</item>
+    </array>
+    <string-array name="config_display_no_service_when_sim_unready">
+        <item>DE</item>
+        <item>GB</item>
+        <item>JP</item>
+    </string-array>
+    <string-array name="config_dropboxLowPriorityTags">
+        <item>data_app_strictmode</item>
+        <item>data_app_wtf</item>
+        <item>keymaster</item>
+        <item>netstats</item>
+        <item>system_app_strictmode</item>
+        <item>system_app_wtf</item>
+        <item>system_server_strictmode</item>
+        <item>system_server_wtf</item>
+    </string-array>
+    <string-array name="config_emergency_iso_country_codes">
+        <item>in</item>
+    </string-array>
+    <array name="config_ephemeralResolverPackage" />
+    <array name="config_ethernet_interfaces" />
+    <array name="config_face_acquire_biometricprompt_ignorelist" />
+    <array name="config_face_acquire_enroll_ignorelist" />
+    <array name="config_face_acquire_keyguard_ignorelist" />
+    <array name="config_face_acquire_vendor_biometricprompt_ignorelist" />
+    <array name="config_face_acquire_vendor_enroll_ignorelist" />
+    <array name="config_face_acquire_vendor_keyguard_ignorelist" />
+    <string-array name="config_forceQueryablePackages">
+        <item>com.android.settings</item>
+        <item>com.android.providers.settings</item>
+    </string-array>
+    <string-array name="config_globalActionsList">
+        <item>emergency</item>
+        <item>lockdown</item>
+        <item>power</item>
+        <item>restart</item>
+        <item>logout</item>
+        <item>bugreport</item>
+    </string-array>
+    <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_highRefreshRateBlacklist" />
+    <array name="config_integrityRuleProviderPackages" />
+    <array name="config_jitzygoteBootImagePinnerServiceFiles" />
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>40</item>
+    </integer-array>
+    <string-array name="config_legacyPinnerServiceFiles">
+        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
+        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/oat/arm/services.odex</item>
+    </string-array>
+    <array name="config_localPrivateDisplayPorts" />
+    <string-array name="config_locationExtraPackageNames">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
+    <string-array name="config_locationProviderPackageNames">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+        <item>com.qualcomm.location</item>
+        <item>com.xiaomi.location.fused</item>
+        <item>com.xiaomi.metoknlp</item>
+    </string-array>
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+    <integer-array name="config_lteDbmThresholds">
+        <item>-140</item>
+        <item>-140</item>
+        <item>-125</item>
+        <item>-112</item>
+        <item>-102</item>
+        <item>-44</item>
+    </integer-array>
+    <array name="config_minimumBrightnessCurveLux">
+        <item>0.0</item>
+        <item>2000.0</item>
+        <item>4000.0</item>
+    </array>
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>
+    <string-array name="config_miuiNonBlockableNotificationPackages">
+        <item>android</item>
+        <item>com.android.incallui</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.mms</item>
+        <item>com.android.bluetooth</item>
+        <item>com.android.updater</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.miui.hybrid</item>
+        <item>com.xiaomi.xmsf</item>
+        <item>com.google.android.dialer</item>
+        <item>com.android.phone:demo_Version</item>
+    </string-array>
+    <array name="config_mobile_hotspot_provision_app" />
+    <array name="config_mobile_tcp_buffers" />
+    <array name="config_networkNotifySwitches" />
+    <string-array name="config_networkSupportedKeepaliveCount">
+        <item>0,1</item>
+        <item>1,3</item>
+    </string-array>
+    <string-array name="config_nightDisplayColorTemperatureCoefficients">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.198650895</item>
+    </string-array>
+    <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.198650895</item>
+    </string-array>
+    <string-array name="config_nonBlockableNotificationPackages">
+        <item>com.android.dialer</item>
+        <item>com.android.messaging</item>
+    </string-array>
+    <integer-array name="config_notificationFallbackVibePattern">
+        <item>0</item>
+        <item>100</item>
+        <item>150</item>
+        <item>100</item>
+    </integer-array>
+    <array name="config_notificationMsgPkgsAllowedAsConvos" />
+    <string-array name="config_notificationSignalExtractors">
+        <item>com.android.server.notification.NotificationChannelExtractor</item>
+        <item>com.android.server.notification.NotificationAdjustmentExtractor</item>
+        <item>com.android.server.notification.BubbleExtractor</item>
+        <item>com.android.server.notification.ValidateNotificationPeople</item>
+        <item>com.android.server.notification.PriorityExtractor</item>
+        <item>com.android.server.notification.ZenModeExtractor</item>
+        <item>com.android.server.notification.ImportanceExtractor</item>
+        <item>com.android.server.notification.NotificationIntrusivenessExtractor</item>
+        <item>com.android.server.notification.VisibilityExtractor</item>
+        <item>com.android.server.notification.BadgeExtractor</item>
+        <item>com.android.server.notification.CriticalNotificationExtractor</item>
+    </string-array>
+    <array name="config_oemUsbModeOverride" />
+    <array name="config_packagesExemptFromSuspension" />
+    <string-array name="config_priorityOnlyDndExemptPackages">
+        <item>com.android.dialer</item>
+        <item>com.android.systemui</item>
+        <item>android</item>
+    </string-array>
+    <integer-array name="config_protectedNetworks">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+    <array name="config_restrictedImagesServices" />
+    <string-array name="config_ringtoneEffectMap">
+        <item>file:///system/media/audio/ringtones/AcousticGuitar.ogg|21</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Blues.ogg|22</item>
+        <item>file:///system/media/audio/ringtones/Candy.ogg|23</item>
+        <item>file:///system/media/audio/ringtones/Carousel.ogg|24</item>
+        <item>file:///system/media/audio/ringtones/Celesta.ogg|25</item>
+        <item>file:///system/media/audio/ringtones/Childhood.ogg|26</item>
+        <item>file:///system/media/audio/ringtones/Country.ogg|27</item>
+        <item>file:///system/media/audio/ringtones/Cowboy.ogg|28</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Echo.ogg|29</item>
+        <item>file:///system/media/audio/ringtones/Fairyland.ogg|30</item>
+        <item>file:///system/media/audio/ringtones/Fantasy.ogg|31</item>
+        <item>file:///system/media/audio/ringtones/FieldTrip.ogg|32</item>
+        <item>file:///system/media/audio/ringtones/Glee.ogg|33</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Glockenspiel.ogg|34</item>
+        <item>file:///system/media/audio/ringtones/IceLatte.ogg|35</item>
+        <item>file:///system/media/audio/ringtones/Kungfu.ogg|36</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Leisure.ogg|37</item>
+        <item>file:///system/media/audio/ringtones/Lollipop.ogg|38</item>
+        <item>file:///system/media/audio/ringtones/MIX.ogg|39</item>
+        <item>file:///system/media/audio/ringtones/MiMix2.ogg|39</item>
+        <item>file:///system/media/audio/ringtones/Mi.ogg|40</item>
+        <item>file:///system/media/audio/ringtones/MiHouse.ogg|41</item>
+        <item>file:///system/media/audio/ringtones/MiJazz.ogg|42</item>
+        <item>file:///system/media/audio/ringtones/MiRemix.ogg|43</item>
+        <item>file:///system/media/audio/ringtones/MountainSpring.ogg|44</item>
+        <item>file:///system/media/audio/ringtones/Orange.ogg|45</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Raindrops.ogg|46</item>
+        <item>file:///system/media/audio/ringtones/SpaceAge.ogg|47</item>
+        <item>file:///system/media/audio/ringtones/ToyRobot.ogg|48</item>
+        <item>file:///system/media/audio/ringtones/Vigor.ogg|49</item>
+        <item>file:///system/media/audio/notifications/Bottle.ogg|50</item>
+        <item>file:///system/media/audio/notifications/Bubble.ogg|51</item>
+        <item>file:///system/media/audio/notifications/Bullfrog.ogg|52</item>
+        <item>file:///system/media/audio/notifications/Burst.ogg|53</item>
+        <item>file:///system/media/audio/notifications/Chirp.ogg|54</item>
+        <item>file:///system/media/audio/notifications/Clank.ogg|55</item>
+        <item>file:///system/media/audio/notifications/Crystal.ogg|56</item>
+        <item>file:///system/media/audio/notifications/FadeIn.ogg|57</item>
+        <item>file:///system/media/audio/notifications/FadeOut.ogg|58</item>
+        <item>file:///system/media/audio/notifications/Flute.ogg|59</item>
+        <item>file:///system/media/audio/notifications/Fresh.ogg|60</item>
+        <item>file:///system/media/audio/notifications/Frog.ogg|61</item>
+        <item>file:///system/media/audio/notifications/Guitar.ogg|62</item>
+        <item>file:///system/media/audio/notifications/Harp.ogg|63</item>
+        <item>file:///system/media/audio/notifications/IncomingMessage.ogg|64</item>
+        <item>file:///system/media/audio/notifications/MessageSent.ogg|65</item>
+        <item>file:///system/media/audio/notifications/Moment.ogg|66</item>
+        <item>file:///system/media/audio/notifications/NotificationXylophone.ogg|67</item>
+        <item>file:///system/media/audio/notifications/Potion.ogg|68</item>
+        <item>file:///system/media/audio/notifications/Radar.ogg|69</item>
+        <item>file:///system/media/audio/notifications/Spring.ogg|70</item>
+        <item>file:///system/media/audio/notifications/Swoosh.ogg|71</item>
+        <item>file:///system/media/audio/ringtones/Atlantis.ogg|154</item>
+        <item>file:///system/media/audio/ringtones/DigitalUniverse.ogg|155</item>
+        <item>file:///system/media/audio/ringtones/Reveries.ogg|156</item>
+    </string-array>
+    <string-array name="config_ringtoneEffectUris">
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>file:///system/media/audio/ringtones/AcousticGuitar.ogg</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Blues.ogg</item>
+        <item>file:///system/media/audio/ringtones/Candy.ogg</item>
+        <item>file:///system/media/audio/ringtones/Carousel.ogg</item>
+        <item>file:///system/media/audio/ringtones/Celesta.ogg</item>
+        <item>file:///system/media/audio/ringtones/Childhood.ogg</item>
+        <item>file:///system/media/audio/ringtones/Country.ogg</item>
+        <item>file:///system/media/audio/ringtones/Cowboy.ogg</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Echo.ogg</item>
+        <item>file:///system/media/audio/ringtones/Fairyland.ogg</item>
+        <item>file:///system/media/audio/ringtones/Fantasy.ogg</item>
+        <item>file:///system/media/audio/ringtones/FieldTrip.ogg</item>
+        <item>file:///system/media/audio/ringtones/Glee.ogg</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Glockenspiel.ogg</item>
+        <item>file:///system/media/audio/ringtones/IceLatte.ogg</item>
+        <item>file:///system/media/audio/ringtones/Kungfu.ogg</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Leisure.ogg</item>
+        <item>file:///system/media/audio/ringtones/Lollipop.ogg</item>
+        <item>file:///system/media/audio/ringtones/MiMix2.ogg</item>
+        <item>file:///system/media/audio/ringtones/Mi.ogg</item>
+        <item>file:///system/media/audio/ringtones/MiHouse.ogg</item>
+        <item>file:///system/media/audio/ringtones/MiJazz.ogg</item>
+        <item>file:///system/media/audio/ringtones/MiRemix.ogg</item>
+        <item>file:///system/media/audio/ringtones/MountainSpring.ogg</item>
+        <item>file:///system/media/audio/ringtones/Orange.ogg</item>
+        <item>placeholder:file:///system/media/audio/ringtones/Raindrops.ogg</item>
+        <item>file:///system/media/audio/ringtones/SpaceAge.ogg</item>
+        <item>file:///system/media/audio/ringtones/ToyRobot.ogg</item>
+        <item>file:///system/media/audio/ringtones/Vigor.ogg</item>
+        <item>file:///system/media/audio/notifications/Bottle.ogg</item>
+        <item>file:///system/media/audio/notifications/Bubble.ogg</item>
+        <item>file:///system/media/audio/notifications/Bullfrog.ogg</item>
+        <item>file:///system/media/audio/notifications/Burst.ogg</item>
+        <item>file:///system/media/audio/notifications/Chirp.ogg</item>
+        <item>file:///system/media/audio/notifications/Clank.ogg</item>
+        <item>file:///system/media/audio/notifications/Crystal.ogg</item>
+        <item>file:///system/media/audio/notifications/FadeIn.ogg</item>
+        <item>file:///system/media/audio/notifications/FadeOut.ogg</item>
+        <item>file:///system/media/audio/notifications/Flute.ogg</item>
+        <item>file:///system/media/audio/notifications/Fresh.ogg</item>
+        <item>file:///system/media/audio/notifications/Frog.ogg</item>
+        <item>file:///system/media/audio/notifications/Guitar.ogg</item>
+        <item>file:///system/media/audio/notifications/Harp.ogg</item>
+        <item>file:///system/media/audio/notifications/IncomingMessage.ogg</item>
+        <item>file:///system/media/audio/notifications/MessageSent.ogg</item>
+        <item>file:///system/media/audio/notifications/Moment.ogg</item>
+        <item>file:///system/media/audio/notifications/NotificationXylophone.ogg</item>
+        <item>file:///system/media/audio/notifications/Potion.ogg</item>
+        <item>file:///system/media/audio/notifications/Radar.ogg</item>
+        <item>file:///system/media/audio/notifications/Spring.ogg</item>
+        <item>file:///system/media/audio/notifications/Swoosh.ogg</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>placeholder</item>
+        <item>file:///system/media/audio/ringtones/Atlantis.ogg</item>
+        <item>file:///system/media/audio/ringtones/DigitalUniverse.ogg</item>
+        <item>file:///system/media/audio/ringtones/Reveries.ogg</item>
+    </string-array>
+    <integer-array name="config_safeModeEnabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>500</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="config_screenBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
+    <array name="config_screenBrightnessBacklight" />
+    <array name="config_screenBrightnessNits" />
+    <integer-array name="config_screenDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="config_screenThresholdLevels" />
+    <integer-array name="config_scrollBarrierVibePattern">
+        <item>0</item>
+        <item>15</item>
+        <item>10</item>
+        <item>10</item>
+    </integer-array>
+    <array name="config_serialPorts" />
+    <array name="config_sms_enabled_locking_shift_tables" />
+    <array name="config_sms_enabled_single_shift_tables" />
+    <string-array name="config_statusBarIcons">
+        <item>micphone</item>
+        <item>headset</item>
+        <item>mikey</item>
+        <item>call_record</item>
+        <item>privacy_mode</item>
+        <item>ble_unlock_mode</item>
+        <item>quiet</item>
+        <item>gps</item>
+        <item>missed_call</item>
+        <item>managed_profile</item>
+        <item>ime</item>
+        <item>sync_failing</item>
+        <item>sync_active</item>
+        <item>cast</item>
+        <item>location</item>
+        <item>bluetooth</item>
+        <item>bluetooth_handsfree_battery</item>
+        <item>nfc</item>
+        <item>tty</item>
+        <item>speakerphone</item>
+        <item>zen</item>
+        <item>mute</item>
+        <item>volume</item>
+        <item>wifi</item>
+        <item>wimax</item>
+        <item>cdma_eri</item>
+        <item>data_connection</item>
+        <item>phone_evdo_signal</item>
+        <item>phone_signal</item>
+        <item>battery</item>
+        <item>alarm_clock</item>
+        <item>secure</item>
+        <item>clock</item>
+    </string-array>
+    <string-array name="config_system_condition_providers">
+        <item>countdown</item>
+        <item>schedule</item>
+        <item>event</item>
+    </string-array>
+    <array name="config_telephonyEuiccDeviceCapabilities" />
+    <string-array name="config_telephonyHardware">
+        <item>0,modem,0,0,0,1,1,1</item>
+        <item>1,sim,0,modem</item>
+    </string-array>
+    <array name="config_testLocationProviders" />
+    <array name="config_tether_bluetooth_regexs" />
+    <array name="config_tether_dhcp_range" />
+    <integer-array name="config_tether_upstream_types">
+        <item>1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+    <array name="config_tether_usb_regexs" />
+    <array name="config_tether_wifi_regexs" />
+    <string-array name="config_toastCrossUserPackages">
+        <item>android</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <array name="config_twoDigitNumberPattern" />
+    <array name="config_usbHostBlacklist" />
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="config_vvmSmsFilterRegexes">
+        <item>310004,310010,310012,310013,310590,310890,310910,311110,311270,311271,311272,311273,311274,311275,311276,311277,311278,311279,311280,311281,311282,311283,311284,311285,311286,311287,311288,311289,311390,311480,311481,311482,311483,311484,311485,311486,311487,311488,311489;^//VZWVVM.*</item>
+    </string-array>
+    <array name="config_wakeonlan_supported_interfaces" />
+    <string-array name="config_wearActivityModeRadios">
+        <item>wifi</item>
+    </string-array>
+    <array name="config_wifi_dual_sap_interfaces" />
+    <array name="correct_brightness_game">
+        <item>0.0733</item>
+        <item>0.0733</item>
+        <item>0.0733</item>
+        <item>0.0782</item>
+        <item>0.0879</item>
+        <item>0.0938</item>
+        <item>0.0977</item>
+        <item>0.1075</item>
+        <item>0.1075</item>
+    </array>
+    <string-array name="correct_brightness_game_white_list">
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.nd.he.mi</item>
+        <item>me.zhuque.moba.mi</item>
+        <item>com.supercell.clashofclans.mi</item>
+        <item>com.supercell.boombeach.mi</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.netease.idv.googleplay</item>
+        <item>com.supercell.brawlstars</item>
+    </string-array>
+    <array name="correct_brightness_video">
+        <item>0.0425</item>
+        <item>0.0425</item>
+        <item>0.0425</item>
+        <item>0.0582</item>
+        <item>0.0679</item>
+        <item>0.0838</item>
+        <item>0.0977</item>
+        <item>0.1075</item>
+        <item>0.1075</item>
+    </array>
+    <string-array name="correct_brightness_video_white_list">
+        <item>com.qiyi.video</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.youku.phone</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.ss.android.article.lite</item>
+        <item>com.ss.android.article.video</item>
+        <item>com.huajiao</item>
+        <item>com.miui.video</item>
+        <item>com.miui.videoplayer</item>
+        <item>com.google.android.youtube</item>
+        <item>com.sohu.sohuvideo</item>
+    </string-array>
+    <array name="cross_profile_apps" />
+    <array name="dial_string_replace" />
+    <array name="disallowed_apps_managed_device" />
+    <array name="disallowed_apps_managed_profile" />
+    <array name="disallowed_apps_managed_user" />
+    <array name="face_acquired_vendor" />
+    <array name="face_error_vendor" />
+    <string-array name="fingerprint_acquired_vendor">
+        <item>Try again</item>
+        <item></item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>Cover the fingerprint scanner completely and apply pressure</item>
+        <item>"Too fast! Couldn't recognize fingerprint"</item>
+        <item>Move your finger a bit and try again</item>
+        <item>Lift your finger and put it back on the scanner again</item>
+        <item>Keep your finger on the scanner a bit longer</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Move your finger slightly</item>
+        <item>This fingerprint has been added, use a different finger</item>
+    </string-array>
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="low_lux_level">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>36149777</item>
+        <item>-95993398</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,4,300000,true</item>
+        <item>mobile_supl,3,0,2,300000,true</item>
+        <item>mobile_dun,4,0,2,300000,true</item>
+        <item>mobile_hipri,5,0,3,300000,true</item>
+        <item>mobile_fota,10,0,2,300000,true</item>
+        <item>mobile_ims,11,0,2,300000,true</item>
+        <item>mobile_cbs,12,0,2,300000,true</item>
+        <item>bluetooth,7,7,2,-1,true</item>
+        <item>ethernet,9,9,4,-1,true</item>
+    </string-array>
+    <string-array name="network_switch_type_name">
+        <item>mobile data</item>
+        <item>WLAN</item>
+        <item>Bluetooth</item>
+        <item>Ethernet</item>
+        <item>VPN</item>
+    </string-array>
+    <string-array name="networks_not_clear_data">
+        <item>71203</item>
+        <item>71606</item>
+        <item>71610</item>
+        <item>732101</item>
+    </string-array>
+    <string-array name="no_ems_support_sim_operators">
+        <item>20404;suffix;BAE0000000000000</item>
+    </string-array>
+    <array name="non_removable_euicc_slots" />
+    <array name="preloaded_color_state_lists" />
+    <array name="preloaded_drawables">
+        <item>@drawable/btn_default_pressed_holo_light</item>
+        <item>@drawable/btn_default_normal_holo_light</item>
+        <item>@drawable/btn_default_focused_holo_light</item>
+        <item>@drawable/btn_default_disabled_holo_light</item>
+        <item>@drawable/btn_default_disabled_focused_holo_light</item>
+        <item>@drawable/btn_default_holo_light</item>
+        <item>@drawable/text_cursor_holo_light</item>
+        <item>@drawable/list_selector_holo_light</item>
+        <item>@drawable/progress_bg_holo_dark</item>
+        <item>@drawable/progress_horizontal_holo_dark</item>
+        <item>@drawable/progress_indeterminate_horizontal_holo</item>
+        <item>@drawable/progress_primary_holo_dark</item>
+        <item>@drawable/progress_secondary_holo_dark</item>
+        <item>@drawable/background_holo_light</item>
+        <item>@drawable/background_holo_dark</item>
+        <item>@drawable/scrollbar_handle_holo_dark</item>
+        <item>@drawable/cab_background_bottom_holo_dark</item>
+        <item>@drawable/cab_background_top_holo_light</item>
+        <item>@drawable/cab_background_bottom_holo_light</item>
+        <item>@drawable/cab_background_top_holo_dark</item>
+        <item>@drawable/list_divider_holo_dark</item>
+        <item>@drawable/list_divider_holo_light</item>
+        <item>@drawable/ab_transparent_dark_holo</item>
+        <item>@drawable/ab_stacked_transparent_dark_holo</item>
+        <item>@drawable/ab_bottom_transparent_dark_holo</item>
+        <item>@drawable/ab_solid_light_holo</item>
+        <item>@drawable/ab_stacked_solid_light_holo</item>
+        <item>@drawable/ab_bottom_solid_light_holo</item>
+        <item>@drawable/ab_solid_shadow_holo</item>
+        <item>@drawable/item_background_holo_dark</item>
+        <item>@drawable/item_background_holo_light</item>
+        <item>@drawable/ic_ab_back_holo_dark</item>
+        <item>@drawable/ic_ab_back_holo_light</item>
+        <item>@drawable/fastscroll_label_left_holo_light</item>
+        <item>@drawable/fastscroll_label_right_holo_light</item>
+        <item>@drawable/editbox_dropdown_background_dark</item>
+        <item>@drawable/list_longpressed_holo</item>
+        <item>@drawable/scrollbar_handle_vertical</item>
+        <item>@drawable/scrollbar_handle_horizontal</item>
+        <item>@drawable/list_selector_background_longpress</item>
+        <item>@drawable/list_focused_holo</item>
+        <item>@drawable/btn_default_selected</item>
+        <item>@drawable/btn_default_pressed</item>
+        <item>@drawable/btn_default_normal_disable_focused</item>
+        <item>@drawable/btn_default_normal_disable</item>
+        <item>@drawable/btn_default_normal</item>
+        <item>@drawable/btn_default</item>
+        <item>@drawable/list_selector_disabled_holo_light</item>
+        <item>@drawable/list_pressed_holo_light</item>
+        <item>@drawable/list_selector_background_pressed</item>
+        <item>@drawable/list_selector_background_focus</item>
+        <item>@drawable/list_selector_background_disabled</item>
+        <item>@drawable/ic_dialog_info</item>
+        <item>@drawable/bottom_bar</item>
+        <item>@drawable/toast_frame</item>
+        <item>@drawable/divider_horizontal_dark</item>
+        <item>@drawable/popup_top_dark</item>
+        <item>@drawable/popup_bottom_medium</item>
+        <item>@drawable/list_selector_background</item>
+        <item>@drawable/popup_center_dark</item>
+        <item>@drawable/tab_bottom_right</item>
+        <item>@drawable/tab_bottom_left</item>
+        <item>@drawable/tab_selected_bar_right</item>
+        <item>@drawable/tab_selected_bar_left</item>
+        <item>@drawable/tab_press_bar_right</item>
+        <item>@drawable/tab_press_bar_left</item>
+        <item>@drawable/tab_focus_bar_right</item>
+        <item>@drawable/tab_focus_bar_left</item>
+        <item>@drawable/list_pressed_holo_dark</item>
+        <item>@drawable/sym_def_app_icon</item>
+        <item>@drawable/spinner_white_16</item>
+        <item>@drawable/progressbar_indeterminate3</item>
+        <item>@drawable/progressbar_indeterminate2</item>
+        <item>@drawable/progressbar_indeterminate1</item>
+        <item>@drawable/list_selector_disabled_holo_dark</item>
+        <item>@drawable/title_bar</item>
+        <item>@drawable/progress_indeterminate_horizontal</item>
+        <item>@drawable/textfield_selected</item>
+        <item>@drawable/textfield_disabled_selected</item>
+        <item>@drawable/textfield_disabled</item>
+        <item>@drawable/textfield_default</item>
+        <item>@drawable/panel_background</item>
+        <item>@drawable/divider_horizontal_dark_opaque</item>
+        <item>@drawable/btn_check_label_background</item>
+        <item>@drawable/progress_horizontal</item>
+        <item>@drawable/edit_text</item>
+    </array>
+    <array name="preloaded_freeform_multi_window_drawables">
+        <item>@drawable/decor_maximize_button_dark</item>
+        <item>@drawable/decor_maximize_button_light</item>
+    </array>
+    <string-array name="radioAttributes">
+        <item>1,1</item>
+        <item>0,1</item>
+        <item>7,1</item>
+        <item>9,1</item>
+    </string-array>
+    <string-array name="required_apps_managed_device">
+        <item>com.android.settings</item>
+        <item>com.android.contacts</item>
+        <item>com.android.dialer</item>
+        <item>com.android.stk</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.documentsui</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.android.thememanager</item>
+    </string-array>
+    <string-array name="required_apps_managed_profile">
+        <item>com.android.contacts</item>
+        <item>com.android.settings</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.documentsui</item>
+    </string-array>
+    <string-array name="required_apps_managed_user">
+        <item>com.android.settings</item>
+        <item>com.android.contacts</item>
+        <item>com.android.dialer</item>
+        <item>com.android.stk</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.documentsui</item>
+    </string-array>
+    <string-array name="resolver_target_actions_pin">
+        <item>@string/pin_target</item>
+        <item>@string/app_info</item>
+    </string-array>
+    <string-array name="resolver_target_actions_unpin">
+        <item>@string/unpin_target</item>
+        <item>@string/app_info</item>
+    </string-array>
+    <array name="sim_colors">
+        <item>@color/Teal_700</item>
+        <item>@color/Blue_700</item>
+        <item>@color/Indigo_700</item>
+        <item>@color/Purple_700</item>
+        <item>@color/Pink_700</item>
+        <item>@color/Red_700</item>
+    </array>
+    <string-array name="special_locale_codes">
+        <item>ar_EG</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>العربية</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="supported_locales">
+        <item>af-NA</item>
+        <item>af-ZA</item>
+        <item>agq-CM</item>
+        <item>ak-GH</item>
+        <item>am-ET</item>
+        <item>ar-AE</item>
+        <item>ar-AE-u-nu-latn</item>
+        <item>ar-BH</item>
+        <item>ar-BH-u-nu-latn</item>
+        <item>ar-DJ</item>
+        <item>ar-DJ-u-nu-latn</item>
+        <item>ar-DZ</item>
+        <item>ar-DZ-u-nu-arab</item>
+        <item>ar-EG</item>
+        <item>ar-EG-u-nu-latn</item>
+        <item>ar-EH</item>
+        <item>ar-EH-u-nu-arab</item>
+        <item>ar-ER</item>
+        <item>ar-ER-u-nu-latn</item>
+        <item>ar-IL</item>
+        <item>ar-IL-u-nu-latn</item>
+        <item>ar-IQ</item>
+        <item>ar-IQ-u-nu-latn</item>
+        <item>ar-JO</item>
+        <item>ar-JO-u-nu-latn</item>
+        <item>ar-KM</item>
+        <item>ar-KM-u-nu-latn</item>
+        <item>ar-KW</item>
+        <item>ar-KW-u-nu-latn</item>
+        <item>ar-LB</item>
+        <item>ar-LB-u-nu-latn</item>
+        <item>ar-LY</item>
+        <item>ar-LY-u-nu-arab</item>
+        <item>ar-MA</item>
+        <item>ar-MA-u-nu-arab</item>
+        <item>ar-MR</item>
+        <item>ar-MR-u-nu-latn</item>
+        <item>ar-OM</item>
+        <item>ar-OM-u-nu-latn</item>
+        <item>ar-PS</item>
+        <item>ar-PS-u-nu-latn</item>
+        <item>ar-QA</item>
+        <item>ar-QA-u-nu-latn</item>
+        <item>ar-SA</item>
+        <item>ar-SA-u-nu-latn</item>
+        <item>ar-SD</item>
+        <item>ar-SD-u-nu-latn</item>
+        <item>ar-SO</item>
+        <item>ar-SO-u-nu-latn</item>
+        <item>ar-SS</item>
+        <item>ar-SS-u-nu-latn</item>
+        <item>ar-SY</item>
+        <item>ar-SY-u-nu-latn</item>
+        <item>ar-TD</item>
+        <item>ar-TD-u-nu-latn</item>
+        <item>ar-TN</item>
+        <item>ar-TN-u-nu-arab</item>
+        <item>ar-XB</item>
+        <item>ar-YE</item>
+        <item>ar-YE-u-nu-latn</item>
+        <item>as-IN</item>
+        <item>as-IN-u-nu-latn</item>
+        <item>asa-TZ</item>
+        <item>ast-ES</item>
+        <item>az-Cyrl-AZ</item>
+        <item>az-Latn-AZ</item>
+        <item>bas-CM</item>
+        <item>be-BY</item>
+        <item>bem-ZM</item>
+        <item>bez-TZ</item>
+        <item>bg-BG</item>
+        <item>bm-ML</item>
+        <item>bn-BD</item>
+        <item>bn-BD-u-nu-latn</item>
+        <item>bn-IN</item>
+        <item>bn-IN-u-nu-latn</item>
+        <item>bo-CN</item>
+        <item>bo-IN</item>
+        <item>br-FR</item>
+        <item>brx-IN</item>
+        <item>bs-Cyrl-BA</item>
+        <item>bs-Latn-BA</item>
+        <item>ca-AD</item>
+        <item>ca-ES</item>
+        <item>ca-FR</item>
+        <item>ca-IT</item>
+        <item>ce-RU</item>
+        <item>cgg-UG</item>
+        <item>chr-US</item>
+        <item>cs-CZ</item>
+        <item>cy-GB</item>
+        <item>da-DK</item>
+        <item>da-GL</item>
+        <item>dav-KE</item>
+        <item>de-AT</item>
+        <item>de-BE</item>
+        <item>de-CH</item>
+        <item>de-DE</item>
+        <item>de-IT</item>
+        <item>de-LI</item>
+        <item>de-LU</item>
+        <item>dje-NE</item>
+        <item>dsb-DE</item>
+        <item>dua-CM</item>
+        <item>dyo-SN</item>
+        <item>dz-BT</item>
+        <item>ebu-KE</item>
+        <item>ee-GH</item>
+        <item>ee-TG</item>
+        <item>el-CY</item>
+        <item>el-GR</item>
+        <item>en-AG</item>
+        <item>en-AI</item>
+        <item>en-AS</item>
+        <item>en-AT</item>
+        <item>en-AU</item>
+        <item>en-BB</item>
+        <item>en-BE</item>
+        <item>en-BI</item>
+        <item>en-BM</item>
+        <item>en-BS</item>
+        <item>en-BW</item>
+        <item>en-BZ</item>
+        <item>en-CA</item>
+        <item>en-CC</item>
+        <item>en-CH</item>
+        <item>en-CK</item>
+        <item>en-CM</item>
+        <item>en-CX</item>
+        <item>en-CY</item>
+        <item>en-DE</item>
+        <item>en-DG</item>
+        <item>en-DK</item>
+        <item>en-DM</item>
+        <item>en-ER</item>
+        <item>en-FI</item>
+        <item>en-FJ</item>
+        <item>en-FK</item>
+        <item>en-FM</item>
+        <item>en-GB</item>
+        <item>en-GD</item>
+        <item>en-GG</item>
+        <item>en-GH</item>
+        <item>en-GI</item>
+        <item>en-GM</item>
+        <item>en-GU</item>
+        <item>en-GY</item>
+        <item>en-HK</item>
+        <item>en-IE</item>
+        <item>en-IL</item>
+        <item>en-IM</item>
+        <item>en-IN</item>
+        <item>en-IO</item>
+        <item>en-JE</item>
+        <item>en-JM</item>
+        <item>en-KE</item>
+        <item>en-KI</item>
+        <item>en-KN</item>
+        <item>en-KY</item>
+        <item>en-LC</item>
+        <item>en-LR</item>
+        <item>en-LS</item>
+        <item>en-MG</item>
+        <item>en-MH</item>
+        <item>en-MO</item>
+        <item>en-MP</item>
+        <item>en-MS</item>
+        <item>en-MT</item>
+        <item>en-MU</item>
+        <item>en-MW</item>
+        <item>en-MY</item>
+        <item>en-NA</item>
+        <item>en-NF</item>
+        <item>en-NG</item>
+        <item>en-NL</item>
+        <item>en-NR</item>
+        <item>en-NU</item>
+        <item>en-NZ</item>
+        <item>en-PG</item>
+        <item>en-PH</item>
+        <item>en-PK</item>
+        <item>en-PN</item>
+        <item>en-PR</item>
+        <item>en-PW</item>
+        <item>en-RW</item>
+        <item>en-SB</item>
+        <item>en-SC</item>
+        <item>en-SD</item>
+        <item>en-SE</item>
+        <item>en-SG</item>
+        <item>en-SH</item>
+        <item>en-SI</item>
+        <item>en-SL</item>
+        <item>en-SS</item>
+        <item>en-SX</item>
+        <item>en-SZ</item>
+        <item>en-TC</item>
+        <item>en-TK</item>
+        <item>en-TO</item>
+        <item>en-TT</item>
+        <item>en-TV</item>
+        <item>en-TZ</item>
+        <item>en-UG</item>
+        <item>en-UM</item>
+        <item>en-US</item>
+        <item>en-VC</item>
+        <item>en-VG</item>
+        <item>en-VI</item>
+        <item>en-VU</item>
+        <item>en-WS</item>
+        <item>en-XA</item>
+        <item>en-ZA</item>
+        <item>en-ZM</item>
+        <item>en-ZW</item>
+        <item>es-AR</item>
+        <item>es-BO</item>
+        <item>es-BR</item>
+        <item>es-BZ</item>
+        <item>es-CL</item>
+        <item>es-CO</item>
+        <item>es-CR</item>
+        <item>es-CU</item>
+        <item>es-DO</item>
+        <item>es-EA</item>
+        <item>es-EC</item>
+        <item>es-ES</item>
+        <item>es-GQ</item>
+        <item>es-GT</item>
+        <item>es-HN</item>
+        <item>es-IC</item>
+        <item>es-MX</item>
+        <item>es-NI</item>
+        <item>es-PA</item>
+        <item>es-PE</item>
+        <item>es-PH</item>
+        <item>es-PR</item>
+        <item>es-PY</item>
+        <item>es-SV</item>
+        <item>es-US</item>
+        <item>es-UY</item>
+        <item>es-VE</item>
+        <item>et-EE</item>
+        <item>eu-ES</item>
+        <item>ewo-CM</item>
+        <item>fa-AF</item>
+        <item>fa-AF-u-nu-latn</item>
+        <item>fa-IR</item>
+        <item>fa-IR-u-nu-latn</item>
+        <item>ff-CM</item>
+        <item>ff-GN</item>
+        <item>ff-MR</item>
+        <item>ff-SN</item>
+        <item>fi-FI</item>
+        <item>fil-PH</item>
+        <item>fo-DK</item>
+        <item>fo-FO</item>
+        <item>fr-BE</item>
+        <item>fr-BF</item>
+        <item>fr-BI</item>
+        <item>fr-BJ</item>
+        <item>fr-BL</item>
+        <item>fr-CA</item>
+        <item>fr-CD</item>
+        <item>fr-CF</item>
+        <item>fr-CG</item>
+        <item>fr-CH</item>
+        <item>fr-CI</item>
+        <item>fr-CM</item>
+        <item>fr-DJ</item>
+        <item>fr-DZ</item>
+        <item>fr-FR</item>
+        <item>fr-GA</item>
+        <item>fr-GF</item>
+        <item>fr-GN</item>
+        <item>fr-GP</item>
+        <item>fr-GQ</item>
+        <item>fr-HT</item>
+        <item>fr-KM</item>
+        <item>fr-LU</item>
+        <item>fr-MA</item>
+        <item>fr-MC</item>
+        <item>fr-MF</item>
+        <item>fr-MG</item>
+        <item>fr-ML</item>
+        <item>fr-MQ</item>
+        <item>fr-MR</item>
+        <item>fr-MU</item>
+        <item>fr-NC</item>
+        <item>fr-NE</item>
+        <item>fr-PF</item>
+        <item>fr-PM</item>
+        <item>fr-RE</item>
+        <item>fr-RW</item>
+        <item>fr-SC</item>
+        <item>fr-SN</item>
+        <item>fr-SY</item>
+        <item>fr-TD</item>
+        <item>fr-TG</item>
+        <item>fr-TN</item>
+        <item>fr-VU</item>
+        <item>fr-WF</item>
+        <item>fr-YT</item>
+        <item>fur-IT</item>
+        <item>fy-NL</item>
+        <item>ga-IE</item>
+        <item>gd-GB</item>
+        <item>gl-ES</item>
+        <item>gsw-CH</item>
+        <item>gsw-FR</item>
+        <item>gsw-LI</item>
+        <item>gu-IN</item>
+        <item>guz-KE</item>
+        <item>gv-IM</item>
+        <item>ha-GH</item>
+        <item>ha-NE</item>
+        <item>ha-NG</item>
+        <item>haw-US</item>
+        <item>hi-IN</item>
+        <item>hr-BA</item>
+        <item>hr-HR</item>
+        <item>hsb-DE</item>
+        <item>hu-HU</item>
+        <item>hy-AM</item>
+        <item>ig-NG</item>
+        <item>ii-CN</item>
+        <item>in-ID</item>
+        <item>is-IS</item>
+        <item>it-CH</item>
+        <item>it-IT</item>
+        <item>it-SM</item>
+        <item>iw-IL</item>
+        <item>ja-JP</item>
+        <item>jgo-CM</item>
+        <item>jmc-TZ</item>
+        <item>ka-GE</item>
+        <item>kab-DZ</item>
+        <item>kam-KE</item>
+        <item>kde-TZ</item>
+        <item>kea-CV</item>
+        <item>khq-ML</item>
+        <item>ki-KE</item>
+        <item>kk-KZ</item>
+        <item>kkj-CM</item>
+        <item>kl-GL</item>
+        <item>kln-KE</item>
+        <item>km-KH</item>
+        <item>kn-IN</item>
+        <item>ko-KP</item>
+        <item>ko-KR</item>
+        <item>kok-IN</item>
+        <item>ksb-TZ</item>
+        <item>ksf-CM</item>
+        <item>ksh-DE</item>
+        <item>kw-GB</item>
+        <item>ky-KG</item>
+        <item>lag-TZ</item>
+        <item>lb-LU</item>
+        <item>lg-UG</item>
+        <item>lkt-US</item>
+        <item>ln-AO</item>
+        <item>ln-CD</item>
+        <item>ln-CF</item>
+        <item>ln-CG</item>
+        <item>lo-LA</item>
+        <item>lt-LT</item>
+        <item>lu-CD</item>
+        <item>luo-KE</item>
+        <item>luy-KE</item>
+        <item>lv-LV</item>
+        <item>mas-KE</item>
+        <item>mas-TZ</item>
+        <item>mer-KE</item>
+        <item>mfe-MU</item>
+        <item>mg-MG</item>
+        <item>mgh-MZ</item>
+        <item>mgo-CM</item>
+        <item>mk-MK</item>
+        <item>ml-IN</item>
+        <item>mn-MN</item>
+        <item>mr-IN</item>
+        <item>ms-BN</item>
+        <item>ms-MY</item>
+        <item>ms-SG</item>
+        <item>mt-MT</item>
+        <item>my-MM</item>
+        <item>my-MM-u-nu-latn</item>
+        <item>mzn-IR</item>
+        <item>naq-NA</item>
+        <item>nb-NO</item>
+        <item>nb-SJ</item>
+        <item>nd-ZW</item>
+        <item>ne-IN</item>
+        <item>ne-NP</item>
+        <item>nl-AW</item>
+        <item>nl-BE</item>
+        <item>nl-BQ</item>
+        <item>nl-CW</item>
+        <item>nl-NL</item>
+        <item>nl-SR</item>
+        <item>nl-SX</item>
+        <item>nn-NO</item>
+        <item>nnh-CM</item>
+        <item>nus-SS</item>
+        <item>nyn-UG</item>
+        <item>om-ET</item>
+        <item>om-KE</item>
+        <item>or-IN</item>
+        <item>os-GE</item>
+        <item>os-RU</item>
+        <item>pa-Arab-PK</item>
+        <item>pa-Guru-IN</item>
+        <item>pl-PL</item>
+        <item>ps-AF</item>
+        <item>pt-AO</item>
+        <item>pt-BR</item>
+        <item>pt-CV</item>
+        <item>pt-GW</item>
+        <item>pt-MO</item>
+        <item>pt-MZ</item>
+        <item>pt-PT</item>
+        <item>pt-ST</item>
+        <item>pt-TL</item>
+        <item>qu-BO</item>
+        <item>qu-EC</item>
+        <item>qu-PE</item>
+        <item>rm-CH</item>
+        <item>rn-BI</item>
+        <item>ro-MD</item>
+        <item>ro-RO</item>
+        <item>rof-TZ</item>
+        <item>ru-BY</item>
+        <item>ru-KG</item>
+        <item>ru-KZ</item>
+        <item>ru-MD</item>
+        <item>ru-RU</item>
+        <item>ru-UA</item>
+        <item>rw-RW</item>
+        <item>rwk-TZ</item>
+        <item>sah-RU</item>
+        <item>saq-KE</item>
+        <item>sbp-TZ</item>
+        <item>se-FI</item>
+        <item>se-NO</item>
+        <item>se-SE</item>
+        <item>seh-MZ</item>
+        <item>ses-ML</item>
+        <item>sg-CF</item>
+        <item>si-LK</item>
+        <item>sk-SK</item>
+        <item>sl-SI</item>
+        <item>smn-FI</item>
+        <item>sn-ZW</item>
+        <item>so-DJ</item>
+        <item>so-ET</item>
+        <item>so-KE</item>
+        <item>so-SO</item>
+        <item>sq-AL</item>
+        <item>sq-MK</item>
+        <item>sq-XK</item>
+        <item>sr-Cyrl-BA</item>
+        <item>sr-Cyrl-ME</item>
+        <item>sr-Cyrl-RS</item>
+        <item>sr-Cyrl-XK</item>
+        <item>sr-Latn-BA</item>
+        <item>sr-Latn-ME</item>
+        <item>sr-Latn-RS</item>
+        <item>sr-Latn-XK</item>
+        <item>sv-AX</item>
+        <item>sv-FI</item>
+        <item>sv-SE</item>
+        <item>sw-CD</item>
+        <item>sw-KE</item>
+        <item>sw-TZ</item>
+        <item>sw-UG</item>
+        <item>ta-IN</item>
+        <item>ta-LK</item>
+        <item>ta-MY</item>
+        <item>ta-SG</item>
+        <item>te-IN</item>
+        <item>teo-KE</item>
+        <item>teo-UG</item>
+        <item>th-TH</item>
+        <item>to-TO</item>
+        <item>tr-CY</item>
+        <item>tr-TR</item>
+        <item>twq-NE</item>
+        <item>tzm-MA</item>
+        <item>ug-CN</item>
+        <item>uk-UA</item>
+        <item>ur-IN</item>
+        <item>ur-IN-u-nu-latn</item>
+        <item>ur-PK</item>
+        <item>ur-PK-u-nu-arabext</item>
+        <item>uz-Arab-AF</item>
+        <item>uz-Cyrl-UZ</item>
+        <item>uz-Latn-UZ</item>
+        <item>vi-VN</item>
+        <item>vun-TZ</item>
+        <item>wae-CH</item>
+        <item>xog-UG</item>
+        <item>yav-CM</item>
+        <item>yo-BJ</item>
+        <item>yo-NG</item>
+        <item>yue-Hans-CN</item>
+        <item>yue-Hant-HK</item>
+        <item>zgh-MA</item>
+        <item>zh-Hans-CN</item>
+        <item>zh-Hans-HK</item>
+        <item>zh-Hans-MO</item>
+        <item>zh-Hans-SG</item>
+        <item>zh-Hant-HK</item>
+        <item>zh-Hant-MO</item>
+        <item>zh-Hant-TW</item>
+        <item>zu-ZA</item>
+    </string-array>
+    <string-array name="target_activity">
+        <item>org.iqiyi.video.activity.PlayerActivity</item>
+        <item>com.tencent.qqlive.ona.activity.VideoDetailActivity</item>
+        <item>com.youku.ui.activity.DetailActivity</item>
+        <item>tv.danmaku.bili.ui.video.VideoDetailsActivity</item>
+    </string-array>
+    <array name="unloggable_phone_numbers" />
+    <string-array name="update_brightness_configuration_white_list">
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.tmgp.sgame</item>
+    </string-array>
+    <array name="vendor_allowed_personal_apps_org_owned_device" />
+    <array name="vendor_cross_profile_apps" />
+    <array name="vendor_disallowed_apps_managed_device" />
+    <array name="vendor_disallowed_apps_managed_profile" />
+    <array name="vendor_disallowed_apps_managed_user" />
+    <array name="vendor_required_apps_managed_device" />
+    <array name="vendor_required_apps_managed_profile" />
+    <array name="vendor_required_apps_managed_user" />
+    <string-array name="wfcOperatorErrorAlertMessages">
+        <item>To make calls and send messages over WLAN, first ask your carrier to set up this service. Then turn on WLAN calling again from Settings. (Error code: %1$s)</item>
+    </string-array>
+    <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>Issue registering Wi‑Fi calling with your carrier: %1$s</item>
+    </string-array>
+    <string-array name="wfcSpnFormats">
+        <item>@string/wfcSpnFormat_spn</item>
+        <item>@string/wfcSpnFormat_spn_wifi_calling</item>
+        <item>@string/wfcSpnFormat_wlan_call</item>
+        <item>@string/wfcSpnFormat_spn_wlan_call</item>
+        <item>@string/wfcSpnFormat_spn_wifi</item>
+        <item>@string/wfcSpnFormat_wifi_calling_bar_spn</item>
+        <item>@string/wfcSpnFormat_spn_vowifi</item>
+        <item>@string/wfcSpnFormat_wifi_calling</item>
+        <item>@string/wfcSpnFormat_wifi</item>
+        <item>@string/wfcSpnFormat_wifi_calling_wo_hyphen</item>
+        <item>@string/wfcSpnFormat_vowifi</item>
+        <item>@string/wfcSpnFormat_spn_wifi_calling_vo_hyphen</item>
+    </string-array>
+</resources>
