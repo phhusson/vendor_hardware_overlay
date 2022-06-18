@@ -151,7 +151,7 @@
     <item name="cpu.suspend">0.01</item>
     <item name="cpu.idle">12.20</item>
     <item name="cpu.active">0.01</item>
-    <item name="battery.capacity">3330</item>
+    <item name="battery.capacity">3200</item>
     <item name="wifi.controller.idle">0.00</item>
     <item name="wifi.controller.rx">5.55</item>
     <item name="wifi.controller.tx">6.70</item>

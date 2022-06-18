@@ -172,6 +172,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-m31 \
 	treble-overlay-samsung-m31-systemui \
 	treble-overlay-samsung-m31s \
+	treble-overlay-samsung-m31s-systemui \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-o1s \
 	treble-overlay-samsung-p3s \
@@ -218,6 +219,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-civi \
 	treble-overlay-xiaomi-civi-systemui \
 	treble-overlay-xiaomi-mi11lite5g \
+	treble-overlay-xiaomi-mi11tpro \
 	treble-overlay-xiaomi-mi6x \
 	treble-overlay-xiaomi-mi8 \
 	treble-overlay-xiaomi-mi8ee \
