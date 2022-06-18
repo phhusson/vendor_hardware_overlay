@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.product.vendor.device"
-                android:requiredSystemPropertyValue="lavender"
-		android:priority="75"
+                android:requiredSystemPropertyName="ro.bootimage.build.fingerprint"
+                android:requiredSystemPropertyValue="qti/sdm660_64/sdm660_64:10/QKQ1.191224.003/root04211646:user/release-keys"
+		android:priority="2181"
 		android:isStatic="true" />
 </manifest>
