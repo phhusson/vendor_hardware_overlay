@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.bootimage.build.fingerprint"
                 android:requiredSystemPropertyValue="qti/sdm660_64/sdm660_64:10/QKQ1.191224.003/root04211646:user/release-keys"
-		android:priority="2181"
+		android:priority="7621"
 		android:isStatic="true" />
 </manifest>
