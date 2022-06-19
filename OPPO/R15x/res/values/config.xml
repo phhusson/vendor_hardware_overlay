@@ -3,7 +3,7 @@
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
-    <bool name="config_fillMainBuiltInDisplayCutout">fasle</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>8</item>
         <item>22</item>
@@ -14,6 +14,7 @@
         <item>255</item>
         <item>285</item>
         <item>385</item>
+        <item>625</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
         <item>45</item>
