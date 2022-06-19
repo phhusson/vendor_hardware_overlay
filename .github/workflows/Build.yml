@@ -1,8 +1,8 @@
 name: Overlay
 
 on:
-  watch:
-    types: [started]
+    pull_request:
+      branches: [pie]
 
 jobs:
   build:
