@@ -17,6 +17,9 @@
 */
 -->
 <resources>
-	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -90,30 L -90,79 L 90,79 L 90,30 Z</string>
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -90,30 L -90,79 L 90,79 L 90,30 Z</string>
+    <dimen name="status_bar_height_portrait">33px</dimen>
+    <dimen name="waterfall_display_top_edge_size">1px</dimen>
+    <dimen name="waterfall_display_bottom_edge_size">1px</dimen>
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -90,0 L -90,79 L 90,79 L 90,0 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -90,0 L -90,79 L 90,79 L 90,0 Z</string>
 </resources>
