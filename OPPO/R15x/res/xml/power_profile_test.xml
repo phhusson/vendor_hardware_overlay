@@ -41,5 +41,5 @@
     </array>
     <item name="cpu.awake">1.6</item>
     <item name="cpu.idle">0.1</item>
-    <item name="battery.capacity">1000</item>
+    <item name="battery.capacity">3500</item>
 </device>
