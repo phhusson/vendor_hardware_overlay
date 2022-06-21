@@ -214,6 +214,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vivo-y20 \
 	treble-overlay-vivo-y20-systemui \
+	treble-overlay-vivo-y31 \
 	treble-overlay-vsmart-joy3 \
 	treble-overlay-vsmart-live \
 	treble-overlay-wifi5g \
