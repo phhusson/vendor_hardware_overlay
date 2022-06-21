@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
+		<bool name="config_automatic_brightness_available">true</bool>
+		<integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>30</item>
         <item>40</item>
         <item>50</item>
@@ -35,4 +36,7 @@
         <item>8000</item>
         <item>10000</item>
     </integer-array>
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
 </resources>
