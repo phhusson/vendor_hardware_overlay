@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
+        Software implementation will be used if config_hardware_auto_brightness_available is not set -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
+         for debouncing the light sensor.  Different constants are used to debounce the light sensor
+         when adapting to brighter or darker environments.  This parameter controls how quickly
+         brightness changes occur in response to an observed change in light level that exceeds the
+         hysteresis threshold. -->
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
+
+    <!-- Screen brightness used to dim the screen when the user activity
+         timeout expires.  May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDim">23</integer>
+
+    <!-- Default screen brightness setting.
+         Must be in the range specified by minimum and maximum. -->
+    <integer name="config_screenBrightnessSettingDefault">150</integer>
+
+    <!-- Maximum screen brightness allowed by the power manager.
+         The user is forbidden from setting the brightness above this level. -->
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+
+    <!-- Minimum screen brightness setting allowed by the power manager.
+         The user is forbidden from setting the brightness below this level. -->
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
+
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
+
+    <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
+         percent. The length of this array is assumed to be one greater than
+         config_ambientThresholdLevels. The brightening threshold is calculated as
+         lux * (1.0f + CONSTRAINT_VALUE). When the current lux is higher than this threshold,
+         the screen brightness is recalculated. See the config_ambientThresholdLevels
+         description for how the constraint value is chosen. -->
+    <integer-array name="config_ambientBrighteningThresholds">
+         <item>2</item>
+         <item>5</item>
+         <item>10</item>
+         <item>30</item>
+         <item>100</item>
+         <item>400</item>
+         <item>600</item>
+         <item>1000</item>
+    </integer-array>
+
+    <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
+         percent. The length of this array is assumed to be one greater than
+         config_ambientThresholdLevels. The darkening threshold is calculated as
+         lux * (1.0f - CONSTRAINT_VALUE). When the current lux is lower than this threshold,
+         the screen brightness is recalculated. See the config_ambientThresholdLevels
+         description for how the constraint value is chosen. -->
+    <integer-array name="config_ambientDarkeningThresholds">
+         <item>800</item>
+         <item>800</item>
+         <item>500</item>
+         <item>500</item>
+         <item>500</item>
+         <item>500</item>
+         <item>500</item>
+         <item>500</item>
+    </integer-array>
+
+    <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
+         values by calculating the index to use for lookup and then setting the constraint value
+         to the corresponding value of the array. The new brightening hysteresis constraint value
+         is the n-th element of config_ambientBrighteningThresholds, and the new darkening
+         hysteresis constraint value is the n-th element of config_ambientDarkeningThresholds.
+         The (zero-based) index is calculated as follows: (MAX is the largest index of the array)
+         condition                       calculated index
+         value < level[0]                0
+         level[n] <= value < level[n+1]  n+1
+         level[MAX] <= value             MAX+1 -->
+    <integer-array name="config_ambientThresholdLevels">
+         <item>2</item>
+         <item>10</item>
+         <item>30</item>
+         <item>100</item>
+         <item>800</item>
+         <item>2000</item>
+         <item>4000</item>
+    </integer-array>
+
+    <!-- Array of desired screen brightness in nits corresponding to the lux values
+         in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
+         config_screenBrightnessMaximumNits, the display brightness is defined as the measured
+         brightness of an all-white image.
+         If this is defined then:
+            - config_autoBrightnessLcdBacklightValues should not be defined
+            - config_screenBrightnessNits must be defined
+            - config_screenBrightnessBacklight must be defined
+         This array should have size one greater than the size of the config_autoBrightnessLevels
+         array. The brightness values must be non-negative and non-decreasing. This must be
+         overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+         <item>5</item>
+         <item>6</item>
+         <item>15</item>
+         <item>21</item>
+         <item>27</item>
+         <item>36</item>
+         <item>52</item>
+         <item>71</item>
+         <item>87</item>
+         <item>97</item>
+         <item>98</item>
+         <item>98</item>
+         <item>98</item>
+         <item>99</item>
+         <item>99</item>
+         <item>100</item>
+         <item>100</item>
+         <item>100</item>
+         <item>101</item>
+         <item>101</item>
+         <item>102</item>
+         <item>103</item>
+         <item>103</item>
+         <item>103</item>
+         <item>106</item>
+         <item>108</item>
+         <item>110</item>
+         <item>112</item>
+         <item>114</item>
+         <item>116</item>
+         <item>118</item>
+         <item>119</item>
+         <item>122</item>
+         <item>123</item>
+         <item>125</item>
+         <item>128</item>
+         <item>130</item>
+         <item>131</item>
+         <item>134</item>
+         <item>136</item>
+         <item>137</item>
+         <item>140</item>
+         <item>142</item>
+         <item>144</item>
+         <item>169</item>
+         <item>196</item>
+         <item>222</item>
+         <item>248</item>
+         <item>270</item>
+         <item>300</item>
+         <item>320</item>
+         <item>335</item>
+         <item>407</item>
+         <item>472</item>
+         <item>500</item>
+         <item>530</item>
+         <item>530</item>
+    </integer-array>
+
+    <!-- Array of output values for LCD backlight corresponding to the lux values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         The brightness values must be between 0 and 255 and be non-decreasing.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+         <item>2</item>
+         <item>4</item>
+         <item>7</item>
+         <item>11</item>
+         <item>15</item>
+         <item>16</item>
+         <item>23</item>
+         <item>30</item>
+         <item>40</item>
+         <item>42</item>
+         <item>42</item>
+         <item>42</item>
+         <item>42</item>
+         <item>42</item>
+         <item>42</item>
+         <item>43</item>
+         <item>43</item>
+         <item>43</item>
+         <item>44</item>
+         <item>44</item>
+         <item>44</item>
+         <item>44</item>
+         <item>44</item>
+         <item>45</item>
+         <item>45</item>
+         <item>45</item>
+         <item>46</item>
+         <item>47</item>
+         <item>48</item>
+         <item>48</item>
+         <item>49</item>
+         <item>49</item>
+         <item>50</item>
+         <item>51</item>
+         <item>52</item>
+         <item>52</item>
+         <item>53</item>
+         <item>53</item>
+         <item>54</item>
+         <item>55</item>
+         <item>56</item>
+         <item>56</item>
+         <item>57</item>
+         <item>58</item>
+         <item>59</item>
+         <item>69</item>
+         <item>80</item>
+         <item>94</item>
+         <item>107</item>
+         <item>121</item>
+         <item>136</item>
+         <item>152</item>
+         <item>157</item>
+         <item>195</item>
+         <item>219</item>
+         <item>221</item>
+         <item>226</item>
+         <item>255</item>
+    </integer-array>
+
+    <!-- Array of light sensor lux values to define our levels for auto backlight brightness support.
+         The N entries of this array define N + 1 control points as follows:
+         (1-based arrays)
+         Point 1:            (0, value[1]):             lux <= 0
+         Point 2:     (level[1], value[2]):  0        < lux <= level[1]
+         Point 3:     (level[2], value[3]):  level[2] < lux <= level[3]
+         ...
+         Point N+1: (level[N], value[N+1]):  level[N] < lux
+         The control points must be strictly increasing.  Each control point
+         corresponds to an entry in the brightness backlight values arrays.
+         For example, if lux == level[1] (first element of the levels array)
+         then the brightness will be determined by value[2] (second element
+         of the brightness values array).
+         Spline interpolation is used to determine the auto-brightness
+         backlight values for lux levels between these control points.
+         Must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessLevels">
+         <item>1</item>
+         <item>2</item>
+         <item>4</item>
+         <item>6</item>
+         <item>8</item>
+         <item>10</item>
+         <item>15</item>
+         <item>20</item>
+         <item>25</item>
+         <item>30</item>
+         <item>35</item>
+         <item>40</item>
+         <item>45</item>
+         <item>50</item>
+         <item>55</item>
+         <item>60</item>
+         <item>65</item>
+         <item>70</item>
+         <item>75</item>
+         <item>80</item>
+         <item>85</item>
+         <item>90</item>
+         <item>95</item>
+         <item>100</item>
+         <item>120</item>
+         <item>140</item>
+         <item>160</item>
+         <item>180</item>
+         <item>200</item>
+         <item>220</item>
+         <item>240</item>
+         <item>260</item>
+         <item>280</item>
+         <item>300</item>
+         <item>320</item>
+         <item>340</item>
+         <item>360</item>
+         <item>380</item>
+         <item>400</item>
+         <item>420</item>
+         <item>440</item>
+         <item>460</item>
+         <item>480</item>
+         <item>500</item>
+         <item>700</item>
+         <item>900</item>
+         <item>1100</item>
+         <item>1300</item>
+         <item>1500</item>
+         <item>1700</item>
+         <item>1900</item>
+         <item>2000</item>
+         <item>2500</item>
+         <item>3000</item>
+         <item>3500</item>
+         <item>4000</item>
+         <item>4500</item>
+    </integer-array>
+
+    <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
+         percent. The length of this array is assumed to be one greater than
+         config_screenThresholdLevels. The brightening threshold is calculated as
+         screenBrightness * (1.0f + CONSTRAINT_VALUE). When the new screen brightness is higher
+         than this threshold, it is applied. See the config_screenThresholdLevels description for
+         how the constraint value is chosen. -->
+    <integer-array name="config_screenBrighteningThresholds">
+         <item>0</item>
+    </integer-array>
+
+     <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
+         percent. The length of this array is assumed to be one greater than
+         config_screenThresholdLevels. The darkening threshold is calculated as
+         screenBrightness * (1.0f - CONSTRAINT_VALUE). When the new screen brightness is lower than
+         this threshold, it is applied. See the config_screenThresholdLevels description for how
+         the constraint value is chosen. -->
+    <integer-array name="config_screenDarkeningThresholds">
+         <item>0</item>
+    </integer-array>
+
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+         autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">true</bool>
+
+    <!-- Indicate whether to allow the device to suspend when the screen is off
+         due to the proximity sensor.  This resource should only be set to true
+         if the sensor HAL correctly handles the proximity sensor as a wake-up source.
+         Otherwise, the device may fail to wake out of suspend reliably.
+         The default is false. -->
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+
+    <!-- Default color for notification LED is white. -->
+    <color name="config_defaultNotificationColor">#ff0099ff</color>
+
+    <!-- Default value for led color when battery is low on charge -->
+    <integer name="config_notificationsBatteryLowARGB">0xFFFF0000</integer>
+
+    <!-- Default value for led color when battery is medium charged -->
+    <integer name="config_notificationsBatteryMediumARGB">0xFFFFFFFF</integer>
+
+    <!-- Default value for led color when battery is fully charged -->
+    <integer name="config_notificationsBatteryFullARGB">0xFFFFFFFF</integer>
+
+    <!-- Number of physical SIM slots on the device. This includes both eSIM and pSIM slots, and
+         is not necessarily the same as the number of phones/logical modems supported by the device.
+         For example, a multi-sim device can have 2 phones/logical modems, but 3 physical slots,
+         or a single SIM device can have 1 phones/logical modems, but 2 physical slots (one eSIM
+         and one pSIM) -->
+    <integer name="config_num_physical_slots">2</integer>
+
+    <!-- Control whether the always on display mode is available. This should only be enabled on
+         devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
+         states. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+
+    <!-- The bounding path of the cutout region of the main built-in display.
+         Must either be empty if there is no cutout region, or a string that is parsable by
+         {@link android.util.PathParser}.
+         The path is assumed to be specified in display coordinates with pixel units and in
+         the display's native orientation, with the origin of the coordinate system at the
+         center top of the display. Optionally, you can append either `@left` or `@right` to the
+         end of the path string, in order to change the path origin to either the top left,
+         or top right of the display.
+         To facilitate writing device-independent emulation overlays, the marker `@dp` can be
+         appended after the path string to interpret coordinates in dp instead of px units.
+         Note that a physical cutout should be configured in pixels for the best results.
+         Example for a 10px x 10px square top-center cutout:
+                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z</string>
+         Example for a 10dp x 10dp square top-center cutout:
+                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
+         @see https://www.w3.org/TR/SVG/paths.html#PathData
+         -->
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -36 V 96 H 36 V 0 H 0 Z</string>
+
+    <!-- The default refresh rate for a given device. Change this value to set a higher default
+          refresh rate. If the hardware composer on the device supports display modes with a higher
+          refresh rate than the default value specified here, the framework may use those higher
+          refresh rate modes if an app chooses one by setting preferredDisplayModeId or calling
+          setFrameRate().
+          If a non-zero value is set for config_defaultPeakRefreshRate, then
+          config_defaultRefreshRate may be set to 0, in which case the value set for
+          config_defaultPeakRefreshRate will act as the default frame rate. -->
+    <integer name="config_defaultRefreshRate">60</integer>
+
+    <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
+          the framework from using higher refresh rates, even if display modes with higher refresh
+          rates are available from hardware composer. Only has an effect if the value is
+          non-zero. -->
+    <integer name="config_defaultPeakRefreshRate">60</integer>
+
+     <!-- Flag specifying whether VoLTE & VT is available on device -->
+    <bool name="config_device_volte_available">true</bool>
+
+    <!-- Flag specifying whether VoLTE should be available for carrier: independent of
+         carrier provisioning. If false: hard disabled. If true: then depends on carrier
+         provisioning, availability etc -->
+    <bool name="config_carrier_volte_available">true</bool>
+
+    <!-- Flag specifying whether VoLTE TTY is supported -->
+    <bool name="config_carrier_volte_tty_supported">true</bool>
+
+    <!-- Flag specifying whether WFC over IMS is available on device -->
+    <bool name="config_device_wfc_ims_available">true</bool>
+
+    <!-- Flag specifying whether WFC over IMS should be available for carrier: independent of
+         carrier provisioning. If false: hard disabled. If true: then depends on carrier
+         provisioning, availability etc -->
+    <bool name="config_carrier_wfc_ims_available">true</bool>
+
+    <!-- Flag specifying whether VT is available on device -->
+    <bool name="config_device_vt_available">true</bool>
+
+    <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
+    <bool name="config_dynamic_bind_ims">true</bool>
+
+    <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
+         on the headphone/microphone jack. When false use the older uevent framework. -->
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">96.0px</dimen>
+
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">102.0px</dimen>
+</resources>
