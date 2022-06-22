@@ -5,5 +5,5 @@
         <overlay android:targetPackage="com.android.systemui"
         android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
         android:requiredSystemPropertyValue="+*redmi/vnd_chopin*"
-        android:priority="102" />
+        android:priority="253" />
 </manifest>
