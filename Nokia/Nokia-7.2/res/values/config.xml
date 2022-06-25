@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_carrier_volte_tty_supported">true</bool>
+    <bool name="config_device_volte_available">true</bool>
     <array name="config_autoBrightnessButtonBacklightValues" />
     <array name="config_autoBrightnessDisplayValuesNits" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
