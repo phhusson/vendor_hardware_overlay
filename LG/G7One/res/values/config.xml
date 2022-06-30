@@ -42,7 +42,7 @@
         <item>341.8</item>
         <item>550.0</item>
     </array>
-
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
