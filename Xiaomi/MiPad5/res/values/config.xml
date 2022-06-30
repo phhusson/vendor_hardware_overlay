@@ -254,6 +254,10 @@
         <item>wlan0</item>
         <item>wigig0</item>
     </string-array>
+    <public type="bool" name="config_supportDoubleTapWake" id="0x011100da" />
+    <public type="bool" name="config_lidControlsSleep" id="0x01110099" />
+	<bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_lidControlsSleep">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
     <bool name="config_showNavigationBar">true</bool>
