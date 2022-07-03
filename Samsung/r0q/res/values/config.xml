@@ -33,6 +33,10 @@
         <item>1</item>
         <item>5</item>
         <item>6</item>
+        <item>10</item>
+	<item>15</item>
+	<item>20</item>
+	<item>25</item>
         <item>50</item>
         <item>100</item>
         <item>500</item>
@@ -49,9 +53,9 @@
 	<bool name="config_dozeAfterScreenOffByDefault">true</bool>
 	<bool name="config_displayBlanksAfterDoze">false</bool>
 	<fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
-	<dimen name="status_bar_height">102px</dimen>
-	<dimen name="status_bar_height_portrait">102px</dimen>
-	<dimen name="rounded_corner_radius_top">24dp</dimen>
-	<dimen name="rounded_corner_radius_bottom">24dp</dimen>
+	<dimen name="status_bar_height_landscape">24.0dip</dimen>
+        <dimen name="status_bar_height_portrait">24.0dip</dimen>
+	<dimen name="rounded_corner_radius_top">32.0dip</dimen>
+	<dimen name="rounded_corner_radius_bottom">32.0dip</dimen>
 	<string name="config_mainBuiltInDisplayCutout">M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp</string>
 </resources>
