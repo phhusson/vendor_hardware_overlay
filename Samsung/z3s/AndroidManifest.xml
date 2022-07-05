@@ -5,6 +5,6 @@
 	<overlay android:targetPackage="android"
 		android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 		android:requiredSystemPropertyValue="+*amsung/z3s*"
-		android:priority="692"
+		android:priority="938"
 		android:isStatic="true" />
 </manifest>
