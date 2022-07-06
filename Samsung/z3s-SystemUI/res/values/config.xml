@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen name="status_bar_padding_top">24px</dimen>
-	<dimen name="status_bar_padding_start">56px</dimen>
-	<dimen name="status_bar_padding_end">16px</dimen>
-	<dimen name="keyguard_carrier_text_margin">68px</dimen>
-	<dimen name="system_icons_keyguard_padding_end">55px</dimen>
-	<dimen name="status_bar_header_height_keyguard">0px</dimen>
-	<dimen name="physical_power_button_center_screen_location_y">1100px</dimen>
-	<dimen name="status_bar_clock_padding_top">26px</dimen>
-	
-	<!-- With the large clock, move up slightly from the center -->
-    	<dimen name="keyguard_large_clock_top_margin">-174dp</dimen>
+    <dimen name="status_bar_padding_start">45px</dimen>
+    <dimen name="status_bar_header_height_keyguard">35dp</dimen>
+    <dimen name="keyguard_carrier_text_margin">45px</dimen>
+    <dimen name="system_icons_keyguard_padding_end">45px</dimen>
+    <dimen name="rounded_corner_content_padding">4dp</dimen>
 </resources>
