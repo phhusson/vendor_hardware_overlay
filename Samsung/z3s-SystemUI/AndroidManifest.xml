@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="me.phh.treble.overlay.samsung.z3s"
+	package="me.phh.treble.overlay.samsung.z3s.systemui"
 	android:versionCode="1"
 	android:versionName="1.0">
-	<overlay android:targetPackage="android"
+	<overlay android:targetPackage="com.android.systemui"
 		android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-		android:requiredSystemPropertyValue="+*amsung/z3s*"
-		android:priority="979"
+		android:requiredSystemPropertyValue="+*samsung/z3s*"
+		android:priority="980"
 		android:isStatic="true" />
 </manifest>

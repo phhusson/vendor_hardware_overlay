@@ -14,10 +14,6 @@
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">10</integer>
     <bool name="config_automatic_brightness_available">true</bool>
-    <array name="config_autoBrightnessButtonBacklightValues" />
-    <array name="config_autoBrightnessDisplayValuesNits" />
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
-    <array name="config_screenBrightnessNits" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>6</item>
         <item>6</item>
