@@ -55,6 +55,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lenovo-k5pro \
 	treble-overlay-lenovo-s5 \
 	treble-overlay-lenovo-s5pro \
+	treble-overlay-lenovo-tabv7 \
+	treble-overlay-lenovo-tabv7-systemui \
 	treble-overlay-lenovo-z5 \
 	treble-overlay-lg-g7 \
 	treble-overlay-lg-phoenix_lao_com-phoenix_sprout \
@@ -90,6 +92,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-onefusionplus \
 	treble-overlay-moto-onehyper \
 	treble-overlay-moto-razr \
+	treble-overlay-moto-rhodep \
+	treble-overlay-moto-rhodep-systemui \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
@@ -125,6 +129,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-8-5g \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
+	treble-overlay-realme-gtmaster \
+	treble-overlay-realme-gtmaster-systemui \
 	treble-overlay-realme-gtmasterexplorer \
 	treble-overlay-realme-gtmasterexplorer-systemui \
 	treble-overlay-realme-gtneo3 \
@@ -176,6 +182,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-n9q \
 	treble-overlay-samsung-o1s \
 	treble-overlay-samsung-p3s \
+	treble-overlay-samsung-r0q \
+	treble-overlay-samsung-r0q-systemui \
 	treble-overlay-samsung-r0s \
 	treble-overlay-samsung-r0s-systemui \
 	treble-overlay-samsung-r9q \
