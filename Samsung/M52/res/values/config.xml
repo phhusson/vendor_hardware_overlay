@@ -1137,4 +1137,38 @@
         <item>255</item>
         <item>486</item>
     </integer-array>
+	<bool name="config_dynamic_automatic_brightness_available">true</bool>
+	<bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
+	<bool name="config_enableBurnInProtection">true</bool>
+	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+	<bool name="config_supportDoubleTapWake">true</bool>
+	<bool name="config_wifi_dual_band_support">true</bool>
+	<bool name="config_dozeWakeLockScreenSensorAvailable">true</bool>
+	<bool name="config_dozePulsePickup">true</bool>
+	<bool name="config_useDevInputEventForAudioJack">true</bool>
+	<resources>
+    
+	<item type="dimen" name="config_screenBrightnessDimFloat">0.047058824</item>
+    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.5019608</item>
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
+    <dimen name="status_bar_camera_side_padding">29.0px</dimen>
+    <dimen name="status_bar_camera_top_margin">22.0px</dimen>
+    <dimen name="status_bar_height_portrait">5.5739746mm</dimen>
+    <dimen name="status_bar_indicator_corner_padding">57.0px</dimen>
+
+    <integer name="config_autoBrightnessHbmAmbientLux">3000</integer>
+    <integer name="config_lowLimitAtHighestAutoBrightnessLevel">255</integer>
+    <integer name="config_minimumBrightnessStepValue">1</integer>
+    <integer name="config_screenBrightnessDim">12</integer>
+    <integer name="config_screenBrightnessExtendedMaximum">486</integer>
+    <integer name="config_screenBrightnessForClearView">193</integer>
+    <integer name="config_screenBrightnessSettingDefault">128</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">0</integer>
+	<integer name="config_defaultRefreshRate">0</integer>
+	<integer name="config_defaultPeakRefreshRate">120</integer>
+	<resources>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -12.95238095238095 V 34.28571428571429 H 12.95238095238095 V 0 H 0 Z @dp</string>
 </resources>
