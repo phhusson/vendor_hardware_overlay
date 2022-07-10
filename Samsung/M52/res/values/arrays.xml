@@ -1035,10 +1035,6 @@
         <item>798.047</item>
         <item>800</item>
     </array>
-    <integer-array name="config_screenBrightnessRangeForClearView">
-        <item>255</item>
-        <item>486</item>
-    </integer-array>
     <string-array name="config_tether_bluetooth_regexs">
         <item>bnep\\d</item>
         <item>bt-pan</item>
