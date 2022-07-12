@@ -199,6 +199,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-J9110 \
 	treble-overlay-sony-SO-03L \
+	treble-overlay-sony-XZ2 \
 	treble-overlay-sony-XZ3 \
 	treble-overlay-sony-pdx206 \
 	treble-overlay-sony-pdx206-kddi \
