@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+OnePlus/OnePlusN100*"
-                android:priority="2081"
+                android:priority="104"
 		android:isStatic="true" />
 </manifest>
