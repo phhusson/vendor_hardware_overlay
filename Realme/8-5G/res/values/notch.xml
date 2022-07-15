@@ -14,7 +14,10 @@
       -->
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     
-     <!-- The bounding path of the cutout region of the main built-in display. -->
+    <!-- The bounding path of the cutout region of the main built-in display. -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M -544,0 L -544,110 L -388,110 L -388,0 Z</string>
+
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">110.0px</dimen>
 
 </resources>
