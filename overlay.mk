@@ -105,6 +105,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-nokia-pnx-8.1-x7-systemui \
 	treble-overlay-nubia-redmagic3s \
 	treble-overlay-nubia-z18mini \
+	treble-overlay-oneplus-n10 \
 	treble-overlay-oneplus-n2 \
 	treble-overlay-oneplus-n2-systemui \
 	treble-overlay-oneplus-n20 \
