@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_HBMBrightnessLevels" />
-    <array name="config_HBMBrightnessLux" />
     <array name="config_autoBrightnessButtonBacklightValues" />
     <array name="config_autoBrightnessDisplayValuesNits" />
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>10</item>
         <item>20</item>
@@ -24,60 +21,11 @@
         <item>210</item>
         <item>255</item>
     </integer-array>
-        <array name="config_minimumBrightnessCurveLux">
-        <item>0.0</item>
-        <item>2000.0</item>
-        <item>4000.0</item>
-    </array>
     <array name="config_minimumBrightnessCurveNits">
         <item>0.0</item>
         <item>50.0</item>
         <item>90.0</item>
     </array>
-        <array name="config_displayCompositionColorModes" />
-    <array name="config_displayCompositionColorSpaces" />
-    <array name="config_displayWhiteBalanceAmbientColorTemperatures" />
-    <array name="config_displayWhiteBalanceBaseThresholds">
-        <item>0.0</item>
-    </array>
-    <array name="config_displayWhiteBalanceDecreaseThresholds">
-        <item>0.1</item>
-    </array>
-    <array name="config_displayWhiteBalanceDisplayColorTemperatures" />
-    <string-array name="config_displayWhiteBalanceDisplayNominalWhite">
-        <item>0.950456</item>
-        <item>1.000000</item>
-        <item>1.089058</item>
-    </string-array>
-    <string-array name="config_displayWhiteBalanceDisplayPrimaries">
-        <item>0.412315</item>
-        <item>0.212600</item>
-        <item>0.019327</item>
-        <item>0.357600</item>
-        <item>0.715200</item>
-        <item>0.119200</item>
-        <item>0.180500</item>
-        <item>0.072200</item>
-        <item>0.950633</item>
-        <item>0.950456</item>
-        <item>1.000000</item>
-        <item>1.089058</item>
-    </string-array>
-    <array name="config_displayWhiteBalanceHighLightAmbientBiases" />
-    <array name="config_displayWhiteBalanceHighLightAmbientBrightnesses" />
-    <array name="config_displayWhiteBalanceIncreaseThresholds">
-        <item>0.1</item>
-    </array>
-    <array name="config_displayWhiteBalanceLowLightAmbientBiases">
-        <item>0.0</item>
-        <item>1.0</item>
-    </array>
-    <array name="config_displayWhiteBalanceLowLightAmbientBrightnesses">
-        <item>10.0</item>
-        <item>10.0</item>
-    </array>
-    <array name="config_brightnessCurrentStatistics" />
-    <array name="config_brightnessThresholdsOfPeakRefreshRate" />
     <array name="config_screenBrightnessBacklight" />
     <array name="config_screenBrightnessNits" />
     <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
