@@ -53,7 +53,7 @@
     <bool name="config_wifi_dual_band_support">true</bool>
     <dimen name="status_bar_height_default">139px</dimen>
     <dimen name="status_bar_height">139px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dip</dimen>
+    <dimen name="status_bar_height_landscape">28dp</dimen>
     <dimen name="status_bar_height_portrait">139px</dimen>
     <dimen name="quick_qs_offset_height">139px</dimen>
     <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
