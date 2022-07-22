@@ -254,6 +254,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-miplay \
 	treble-overlay-xiaomi-pocof1 \
 	treble-overlay-xiaomi-pocom3pro5g \
+	treble-overlay-xiaomi-pocom4pro5g \
 	treble-overlay-xiaomi-redmi10x5g \
 	treble-overlay-xiaomi-redmi6 \
 	treble-overlay-xiaomi-redmi6a \
