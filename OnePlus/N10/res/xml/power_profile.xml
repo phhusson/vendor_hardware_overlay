@@ -77,7 +77,4 @@
         <value>1.6</value>
         <value>1.6</value>
     </array>
-    <allow-in-power-save package="com.google.android.gms" />
-    <allow-in-power-save package="com.oppo.market" />
-    <allow-in-data-usage-save package="com.google.android.gms" />
 </device>
