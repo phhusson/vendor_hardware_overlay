@@ -4,5 +4,5 @@
     <dimen name="status_bar_header_height_keyguard">82.0px</dimen>
     <dimen name="status_bar_padding_end">15.0px</dimen>
     <dimen name="status_bar_padding_start">25.0px</dimen>
-    <dimen name="system_icons_keyguard_padding_end">170.0px</dimen>
+    <dimen name="system_icons_keyguard_padding_end">15.0px</dimen>
 </resources>
