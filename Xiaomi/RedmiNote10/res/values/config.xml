@@ -31,7 +31,7 @@
         <item>2000</item>
         <item>4000</item>
     </integer-array>
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
+    <array name="config_autoBrightnessDisplayValuesNits">
         <item>5</item>
         <item>5</item>
         <item>5</item>
@@ -90,71 +90,10 @@
         <item>500</item>
         <item>500</item>
         <item>500</item>
-    </integer-array>
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>21</item>
-        <item>21</item>
-        <item>73</item>
-        <item>103</item>
-        <item>133</item>
-        <item>147</item>
-        <item>199</item>
-        <item>255</item>
-        <item>329</item>
-        <item>351</item>
-        <item>355</item>
-        <item>355</item>
-        <item>355</item>
-        <item>361</item>
-        <item>361</item>
-        <item>361</item>
-        <item>365</item>
-        <item>365</item>
-        <item>369</item>
-        <item>369</item>
-        <item>369</item>
-        <item>369</item>
-        <item>373</item>
-        <item>373</item>
-        <item>377</item>
-        <item>387</item>
-        <item>391</item>
-        <item>395</item>
-        <item>403</item>
-        <item>409</item>
-        <item>417</item>
-        <item>421</item>
-        <item>429</item>
-        <item>435</item>
-        <item>439</item>
-        <item>451</item>
-        <item>457</item>
-        <item>461</item>
-        <item>469</item>
-        <item>473</item>
-        <item>483</item>
-        <item>487</item>
-        <item>495</item>
-        <item>503</item>
-        <item>595</item>
-        <item>683</item>
-        <item>783</item>
-        <item>891</item>
-        <item>983</item>
-        <item>1117</item>
-        <item>1217</item>
-        <item>1283</item>
-        <item>1605</item>
-        <item>1889</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-        <item>2047</item>
-    </integer-array>
+    </array>
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
         <item>2</item>
-        <item>3</item>
         <item>4</item>
         <item>6</item>
         <item>8</item>
@@ -211,14 +150,18 @@
         <item>4000</item>
         <item>4500</item>
     </integer-array>
-    <array name="config_screenBrightnessBacklight">
+    <integer-array name="config_screenBrightnessBacklight">
         <item>1</item>
         <item>255</item>
-    </array>
+    </integer-array>
     <array name="config_screenBrightnessNits">
-        <item>2</item>
-        <item>1000</item>
+        <item>4</item>
+        <item>450</item>
     </array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>wlan0</item>
+        <item>wigig0</item>
+    </string-array>
 
     <!-- bools.xml files -->
     <bool name="config_automatic_brightness_available">true</bool>
@@ -240,14 +183,22 @@
 
     <!-- fraction.xml files -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100%</fraction>
+    <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+    <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
 
     <!-- integers.xml files-->
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
-    <integer name="config_screenBrightnessDim">11</integer>
-    <integer name="config_screenBrightnessDoze">17</integer>
-    <integer name="config_screenBrightnessSettingDefault">536</integer>
-    <integer name="config_screenBrightnessSettingMaximum">2047</integer>
-    <integer name="config_screenBrightnessSettingMinimum">4</integer>
+	  <integer name="config_autoBrightnessLightSensorRate">250</integer>
+	  <integer name="config_brightness_ramp_rate_fast">180</integer>
+	  <integer name="config_brightness_ramp_rate_slow">60</integer>
+	  <integer name="config_screenBrightnessDim">2</integer>
+	  <integer name="config_screenBrightnessDoze">17</integer>
+	  <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
+	  <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
+	  <integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
+	  <integer name="config_screenBrightnessSettingMaximum">255</integer>
+	  <integer name="config_screenBrightnessSettingMinimum">2</integer>
     <integer name="config_shutdownBatteryTemperature">600</integer>
+    
 </resources>
