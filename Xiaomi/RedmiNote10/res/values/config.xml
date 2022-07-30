@@ -31,7 +31,7 @@
         <item>2000</item>
         <item>4000</item>
     </integer-array>
-    <array name="config_autoBrightnessDisplayValuesNits">
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
         <item>5</item>
         <item>5</item>
         <item>5</item>
@@ -90,7 +90,7 @@
         <item>500</item>
         <item>590</item>
         <item>680</item>
-    </array>
+    </integer-array>
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
         <item>2</item>
@@ -174,9 +174,6 @@
     <!-- dimens.xml files -->
     <dimen name="rounded_corner_radius_bottom">118.0px</dimen>
     <dimen name="rounded_corner_radius_top">118.0px</dimen>
-    <dimen name="status_bar_height">93.0px</dimen>
-    <dimen name="status_bar_height_portrait">93.0px</dimen>
-    <dimen name="status_bar_height_landscape">28dp</dimen>
     
     <!-- displayCutout -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -37 V 93 H 37 V 0 H 0 Z</string>
