@@ -4,6 +4,14 @@
         <item>wlan0</item>
     </string-array>
 
+    <!--Always On Display-->
+    <bool name="config_dozeAfterScreenOffByDefault">false</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_dozePulsePickup">false</bool>
+    <bool name="config_dozeSupportsAodWallpaper">true</bool>
+
+    <bool name="config_supportSystemNavigationKeys">false</bool>
+
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
@@ -85,10 +93,11 @@
     </array>
 
      <bool name="config_automatic_brightness_available">true</bool>
-     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
      <bool name="config_supportDoubleTapWake">false</bool>
 
+    <!--Fixes to the notifications bar-->
      <dimen name="status_bar_height_portrait">80.0px</dimen>
      <dimen name="status_bar_height_landscape">80.0px</dimen>
+     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -25.6 V 28.44444444444444 H 25.6 V 0 H 0 Z @dp</string>
 
 </resources>
