@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
-                android:requiredSystemPropertyValue="+*POCO/chopin-global*"
+                android:requiredSystemPropertyValue="chopin"
 		android:priority="829"
 		android:isStatic="true" />
 </manifest>
