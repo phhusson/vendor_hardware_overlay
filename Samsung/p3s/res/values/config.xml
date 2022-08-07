@@ -1227,9 +1227,10 @@
         <item>1100</item>
     </array>
             <bool name="config_automatic_brightness_available">true</bool>
-            <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
             <bool name="config_dozeAfterScreenOffByDefault">true</bool>
             <bool name="config_displayBlanksAfterDoze">false</bool>
             <dimen name="status_bar_height">100px</dimen>
             <dimen name="status_bar_height_portrait">100px</dimen>
+	    <integer name="config_defaultRefreshRate">0</integer>
+	    <integer name="config_defaultPeakRefreshRate">120</integer>
 </resources>
