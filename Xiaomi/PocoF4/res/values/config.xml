@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="config_defaultRefreshRate">1</integer>
     <integer name="config_defaultPeakRefreshRate">120</integer>
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
     <bool name="config_enableBurnInProtection">true</bool>
-    <integer name="config_defaultRefreshRateInZone">120</integer>
-    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
         <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
         percent. The length of this array is assumed to be one greater than
         config_screenThresholdLevels. The darkening threshold is calculated as

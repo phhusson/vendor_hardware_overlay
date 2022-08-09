@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<integer-array name="config_autoRotationTiltTolerance">
-        <item>-25</item>
-        <item>70</item>
-        <item>-25</item>
-        <item>65</item>
-        <item>-25</item>
-        <item>60</item>
-        <item>-25</item>
-        <item>65</item>
-    </integer-array>
     <array name="config_ambientThresholdLevels" />
     <integer-array name="config_ambientBrighteningThresholds">
         <item>100</item>
@@ -28,16 +18,6 @@
     </integer-array>
     <integer-array name="config_screenDarkeningThresholds">
         <item>200</item>
-    </integer-array>
-    <integer-array name="low_lux_level">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
     </integer-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
