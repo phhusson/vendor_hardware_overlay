@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <dimen name="status_bar_height">24dp</dimen>
+  <dimen name="status_bar_height">68px</dimen>
 </resources>

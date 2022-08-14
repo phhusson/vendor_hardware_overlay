@@ -5,9 +5,4 @@
   <bool name="config_wifi_dual_band_support">true</bool>
   <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
   <bool name="config_wifi_p2p_mac_randomization_supported">false</bool>
-
-  <dimen name="status_bar_height_portrait">68.0px</dimen>
-  <dimen name="status_bar_height">68.0px</dimen>
-  <dimen name="status_bar_height_landscape">24dp</dimen>
-  <string name="config_mainBuiltInDisplayCutout">M 0,0 H 50.28571428571429 V 38.85714285714286 H 0 V 0 Z @dp @left</string>
 </resources>
