@@ -60,6 +60,7 @@
     <value>1742000</value>
     <value>1846000</value>
     <value>2002000</value>
+    <value>2210000</value>
   </array>
   <array name="cpu.core_power.cluster0">
     <value>16.6</value>
@@ -88,6 +89,7 @@
     <value>1742000</value>
     <value>1846000</value>
     <value>2002000</value>
+    <value>2210000</value>
   </array>
   <array name="cpu.core_power.cluster1">
     <value>16.6</value>
