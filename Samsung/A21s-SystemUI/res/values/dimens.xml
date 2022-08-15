@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <dimen name="status_bar_height_portrait">68</dimen>
-  <dimen name="status_bar_height">68</dimen>
-  <dimen name="status_bar_height_landscape">68</dimen>
+  <dimen name="status_bar_height_portrait">68px</dimen>
+  <dimen name="status_bar_height">68px</dimen>
+  <dimen name="status_bar_height_landscape">68px</dimen>
   <dimen name="quick_qs_offset_height">28dp</dimen>
   <string translatable="false" name="config_mainBuiltInDisplayCutout">
     M 0,0
