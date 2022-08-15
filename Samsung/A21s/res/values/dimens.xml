@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <dimen name="status_bar_height_portrait">68px</dimen>
-  <dimen name="status_bar_height_landscape">68px</dimen>
-  <dimen name="status_bar_height">68px</dimen>
+  <dimen name="status_bar_height_portrait">38.85714285714286dp</dimen>
+  <dimen name="status_bar_height_landscape">38.85714285714286dp</dimen>
+  <dimen name="status_bar_height">38.85714285714286dp</dimen>
   <string translatable="false" name="config_mainBuiltInDisplayCutout">
     M 0,0
-    H 50.28571428571429
+    H 60
     V 38.85714285714286
     H 0
     V 0
