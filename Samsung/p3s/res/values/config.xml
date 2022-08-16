@@ -1230,6 +1230,7 @@
             <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
             <bool name="config_dozeAfterScreenOffByDefault">true</bool>
             <bool name="config_displayBlanksAfterDoze">false</bool>
-            <dimen name="status_bar_height">100px</dimen>
-            <dimen name="status_bar_height_portrait">100px</dimen>
+	    <dimen name="status_bar_height">110px</dimen>
+            <dimen name="status_bar_height_default">110px</dimen>
+            <dimen name="status_bar_height_portrait">110px</dimen>
 </resources>
