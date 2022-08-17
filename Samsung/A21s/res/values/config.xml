@@ -12,8 +12,6 @@
   <dimen name="status_bar_height_portrait">68px</dimen>
   <dimen name="status_bar_height_landscape">28dp</dimen>
   <dimen name="quick_qs_offset_height">68px</dimen>
-  <dimen name="status_bar_clock_starting_padding">0dp</dimen>
-  <dimen name="status_bar_padding_start">0dp</dimen>
 
   <string translatable="false" name="config_mainBuiltInDisplayCutout">
     M 0,0
