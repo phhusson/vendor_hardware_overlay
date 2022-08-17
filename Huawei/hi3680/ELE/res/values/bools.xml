@@ -6,7 +6,6 @@
     <bool name="config_LTE_eri_for_network_name">true</bool>
     <bool name="config_actionMenuItemAllCaps">true</bool>
     <bool name="config_allow3rdPartyAppOnInternal">true</bool>
-    <bool name="config_allowAllRotations">false</bool>
     <bool name="config_allowAnimationsInLowPowerMode">false</bool>
     <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
     <bool name="config_allowDisablingAssistDisclosure">true</bool>
@@ -44,14 +43,12 @@
     <bool name="config_bluetooth_wide_band_speech">true</bool>
     <bool name="config_built_in_sip_phone">true</bool>
     <bool name="config_buttonTextAllCaps">true</bool>
-    <bool name="config_cameraDoubleTapPowerGestureEnabled">false</bool>
     <bool name="config_camera_sound_forced">false</bool>
     <bool name="config_carDockEnablesAccelerometer">true</bool>
     <bool name="config_carrier_volte_available">false</bool>
     <bool name="config_carrier_volte_tty_supported">true</bool>
     <bool name="config_carrier_vt_available">false</bool>
     <bool name="config_carrier_wfc_ims_available">false</bool>
-    <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="config_checkWallpaperAtBoot">true</bool>
     <bool name="config_closeDialogWhenTouchOutside">true</bool>
     <bool name="config_customUserSwitchUi">false</bool>
@@ -85,7 +82,6 @@
     <bool name="config_eap_sim_based_auth_supported">true</bool>
     <bool name="config_enableActivityRecognitionHardwareOverlay">false</bool>
     <bool name="config_enableAppWidgetService">false</bool>
-    <bool name="config_enableAutoPowerModes">true</bool>
     <bool name="config_enableBurnInProtection">false</bool>
     <bool name="config_enableCarDockHomeLaunch">true</bool>
     <bool name="config_enableCredentialFactoryResetProtection">true</bool>
@@ -97,7 +93,6 @@
     <bool name="config_enableLockBeforeUnlockScreen">false</bool>
     <bool name="config_enableLockScreenRotation">false</bool>
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
-    <bool name="config_enableMultiUserUI">false</bool>
     <bool name="config_enableNetworkLocationOverlay">true</bool>
     <bool name="config_enableNewAutoSelectNetworkUI">false</bool>
     <bool name="config_enableNightMode">false</bool>
@@ -128,7 +123,6 @@
     <bool name="config_localDisplaysPrivate">false</bool>
     <bool name="config_lockDayNightMode">false</bool>
     <bool name="config_lockUiMode">false</bool>
-    <item type="bool" name="config_mainBuiltInDisplayIsRound">@bool/config_windowIsRound</item>
     <bool name="config_mms_content_disposition_support">true</bool>
     <bool name="config_networkSamplingWakesDevice">true</bool>
     <item type="bool" name="config_nightDisplayAvailable">@bool/config_setColorTransformAccelerated</item>
@@ -184,8 +178,6 @@
     <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
     <bool name="config_sustainedPerformanceModeSupported">false</bool>
     <bool name="config_swipeDisambiguation">true</bool>
-    <bool name="config_swipe_up_gesture_default">false</bool>
-    <bool name="config_swipe_up_gesture_setting_available">false</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">true</bool>
     <bool name="config_syncstorageengine_masterSyncAutomatically">true</bool>
     <bool name="config_timeZoneRulesUpdateTrackingEnabled">false</bool>

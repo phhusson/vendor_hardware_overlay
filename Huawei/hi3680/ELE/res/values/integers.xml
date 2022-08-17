@@ -58,7 +58,6 @@
     <integer name="config_deskDockKeepsScreenOn">1</integer>
     <integer name="config_deskDockRotation">-1</integer>
     <integer name="config_dockedStackDividerSnapMode">0</integer>
-    <integer name="config_doublePressOnPowerBehavior">3</integer>
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
     <integer name="config_downloadDataDirLowSpaceThreshold">10</integer>
     <integer name="config_downloadDataDirSize">200</integer>
@@ -103,7 +102,6 @@
     <integer name="config_mobile_hotspot_provision_check_period">24</integer>
     <integer name="config_mobile_mtu">1400</integer>
     <integer name="config_multiuserMaxRunningUsers">2</integer>
-    <integer name="config_multiuserMaximumUsers">1</integer>
     <integer name="config_navBarOpacityMode">0</integer>
     <integer name="config_networkAvoidBadWifi">1</integer>
     <integer name="config_networkDefaultDailyMultipathQuotaBytes">2500000</integer>
@@ -143,7 +141,6 @@
     <integer name="config_screenBrightnessSettingDefault">33</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">4</integer>
-    <integer name="config_screen_magnification_multi_tap_adjustment">-50</integer>
     <integer name="config_shortPressOnPowerBehavior">1</integer>
     <integer name="config_shortPressOnSleepBehavior">0</integer>
     <integer name="config_shutdownBatteryTemperature">680</integer>
