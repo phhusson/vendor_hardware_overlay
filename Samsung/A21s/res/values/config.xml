@@ -7,11 +7,10 @@
   <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
   <bool name="config_supportDoubleTapWake">true</bool>
 
-  <dimen name="status_bar_height">68px</dimen>
-  <dimen name="status_bar_height_default">68px</dimen>
-  <dimen name="status_bar_height_portrait">68px</dimen>
-  <dimen name="status_bar_height_landscape">28dp</dimen>
-  <dimen name="quick_qs_offset_height">68px</dimen>
+  <dimen name="status_bar_height">90px</dimen>
+  <dimen name="status_bar_height_default">90px</dimen>
+  <dimen name="status_bar_height_portrait">90px</dimen>
+  <dimen name="quick_qs_offset_height">90px</dimen>
 
   <string translatable="false" name="config_mainBuiltInDisplayCutout">
     M 0,0
