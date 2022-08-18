@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="status_bar_height">100px</dimen>
-    <dimen name="status_bar_height_portrait">100px</dimen>
+    <dimen name="status_bar_height">110px</dimen>
+    <dimen name="status_bar_height_default">110px</dimen>
+    <dimen name="status_bar_height_portrait">110px</dimen>
 </resources>
