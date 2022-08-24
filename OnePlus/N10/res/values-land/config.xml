@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="status_bar_height_default">139px</dimen>
-    <item type="dimen" name="quick_qs_offset_height">139px</item>
-    <item type="dimen" name="status_bar_height">139px</item>
+<resources>    
+    <dimen name="status_bar_height">48dp</dimen>
+    <dimen name="quick_qs_offset_height">48dp</dimen>
+    <dimen name="quick_qs_total_height">176dp</dimen>
 </resources>
