@@ -64,11 +64,6 @@
         <item>16000</item>
         <item>20000</item>
     </integer-array>
-    <array name="config_limitMinLux">
-        <item>1.25</item>
-        <item>0.95</item>
-        <item>0.75</item>
-    </array>
     <integer-array name="config_screenBrighteningThresholds">
         <item>0</item>
     </integer-array>
@@ -209,11 +204,6 @@
     <integer-array name="config_screenDarkeningThresholds">
         <item>0</item>
     </integer-array>
-    <integer-array name="config_timeSlotsForMinLux">
-        <item>6</item>
-        <item>20</item>
-        <item>24</item>
-    </integer-array>
 
     <array name="config_minimumBrightnessCurveNits">
         <item>0.0</item>
@@ -241,9 +231,6 @@
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_batched_scan_supported">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
-    <bool name="config_wifi_dual_sap_mode_enabled">false</bool>
-    <bool name="config_wifi_softap_acs_supported">true</bool>
-    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
 
     <!-- DEVICE -->
     <bool name="config_device_volte_available">true</bool>
@@ -252,27 +239,15 @@
 
     <!-- CARRIER -->
     <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_carrier_volte_tty_supported">true</bool>
-    <bool name="config_carrier_vt_available">false</bool>
     <bool name="config_carrier_wfc_ims_available">false</bool>
-    <bool name="config_device_respects_hold_carrier_config">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
 
     <!-- BLUETOOTH -->
-    <bool name="config_bluetooth_address_validation">false</bool>
-    <bool name="config_bluetooth_default_profiles">true</bool>
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
-    <bool name="config_bluetooth_pan_enable_autoconnect">false</bool>
-    <bool name="config_bluetooth_reload_supported_profiles_when_enabled">false</bool>
-    <bool name="config_bluetooth_sco_off_call">true</bool>
-    <bool name="config_bluetooth_wide_band_speech">true</bool>
-    <bool name="config_supportBluetoothPersistedState">true</bool>
 
     <integer name="config_bluetooth_idle_cur_ma">0</integer>
-    <integer name="config_bluetooth_max_advertisers">0</integer>
     <integer name="config_bluetooth_max_connected_audio_devices">5</integer>
-    <integer name="config_bluetooth_max_scan_filters">0</integer>
     <integer name="config_bluetooth_operating_voltage_mv">0</integer>
     <integer name="config_bluetooth_rx_cur_ma">0</integer>
     <integer name="config_bluetooth_tx_cur_ma">0</integer>
@@ -282,8 +257,6 @@
     <dimen name="status_bar_height">@dimen/status_bar_height_portrait</dimen>
     <dimen name="status_bar_height_portrait">48dp</dimen>
     <dimen name="status_bar_height_landscape">@dimen/status_bar_height_portrait</dimen>
-    <dimen name="quick_qs_offset_height">48dp</dimen>
-    <dimen name="quick_qs_total_height">176dp</dimen>
 
 
     <!-- CUTOUT -->
