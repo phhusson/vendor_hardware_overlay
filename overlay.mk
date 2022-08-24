@@ -107,10 +107,10 @@ PRODUCT_PACKAGES += \
 	treble-overlay-nubia-z18mini \
 	treble-overlay-oneplus-acepro \
 	treble-overlay-oneplus-acepro-systemui \
-	treble-overlay-oneplus-n2 \
-	treble-overlay-oneplus-n2-systemui \
 	treble-overlay-oneplus-n10 \
 	treble-overlay-oneplus-n10-systemui \
+	treble-overlay-oneplus-n2 \
+	treble-overlay-oneplus-n2-systemui \
 	treble-overlay-oneplus-n20 \
 	treble-overlay-oneplus-n20-systemui \
 	treble-overlay-oneplus-n200 \
