@@ -130,6 +130,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op9-systemui \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
+	treble-overlay-oppo-findx3pro \
+	treble-overlay-oppo-findx3pro-systemui \
 	treble-overlay-oppo-reno6-5g \
 	treble-overlay-oppo-reno6-5g-systemui \
 	treble-overlay-oppo-renopro2019 \
