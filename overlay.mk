@@ -99,6 +99,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
+	treble-overlay-nokia-dpl-3-2 \
 	treble-overlay-nokia-drg-6.1plus-x6 \
 	treble-overlay-nokia-nokia_4_2 \
 	treble-overlay-nokia-pda_sprout-5.1plus-x5 \
