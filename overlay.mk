@@ -109,6 +109,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-nubia-z18mini \
 	treble-overlay-oneplus-acepro \
 	treble-overlay-oneplus-acepro-systemui \
+	treble-overlay-oneplus-n10 \
+	treble-overlay-oneplus-n10-systemui \
 	treble-overlay-oneplus-n2 \
 	treble-overlay-oneplus-n2-systemui \
 	treble-overlay-oneplus-n20 \
@@ -124,6 +126,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6t-systemui \
 	treble-overlay-oneplus-op8 \
 	treble-overlay-oneplus-op8-systemui \
+	treble-overlay-oneplus-op9 \
+	treble-overlay-oneplus-op9-systemui \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
 	treble-overlay-oppo-reno6-5g \
