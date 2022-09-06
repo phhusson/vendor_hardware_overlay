@@ -342,20 +342,20 @@
     <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
 
-    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">-2.0</item>
-    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">-2.0</item>
-    <dimen name="navigation_bar_height">48.0dip</dimen>
-    <dimen name="navigation_bar_height_landscape">48.0dip</dimen>
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0048439</item>
+    <dimen name="navigation_bar_height">16.0dip</dimen>
+    <dimen name="navigation_bar_height_landscape">16.0dip</dimen>
     <dimen name="navigation_bar_width">48.0dip</dimen>
     <dimen name="notification_header_padding_bottom">16.0dip</dimen>
     <dimen name="notification_header_padding_top">16.0dip</dimen>
     <dimen name="quick_qs_offset_height">48.0dip</dimen>
     <dimen name="rounded_corner_radius">0.0dip</dimen>
-    <dimen name="rounded_corner_radius_bottom">0.0dip</dimen>
-    <dimen name="rounded_corner_radius_top">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
+    <dimen name="rounded_corner_radius_top">95.0px</dimen>
     <item type="dimen" name="status_bar_height">@dimen/status_bar_height_portrait</item>
     <item type="dimen" name="status_bar_height_landscape">@dimen/status_bar_height_portrait</item>
-    <dimen name="status_bar_height_portrait">24.0dip</dimen>
+    <dimen name="status_bar_height_portrait">27.636353dip</dimen>
 
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
