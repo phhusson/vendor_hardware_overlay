@@ -117,6 +117,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-n20-systemui \
 	treble-overlay-oneplus-n200 \
 	treble-overlay-oneplus-n200-systemui \
+	treble-overlay-oneplus-nord \
+	treble-overlay-oneplus-nord-systemui \
 	treble-overlay-oneplus-nordce \
 	treble-overlay-oneplus-nordce-systemui \
 	treble-overlay-oneplus-op10pro \
@@ -130,6 +132,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op9-systemui \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
+	treble-overlay-oppo-findx3pro \
+	treble-overlay-oppo-findx3pro-systemui \
 	treble-overlay-oppo-reno6-5g \
 	treble-overlay-oppo-reno6-5g-systemui \
 	treble-overlay-oppo-renopro2019 \
@@ -142,6 +146,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-8-5g-systemui \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
+	treble-overlay-realme-gt2pro \
+	treble-overlay-realme-gt2pro-systemui \
 	treble-overlay-realme-gtmaster \
 	treble-overlay-realme-gtmaster-systemui \
 	treble-overlay-realme-gtmasterexplorer \
