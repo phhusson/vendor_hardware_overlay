@@ -8,7 +8,9 @@
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
@@ -19,6 +21,7 @@
     <bool name="config_wifi_batched_scan_supported">true</bool>
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
     <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
 
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100%</fraction>
@@ -27,6 +30,7 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
     <integer name="config_brightness_ramp_rate_fast">2466</integer>
     <integer name="config_brightness_ramp_rate_slow">1973</integer>
+    <integer name="config_defaultPeakRefreshRate">90</integer>
     <integer name="config_screenBrightnessDim">20</integer>
     <integer name="config_screenBrightnessForVrSettingDefault">688</integer>
     <integer name="config_screenBrightnessForVrSettingMaximum">2047</integer>
@@ -302,6 +306,8 @@
         <item>50.0</item>
         <item>90.0</item>
     </array>
+
+    <string name="config_ims_package">com.mediatek.ims</string>
 
     <string-array name="config_biometric_sensors">
         <item>0:2:15</item>
