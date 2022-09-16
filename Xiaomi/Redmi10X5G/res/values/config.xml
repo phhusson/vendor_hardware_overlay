@@ -270,7 +270,7 @@
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_sustainedPerformanceModeSupported">false</bool>
 
-    <bool name="config_enableBurnInProtection">false</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
 
 
