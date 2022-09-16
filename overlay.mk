@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
 	treble-overlay-hw-ims \
+	treble-overlay-infinix-note10 \
 	treble-overlay-infinix-note10pro \
 	treble-overlay-infinix-note5 \
 	treble-overlay-infinix-note7 \
@@ -89,6 +90,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-nio \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
+	treble-overlay-moto-onefusion \
+	treble-overlay-moto-onefusion-systemui \
 	treble-overlay-moto-onefusionplus \
 	treble-overlay-moto-onehyper \
 	treble-overlay-moto-razr \
@@ -105,12 +108,20 @@ PRODUCT_PACKAGES += \
 	treble-overlay-nokia-pnx-8.1-x7-systemui \
 	treble-overlay-nubia-redmagic3s \
 	treble-overlay-nubia-z18mini \
+	treble-overlay-oneplus-acepro \
+	treble-overlay-oneplus-acepro-systemui \
+	treble-overlay-oneplus-n10 \
+	treble-overlay-oneplus-n10-systemui \
 	treble-overlay-oneplus-n2 \
 	treble-overlay-oneplus-n2-systemui \
 	treble-overlay-oneplus-n20 \
 	treble-overlay-oneplus-n20-systemui \
 	treble-overlay-oneplus-n200 \
 	treble-overlay-oneplus-n200-systemui \
+	treble-overlay-oneplus-nord \
+	treble-overlay-oneplus-nord-systemui \
+	treble-overlay-oneplus-nordce \
+	treble-overlay-oneplus-nordce-systemui \
 	treble-overlay-oneplus-op10pro \
 	treble-overlay-oneplus-op10pro-systemui \
 	treble-overlay-oneplus-op6 \
@@ -118,8 +129,12 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op6t-systemui \
 	treble-overlay-oneplus-op8 \
 	treble-overlay-oneplus-op8-systemui \
+	treble-overlay-oneplus-op9 \
+	treble-overlay-oneplus-op9-systemui \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
+	treble-overlay-oppo-findx3pro \
+	treble-overlay-oppo-findx3pro-systemui \
 	treble-overlay-oppo-reno6-5g \
 	treble-overlay-oppo-reno6-5g-systemui \
 	treble-overlay-oppo-renopro2019 \
@@ -132,6 +147,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-8-5g-systemui \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
+	treble-overlay-realme-gt2pro \
+	treble-overlay-realme-gt2pro-systemui \
 	treble-overlay-realme-gtmaster \
 	treble-overlay-realme-gtmaster-systemui \
 	treble-overlay-realme-gtmasterexplorer \
@@ -150,7 +167,11 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a20 \
 	treble-overlay-samsung-a20s \
 	treble-overlay-samsung-a20s-systemui \
+	treble-overlay-samsung-a21s \
+	treble-overlay-samsung-a21s-systemui \
 	treble-overlay-samsung-a30 \
+	treble-overlay-samsung-a31 \
+	treble-overlay-samsung-a31-systemui \
 	treble-overlay-samsung-a33 \
 	treble-overlay-samsung-a33-systemui \
 	treble-overlay-samsung-a40 \
@@ -208,6 +229,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-sony-pdx206-kddi \
 	treble-overlay-sony-pdx213 \
 	treble-overlay-sony-pdx213-systemui \
+	treble-overlay-sony-pdx215 \
+	treble-overlay-sony-pdx223 \
 	treble-overlay-sprd-ims \
 	treble-overlay-teclast-m30 \
 	treble-overlay-teclast-t30 \
@@ -255,7 +278,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-pocof1 \
 	treble-overlay-xiaomi-pocof4 \
 	treble-overlay-xiaomi-pocof4-systemui \
+	treble-overlay-xiaomi-pocom3pro5g \
 	treble-overlay-xiaomi-pocom4pro5g \
+	treble-overlay-xiaomi-pocox3gt \
 	treble-overlay-xiaomi-redmi10x5g \
 	treble-overlay-xiaomi-redmi6 \
 	treble-overlay-xiaomi-redmi6a \
@@ -264,11 +289,13 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi7onc \
 	treble-overlay-xiaomi-redmi8 \
 	treble-overlay-xiaomi-redmi8a \
+	treble-overlay-xiaomi-redmi9 \
 	treble-overlay-xiaomi-redmi9a \
 	treble-overlay-xiaomi-redmi9t \
 	treble-overlay-xiaomi-redmigo \
 	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redmik20pro-systemui \
+	treble-overlay-xiaomi-redminote10 \
 	treble-overlay-xiaomi-redminote10pro \
 	treble-overlay-xiaomi-redminote10s \
 	treble-overlay-xiaomi-redminote11 \

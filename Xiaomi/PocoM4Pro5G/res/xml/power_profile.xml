@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">105.25</item>
-    <item name="screen.full">289.82</item>
+    <item name="screen.on">100</item>
+    <item name="screen.full">800</item>
     <item name="bluetooth.active">29.17</item>
     <item name="bluetooth.on">1.12</item>
     <item name="wifi.on">0.51</item>
     <item name="wifi.active">146.6</item>
     <item name="wifi.scan">14.51</item>
-    <item name="audio">14.25</item>
-    <item name="video">56.52</item>
-    <item name="camera.flashlight">121.8</item>
-    <item name="camera.avg">449.46</item>
-    <item name="gps.on">26.98</item>
-    <item name="radio.active">247.58</item>
-    <item name="radio.scanning">10</item>
+    <item name="audio">100.0</item>
+    <item name="video">150.0</item>
+    <item name="camera.flashlight">500</item>
+    <item name="camera.avg">600</item>
+    <item name="gps.on">10</item>
+    <item name="radio.active">60</item>
+    <item name="radio.scanning">3</item>
     <array name="radio.on">
-        <value>1.8</value>
-        <value>1.8</value>
+        <value>6</value>
+        <value>5</value>
+        <value>4</value>
+        <value>3</value>
+        <value>3</value>
     </array>
     <array name="cpu.clusters.cores">
         <value>6</value>
@@ -25,15 +28,15 @@
     </array>
     <array name="cpu.core_speeds.cluster0">
         <value>500000</value>
-        <value>620000</value>
-        <value>675000</value>
-        <value>730000</value>
-        <value>840000</value>
-        <value>950000</value>
-        <value>1032000</value>
-        <value>1115000</value>
-        <value>1280000</value>
-        <value>1390000</value>
+        <value>650000</value>
+        <value>703000</value>
+        <value>756000</value>
+        <value>862000</value>
+        <value>968000</value>
+        <value>1048000</value>
+        <value>1128000</value>
+        <value>1287000</value>
+        <value>1393000</value>
         <value>1500000</value>
         <value>1645000</value>
         <value>1750000</value>
@@ -52,13 +55,11 @@
         <value>1418000</value>
         <value>1534000</value>
         <value>1650000</value>
-        <value>1719000</value>
-        <value>1788000</value>
-        <value>1903000</value>
-        <value>1995000</value>
-        <value>2078000</value>
+        <value>1837000</value>
+        <value>1993000</value>
+        <value>2118000</value>
         <value>2203000</value>
-        <value>2295000</value>
+        <value>2306000</value>
         <value>2400000</value>
     </array>
     <array name="cpu.core_power.cluster0">
@@ -96,11 +97,10 @@
         <value>173.14</value>
         <value>189.07</value>
         <value>212.36</value>
-        <value>223.57</value>
-        <value>234.78</value>
     </array>
-    <item name="cpu.idle">8.59</item>
+    <item name="cpu.idle">1.11</item>
     <item name="cpu.suspend">5</item>
+    <item name="cpu.active">2.55</item>
     <item name="cpu.cluster_power.cluster0">2.11</item>
     <item name="cpu.cluster_power.cluster1">2.22</item>
     <array name="memory.bandwidths">
