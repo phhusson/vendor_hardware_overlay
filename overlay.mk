@@ -255,6 +255,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-wifi5g \
 	treble-overlay-xiaomi-civi \
 	treble-overlay-xiaomi-civi-systemui \
+	treble-overlay-xiaomi-mi10tlite \
+	treble-overlay-xiaomi-mi10tlite-systemui \
 	treble-overlay-xiaomi-mi11lite5g \
 	treble-overlay-xiaomi-mi11tpro \
 	treble-overlay-xiaomi-mi6x \
