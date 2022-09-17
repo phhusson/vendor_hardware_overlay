@@ -279,9 +279,6 @@
 
     <!-- adjustments -->
 
-    <dimen name="status_bar_height">95px</dimen>
-    <!-- _default ensures that `SystemBarUtils.getStatusBarHeight` will get correct value -->
-    <dimen name="status_bar_height_default">95px</dimen>
     <dimen name="status_bar_height_portrait">95px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
 
