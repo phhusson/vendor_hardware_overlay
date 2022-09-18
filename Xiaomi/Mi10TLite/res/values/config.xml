@@ -294,4 +294,6 @@
     <bool name="config_carrier_wfc_ims_available">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
     <string name="config_ims_package">org.codeaurora.ims</string>
+
+    <bool name="config_setColorTransformAccelerated">true</bool>
 </resources>
