@@ -79,6 +79,7 @@ skip_restoring_network_selection
 status_bar_height_landscape
 status_bar_height_portrait
 status_bar_height
+status_bar_height_default
 config_supportDoubleTapWake
 config_dozePulsePickup
 navigation_bar_height
@@ -144,3 +145,7 @@ config_biometric_sensors
 config_safeModeEnabledVibePattern
 config_scrollBarrierVibePattern
 config_fingerprintSupportsGestures
+config_screenBrightnessSettingMaximumFloat
+config_screenBrightnessSettingMinimumFloat
+config_defaultRefreshRate
+config_defaultPeakRefreshRate

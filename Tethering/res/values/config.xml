@@ -4,6 +4,7 @@
         <item>"wlan\\d"</item>
         <item>"softap\\d"</item>
         <item>"ap\\d"</item>
+        <item>"swlan0"</item>
     </string-array>
     <string-array translatable="false" name="config_tether_bluetooth_regexs">
         <item>"bt-pan"</item>
