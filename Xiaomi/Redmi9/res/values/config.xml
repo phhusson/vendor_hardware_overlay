@@ -223,18 +223,18 @@
         <item>350</item>
     </integer-array>
     <string-array name="config_defaultPinnerServiceFiles">
-        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
-        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
-        <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
-        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
-        <item>/system/framework/arm64/boot.oat</item>
-        <item>/system/framework/arm/boot.oat</item>
-        <item>/system/framework/oat/arm64/services.odex</item>
-        <item>/system/framework/oat/arm/services.odex</item>
-        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/apex/com.android.art/javalib/arm/boot.oat</item>
+        <item>/apex/com.android.art/javalib/arm64/boot.oat</item>
+        <item>/apex/com.android.art/javalib/arm/boot-core-libart.oat</item>
+        <item>/apex/com.android.art/javalib/arm64/boot-core-libart.oat</item>
         <item>/system/framework/arm/boot-framework.oat</item>
-        <item>/system/framework/arm64/boot-core-libart.oat</item>
-        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/services.jar</item>
+        <item>/system/system_ext/apex/com.android.art/javalib/arm/boot.oat</item>
+        <item>/system/system_ext/apex/com.android.art/javalib/arm64/boot.oat</item>
+        <item>/system/system_ext/apex/com.android.art/javalib/arm64/boot-core-libart.oat</item>
+        <item>/system/system_ext/apex/com.android.art/javalib/arm/boot-core-libart.oat</item>
         <item>/system/lib64/libRScpp.so</item>
         <item>/system/lib64/libRS.so</item>
         <item>/system/lib64/libRS_internal.so</item>
