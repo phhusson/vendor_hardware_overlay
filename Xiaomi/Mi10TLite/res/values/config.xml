@@ -279,15 +279,16 @@
 
     <!-- adjustments -->
 
+    <!-- screen properties -->
     <dimen name="status_bar_height_portrait">95px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
-
     <dimen name="rounded_corner_radius_top">93px</dimen>
     <dimen name="rounded_corner_radius_bottom">86px</dimen>
     <dimen name="rounded_corner_radius">90px</dimen>
     <string name="config_mainBuiltInDisplayCutout">M 30,58 a30,30 0 1,1 0,-1 Z</string>
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -30,28 h 60 v 60 h -60 Z</string>
 
+    <!-- enable VoLTE (IMS APK required) -->
     <bool name="config_device_volte_available">true</bool>
     <bool name="config_carrier_volte_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
@@ -295,5 +296,9 @@
     <bool name="config_dynamic_bind_ims">true</bool>
     <string name="config_ims_package">org.codeaurora.ims</string>
 
+    <!-- enable night display & bright color reduction -->
     <bool name="config_setColorTransformAccelerated">true</bool>
+
+    <!-- set to zero, config_defaultPeakRefreshRate will be the default refresh rate -->
+    <integer name="config_defaultRefreshRate">0</integer>
 </resources>
