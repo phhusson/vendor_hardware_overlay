@@ -57,54 +57,47 @@
         <value>2208000</value>
     </array>
     <array name="memory.bandwidths">
-        <value>22.7</value>
-    </array>
-    <array name="gps.signalqualitybased">
-        <value>0</value>
-        <value>0</value>
+        <value>13.5</value>
     </array>
     <array name="radio.on">
-        <value>8.72</value>
-        <value>0.1</value>
+        <value>4.5</value>
+        <value>4.5</value>
     </array>
     <array name="wifi.batchedscan">
-        <value>.0002</value>
-        <value>.002</value>
-        <value>.02</value>
-        <value>.2</value>
-        <value>2</value>
+        <value>.0001</value>
+        <value>.001</value>
+        <value>.01</value>
+        <value>.1</value>
+        <value>1</value>
     </array>
-    <array name="wifi.controller.tx_levels" />
     
     <item name="none">0</item>
-    <item name="battery.capacity">5024</item>
-    <item name="bluetooth.active">18.2</item>
-    <item name="bluetooth.on">5.17</item>
-    <item name="camera.flashlight">130.00</item>
-    <item name="camera.avg">670.00</item>
-    <item name="cpu.active">1</item>
-    <item name="cpu.cluster_power.cluster0">12.10</item>
-    <item name="cpu.cluster_power.cluster1">16.43</item>
-    <item name="cpu.idle">0.52</item>
-    <item name="cpu.suspend">4.65</item>
-    <item name="dsp.audio">10.4</item>
-    <item name="dsp.video">41.73</item>
-    <item name="gps.on">49.94</item>
-    <item name="gps.voltage">0</item>
-    <item name="modem.controller.idle">0</item>
-    <item name="modem.controller.rx">0</item>
+    <item name="battery.capacity">5000</item>
+    <item name="bluetooth.active">18.3</item>
+    <item name="bluetooth.on">0.9</item>
+    <item name="bluetooth.controller.voltage">3700</item>
+    <item name="camera.avg">320</item>
+    <item name="cpu.active">18.3</item>
+    <item name="cpu.awake">18</item>
+    <item name="cpu.idle">5.34</item>
+    <item name="cpu.suspend">0</item>
+    <item name="dsp.audio">15.6</item>
+    <item name="dsp.video">96.1</item>
+    <item name="gps.on">41</item>
+    <item name="modem.controller.idle">4.4</item>
+    <item name="modem.controller.rx">168</item>
     <item name="modem.controller.sleep">0</item>
-    <item name="modem.controller.tx">0</item>
-    <item name="modem.controller.voltage">0</item>
-    <item name="radio.active">120.65</item>
-    <item name="radio.scanning">8.9</item>
+    <item name="modem.controller.tx">163</item>
+    <item name="modem.controller.voltage">3700</item>
+    <item name="radio.active">165</item>
+    <item name="radio.scanning">1.8</item>
     <item name="screen.full">81.42</item>
-    <item name="screen.on">104.48</item>
-    <item name="wifi.active">112.28</item>
+    <item name="screen.on">2</item>
+    <item name="wifi.active">109</item>
     <item name="wifi.controller.idle">1</item>
-    <item name="wifi.controller.rx">189.89</item>
-    <item name="wifi.controller.tx">189.89</item>
-    <item name="wifi.controller.voltage">0</item>
-    <item name="wifi.on">1</item>
-    <item name="wifi.scan">39.00</item>
+    <item name="wifi.controller.rx">121</item>
+    <item name="wifi.controller.tx">156</item>
+    <item name="wifi.controller.voltage">3700</item>
+    <item name="wifi.on">0.3</item>
+    <item name="wifi.scan">1.2</item>
 </device>
