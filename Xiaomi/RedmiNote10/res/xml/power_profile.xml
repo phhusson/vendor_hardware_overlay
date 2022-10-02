@@ -70,7 +70,6 @@
         <value>.1</value>
         <value>1</value>
     </array>
-    <array name="wifi.controller.tx_levels">1</array>
     
     <item name="none">0</item>
     <item name="battery.capacity">5000</item>
@@ -92,7 +91,7 @@
     <item name="modem.controller.voltage">3700</item>
     <item name="radio.active">165</item>
     <item name="radio.scanning">1.8</item>
-    <item name="screen.full">49</item>
+    <item name="screen.full">81.42</item>
     <item name="screen.on">2</item>
     <item name="wifi.active">109</item>
     <item name="wifi.controller.idle">1</item>
