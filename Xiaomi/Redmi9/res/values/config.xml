@@ -29,7 +29,6 @@
         <item>2000</item>
         <item>4000</item>
     </integer-array>
-    <array name="config_autoBrightnessButtonBacklightValues" />
     <integer-array name="config_autoBrightnessDisplayValuesNits">
         <item>7</item>
         <item>7</item>
@@ -223,27 +222,13 @@
         <item>350</item>
     </integer-array>
     <string-array name="config_defaultPinnerServiceFiles">
-        <item>/apex/com.android.art/javalib/arm/boot.oat</item>
-        <item>/apex/com.android.art/javalib/arm64/boot.oat</item>
-        <item>/apex/com.android.art/javalib/arm/boot-core-libart.oat</item>
-        <item>/apex/com.android.art/javalib/arm64/boot-core-libart.oat</item>
-        <item>/system/framework/arm/boot-framework.oat</item>
-        <item>/system/framework/arm64/boot-framework.oat</item>
-        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/framework.jar</item>
         <item>/system/framework/services.jar</item>
-        <item>/system/system_ext/apex/com.android.art/javalib/arm/boot.oat</item>
-        <item>/system/system_ext/apex/com.android.art/javalib/arm64/boot.oat</item>
-        <item>/system/system_ext/apex/com.android.art/javalib/arm/boot-core-libart.oat</item>
-        <item>/system/system_ext/apex/com.android.art/javalib/arm64/boot-core-libart.oat</item>
-        <item>/system/lib64/libRScpp.so</item>
-        <item>/system/lib64/libRS.so</item>
-        <item>/system/lib64/libRS_internal.so</item>
-        <item>/system/lib64/libbcinfo.so</item>
-        <item>/system/lib64/libRSDriver.so</item>
-        <item>/system/lib64/libRSCpuRef.so</item>
-        <item>/system/lib64/libblas.so</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.art/javalib/core-oj.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+        <item>/system/bin/surfaceflinger</item>
     </string-array>
-    <array name="config_ephemeralResolverPackage" />
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
@@ -266,7 +251,6 @@
         <item>50.0</item>
         <item>90.0</item>
     </array>
-    <array name="config_mobile_tcp_buffers" />
     <integer-array name="config_notificationFallbackVibePattern">
         <item>0</item>
         <item>100</item>
@@ -403,7 +387,7 @@
     <bool name="config_displayBlanksAfterDoze">true</bool>
     <bool name="config_displayBrightnessBucketsInDoze">false</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_dozePulsePickup">false</bool>
     <bool name="config_dozeSupportsAodWallpaper">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
@@ -417,7 +401,7 @@
     <bool name="config_lidControlsSleep">true</bool>
     <item type="bool" name="config_nightDisplayAvailable">@bool/config_setColorTransformAccelerated</item>
     <bool name="config_pinnerCameraApp">false</bool>
-    <bool name="config_pinnerHomeApp">false</bool>
+    <bool name="config_pinnerHomeApp">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
@@ -447,7 +431,6 @@
     <dimen name="notification_header_padding_bottom">16.0dip</dimen>
     <dimen name="notification_header_padding_top">16.0dip</dimen>
     <dimen name="quick_qs_offset_height">48.0dip</dimen>
-    <dimen name="rounded_corner_radius">0.0dip</dimen>
     <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
     <dimen name="rounded_corner_radius_top">95.0px</dimen>
     <item type="dimen" name="status_bar_height">@dimen/status_bar_height_portrait</item>
@@ -487,7 +470,6 @@
     <integer name="config_screenBrightnessDoze">1</integer>
     <integer name="config_shutdownBatteryTemperature">600</integer>
 
-    <string name="config_cameraLaunchGestureSensorStringType" />
     <string name="config_ims_package">com.mediatek.ims</string>
     <string name="config_mainBuiltInDisplayCutout">M84.0014003,76.0002722 C39.8036856,75.9997279 11.8039716,75.9996372 0.00225823708,76 C-11.8004588,76.0003629 -39.8012115,76.0004536 -84,76.0002722 L-84,-4.19220214e-13 L84.0014003,-4.19220214e-13 L84.0014003,76.0002722 Z</string>
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
