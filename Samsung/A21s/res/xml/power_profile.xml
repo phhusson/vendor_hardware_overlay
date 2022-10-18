@@ -30,7 +30,8 @@
     <value>0</value>
   </array>
   <item name="wifi.controller.voltage">3600</item>
-  <array name="wifi.batchedscan">  <value>.0002</value>
+  <array name="wifi.batchedscan">
+    <value>.0002</value>
     <value>.002</value>
     <value>.02</value>
     <value>.2</value>
@@ -120,6 +121,7 @@
     <value>754000</value>
     <value>865000</value>
     <value>1001000</value>
+    <value>1196000</value>
   </array>
   <item name="battery.capacity">4900</item>
   <item name="battery.typical.capacity">5000</item>
