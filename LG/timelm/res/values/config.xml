@@ -129,7 +129,6 @@
     </array>
     <string name="config_ims_package">com.lge.ims</string>
     <string name="config_mainBuiltInDisplayCutout">M 0,0 L -23.23, 0 L -23.23, 28.98 L 23.23, 28.98 L 23.23, 0 Z @dp</string>
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,0 L -23.23, 0 L -23.23, 28.98 L 23.23, 28.98 L 23.23, 0 Z @dp</string>
     <array name="config_biometric_sensors">
         <item>0:2:15</item>
     </array>

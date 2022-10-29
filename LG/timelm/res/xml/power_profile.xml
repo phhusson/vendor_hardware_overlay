@@ -395,40 +395,4 @@
         <value>0
         </value>
     </array>
-    <array name="block_aod">
-        <value>1.13
-        </value>
-        <value>1.76
-        </value>
-    </array>
-    <item name="max_restrict_frame_rate">0.04
-    </item>
-    <array name="block_haptic">
-        <value>0.01
-        </value>
-        <value>0.01
-        </value>
-    </array>
-    <array name="restrict_cpu_gpu">
-        <value>0
-        </value>
-        <value>0
-        </value>
-    </array>
-    <array name="restrict_apps">
-        <value>0.23
-        </value>
-        <value>0.72
-        </value>
-    </array>
-    <array name="restrict_network_location">
-        <value>0.01
-        </value>
-        <value>1.00
-        </value>
-        <value>0.01
-        </value>
-        <value>0.01
-        </value>
-    </array>
 </device>
