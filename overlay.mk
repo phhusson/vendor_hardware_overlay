@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-NightMode \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-Telephony-LTE \
+	treble-overlay-asus-rogphone \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5-10 \
 	treble-overlay-asus-zenfone5z \
