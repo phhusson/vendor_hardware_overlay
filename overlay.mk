@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-NightMode \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-Telephony-LTE \
+	treble-overlay-asus-rogphone \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5-10 \
 	treble-overlay-asus-zenfone5z \
@@ -66,6 +67,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lg-velvet \
 	treble-overlay-lge-mfh505glm \
 	treble-overlay-lge-mfh505glm-systemui \
+	treble-overlay-lge-timelm \
 	treble-overlay-mbi-s10 \
 	treble-overlay-mbi-s10-systemui \
 	treble-overlay-meizu-m2181 \
@@ -98,6 +100,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-razr \
 	treble-overlay-moto-rhodep \
 	treble-overlay-moto-rhodep-systemui \
+	treble-overlay-moto-tundra \
+	treble-overlay-moto-tundra-systemui \
 	treble-overlay-mtk-ims \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
@@ -294,6 +298,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi8 \
 	treble-overlay-xiaomi-redmi8a \
 	treble-overlay-xiaomi-redmi9 \
+	treble-overlay-xiaomi-redmi9-systemui \
 	treble-overlay-xiaomi-redmi9a \
 	treble-overlay-xiaomi-redmi9t \
 	treble-overlay-xiaomi-redmigo \

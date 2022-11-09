@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="status_bar_height_portrait">27.636353dip</dimen>
+    <dimen name="status_bar_height_landscape">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="quick_qs_offset_height">48.0dip</dimen>
+    <dimen name="navigation_bar_height">48.0dip</dimen>
+    <dimen name="navigation_bar_height_landscape">48.0dip</dimen>
+    <dimen name="navigation_bar_width">48.0dip</dimen>
+    <dimen name="rounded_corner_radius">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_top">95.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
+    <dimen name="notification_header_padding_top">16.0dip</dimen>
+    <dimen name="notification_header_padding_bottom">16.0dip</dimen>
+</resources>
