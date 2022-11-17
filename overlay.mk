@@ -255,7 +255,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-tethering \
 	treble-overlay-tethering-nobpf \
 	treble-overlay-umidigi-A3S \
+	treble-overlay-tethering \
 	treble-overlay-umidigi-power \
+	treble-overlay-umidigi-a7pro \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vivo-y20 \
 	treble-overlay-vivo-y20-systemui \
@@ -314,9 +316,16 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote6pro-systemui \
 	treble-overlay-xiaomi-redminote7 \
 	treble-overlay-xiaomi-redminote8pro \
-	treble-overlay-xiaomi-redminote9pro \
-	treble-overlay-xiaomi-redminote9promax \
-	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
+	treble-overlay-xiaomi-redminote9s \
+	treble-overlay-xiaomi-redminote9s-wifi \
+	treble-overlay-xiaomi-redminote9s-systemui \
+	treble-overlay-xiaomi-redminote9pro \
+	treble-overlay-xiaomi-redminote9pro-systemui \
+	treble-overlay-xiaomi-redminote9pro-wifi \
+	treble-overlay-xiaomi-redminote9promax \
+	treble-overlay-xiaomi-redminote9promax-systemui \
+	treble-overlay-xiaomi-redminote9promax-wifi \
+	treble-overlay-doogee-y8 \
 

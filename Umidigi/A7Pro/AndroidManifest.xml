@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="me.phh.treble.overlay.xiaomi.redminote9s"
+        package="me.phh.treble.overlay.umidigi.a7pro"
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.product.vendor.device"
-                android:requiredSystemPropertyValue="curtana"
-		android:priority="1040"
+                android:requiredSystemPropertyName="ro.product.vendor.model"
+		android:requiredSystemPropertyValue="A7 Pro"
+		android:priority="114"
 		android:isStatic="true" />
 </manifest>
