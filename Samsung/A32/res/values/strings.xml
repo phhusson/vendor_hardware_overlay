@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -33.14285714285714 V 30.0952380952381 H 33.14285714285714 V 0 H 0 Z @dp</string>
+</resources>
