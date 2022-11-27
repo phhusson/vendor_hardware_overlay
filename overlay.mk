@@ -256,6 +256,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-tethering \
 	treble-overlay-tethering-nobpf \
 	treble-overlay-umidigi-A3S \
+	treble-overlay-umidigi-A5pro \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
 	treble-overlay-vivo-y20 \
