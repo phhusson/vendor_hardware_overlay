@@ -5,6 +5,6 @@
         <overlay android:targetPackage="com.android.systemui"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
                 android:requiredSystemPropertyValue="a73xq"
-        android:priority="573"
+        android:priority="442"
         android:isStatic="true" />
 </manifest>
