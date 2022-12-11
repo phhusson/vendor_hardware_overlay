@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_carrier_volte_provisioned">true</bool>
+    <bool name="config_carrier_volte_tty_supported">false</bool>
+    <bool name="config_carrier_vt_available">true</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <bool name="config_enableDtmfLocalTone">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_hearing_aid_profile_supported">false</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_supportSystemNavigationKeys">false</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_wifi_framework_enable_associated_network_selection">false</bool>
+    <bool name="config_wifi_wlanPlus_supported">true</bool>
+    <bool name="config_zramWriteback">true</bool>
+    <bool name="skipHoldBeforeMerge">false</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="useImsAlwaysForEmergencyCall">false</bool>
+</resources>
