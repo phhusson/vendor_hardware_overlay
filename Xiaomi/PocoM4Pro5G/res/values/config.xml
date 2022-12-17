@@ -31,6 +31,7 @@
     <integer name="config_brightness_ramp_rate_fast">2466</integer>
     <integer name="config_brightness_ramp_rate_slow">1973</integer>
     <integer name="config_defaultPeakRefreshRate">90</integer>
+    <integer name="config_defaultRefreshRate">90</integer>
     <integer name="config_screenBrightnessDim">20</integer>
     <integer name="config_screenBrightnessForVrSettingDefault">688</integer>
     <integer name="config_screenBrightnessForVrSettingMaximum">2047</integer>
