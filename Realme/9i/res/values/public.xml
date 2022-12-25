@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="xml" name="power_profile" id="0x7f020000" />
+    <public type="array" name="config_autoBrightnessLevels" id="0x7f030000" />
+    <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f030001" />
+    <public type="array" name="config_defaultPinnerServiceFiles" id="0x7f030002" />
+    <public type="bool" name="config_automatic_brightness_available" id="0x7f040000" />
+    <public type="bool" name="config_showNavigationBar" id="0x7f040001" />
+    <public type="bool" name="config_suspendWhenScreenOffDueToProximity" id="0x7f040002" />
+    <public type="bool" name="config_wifi_dual_band_support" id="0x7f040003" />
+    <public type="bool" name="config_supportDoubleTapWake" id="0x7f040004" />
+</resources>
