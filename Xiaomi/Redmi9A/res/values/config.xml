@@ -290,6 +290,7 @@
     <integer name="config_bluetooth_rx_cur_ma">0</integer>
     <integer name="config_bluetooth_tx_cur_ma">0</integer>
     <integer name="config_shutdownBatteryTemperature">600</integer>
+    <dimen name="status_bar_height">24.0dip</dimen>
     <dimen name="status_bar_height_portrait">24.0dip</dimen>
     <dimen name="rounded_corner_radius">0.0dip</dimen>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height_default">160px</dimen>
+    <dimen name="status_bar_height">160px</dimen>
+    <dimen name="status_bar_height_portrait">160px</dimen>
+    <dimen name="status_bar_height_landscape">28dp</dimen>
+    <dimen name="quick_qs_offset_height">160px</dimen>
+
+    <string name="config_mainBuiltInDisplayCutout">M -720,0 L -720,124 L -525,124 L -525,0 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -720,0 L -720,124 L -525,124 L -525,0 Z</string>
+</resources>
