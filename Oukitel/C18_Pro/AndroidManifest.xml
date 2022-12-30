@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 		android:requiredSystemPropertyValue="+OUKITEL/C18_Pro*"
-		android:priority="251"
+		android:priority="103"
 		android:isStatic="true" />
 </manifest>
