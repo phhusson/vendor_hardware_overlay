@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
+    <integer-array name="config_availableColorModes">
+        <item>-1</item>
+    </integer-array>
     <integer-array name="config_autoBrightnessDisplayValuesNits">
         <item>11</item>
         <item>15</item>
