@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
                 android:requiredSystemPropertyValue="evergo"
-		android:priority="605"
+		android:priority="160"
 		android:isStatic="true" />
 </manifest>
