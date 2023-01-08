@@ -295,6 +295,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-pocom4pro5g \
 	treble-overlay-xiaomi-pocom4pro5g-systemui \
 	treble-overlay-xiaomi-pocox3gt \
+	treble-overlay-xiaomi-redminote115g \
+	treble-overlay-xiaomi-redminote115g-systemui \
 	treble-overlay-xiaomi-redmi10x5g \
 	treble-overlay-xiaomi-redmi10x5g-systemui \
 	treble-overlay-xiaomi-redmi6 \
