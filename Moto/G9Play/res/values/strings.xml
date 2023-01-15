@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
+    <string name="config_mainBuiltInDisplayCutout">M -42,0 L -42,43 L 42,43 L 42,0 Z</string>
+    <string name="wifi_tether_configure_ssid_default">moto g(9) play</string>
+</resources>
