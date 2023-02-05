@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">M-88.5,0v0.1c15,0.5,25.7,12.4,28.5,28.5C-55.9,58.2-30.6,81,0,81c30.7,0,56.1-23,60.1-52.7C63,12.3,73.6,0.6,88.5,0.1V0H-88.5z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
+</resources>
