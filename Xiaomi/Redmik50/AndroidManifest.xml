@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.phh.treble.overlay.redmi.k50"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay 
+	android:targetPackage="android"
+      android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+	android:requiredSystemPropertyValue="+*edmi/rubens*"
+	android:isStatic="true"		
+	android:priority="394"/>
+</manifest>
