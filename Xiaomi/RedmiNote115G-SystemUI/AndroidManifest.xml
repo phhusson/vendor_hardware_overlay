@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="com.android.systemui"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
-                android:requiredSystemPropertyValue="evergo"
+                android:requiredSystemPropertyValue="*everg*"
 		android:priority="197"
 		android:isStatic="true" />
 </manifest>
