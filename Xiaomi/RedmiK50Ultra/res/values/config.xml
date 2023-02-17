@@ -387,7 +387,6 @@
     <bool name="config_displayBrightnessBucketsInDoze">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_dozeAlwaysOnEnabled">true</bool>
     <bool name="config_dozePulsePickup">false</bool>
     <bool name="config_dozeSupportsAodWallpaper">false</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
