@@ -7,4 +7,5 @@
     <dimen name="status_bar_icon_padding">2dp</dimen>
     <dimen name="status_bar_padding_top">4dp</dimen>
     <item name="proximity_sensor_threshold" translatable="false" format="float" type="dimen">5</item>
+    <dimen name="physical_power_button_center_screen_location_y">1150px</dimen>
 </resources>
