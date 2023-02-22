@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_eye_comfort_solution_enabled">true</bool>
+    <bool name="config_mdnie_scenario_control_enabled">true</bool>
+</resources>
