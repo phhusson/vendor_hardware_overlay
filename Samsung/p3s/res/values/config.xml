@@ -18,12 +18,11 @@
         <item>20</item>
         <item>30</item>
     </integer-array>
-	    <integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
+        <integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
         <integer name="config_screenBrightnessSettingDefault">128</integer>
-        <integer name="config_screenBrightnessSettingMaximum">255</integer>
-        <integer name="config_screenBrightnessSettingMinimum">0</integer>
-	    <integer name="config_screenBrightnessDoze">17</integer>
-		<integer name="config_screenBrightnessDark">1</integer>
+        <integer name="config_screenBrightnessSettingMaximum">561</integer>
+        <integer name="config_screenBrightnessSettingMinimum">1</integer>
+	<integer name="config_screenBrightnessDark">1</integer>
 	    <array name="config_autoBrightnessDisplayValuesNits">
         <item>13</item>
         <item>18</item>
@@ -82,7 +81,7 @@
         <item>50</item>
         <item>100</item>
         <item>300</item>
-        <item>500</item>
+        <item>505</item>
         <item>1000</item>
         <item>2000</item>
         <item>2999</item>
@@ -599,7 +598,7 @@
         <item>497</item>
         <item>498</item>
         <item>499</item>
-        <item>500</item>
+        <item>505</item>
         <item>501</item>
         <item>502</item>
         <item>503</item>
@@ -918,7 +917,7 @@
         <item>487.578</item>
         <item>492.05</item>
         <item>496.025</item>
-        <item>500</item>
+        <item>505</item>
         <item>510</item>
         <item>512</item>
         <item>513</item>
@@ -1226,12 +1225,171 @@
         <item>1098</item>
         <item>1100</item>
     </array>
-            <bool name="config_automatic_brightness_available">true</bool>
-            <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-            <bool name="config_displayBlanksAfterDoze">false</bool>
-	    <dimen name="status_bar_height">110px</dimen>
-            <dimen name="status_bar_height_default">110px</dimen>
-            <dimen name="status_bar_height_portrait">110px</dimen>
-	    <integer name="config_defaultRefreshRate">0</integer>
-	    <integer name="config_defaultPeakRefreshRate">120</integer>
+
+    <!-- Flag indicating whether we should enable the automatic brightness.
+         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <!-- Is the device capable of hot swapping an UICC Card -->
+    <bool name="config_hotswapCapable">true</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+         May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">65</integer>
+
+    <!-- Control whether the always on display mode is available. This should only be enabled on
+         devices where the display has be tuned to be power efficient in DOZE and/or DOZE_SUSPEND
+         states. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+
+    <!-- If AOD can show an ambient version of the wallpaper -->
+    <bool name="config_dozeSupportsAodWallpaper">false</bool>
+
+    <!-- True if the display hardware only has brightness buckets rather than a full range of
+         backlight values -->
+    <bool name="config_displayBrightnessBucketsInDoze">false</bool>
+
+    <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
+         device from the display on/off state.
+         When false, autosuspend_disable() will be called before the display is turned on
+         and autosuspend_enable() will be called after the display is turned off.
+         This mode provides best compatibility for devices using legacy power management
+         features such as early suspend / late resume.
+         When true, autosuspend_display() and autosuspend_enable() will be called
+         independently of whether the display is being turned on or off.  This mode
+         enables the power manager to suspend the application processor while the
+         display is on.
+         This resource should be set to "true" when a doze component has been specified
+         to maximize power savings but not all devices support it.
+         Refer to autosuspend.h for details.
+    -->
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+
+    <!-- Power Management: Specifies whether to decouple the interactive state of the
+         device from the display on/off state.
+         When false, setInteractive(..., true) will be called before the display is turned on
+         and setInteractive(..., false) will be called after the display is turned off.
+         This mode provides best compatibility for devices that expect the interactive
+         state to be tied to the display state.
+         When true, setInteractive(...) will be called independently of whether the display
+         is being turned on or off.  This mode enables the power manager to reduce
+         clocks and disable the touch controller while the display is on.
+         This resource should be set to "true" when a doze component has been specified
+         to maximize power savings but not all devices support it.
+         Refer to power.h for details.
+    -->
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Specifies the maximum burn-in offset displacement from the center. If -1, no maximum value
+         will be used. -->
+    <integer name="config_burnInProtectionMaxRadius">70</integer>
+
+    <!-- Specifies the minimum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMinHorizontalOffset">-15</integer>
+
+    <!-- Specifies the maximum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMaxHorizontalOffset">15</integer>
+
+    <!-- Specifies the minimum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMinVerticalOffset">-40</integer>
+
+    <!-- Specifies the maximum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/framework.jar"</item>
+        <item>"/system/framework/services.jar"</item>
+        <item>"/apex/com.android.runtime/javalib/core-oj.jar"</item>
+        <item>"/apex/com.android.runtime/javalib/core-libart.jar"</item>
+        <item>"/product/priv-app/SystemUI/SystemUI.apk"</item>
+        <item>"/system/bin/surfaceflinger"</item>
+    </string-array>
+
+    <!-- Should the pinner service pin the Home application? -->
+    <bool name="config_pinnerHomeApp">true</bool>
+
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+         in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
+
+    <!-- If this is true, device supports Sustained Performance Mode. -->
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">52px</dimen>
+
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">52px</dimen>
+
+    <!-- Top adjustment for the software rounded corners since corners are not perfectly
+        round.  This value is used when retrieving the "radius" of the top rounded corner in cases
+        where the exact bezier curve cannot be retrieved.  This value will be subtracted from
+        rounded_corner_radius_top to more accurately provide a "radius" for the top rounded corners.
+         -->
+    <dimen name="rounded_corner_radius_top_adjustment">5px</dimen>
+
+    <!-- Bottom adjustment for the software rounded corners since corners are not perfectly
+        round.  This value is used when retrieving the "radius" of the bottom rounded corner in
+        cases where the exact bezier curve cannot be retrieved.  This value will be subtracted from
+        rounded_corner_radius_bottom to more accurately provide a "radius" for the bottom rounded
+        corners. -->
+    <dimen name="rounded_corner_radius_bottom_adjustment">4px</dimen>
+
+    <!-- The bounding path of the cutout region of the main built-in display.
+         Must either be empty if there is no cutout region, or a string that is parsable by
+         {@link android.util.PathParser}.
+         The path is assumed to be specified in display coordinates with pixel units and in
+         the display's native orientation, with the origin of the coordinate system at the
+         center top of the display. Optionally, you can append either `@left` or `@right` to the
+         end of the path string, in order to change the path origin to either the top left,
+         or top right of the display.
+         To facilitate writing device-independent emulation overlays, the marker `@dp` can be
+         appended after the path string to interpret coordinates in dp instead of px units.
+         Note that a physical cutout should be configured in pixels for the best results.
+         Example for a 10px x 10px square top-center cutout:
+                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z</string>
+         Example for a 10dp x 10dp square top-center cutout:
+                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
+         @see https://www.w3.org/TR/SVG/paths.html#PathData
+         -->
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -30 V 102 H 30 V 0 H 0 Z</string>
+
+    <!-- Height of the status bar in portrait.
+         Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
+         -->
+    <dimen name="status_bar_height_portrait">112.0px</dimen>
+
+    <!-- Height of the status bar in landscape.
+         Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
+         -->
+    <dimen name="status_bar_height_landscape">10dp</dimen>
+
+    <!-- The default refresh rate for a given device. Change this value to set a higher default
+         refresh rate. If the hardware composer on the device supports display modes with a higher
+         refresh rate than the default value specified here, the framework may use those higher
+         refresh rate modes if an app chooses one by setting preferredDisplayModeId or calling
+         setFrameRate().
+         If a non-zero value is set for config_defaultPeakRefreshRate, then
+         config_defaultRefreshRate may be set to 0, in which case the value set for
+         config_defaultPeakRefreshRate will act as the default frame rate. -->
+    <integer name="config_defaultRefreshRate">0</integer>
+
+    <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
+         the framework from using higher refresh rates, even if display modes with higher refresh
+         rates are available from hardware composer. Only has an effect if the value is
+         non-zero. -->
+    <integer name="config_defaultPeakRefreshRate">120</integer>
 </resources>
