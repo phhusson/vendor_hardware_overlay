@@ -1334,20 +1334,6 @@
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">52px</dimen>
 
-    <!-- Top adjustment for the software rounded corners since corners are not perfectly
-        round.  This value is used when retrieving the "radius" of the top rounded corner in cases
-        where the exact bezier curve cannot be retrieved.  This value will be subtracted from
-        rounded_corner_radius_top to more accurately provide a "radius" for the top rounded corners.
-         -->
-    <dimen name="rounded_corner_radius_top_adjustment">5px</dimen>
-
-    <!-- Bottom adjustment for the software rounded corners since corners are not perfectly
-        round.  This value is used when retrieving the "radius" of the bottom rounded corner in
-        cases where the exact bezier curve cannot be retrieved.  This value will be subtracted from
-        rounded_corner_radius_bottom to more accurately provide a "radius" for the bottom rounded
-        corners. -->
-    <dimen name="rounded_corner_radius_bottom_adjustment">4px</dimen>
-
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
          {@link android.util.PathParser}.
