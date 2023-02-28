@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-STF \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
+	treble-overlay-huawei-POT \
 	treble-overlay-hw-ims \
 	treble-overlay-infinix-note10 \
 	treble-overlay-infinix-note10pro \
