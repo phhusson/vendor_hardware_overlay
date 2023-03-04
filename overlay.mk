@@ -230,13 +230,13 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-r9q \
 	treble-overlay-samsung-r9s \
 	treble-overlay-samsung-s10e \
+	treble-overlay-samsung-S20 \
+	treble-overlay-samsung-S20-systemui \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
 	treble-overlay-samsung-starqltekdi \
 	treble-overlay-samsung-starqltekdi-systemui \
 	treble-overlay-samsung-t2s \
-	treble-overlay-samsung-x1q \
-	treble-overlay-samsung-x1q-systemui \
 	treble-overlay-samsung-z3q \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \

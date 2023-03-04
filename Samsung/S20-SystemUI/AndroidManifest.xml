@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="me.phh.treble.overlay.samsung.x1q.systemui"
+          package="me.phh.treble.overlay.samsung.S20.systemui"
           android:versionCode="1"
           android:versionName="1.0">
     <overlay android:targetPackage="com.android.systemui"
