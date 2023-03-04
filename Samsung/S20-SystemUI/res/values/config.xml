@@ -6,5 +6,5 @@
     <dimen name="status_bar_padding_top">22px</dimen>
     <dimen name="status_bar_header_height">104px</dimen>
     <dimen name="status_bar_header_height_keyguard">104px</dimen>
-    <dimen name="physical_power_button_center_screen_location_y">1300px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">58.5mm</dimen>
 </resources>
