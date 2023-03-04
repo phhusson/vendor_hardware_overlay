@@ -686,12 +686,12 @@
           name="config_screenBrightnessSettingMinimumFloat">0.0</item>
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">60.0%</fraction>
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
-    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_supportDoubleTapWake">true</bool>
     <dimen name="status_bar_height_portrait">4.68mm</dimen>
     <dimen name="status_bar_height_landscape">4.14mm</dimen>
     <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
-    <string name="config_mainBuiltInDisplayCutout">M 0,0 L -1.8,0 L -1.8,4.68 L 1.8,4.68 L 1.8,0 Z @mm</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 L -40,0 L -40,104 L 40,104 L 40,0 Z</string>
 </resources>
