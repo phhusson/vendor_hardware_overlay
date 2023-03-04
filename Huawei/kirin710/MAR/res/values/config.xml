@@ -198,7 +198,7 @@
     <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
     <integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
 
-    <!-- Wifi -->
+     <!-- Wifi -->
     
     <!-- Boolean indicating whether the wifi chipset supports background scanning mechanism.
          This mechanism allows the host to remain in suspend state and the dongle to actively
@@ -211,22 +211,9 @@
 
     <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
     <bool name="config_wifi_batched_scan_supported">false</bool>
-    <bool name="config_wifi_convert_apband_5ghz_to_any">false</bool>
-    <bool name="config_wifi_ecbm_mode_change">true</bool>
+ 
     <bool name="config_wifi_enable_disconnection_debounce">true</bool>
     <bool name="config_wifi_enable_wifi_firmware_debugging">false</bool>
     <bool name="config_wifi_fast_bss_transition_enabled">false</bool>
-    <bool name="config_wifi_framework_cellular_handover_enable_user_triggered_adjustment">true</bool>
-    <bool name="config_wifi_framework_enable_associated_autojoin_scan">false</bool>
-    <bool name="config_wifi_framework_enable_associated_network_selection">true</bool>
-    <bool name="config_wifi_framework_enable_voice_call_sar_tx_power_limit">false</bool>
-    <bool name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">false</bool>
-    <bool name="config_wifi_only_link_same_credential_configurations">true</bool>
-    <bool name="config_wifi_revert_country_code_on_cellular_loss">false</bool>
-    <bool name="config_wifi_softap_acs_supported">false</bool>
-    <bool name="config_wifi_softap_ieee80211ac_supported">false</bool>
-    <bool name="config_wifi_turn_off_during_emergency_call">false</bool>
-    
-    <bool name="config_zramWriteback">false</bool>
-	
+ 	
 </resources>
