@@ -235,6 +235,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-starqltekdi \
 	treble-overlay-samsung-starqltekdi-systemui \
 	treble-overlay-samsung-t2s \
+	treble-overlay-samsung-x1q \
+	treble-overlay-samsung-x1q-systemui \
 	treble-overlay-samsung-z3q \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
