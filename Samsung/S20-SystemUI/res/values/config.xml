@@ -2,9 +2,6 @@
 <resources>
     <dimen name="status_bar_padding_start">0px</dimen>
     <dimen name="status_bar_padding_end">0px</dimen>
-    <dimen name="rounded_corner_content_padding">90px</dimen>
-    <dimen name="status_bar_padding_top">22px</dimen>
-    <dimen name="status_bar_header_height">104px</dimen>
-    <dimen name="status_bar_header_height_keyguard">104px</dimen>
+    <dimen name="rounded_corner_content_padding">4.05mm</dimen>
     <dimen name="physical_power_button_center_screen_location_y">58.5mm</dimen>
 </resources>
