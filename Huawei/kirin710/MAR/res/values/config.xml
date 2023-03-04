@@ -140,8 +140,7 @@
          USB interfaces.  If the device doesn't want to support tething over USB this should
          be empty.  An example would be "usb.*" -->
     <string-array translatable="false" name="config_tether_usb_regexs">
-        <item>"usb\\d"</item>
-        <item>"rndis\\d"</item>
+        <item>rndis0</item>
     </string-array>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
@@ -227,5 +226,7 @@
     <bool name="config_wifi_softap_acs_supported">false</bool>
     <bool name="config_wifi_softap_ieee80211ac_supported">false</bool>
     <bool name="config_wifi_turn_off_during_emergency_call">false</bool>
+    
+    <bool name="config_zramWriteback">false</bool>
 	
 </resources>
