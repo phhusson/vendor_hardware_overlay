@@ -141,7 +141,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op8-systemui \
 	treble-overlay-oneplus-op9 \
 	treble-overlay-oneplus-op9-systemui \
-	treble-overlay-onn-100071481 \
+	treble-overlay-onn-mid7019 \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
 	treble-overlay-oppo-findx3pro \
