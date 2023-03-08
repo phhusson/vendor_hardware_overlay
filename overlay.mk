@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-EML \
 	treble-overlay-huawei-FIG \
 	treble-overlay-huawei-LLD \
+	treble-overlay-huawei-MAR \
 	treble-overlay-huawei-PIC \
 	treble-overlay-huawei-POT \
 	treble-overlay-huawei-PRA \
