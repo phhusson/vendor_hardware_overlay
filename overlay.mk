@@ -175,6 +175,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
+	treble-overlay-samsung-S20 \
+	treble-overlay-samsung-S20-systemui \
 	treble-overlay-samsung-S20fe \
 	treble-overlay-samsung-S20fe-systemui \
 	treble-overlay-samsung-a20 \
