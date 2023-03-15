@@ -619,4 +619,7 @@
         <item>471</item>
         <item>486</item>
     </integer-array>
+
+    <string name="config_mainBuiltInDisplayCutout">M -38,0 L -38,98 L 38,98 L 38,0 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -38,0 L -38,98 L 38,98 L 38,0 Z</string>
 </resources>

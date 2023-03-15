@@ -5,7 +5,4 @@
     <dimen name="status_bar_height_portrait">120px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
     <dimen name="quick_qs_offset_height">120px</dimen>
-
-    <string name="config_mainBuiltInDisplayCutout">M -39,0 L -39,120 L 39,120 L 39,0 Z</string>
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M -39,0 L -39,120 L 39,120 L 39,0 Z</string>
 </resources>
