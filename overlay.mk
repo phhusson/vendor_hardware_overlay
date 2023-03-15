@@ -39,7 +39,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-EML \
 	treble-overlay-huawei-FIG \
 	treble-overlay-huawei-LLD \
+	treble-overlay-huawei-MAR \
 	treble-overlay-huawei-PIC \
+	treble-overlay-huawei-POT \
 	treble-overlay-huawei-PRA \
 	treble-overlay-huawei-RNE \
 	treble-overlay-huawei-SHT \
@@ -142,6 +144,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-op8-systemui \
 	treble-overlay-oneplus-op9 \
 	treble-overlay-oneplus-op9-systemui \
+	treble-overlay-onn-mid7019 \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
 	treble-overlay-oppo-findx3pro \
@@ -176,6 +179,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
+	treble-overlay-samsung-S20 \
+	treble-overlay-samsung-S20-systemui \
 	treble-overlay-samsung-S20fe \
 	treble-overlay-samsung-S20fe-systemui \
 	treble-overlay-samsung-a20 \
@@ -187,6 +192,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a31 \
 	treble-overlay-samsung-a31-systemui \
 	treble-overlay-samsung-a32 \
+	treble-overlay-samsung-a32-systemui \
 	treble-overlay-samsung-a33 \
 	treble-overlay-samsung-a33-systemui \
 	treble-overlay-samsung-a40 \
@@ -201,6 +207,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a7 \
 	treble-overlay-samsung-a70 \
 	treble-overlay-samsung-a71 \
+	treble-overlay-samsung-a73 \
 	treble-overlay-samsung-a80 \
 	treble-overlay-samsung-a82xq \
 	treble-overlay-samsung-a82xq-systemui \
@@ -227,9 +234,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-r0q-systemui \
 	treble-overlay-samsung-r0s \
 	treble-overlay-samsung-r0s-systemui \
+	treble-overlay-samsung-r5q \
 	treble-overlay-samsung-r9q \
 	treble-overlay-samsung-r9s \
-	treble-overlay-samsung-r5q \
 	treble-overlay-samsung-s10e \
 	treble-overlay-samsung-s9pq \
 	treble-overlay-samsung-s9q \
@@ -270,6 +277,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-A5pro \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
+	treble-overlay-unihertz-titanpocketeea \
 	treble-overlay-vivo-y20 \
 	treble-overlay-vivo-y20-systemui \
 	treble-overlay-vivo-y31 \
@@ -323,6 +331,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmigo \
 	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redmik20pro-systemui \
+	treble-overlay-xiaomi-redmik50ultra \
 	treble-overlay-xiaomi-redminote10 \
 	treble-overlay-xiaomi-redminote10pro \
 	treble-overlay-xiaomi-redminote10s \
