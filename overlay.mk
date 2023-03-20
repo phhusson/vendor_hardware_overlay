@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-caf-ims \
 	treble-overlay-devinputjack \
 	treble-overlay-duoqin-qin2pro \
+	treble-overlay-duoqin-qinf21pro \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-fairphone-fp3 \
 	treble-overlay-highpriomisc \
@@ -344,4 +345,5 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
+
 
