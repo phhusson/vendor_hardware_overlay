@@ -96,7 +96,6 @@
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
-    <bool name="config_showNavigationBar">true</bool>
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
