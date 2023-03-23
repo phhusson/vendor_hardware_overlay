@@ -3,6 +3,8 @@
     <dimen name="status_bar_padding_start">4.5dp</dimen>
     <dimen name="status_bar_padding_end">4.5dp</dimen>
     <dimen name="status_bar_header_height_keyguard">93px</dimen>
+    <dimen name="notch_height">106px</dimen>
+    <dimen name="notch_width">66px</dimen>
     <dimen name="keyguard_carrier_text_margin">4.5dp</dimen>
     <dimen name="system_icons_keyguard_padding_end">4.5dp</dimen>
     <dimen name="rounded_corner_content_padding">52.0px</dimen>

@@ -14,9 +14,11 @@
     <bool name="config_automatic_brightness_available">true</bool>
 
     <!-- dimens.xml files -->
+    <dimen name="rounded_corner_radius">106.0px</dimen>
     <dimen name="rounded_corner_radius_bottom">106.0px</dimen>
     <dimen name="rounded_corner_radius_top">106.0px</dimen>
     <dimen name="status_bar_height">93.0px</dimen>
+    <dimen name="status_bar_height_default">93px</dimen>
     <dimen name="status_bar_height_portrait">93.0px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
 
