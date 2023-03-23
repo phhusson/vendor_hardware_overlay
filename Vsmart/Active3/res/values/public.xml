@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="integer" name="config_screenBrightnessSettingMinimum" id="0x7f030000" />
+    <public type="integer" name="config_screenBrightnessSettingMaximum" id="0x7f030001" />
+    <public type="integer" name="config_bluetooth_max_connected_audio_devices" id="0x7f030004" />
+    <public type="array" name="networkAttributes" id="0x7f040000" />
+    <public type="array" name="config_tether_usb_regexs" id="0x7f040008" />
+    <public type="array" name="config_tether_wifi_regexs" id="0x7f040009" />
+    <public type="array" name="config_tether_bluetooth_regexs" id="0x7f04000a" />
+    <public type="array" name="config_defaultPinnerServiceFiles" id="0x7f04000b" />
+    <public type="array" name="config_ephemeralResolverPackage" id="0x7f04000d" />
+    <public type="bool" name="config_hotswapCapable" id="0x7f050000" />
+    <public type="bool" name="config_device_volte_available" id="0x7f050001" />
+    <public type="bool" name="config_device_vt_available" id="0x7f050002" />
+    <public type="bool" name="config_device_wfc_ims_available" id="0x7f050003" />
+    <public type="bool" name="config_dynamic_bind_ims" id="0x7f050004" />
+    <public type="bool" name="config_setColorTransformAccelerated" id="0x7f050007" />
+    <public type="bool" name="config_automatic_brightness_available" id="0x7f050008" />
+    <public type="bool" name="config_suspendWhenScreenOffDueToProximity" id="0x7f050009" />
+    <public type="bool" name="config_wifi_dual_band_support" id="0x7f05000a" />
+    <public type="bool" name="config_wifi_background_scan_support" id="0x7f05000b" />
+    <public type="bool" name="config_useDevInputEventForAudioJack" id="0x7f05000e" />
+    <public type="bool" name="config_switch_phone_on_voice_reg_state_change" id="0x7f05000f" />
+    <public type="bool" name="skip_restoring_network_selection" id="0x7f050010" />
+    <public type="bool" name="config_showNavigationBar" id="0x7f050011" />
+    <public type="bool" name="config_enableNetworkLocationOverlay" id="0x7f050017" />
+    <public type="bool" name="config_enableFusedLocationOverlay" id="0x7f050018" />
+    <public type="string" name="config_ims_package" id="0x7f060002" />
+</resources>

@@ -2,7 +2,6 @@
         package="me.phh.treble.overlay.realme.gtneo3"
         android:versionCode="1"
         android:versionName="1.0">
-        <application />
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.boot.prjname"
                 android:requiredSystemPropertyValue="+(21641|21642)"
