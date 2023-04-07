@@ -17,4 +17,5 @@
     <bool name="skip_restoring_network_selection">true</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
