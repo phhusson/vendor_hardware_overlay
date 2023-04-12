@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := treble-overlay-onn-100071481
+LOCAL_PACKAGE_NAME := treble-overlay-huawei-MAR
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay
 LOCAL_IS_RUNTIME_RESOURCE_OVERLAY := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
