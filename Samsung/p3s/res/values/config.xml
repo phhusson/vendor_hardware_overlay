@@ -1382,11 +1382,4 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
-
-    <!-- The properties of a UDFPS sensor in pixels -->
-    <integer-array name="config_udfps_sensor_props">
-      <item>720</item>  <!-- sensorLocationX -->
-      <item>2420</item> <!-- sensorLocationY -->
-      <item>142</item>  <!-- sensorRadius -->
-    </integer-array>
 </resources>
