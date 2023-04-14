@@ -65,7 +65,7 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 				ag '"'"$key"'"' /build/AOSP-8.1/frameworks/base/core/res/res)> /dev/null ;then
 				echo "$key" >> tests/knownKeys
 			else
-				fail "$xml" "defines a non-existing attribute $key"
+				fail "$xml" "defines a non-existing attribute $key" "I swear it makes sense to set $key, and I can completely explain why."
 			fi
 		done
 	done
