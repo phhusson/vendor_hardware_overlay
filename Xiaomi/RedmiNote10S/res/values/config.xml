@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- displayCutout -->
-    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -37 V 93 H 37 V 0 H 0 Z</string>
-
     <!-- bools.xml files -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
@@ -12,13 +9,6 @@
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
-
-    <!-- dimens.xml files -->
-    <dimen name="rounded_corner_radius_bottom">106.0px</dimen>
-    <dimen name="rounded_corner_radius_top">106.0px</dimen>
-    <dimen name="status_bar_height">93.0px</dimen>
-    <dimen name="status_bar_height_portrait">93.0px</dimen>
-    <dimen name="status_bar_height_landscape">28dp</dimen>
 
     <!-- fraction.xml files -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100%</fraction>
