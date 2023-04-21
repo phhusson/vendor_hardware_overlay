@@ -10,7 +10,9 @@
     <dimen name="rounded_corner_radius">10.0dip</dimen>
     <dimen name="starting_surface_icon_size">108.0dip</dimen>
     <dimen name="status_bar_height_landscape">28.0dip</dimen>
-    <dimen name="status_bar_height_portrait">97.0px</dimen>
+    <dimen name="status_bar_height_portrait">117.0px</dimen>
+    <dimen name="status_bar_height_default">117.0px</dimen>
+    <dimen name="status_bar_height">117.0px</dimen>
 
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
