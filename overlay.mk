@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-g8plus \
 	treble-overlay-moto-g8power \
 	treble-overlay-moto-gpure \
+	treble-overlay-moto-hawaiip \
 	treble-overlay-moto-hiphi \
 	treble-overlay-moto-hiphi-systemui \
 	treble-overlay-moto-nio \
