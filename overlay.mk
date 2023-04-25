@@ -243,6 +243,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-starqltekdi-systemui \
 	treble-overlay-samsung-t2s \
 	treble-overlay-samsung-z3q \
+	treble-overlay-samsung-z3s \
+	treble-overlay-samsung-z3s-systemui \
 	treble-overlay-sec-ims \
 	treble-overlay-sharp-s2 \
 	treble-overlay-sony-J9110 \
