@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-blackview-bv9500plus \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
+	treble-overlay-cubot-kingkongmini2 \
 	treble-overlay-devinputjack \
 	treble-overlay-duoqin-qin2pro \
 	treble-overlay-duoqin-qinf21pro \
