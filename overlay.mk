@@ -175,6 +175,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-q2-systemui \
 	treble-overlay-realme-q3 \
 	treble-overlay-realme-x2pro \
+	treble-overlay-redmi-k50 \
+	treble-overlay-redmi-k50-systemui \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
 	treble-overlay-samsung-S20 \
