@@ -6,7 +6,6 @@
     <item type="dimen" name="config_signalCutoutHeightFraction">10.0</item>
     <item type="dimen" name="config_signalCutoutWidthFraction">10.0</item>
     <dimen name="quick_qs_offset_height">40.0dip</dimen>
-    <dimen name="quick_qs_total_height">488.0px</dimen>
     <dimen name="rounded_corner_radius">10.0dip</dimen>
     <dimen name="starting_surface_icon_size">108.0dip</dimen>
     <dimen name="status_bar_height_landscape">28.0dip</dimen>
