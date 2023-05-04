@@ -3,11 +3,8 @@
     <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.4</item>
     <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
     <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
-    <item type="dimen" name="config_signalCutoutHeightFraction">10.0</item>
-    <item type="dimen" name="config_signalCutoutWidthFraction">10.0</item>
     <dimen name="quick_qs_offset_height">40.0dip</dimen>
     <dimen name="rounded_corner_radius">10.0dip</dimen>
-    <dimen name="starting_surface_icon_size">108.0dip</dimen>
     <dimen name="status_bar_height_landscape">28.0dip</dimen>
     <dimen name="status_bar_height_portrait">117.0px</dimen>
     <dimen name="status_bar_height_default">117.0px</dimen>
@@ -15,13 +12,11 @@
 
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
-    <integer name="config_num_physical_slots">2</integer>
     <integer name="config_screenBrightnessDoze">5</integer>
 
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-    <bool name="config_supportsMicToggle">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
 
     <string name="config_mainBuiltInDisplayCutout">M86.5,97 A38.5,38.5 0 1 0 86.5,20 38.5,38.5 0 1 0 86.5,97z @left</string>
