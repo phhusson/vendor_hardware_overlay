@@ -284,8 +284,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-umidigi-A5pro \
 	treble-overlay-umidigi-power \
 	treble-overlay-unihertz-jelly2 \
-	treble-overlay-unihertz-titanpocketeea \
 	treble-overlay-unihertz-luna \
+	treble-overlay-unihertz-titanpocketeea \
 	treble-overlay-vivo-y20 \
 	treble-overlay-vivo-y20-systemui \
 	treble-overlay-vivo-y31 \
