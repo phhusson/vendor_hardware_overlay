@@ -271,8 +271,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teracube-v7101o \
 	treble-overlay-tethering \
 	treble-overlay-tethering-nobpf \
-	treble-overlay-ulefone-Armor8Pro \
-	treble-overlay-ulefone-Armor12S \
+	treble-overlay-ulefone-armor8pro \
+	treble-overlay-ulefone-armor12s \
 	treble-overlay-umidigi-A13-Pro-Max-5G \
 	treble-overlay-umidigi-A3S \
 	treble-overlay-umidigi-A5pro \
