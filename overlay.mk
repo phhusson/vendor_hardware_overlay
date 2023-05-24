@@ -167,6 +167,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-6i \
 	treble-overlay-realme-8-5g \
 	treble-overlay-realme-8-5g-systemui \
+	treble-overlay-realme-8pro \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
 	treble-overlay-realme-gt2master \
