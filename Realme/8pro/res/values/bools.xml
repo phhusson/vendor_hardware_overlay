@@ -8,8 +8,9 @@
     <bool name="config_device_vt_available">true</bool>
     <bool name="config_device_wfc_ims_available">true</bool>
 
-    <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAfterScreenOffByDefault">false</bool>
+    <bool name="config_displayBlanksAfterDoze">false</bool>
 
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
