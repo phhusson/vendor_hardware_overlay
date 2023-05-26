@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="status_bar_height">108px</dimen>
-    <dimen name="status_bar_height_portrait">108px</dimen>
-    <dimen name="status_bar_height_landscape">28dp</dimen>
-    <dimen name="status_bar_height_default">108px</dimen>
     <dimen name="navigation_bar_height">40dp</dimen>
     <dimen name="quick_qs_offset_height">36dp</dimen>
     <dimen name="navigation_bar_height_landscape">40dp</dimen>
-    <dimen name="rounded_corner_radius">36dp</dimen>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
         <item>mobile,0,0,0,-1,true</item>
@@ -108,6 +103,4 @@
     <integer name="config_screenBrightnessDoze">5</integer>
     <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
     <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.003921569</item>
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -24,0 L -24,36 L 24,36 L 24,0 Z</string>
-    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">M -24,0 L -24,36 L 24,36 L 24,0 Z</string>
 </resources>
