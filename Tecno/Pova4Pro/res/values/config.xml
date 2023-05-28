@@ -76,6 +76,16 @@
         <item>16384</item>
         <item>18432</item>
     </integer-array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+        <item>bt-dun</item>
+    </string-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>ap\\d</item>
+    </string-array>
     <string-array name="config_ephemeralResolverPackage">
         <item>com.google.android.gms</item>
     </string-array>
