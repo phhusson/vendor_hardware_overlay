@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height_default">24.0dip</dimen>
+    <dimen name="status_bar_height_landscape">24.0dip</dimen>
+    <dimen name="status_bar_height_portrait">24.0dip</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">1150px</dimen>
+</resources>
