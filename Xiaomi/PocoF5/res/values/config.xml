@@ -8,14 +8,18 @@
         this threshold, it is applied. See the config_screenThresholdLevels description for how
         the constraint value is chosen. -->
     <array name="config_screenBrightnessBacklight">
-        <item>2</item>
-        <item>3</item>
+        <item>1</item>
+        <item>5</item>
         <item>10</item>
         <item>15</item>
+        <item>20</item>
+        <item>25</item>
         <item>30</item>
         <item>45</item>
+        <item>55</item>
         <item>60</item>
         <item>75</item>
+        <item>85</item>
         <item>90</item>
         <item>105</item>
         <item>120</item>
@@ -39,10 +43,14 @@
     <array name="config_screenBrightnessNits">
         <item>2</item>
         <item>4</item>
-        <item>22</item>
-        <item>30</item>
-        <item>68</item>
+        <item>6</item>
+        <item>12</item>
+        <item>20</item>
+        <item>35</item>
+        <item>50</item>
+        <item>65</item>
         <item>95</item>
+        <item>105</item>
         <item>133</item>
         <item>165</item>
         <item>192</item>

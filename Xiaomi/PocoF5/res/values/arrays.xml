@@ -8,7 +8,7 @@
         <item>200</item>
     </integer-array>
     <integer-array name="config_autoBrightnessDisplayValuesNits">
-        <item>3</item>
+        <item>2</item>
         <item>4</item>
         <item>6</item>
         <item>15</item>
