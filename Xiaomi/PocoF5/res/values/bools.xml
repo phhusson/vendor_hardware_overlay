@@ -3,7 +3,5 @@
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
     <bool name="config_enableBurnInProtection">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_showNavigationBar">false</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
 </resources>

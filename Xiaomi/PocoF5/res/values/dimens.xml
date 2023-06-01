@@ -6,7 +6,6 @@
         A 23,23 0 1,0 -23,52
         A 23,23 0 1,0 23,52
         Z</string>
-
     <dimen name="rounded_corner_radius">22.0dip</dimen>
     <dimen name="status_bar_height">36.0dip</dimen>
     <dimen name="status_bar_height_default">36.0dip</dimen>
