@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
-                android:requiredSystemPropertyValue="+(TECNO/LG7n)"
+                android:requiredSystemPropertyValue="+TECNO/LG7n*"
 		android:priority="430"
 		android:isStatic="true" />
 </manifest>
