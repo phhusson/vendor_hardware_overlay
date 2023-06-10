@@ -27,6 +27,4 @@
     <integer name="config_screenRecorderMaxFramerate">120</integer>
 
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-
-    <bool name="config_showNavigationBar">false</bool>
 </resources>

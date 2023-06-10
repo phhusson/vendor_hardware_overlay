@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer-array name="config_screenThresholdLevels">
-    </integer-array>
-    <array name="config_ambientThresholdLevels" />
-    <integer-array name="config_ambientBrighteningThresholds">
-        <item>100</item>
-    </integer-array>
-    <integer-array name="config_ambientDarkeningThresholds">
-        <item>200</item>
-    </integer-array>
     <string-array name="config_biometric_sensors">
         <item>0:2:15</item>
     </string-array>
-    <integer-array name="config_screenBrighteningThresholds">
-        <item>100</item>
-    </integer-array>
-    <integer-array name="config_screenDarkeningThresholds">
-        <item>200</item>
-    </integer-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
         <item>mobile,0,0,0,-1,true</item>
