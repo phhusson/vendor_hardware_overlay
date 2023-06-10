@@ -87,6 +87,13 @@ find . -name AndroidManifest.xml |while read -r manifest;do
             fail "$f" "a 1000mAh battery? Sounds wrong."
         fi
     fi
+
+    # Ensure user didn't left some public.xml
+	find "$folder" -name \*.xml |while read -r xml;do
+        if xmlstarlet sel -t -m '//public' -c . "$xml" |grep -qE ..;then
+            fail "$xml" "declares public.xml"
+        fi
+    done
 done
 
 #Help handling with priorities
