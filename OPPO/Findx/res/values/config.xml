@@ -791,11 +791,7 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
     <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
-    <integer name="config_autoBrightnessShortTermModelTimeout">300000</integer>
 
-
-    <bool name="config_cameraDoubleTapPowerGestureEnabled">true</bool>
-    <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
