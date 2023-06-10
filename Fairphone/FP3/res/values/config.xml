@@ -333,9 +333,6 @@
     <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
 
-    <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
-<!--    <bool name="config_unplugTurnsOnScreen">true</bool>
--->
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
