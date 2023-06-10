@@ -94,6 +94,9 @@ find . -name AndroidManifest.xml |while read -r manifest;do
             fail "$xml" "declares public.xml"
         fi
     done
+    if find "$folder" -name color_extraction.xml |grep -qE ..;then
+        fail "$folder" "sets color_extraction.xml"
+    fi
 done
 
 #Help handling with priorities
