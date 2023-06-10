@@ -2,7 +2,6 @@
 <resources>
     <!-- Display -->
     <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_supportDoubleTapWake">true</bool>
 
     <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>

@@ -80,7 +80,7 @@ find . -name AndroidManifest.xml |while read -r manifest;do
     # Ensure power profile only contain expected types
     f="$folder"/res/xml/power_profile.xml
     if [ -f "$f" ];then
-        if xmlstarlet sel -t -m '//*' -v 'name()' -n "$f" |sort -u |grep -vE '^(array|device|item|value)';then
+        if xmlstarlet sel -t -m '//*' -v 'name()' -n "$f" |sort -u |grep -qvE '^(array|device|item|value)';then
             fail "$f" "sets non-sense power-profile values"
         fi
         if [ "$(xmlstarlet sel -t -m '//item[@name="battery.capacity"]' -v . -n "$f")" = 1000 ];then

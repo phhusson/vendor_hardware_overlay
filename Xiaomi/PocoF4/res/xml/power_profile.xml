@@ -235,6 +235,4 @@
     <item name="bluetooth.controller.tx">7</item>
     <!-- Operating voltage for bluetooth in mV.-->
     <item name="bluetooth.controller.voltage">3300</item>
-    <allow-in-power-save package="com.google.android.gms" />
-    <allow-in-data-usage-save package="com.google.android.gms" />
 </device>
