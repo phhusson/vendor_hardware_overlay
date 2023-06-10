@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-lg-phoenix_lao_com-phoenix_sprout \
 	treble-overlay-lg-v40 \
 	treble-overlay-lg-velvet \
+	treble-overlay-lge-lm_v500n \
 	treble-overlay-lge-mfh505glm \
 	treble-overlay-lge-mfh505glm-systemui \
 	treble-overlay-lge-timelm \
