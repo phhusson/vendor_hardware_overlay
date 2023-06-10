@@ -69,6 +69,24 @@ find . -name AndroidManifest.xml |while read -r manifest;do
 			fi
 		done
 	done
+
+    # If overlay has automatic brightness enabled, it's supposed to also include values for it
+    if grep -qE 'config_automatic_brightness_available.*true' -r "$folder";then
+        if ! grep -r -q -e config_autoBrightnessLcdBacklightValues -e config_autoBrightnessDisplayValuesNits "$folder";then
+            fail "$folder" "tries to enable automatic brightness, without actually setting it up"
+        fi
+    fi
+
+    # Ensure power profile only contain expected types
+    f="$folder"/res/xml/power_profile.xml
+    if [ -f "$f" ];then
+        if xmlstarlet sel -t -m '//*' -v 'name()' -n "$f" |sort -u |grep -vE '^(array|device|item|value)';then
+            fail "$f" "sets non-sense power-profile values"
+        fi
+        if [ "$(xmlstarlet sel -t -m '//item[@name="battery.capacity"]' -v . -n "$f")" = 1000 ];then
+            fail "$f" "a 1000mAh battery? Sounds wrong."
+        fi
+    fi
 done
 
 #Help handling with priorities
