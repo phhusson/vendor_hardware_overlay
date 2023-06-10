@@ -277,6 +277,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-teclast-p20hd \
 	treble-overlay-teclast-t30 \
 	treble-overlay-tecno-camon11 \
+	treble-overlay-tecno-pova4pro \
 	treble-overlay-tecno-spark5 \
 	treble-overlay-tecno-spark6 \
 	treble-overlay-telephony-caf-ims \
@@ -372,5 +373,4 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote9s \
 	treble-overlay-xiaomi-redminote9t \
 	treble-overlay-xiaomi-redmis2 \
-        treble-overlay-tecno-pova4pro \
 
