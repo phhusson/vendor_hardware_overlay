@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="doze_display_state_supported">false</bool>
+    <bool name="doze_suspend_display_state_supported">false</bool>
+</resources>
