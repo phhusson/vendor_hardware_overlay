@@ -5,6 +5,9 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
 
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
