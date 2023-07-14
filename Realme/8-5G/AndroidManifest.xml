@@ -5,5 +5,5 @@
 	android:priority="261"
 	android:targetPackage="android"
         android:requiredSystemPropertyName="ro.boot.prjname"
-	android:requiredSystemPropertyValue="+(132863|133013)" />
+	android:requiredSystemPropertyValue="206FF" />
 </manifest>
