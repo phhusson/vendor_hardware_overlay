@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MMS user agent string -->
+    <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
+
+    <!-- MMS user agent prolfile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <!-- ComponentName of a dream to show whenever the system would otherwise have
+         gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
+         try to start this dream if possible.  The dream should typically call startDozing()
+         to put the display into a low power state and allow the application processor
+         to be suspended.  When the dream ends, the system will go to sleep as usual.
+         Specify the component name or an empty string if none.
+         Note that doze dreams are not subject to the same start conditions as ordinary dreams.
+         Doze dreams will run whenever the power manager is in a dozing state. -->
+    <string name="config_dozeComponent" translatable="false">com.android.systemui/com.android.systemui.doze.DozeService</string>
+
+    <string name="config_wifi_tcp_buffers">524288,2097152,4194304,262144,524288,1048576</string>
+    <!-- ImsService package name to bind to by default, if config_dynamic_bind_ims is true -->
+    <string name="config_ims_package">org.codeaurora.ims</string>
+
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
+    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+
+    <!-- The bounding path of the cutout region of the main built-in display.
+         Must either be empty if there is no cutout region, or a string that is parsable by
+         {@link android.util.PathParser}.
+         The path is assumed to be specified in display coordinates with pixel units and in
+         the display's native orientation, with the origin of the coordinate system at the
+         center top of the display.
+         To facilitate writing device-independent emulation overlays, the marker `@dp` can be
+         appended after the path string to interpret coordinates in dp instead of px units.
+         Note that a physical cutout should be configured in pixels for the best results.
+         Example for a 10px x 10px square top-center cutout:
+                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z</string>
+         Example for a 10dp x 10dp square top-center cutout:
+                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
+         @see https://www.w3.org/TR/SVG/paths.html#PathData
+         -->
+    <string name="config_mainBuiltInDisplayCutout">M -140,0 L -140,57 L 140,57 L 140,0 Z</string>
+    <string name="config_SmartChargingSysfsNode">/sys/class/power_supply/battery/battery_charging_enabled</string>
+    <string name="config_SmartChargingSupspendValue">0</string>
+    <string name="config_SmartChargingResumeValue">1</string>
+    <string name="config_dozeDoubleTapSensorType" />
+    <string name="config_dozeLongPressSensorType" />
+    <string name="config_dozeTapSensorType" />
+    <string name="config_gpu_clock_path">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_gpu_busy_path">/sys/kernel/gpu/gpu_busy</string>
+    <string name="config_cpu_temp_path">/sys/class/thermal/thermal_zone0/temp</string>
+    <string name="config_battery_level_path">/sys/class/power_supply/battery/capacity</string>
+    <string name="config_battery_temp_path">/sys/class/power_supply/battery/temp</string>
+</resources>
