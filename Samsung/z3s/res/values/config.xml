@@ -690,7 +690,6 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_supportDoubleTapWake">true</bool>
-    <dimen name="status_bar_padding_start">60px</dimen>
     <dimen name="status_bar_height_portrait">4.68mm</dimen>
     <dimen name="status_bar_height_landscape">4.14mm</dimen>
     <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
