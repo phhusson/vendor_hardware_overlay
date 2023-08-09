@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.zte.blade_a5_2019"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyValue="+ZTE/GEN_RU_P963F30P*"
+		android:priority="256"
+		android:isStatic="true" />
+</manifest>
