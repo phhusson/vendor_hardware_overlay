@@ -1,53 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <integer-array name="config_autoBrightnessLcdBacklightValues">
-    <item>10</item>
-    <item>20</item>
-    <item>40</item>
-    <item>70</item>
-    <item>110</item>
-    <item>160</item>
-    <item>200</item>
-    <item>255</item>
+    <item>4</item>
+    <item>9</item>
+    <item>27</item>
+    <item>48</item>
+    <item>61</item>
+    <item>69</item>
+    <item>117</item>
+    <item>170</item>
+    <item>223</item>
   </integer-array>
   <integer-array name="config_autoBrightnessLevels">
-    <item>10</item>
-    <item>30</item>
-    <item>60</item>
-    <item>100</item>
-    <item>150</item>
-    <item>210</item>
-    <item>255</item>
-  </integer-array>
-  <integer-array name="config_availableColorModes">
-    <item>0</item>
     <item>1</item>
-    <item>3</item>
-    <item>256</item>
-    <item>257</item>
-    <item>258</item>
-    <item>259</item>
-    <item>260</item>
-    <item>261</item>
-    <item>262</item>
-    <item>263</item>
-    <item>264</item>
-    <item>265</item>
-    <item>266</item>
-    <item>267</item>
-    <item>268</item>
-    <item>269</item>
-    <item>270</item>
+    <item>10</item>
+    <item>50</item>
+    <item>100</item>
+    <item>400</item>
+    <item>900</item>
+    <item>2000</item>
+    <item>5000</item>
   </integer-array>
-  <array name="config_minimumBrightnessCurveNits">
-    <item>0.0</item>
-    <item>50.0</item>
-    <item>90.0</item>
-  </array>
-  <array name="config_screenBrightnessNits" />
-
-  <array name="config_autoBrightnessDisplayValuesNits" />
+  <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
+         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
   <bool name="config_automatic_brightness_available">true</bool>
+
+  <!-- User activity timeout: Maximum screen dim duration as a percentage of screen off timeout.
+         This resource is similar to config_maximumScreenDimDuration but the maximum
+         screen dim duration is defined as a ratio of the overall screen off timeout
+         instead of as an absolute value in milliseconds.  This is useful for reducing
+         the dim duration when the screen off timeout is very short.
+         When computing the screen dim duration, the power manager uses the lesser
+         of the effective durations expressed by config_maximumScreenDimDuration and
+         config_maximumScreenDimRatio.
+         This value must be between 0% and 100%.  If the value is zero, the screen will not
+         dim before the device goes to sleep.
+    -->
+  <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+
+  <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
+         for debouncing the light sensor.  Different constants are used to debounce the light sensor
+         when adapting to brighter or darker environments.  This parameter controls how quickly
+         brightness changes occur in response to an observed change in light level that exceeds the
+         hysteresis threshold. -->
+  <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+  <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+
+  <!-- Default screen brightness setting.
+         Must be in the range specified by minimum and maximum. -->
+  <integer name="config_screenBrightnessSettingDefault">98</integer>
+
+  <!-- Screen brightness used to dim the screen when the user activity
+         timeout expires.  May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+  <integer name="config_screenBrightnessDim">8</integer>
+
+  <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+
+  <!-- Default screen brightness for VR setting. Target default value: 0x0BB for EVT1.1. -->
+  <!-- 8 bit brightness level of 6 corresponds to the 10 bit brightness level of 0x0B6,
+         8 bit brightness level of 7 corresponds to the 10 bit brightness level of 0x0C1 on EVT1.1. -->
+  <integer name="config_screenBrightnessForVrSettingDefault">7</integer>
+  <integer name="config_screenBrightnessForVrSettingMinimum">6</integer>
+  <integer name="config_screenBrightnessForVrSettingMaximum">7</integer>
+
+  <!-- Minimum screen brightness setting allowed by the power manager.
+         The user is forbidden from setting the brightness below this level. -->
+  <integer name="config_screenBrightnessSettingMinimum">1</integer>
+
+  <!-- Maximum screen brightness setting allowed by the power manager.
+         The user is forbidden from setting the brightness above this level. -->
+  <integer name="config_screenBrightnessSettingMaximum">255</integer>
   <bool name="config_setColorTransformAccelerated">true</bool>
   <bool name="config_supportAudioSourceUnprocessed">false</bool>
   <bool name="skip_restoring_network_selection">true</bool>
@@ -66,10 +89,6 @@
 
   <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
   <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
-  <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
-  <integer name="config_screenBrightnessSettingDefault">163</integer>
-  <integer name="config_screenBrightnessSettingMaximum">255</integer>
-  <integer name="config_screenBrightnessSettingMinimum">10</integer>
   <integer name="config_shutdownBatteryTemperature">680</integer>
 
   <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
