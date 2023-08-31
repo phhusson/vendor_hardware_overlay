@@ -6,6 +6,8 @@
     <integer name="config_bluetooth_tx_cur_ma">36</integer>
     <integer name="config_brightness_ramp_rate_fast">180</integer>
     <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <integer name="config_defaultPeakRefreshRate">144</integer>
+    <integer name="config_defaultRefreshRate">0</integer>
     <integer name="config_screenBrightnessDim">12</integer>
     <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
     <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
