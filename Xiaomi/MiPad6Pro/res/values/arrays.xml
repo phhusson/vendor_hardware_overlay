@@ -61,6 +61,7 @@
         <item>3540</item>
         <item>4000</item>
     </integer-array>
+    <bool name="config_automatic_brightness_available">true</bool>
     <string-array name="config_biometric_sensors">
         <item>0:2:15</item>
     </string-array>
