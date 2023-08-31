@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
 		android:requiredSystemPropertyValue="+Xiaomi/liuqin*"
-		android:priority="2037"
+		android:priority="812"
 		android:isStatic="true" />
 </manifest>
