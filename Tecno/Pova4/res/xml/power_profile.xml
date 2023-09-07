@@ -37,7 +37,6 @@
         <value>1.1</value>
     </array>
     <array
-        <array
         name="cpu.clusters.cores">
         <value>6</value>
         <value>2</value>
