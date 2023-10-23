@@ -308,6 +308,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-pocof1 \
 	treble-overlay-xiaomi-pocof4 \
 	treble-overlay-xiaomi-pocof4-systemui \
+	treble-overlay-xiaomi-pocof4gt \
 	treble-overlay-xiaomi-pocom3pro5g \
 	treble-overlay-xiaomi-pocom4pro5g \
 	treble-overlay-xiaomi-pocom4pro5g-systemui \
