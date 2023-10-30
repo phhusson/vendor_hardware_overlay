@@ -1,10 +1,6 @@
-<<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="me.phh.treble.overlay.tecno.spark8C"
-        android:versionCode="1"
-        android:versionName="1.0">
-        <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-		android:requiredSystemPropertyValue="+TECNO/KG5j*"
-		android:priority="824"
-		android:isStatic="true" />
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.TECNO.Spark8C" platformBuildVersionCode="29" platformBuildVersionName="11">
+    <overlay android:isStatic="true" android:priority="544" android:targetPackage="android"
+android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+android:requiredSystemPropertyValue="+TECNO/KG5j*"/>
+    <application android:extractNativeLibs="false" android:hasCode="false"/>
 </manifest>
