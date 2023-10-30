@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_default_height">40.0dip</dimen>
+    <dimen name="action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="action_bar_subtitle_bottom_margin">4.0dip</dimen>
+    <dimen name="action_bar_subtitle_text_size">12.0dip</dimen>
+    <dimen name="action_bar_subtitle_top_margin">-2.0dip</dimen>
+    <dimen name="action_bar_title_text_size">16.0dip</dimen>
+    <dimen name="chooser_preview_width">480.0dip</dimen>
+    <dimen name="date_picker_day_height">32.0dip</dimen>
+    <dimen name="date_picker_day_of_week_height">14.0dip</dimen>
+    <dimen name="date_picker_day_selector_radius">16.0dip</dimen>
+    <dimen name="date_picker_day_width">46.0dip</dimen>
+    <dimen name="date_picker_month_height">40.0dip</dimen>
+    <dimen name="day_picker_button_margin_top">-8.0dip</dimen>
+    <dimen name="day_picker_padding_horizontal">18.0dip</dimen>
+    <dimen name="day_picker_padding_top">0.0dip</dimen>
+    <dimen name="floating_toolbar_preferred_width">544.0dip</dimen>
+    <dimen name="floating_window_margin_bottom">16.0dip</dimen>
+    <dimen name="floating_window_margin_top">4.0dip</dimen>
+    <dimen name="immersive_mode_cling_width">380.0dip</dimen>
+    <dimen name="keyguard_lockscreen_clock_font_size">70.0sp</dimen>
+    <dimen name="kg_secure_padding_height">0.0dip</dimen>
+    <dimen name="kg_squashed_layout_threshold">400.0dip</dimen>
+    <dimen name="kg_widget_pager_bottom_padding">0.0dip</dimen>
+    <dimen name="password_keyboard_key_height_alpha">47.0dip</dimen>
+    <dimen name="password_keyboard_key_height_numeric">50.0dip</dimen>
+    <dimen name="password_keyboard_spacebar_vertical_correction">2.0dip</dimen>
+    <dimen name="preference_widget_width">72.0dip</dimen>
+    <item type="dimen" name="quick_qs_offset_height">@dimen/status_bar_height_landscape</item>
+    <dimen name="quick_qs_total_height">152.0dip</dimen>
+    <item type="dimen" name="status_bar_height">@dimen/status_bar_height_landscape</item>
+    <dimen name="text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="timepicker_am_top_padding">8.0dip</dimen>
+    <dimen name="timepicker_ampm_label_size">16.0sp</dimen>
+    <dimen name="timepicker_pm_top_padding">3.0dip</dimen>
+    <dimen name="timepicker_radial_picker_dimen">180.0dip</dimen>
+    <dimen name="timepicker_radial_picker_horizontal_margin">24.0dip</dimen>
+    <dimen name="timepicker_text_inset_inner">46.0dip</dimen>
+    <dimen name="timepicker_text_size_normal">14.0sp</dimen>
+    <dimen name="timepicker_time_label_size">48.0dip</dimen>
+    <dimen name="kg_emergency_button_shift">30.0dip</dimen>
+    <dimen name="timepicker_left_side_width">250.0dip</dimen>
+</resources>
