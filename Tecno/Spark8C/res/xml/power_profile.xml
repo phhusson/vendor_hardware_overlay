@@ -19,11 +19,9 @@
         <value>0.2</value>
         <value>0.1</value>
     </array>
-    <array name="cpu.active">
-        <value>0.1</value>
-    </array>
     <array name="cpu.clusters.cores">
-        <value>1</value>
+        <value>4</value>
+        <value>4</value>
     </array>
     <array name="cpu.speeds.cluster0">
         <value>400000</value>
@@ -31,7 +29,32 @@
     <array name="cpu.active.cluster0">
         <value>0.1</value>
     </array>
-    <item name="cpu.idle">0.1</item>
+    <item name="cpu.idle">1.11</item>
+    <item name="cpu.suspend">5</item>
+    <item name="cpu.active">2.55</item>. <item name="cpu.cluster_power.cluster0">2.11</item>
+    <item name="cpu.cluster_power.cluster1">2.22</item>
+    <array name="cpu.core_speeds.cluster0">
+        <value>300000</value>
+        <value>1000000</value>
+        <value>2000000</value>
+    </array>
+    <array name="cpu.core_speeds.cluster1">
+        <value>300000</value>
+        <value>1000000</value>
+        <value>2500000</value>
+        <value>3000000</value>
+    </array>
+    <array name="cpu.core_power.cluster0">
+        <value>10</value>
+        <value>20</value>
+        <value>30</value>
+    </array>
+    <array name="cpu.core_power.cluster1">
+        <value>25</value>
+        <value>35</value>
+        <value>50</value>
+        <value>60</value>
+    </array>
     <array name="memory.bandwidths">
         <value>22.7</value>
     </array>
