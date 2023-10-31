@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_automatic_brightness_available">true</bool>
-    <bool name="config_enableAppWidgetService">true</bool>
-    <bool name="config_enableMultiUserUI">false</bool>
-    <bool name="config_enableWifiDisplay">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-    <bool name="config_swipe_up_gesture_setting_available">false</bool>
-    <bool name="config_use16bittasksnapshotpixelformat">true</bool>
     <bool name="config_wifi_enable_wifi_firmware_debugging">false</bool>
-    <bool name="config_zramWriteback">true</bool>
 </resources>
