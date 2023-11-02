@@ -284,6 +284,7 @@
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -27 V 84 H 27 V 0 H 0 Z</string>
     
     <!-- alwaysOnDisplay -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_dozeSupportsAodWallpaper">false</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
