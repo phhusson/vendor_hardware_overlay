@@ -5,6 +5,4 @@
     <dimen name="rounded_corner_radius_top">106.0px</dimen>
     <dimen name="status_bar_height_default">96.0px</dimen>
     <dimen name="status_bar_height_portrait">96.0px</dimen>
-    <dimen name="status_bar_padding_end">3.0px</dimen>
-    <dimen name="status_bar_padding_start">3.0px</dimen>
 </resources>
