@@ -4,4 +4,10 @@
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
+    <bool name="config_nightDisplayAvailable">true</bool>
+    <bool name="config_zramWriteback">true</bool>
 </resources>
