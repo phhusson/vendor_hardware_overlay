@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_hotswapCapable">false</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_speed_up_audio_on_mt_calls">false</bool>
+    <bool name="config_supportAudioSourceUnprocessed">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">false</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_enabled_lte" translatable="true">true</bool>
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+    <bool name="config_intrusiveNotificationLed">false</bool>
+</resources>
