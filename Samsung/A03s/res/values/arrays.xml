@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>5</item>
+        <item>26</item>
+        <item>47</item>
+        <item>57</item>
+        <item>61</item>
+        <item>95</item>
+        <item>146</item>
+        <item>186</item>
+        <item>235</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+    </integer-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
+</resources>
