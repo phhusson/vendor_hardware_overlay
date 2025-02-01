@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-		android:requiredSystemPropertyValue="+Qin/full_k61v1_64_gms*"
+		android:requiredSystemPropertyValue="+Qin/full_k61v1_64*"
 		android:priority="242"
 		android:isStatic="true" />
 </manifest>
