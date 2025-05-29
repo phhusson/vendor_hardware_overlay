@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixer>
+    <path name="speaker">
+        <ctl name="RX3 MIX1 INP1" value="I2S2"/>
+        <ctl name="RX3 Digital Volume" value="84"/>
+    </path>
+    <path name="headphones">
+        <ctl name="RX1 MIX1 INP1" value="I2S2"/>
+        <ctl name="HPHL Volume" value="84"/>
+        <ctl name="HPHR Volume" value="84"/>
+    </path>
+</mixer>

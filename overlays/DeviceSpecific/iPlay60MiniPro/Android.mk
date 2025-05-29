@@ -1,0 +1,8 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := iPlay60MiniPro
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/overlay
+LOCAL_SRC_FILES := overlay
+include $(BUILD_PREBUILT)

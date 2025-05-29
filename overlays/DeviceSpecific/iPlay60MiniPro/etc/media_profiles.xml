@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaSettings>
+    <EncoderProfile quality="1080p" fileFormat="mp4" duration="60">
+        <Video codec="h264" bitRate="17000000" width="1920" height="1080" frameRate="30" />
+        <Audio codec="aac" bitRate="128000" sampleRate="48000" channels="2" />
+    </EncoderProfile>
+</MediaSettings>

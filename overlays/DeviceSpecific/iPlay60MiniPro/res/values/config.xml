@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ステータスバーの設定 -->
+    <item name="config_showNavigationBar" type="bool">true</item>
+    <!-- ソフトウェアキーの設定 -->
+    <item name="config_navBarInteractionMode" type="integer">0</item>
+    <!-- サイドバーの設定 -->
+    <item name="config_enableEdgeNavigationBar" type="bool">true</item>
+    <!-- 自動隠し設定 -->
+    <item name="config_autoHideNavigationBar" type="bool">true</item>
+    <item name="config_autoHideNavigationBarTimeout" type="integer">3000</item>
+    <item name="config_autoHideStatusBar" type="bool">true</item>
+    <item name="config_autoHideStatusBarTimeout" type="integer">3000</item>
+    <item name="config_autoHideEdgeNavigationBar" type="bool">true</item>
+    <item name="config_autoHideEdgeNavigationBarTimeout" type="integer">3000</item>
+    <!-- 解像度設定 -->
+    <item name="config_screenWidthDp" type="integer">720</item>
+    <item name="config_screenHeightDp" type="integer">1280</item>
+    <!-- タッチスクリーン設定 -->
+    <item name="config_touchscreenCalibration" type="string">none</item>
+    <item name="config_enableTouchpad" type="bool">false</item>
+    <!-- バッテリー設定 -->
+    <item name="config_batterySaverEnabled" type="bool">true</item>
+    <item name="config_lowBatteryWarningLevel" type="integer">15</item>
+    <!-- カメラ設定 -->
+    <item name="config_cameraGestureSensor" type="bool">false</item>
+    <item name="config_cameraLaunchGesture" type="bool">true</item>
+    <!-- 言語設定 -->
+    <item name="config_supportedLocales" type="string">en,ja</item>
+    <item name="config_defaultLocale" type="string">ja</item>
+</resources>
