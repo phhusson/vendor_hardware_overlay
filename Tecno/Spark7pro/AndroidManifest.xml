@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="me.phh.treble.overlay.tecno.spark7pro" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <application android:extractNativeLibs="false"/>
+    <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="30"/>
+    <overlay android:priority="295" android:targetPackage="android" android:isStatic="true" android:requiredSystemPropertyValue="+TECNO/KF8-GL*"/>
+</manifest>
