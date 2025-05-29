@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="config_ims_package">com.mediatek.ims</string>
+  <string name="config_cameraLaunchGestureSensorStringType"/>
+  <string name="config_ims_package"/>
+  <string name="config_mainBuiltInDisplayCutout"/>
+  <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
+  <string name="wifi_localhotspot_configure_ssid_default">AndroidShare</string>
+  <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
 </resources>
