@@ -5,6 +5,6 @@
         <overlay android:targetPackage="com.android.systemui"
                 android:requiredSystemPropertyName="ro.product.vendor.device"
                 android:requiredSystemPropertyValue="+(stone|rock)"
-		android:priority="340"
+		android:priority="900"
 		android:isStatic="true" />
 </manifest>
