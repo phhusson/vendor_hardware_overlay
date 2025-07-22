@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+motorola/cofud*"
+                android:requiredSystemPropertyValue="+motorola/coful*"
 		android:priority="175"
 		android:isStatic="true" />
 </manifest>
