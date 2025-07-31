@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">95px</dimen>
+    <!-- _default ensures that `SystemBarUtils.getStatusBarHeight` will get correct value -->
+    <dimen name="status_bar_height_default">95px</dimen>
+</resources>
