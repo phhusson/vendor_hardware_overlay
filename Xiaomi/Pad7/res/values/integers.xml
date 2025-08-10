@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_shutdownBatteryTemperature">680</integer>
+    <integer name="config_screenBrightnessDark">1</integer>
+    <integer name="config_screenBrightnessDim">10</integer>
+    <integer name="config_screenBrightnessDoze">1</integer>
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+    <integer name="config_brightness_ramp_rate_fast">180</integer>
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <integer name="config_displayWhiteBalanceBrightnessFilterHorizon">10000</integer>
+    <integer name="config_displayWhiteBalanceBrightnessSensorRate">250</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureDefault">6500</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureFilterHorizon">10000</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureMax">8000</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureMin">4000</integer>
+    <integer name="config_displayWhiteBalanceColorTemperatureSensorRate">250</integer>
+    <integer name="config_displayWhiteBalanceDecreaseDebounce">5000</integer>
+    <integer name="config_displayWhiteBalanceDisplayNominalWhiteCct">6500</integer>
+    <integer name="config_displayWhiteBalanceIncreaseDebounce">5000</integer>
+    <integer name="config_displayWhiteBalanceTransitionTime">3000</integer>
+    <integer name="config_displayWhiteBalanceTransitionTimeDecrease">40000</integer>
+    <integer name="config_displayWhiteBalanceTransitionTimeIncrease">1000</integer>
+    <integer name="config_externalDisplayPeakHeight">0</integer>
+    <integer name="config_externalDisplayPeakRefreshRate">0</integer>
+    <integer name="config_externalDisplayPeakWidth">0</integer>
+    <integer name="config_defaultNightDisplayAutoMode">0</integer>
+    <integer name="config_defaultNightDisplayCustomEndTime">21600000</integer>
+    <integer name="config_defaultNightDisplayCustomStartTime">79200000</integer>
+    <integer name="extra_settings_version">1</integer>
+    <integer name="config_dozeWakeLockScreenDebounce">300</integer>
+    <integer name="config_aggregatedPowerStatsSpanDuration">3600000</integer>
+    <integer name="config_dynamicPowerSavingsDefaultDisableThreshold">80</integer>
+
+</resources>
