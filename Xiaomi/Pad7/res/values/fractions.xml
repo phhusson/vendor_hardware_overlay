@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
+    <fraction name="config_dimBehindFadeDuration">100.0%</fraction>
+    <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index1">60.000004%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index2">79.99999%</fraction>
+    <fraction name="config_prescaleAbsoluteVolume_index3">90.0%</fraction>
+    <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
+</resources>

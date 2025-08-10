@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_ambientBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="config_bg_current_drain_high_threshold_to_bg_restricted">
+        <item>20.0</item>
+        <item>40.0</item>
+    </array>
+    <array name="config_bg_current_drain_high_threshold_to_restricted_bucket">
+        <item>30.0</item>
+        <item>60.0</item>
+    </array>
+    <array name="config_bg_current_drain_threshold_to_bg_restricted">
+        <item>4.0</item>
+        <item>8.0</item>
+    </array>
+    <array name="config_bg_current_drain_threshold_to_restricted_bucket">
+        <item>2.0</item>
+        <item>4.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceBaseThresholds">
+        <item>0.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceDecreaseThresholds">
+        <item>0.1</item>
+    </array>
+    <array name="config_displayWhiteBalanceDisplayColorTemperatures" />
+    <string-array name="config_displayWhiteBalanceDisplayNominalWhite">
+        <item>0.950456</item>
+        <item>1.000000</item>
+        <item>1.089058</item>
+    </string-array>
+    <string-array name="config_displayWhiteBalanceDisplayPrimaries">
+        <item>0.412315</item>
+        <item>0.212600</item>
+        <item>0.019327</item>
+        <item>0.357600</item>
+        <item>0.715200</item>
+        <item>0.119200</item>
+        <item>0.180500</item>
+        <item>0.072200</item>
+        <item>0.950633</item>
+        <item>0.950456</item>
+        <item>1.000000</item>
+        <item>1.089058</item>
+    </string-array>
+    <integer-array name="config_displayWhiteBalanceDisplayRangeMinimums">
+        <item>0</item>
+    </integer-array>
+    <integer-array name="config_displayWhiteBalanceDisplaySteps">
+        <item>1</item>
+    </integer-array>
+    <array name="config_displayWhiteBalanceIncreaseThresholds">
+        <item>0.1</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBiases">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBiasesStrong">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBrightnesses">
+        <item>10.0</item>
+        <item>10.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBrightnessesStrong">
+        <item>10.0</item>
+        <item>10.0</item>
+    </array>
+    <integer-array name="config_mappedColorModes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <array name="config_minimumBrightnessCurveLux">
+        <item>0.0</item>
+        <item>2000.0</item>
+        <item>4000.0</item>
+    </array>
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>
+    <string-array name="config_nightDisplayColorTemperatureCoefficients">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.198650895</item>
+    </string-array>
+    <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.198650895</item>
+    </string-array>
+    <string-array name="config_reduceBrightColorsCoefficients">
+        <item>-0.000000000000001</item>
+        <item>-0.955555555555554</item>
+        <item>1.000000000000000</item>
+    </string-array>
+    <string-array name="config_reduceBrightColorsCoefficientsNonlinear">
+        <item>-0.4429953456</item>
+        <item>-0.2434077725</item>
+        <item>0.9809063061</item>
+    </string-array>
+    <integer-array name="config_screenBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
+    <integer-array name="config_screenDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="correct_brightness_video">
+        <item>0.0425</item>
+        <item>0.0425</item>
+        <item>0.0425</item>
+        <item>0.0582</item>
+        <item>0.0679</item>
+        <item>0.0838</item>
+        <item>0.0977</item>
+        <item>0.1075</item>
+        <item>0.1075</item>
+    </array>
+    <integer-array name="low_lux_level">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
+        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
+        <item>/system/framework/arm64/boot.oat</item>
+        <item>/system/framework/arm/boot.oat</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/oat/arm/services.odex</item>
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/lib64/libRScpp.so</item>
+        <item>/system/lib64/libRS.so</item>
+        <item>/system/lib64/libRS_internal.so</item>
+        <item>/system/lib64/libbcinfo.so</item>
+        <item>/system/lib64/libRSDriver.so</item>
+        <item>/system/lib64/libRSCpuRef.so</item>
+        <item>/system/lib64/libblas.so</item>
+    </string-array>
+</resources>
