@@ -33,13 +33,19 @@ fi
 
 cd "$script_dir"
 
+if [ $(uname) == 'Darwin' ]; then
+    aapt_bin="./aapt-mac"
+else
+    aapt_bin="./aapt"
+fi
+
 echo "$makes" | while read -r f;do
     name="$(sed -nE 's/LOCAL_PACKAGE_NAME.*:\=\s*(.*)/\1/p' "$f")"
     grep -q treble-overlay <<<"$name" || continue
     echo "Generating $name"
 
     path="$(dirname "$f")"
-    aapt package -f -F "${name}-unsigned.apk" -M "$path/AndroidManifest.xml" -S "$path/res" -I android.jar
-    LD_LIBRARY_PATH=./signapk/ java -jar signapk/signapk.jar keys/platform.x509.pem keys/platform.pk8 "${name}-unsigned.apk" "${name}.apk"
-    rm -f "${name}-unsigned.apk"
+    $aapt_bin package -f -F ${name}-unsigned.apk -M $path/AndroidManifest.xml -S $path/res -I android.jar
+    java -jar signapk/apksigner.jar sign --cert keys/platform.x509.pem --key keys/platform.pk8 --in ${name}-unsigned.apk --out ${name}.apk
+    rm -f ${name}-unsigned.apk ${name}.apk.idsig
 done
