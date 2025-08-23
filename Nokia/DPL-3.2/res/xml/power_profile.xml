@@ -22,5 +22,5 @@
     </array>
     <item name="cpu.awake">1.6</item>
     <item name="cpu.idle">1.6</item>
-    <item name="battery.capacity">3000</item>
-</device>
+    <item name="battery.capacity">4000</item>
+</device> 
